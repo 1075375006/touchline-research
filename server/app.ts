@@ -1,3 +1,4 @@
+import { mountWritingRoutes } from "./writing/routes.js";
 import { thinkingSummary, type ThinkingUsage } from "./thinking.js";
 import express from "express";
 import helmet from "helmet";
@@ -184,7 +185,7 @@ export function createApp() {
   });
   app.get("/api/health", (_req, res) => {
     db.prepare("SELECT 1").get();
-    res.json({ ok: true, version: "1.1.5", time: now() });
+    res.json({ ok: true, version: "1.3.0", time: now() });
   });
   app.get("/api/auth/status", (req, res) => {
     const initialized = !!db.prepare("SELECT id FROM users LIMIT 1").get();
@@ -374,6 +375,12 @@ export function createApp() {
         .get(String(req.params.id))
     )
       error(409, "模型已有任务引用，请停用而非删除");
+    if (
+      db
+        .prepare("SELECT id FROM writing_runs WHERE provider_id=? LIMIT 1")
+        .get(String(req.params.id))
+    )
+      error(409, "模型已有写作任务引用，请停用而非删除");
     db.prepare("DELETE FROM providers WHERE id=?").run(String(req.params.id));
     audit(res.locals.user.id, "provider_delete", String(req.params.id));
     res.json({ ok: true });
@@ -848,6 +855,7 @@ export function createApp() {
         .all(),
     ),
   );
+  mountWritingRoutes(app, permission, mutateLimit);
   app.use("/api", (_req, res) => res.status(404).json({ error: "接口不存在" }));
   const frontend = path.resolve("dist/client");
   if (existsSync(frontend)) {

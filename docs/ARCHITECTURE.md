@@ -69,3 +69,33 @@ models.ts 为五类协议填入原生参数，不通过提示词冒充原生思�
 未完成的旧版审核恢复时，初审/审计/修正结果移入 previousReviews，来源与搜索检查点保留。原始失败日志保留；失败阶段状态纠正为 failed。
 
 server/publication.ts 提取文章发布元数据和时区，记录 publishedBasis；时间资格由服务器统一计算后传给模型。缺少足够日期/时区信息保留 unknown。冻结时间不可通过恢复或更新搜索配置移动。
+
+
+## 1.3.0 独立口播模块与主动补搜
+
+研究调用链在报告结束；不导入 writing 模块，不生成或清空历史 script。写作通过共享模型协议层和搜索工具层调用，使用独立 system 指令。原生思考默认继承 provider，也可在单次写作覆盖。不会调用研究编排器或修改原研究表。
+
+- server/writing/domain.ts：风格、知识、写作输入、有效字数和系统约束。
+- server/writing/repository.ts：幂等建表、默认风格、旧稿迁移、研究材料快照。
+- server/writing/supplement.ts：写前缺口分析、写中补搜、查询/网页检查点、时间与连续引语核验、独立语义审核；状态只进入该稿件 progress。
+- server/writing/service.ts：独立持久化队列、提纲、分段生成、一次长度校准、证据审核、检查点与取消。
+- server/writing/routes.ts：认证后的独立 API、CRUD、权限与导出。
+- client/src/writing/Writing.tsx：手动写作入口、时长/语速、版本与证据快照。
+- client/src/writing/Styles.tsx：风格和独立知识库管理。
+- tests/writing.test.ts：模型桩与数据库/权限/恢复集成测试。
+
+新增 writing_meta、writing_styles、writing_knowledge、writing_runs、writing_events 五表。旧 reports.script 保留并一次迁入独立稿件档案，标为待复核。研究删除后 writing_runs.job_id 置空；稿件仍持有当时资料。风格删除后 style_id 置空；快照不变。被写作引用的 provider 只能停用，不能删除。
+
+写作队列与研究队列并行、各自计数；写作并发 1，适用于单 app 实例。写作状态 queued → running → completed / needs_review / failed / cancelled。重启将 running 回到 queued，从已存提纲/段落恢复；真实请求计数累计，正文不重复生成。每次运行最多 30 分钟；分段数 N=ceil(目标字数/650)，请求预算 12N+12，涵盖网络和结构修复，每段最多一次长度校准。模型错误保留已完成内容；用户以“新建版本”重试，不覆盖旧稿。
+
+每次开始写作冻结比赛、方向、报告、证据、来源、角色指令、启用知识条目、模型ID/协议/思考参数/输出预算/超时、搜索配置与不可变搜索凭据引用、补搜预算与时间上限；不包含明文密钥，公开 API/导出移除凭据引用。执行时从 provider 读取当前连接地址和凭据，允许轮换密钥；删除风格/知识不影响已排队任务。
+
+API（全部要求登录）：
+- GET/POST /writing/styles；PUT/DELETE /writing/styles/:id
+- POST /writing/styles/:id/knowledge；PUT/DELETE /writing/knowledge/:id
+- GET /writing/materials
+- GET/POST /writing/runs；GET/DELETE /writing/runs/:id
+- POST /writing/runs/:id/cancel
+- GET /writing/runs/:id/export?format=md|txt|json
+
+管理员编辑风格与知识；管理员/研究员创建稿件，研究员仅能取消/删除自己的版本，已登录成员共享只读资料。写作源材料与研究缓存互不改写。

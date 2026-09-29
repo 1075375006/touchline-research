@@ -60,6 +60,28 @@ export function Dashboard() {
           </Link>
         }
       />
+      <div className="workspace-modules">
+        <Link className="workspace-module" to="/matches">
+          <span className="eyebrow">01 · RESEARCH</span>
+          <h2>
+            <Search size={21} /> 搜集资料与证据
+          </h2>
+          <p>选择比赛与方向，搜索、追问并核验来源，形成研究报告。</p>
+          <strong>
+            进入资料研究 <ArrowRight size={16} />
+          </strong>
+        </Link>
+        <Link className="workspace-module writing" to="/writing">
+          <span className="eyebrow">02 · WRITING</span>
+          <h2>
+            <Pencil size={21} /> 写口播稿
+          </h2>
+          <p>研究后手动开始，选择风格与时长，生成独立保存的稿件。</p>
+          <strong>
+            进入口播写作 <ArrowRight size={16} />
+          </strong>
+        </Link>
+      </div>
       <section className="hero-card">
         <div className="hero-copy">
           <div className="hero-kicker">

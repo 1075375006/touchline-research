@@ -253,7 +253,6 @@ export function JobDetail() {
   const { data: j, loading, error, reload } = useLoad("/jobs/" + id, 3000);
   const [busy, setBusy] = useState(""),
     [effect, setEffect] = useState("all"),
-    [draft, setDraft] = useState(false),
     [confirm, setConfirm] = useState(""),
     [source, setSource] = useState<any>(null),
     [budget, setBudget] = useState(false);
@@ -805,21 +804,11 @@ export function JobDetail() {
         (j.report ? (
           <section className="panel report-panel">
             <div className="panel-heading">
-              <div className="tabs compact">
-                <button
-                  className={!draft ? "active" : ""}
-                  onClick={() => setDraft(false)}
-                >
-                  方向报告
-                </button>
-                <button
-                  className={draft ? "active" : ""}
-                  onClick={() => setDraft(true)}
-                >
-                  口播草稿
-                </button>
-              </div>
+              <h2>方向研究报告</h2>
               <div className="head-actions">
+                <Link className="btn primary small" to={"/writing?jobId=" + id}>
+                  去写口播稿
+                </Link>
                 <a
                   className="btn small"
                   href={"/api/reports/" + id + "/export?format=json"}
@@ -829,52 +818,25 @@ export function JobDetail() {
                 </a>
                 <a
                   className="btn small"
-                  href={
-                    "/api/reports/" +
-                    id +
-                    "/export?format=" +
-                    (draft ? "script" : "md")
-                  }
+                  href={"/api/reports/" + id + "/export?format=md"}
                 >
                   <Download size={14} />
                   Markdown
                 </a>
               </div>
             </div>
-            {draft ? (
-              <div className="report-markdown">
-                {j.report.script ? (
-                  <>
-                    <div className="notice">
-                      口播草稿尚未发布；发布前需再次核查首发与最新消息。
-                    </div>
-                    {j.report.script
-                      .split("\n\n")
-                      .map((p: string, i: number) => (
-                        <p key={i}>{p}</p>
-                      ))}
-                  </>
-                ) : (
-                  <Empty
-                    title="尚未生成口播草稿"
-                    detail="需要至少三条有依据的因果链、两个独立来源域名和可追溯的支持材料；真实反证作为风险说明，未找到反证不会单独阻止生成。材料不足或调用失败时保留方向报告。"
-                  />
-                )}
-              </div>
-            ) : (
-              <div className="report-markdown">
-                <Markdown
-                  remarkPlugins={[remarkGfm]}
-                  components={{
-                    a: (props) => (
-                      <a {...props} target="_blank" rel="noreferrer" />
-                    ),
-                  }}
-                >
-                  {j.report.markdown}
-                </Markdown>
-              </div>
-            )}
+            <div className="report-markdown">
+              <Markdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  a: (props) => (
+                    <a {...props} target="_blank" rel="noreferrer" />
+                  ),
+                }}
+              >
+                {j.report.markdown}
+              </Markdown>
+            </div>
           </section>
         ) : (
           <section className="panel">

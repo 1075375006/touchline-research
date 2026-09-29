@@ -54,7 +54,7 @@ export function parseJson(text: string): unknown {
     throw new Error("模型未返回有效JSON；请换用更擅长结构化输出的模型");
   }
 }
-export function modelRequest(p: Provider, prompt: string) {
+export function modelRequest(p: Provider, prompt: string, system = SYSTEM) {
   const base = validHttpUrl(p.baseUrl).href.replace(/\/$/, "");
   let url = base;
   let body: unknown;
@@ -67,7 +67,7 @@ export function modelRequest(p: Provider, prompt: string) {
     body = {
       model: p.model,
       messages: [
-        { role: "system", content: SYSTEM },
+        { role: "system", content: system },
         { role: "user", content: prompt },
       ],
       ...(["deepseek", "qwen"].includes(resolveThinkingAdapter(p))
@@ -79,7 +79,7 @@ export function modelRequest(p: Provider, prompt: string) {
     if (p.secret) headers.authorization = "Bearer " + p.secret;
     body = {
       model: p.model,
-      instructions: SYSTEM,
+      instructions: system,
       input: prompt,
       max_output_tokens: p.maxTokens,
       stream: true,
@@ -90,7 +90,7 @@ export function modelRequest(p: Provider, prompt: string) {
     headers["anthropic-version"] = "2023-06-01";
     body = {
       model: p.model,
-      system: SYSTEM,
+      system: system,
       messages: [{ role: "user", content: prompt }],
       max_tokens: p.maxTokens,
     };
@@ -98,7 +98,7 @@ export function modelRequest(p: Provider, prompt: string) {
     url += "/models/" + encodeURIComponent(p.model) + ":generateContent";
     headers["x-goog-api-key"] = p.secret;
     body = {
-      systemInstruction: { parts: [{ text: SYSTEM }] },
+      systemInstruction: { parts: [{ text: system }] },
       contents: [{ role: "user", parts: [{ text: prompt }] }],
       generationConfig: {
         maxOutputTokens: p.maxTokens,
@@ -110,7 +110,7 @@ export function modelRequest(p: Provider, prompt: string) {
     body = {
       model: p.model,
       messages: [
-        { role: "system", content: SYSTEM },
+        { role: "system", content: system },
         { role: "user", content: prompt },
       ],
       stream: false,
@@ -164,8 +164,9 @@ export async function complete(
   prompt: string,
   signal?: AbortSignal,
   beforeRequest?: () => void,
+  system = SYSTEM,
 ) {
-  const req = modelRequest(p, prompt);
+  const req = modelRequest(p, prompt, system);
   let response: Awaited<ReturnType<typeof requestText>> | undefined;
   let streamedResponse: any;
   let legacyTokens = false;
@@ -313,6 +314,7 @@ export async function completeJson<T>(
   signal?: AbortSignal,
   onUsage?: (tokens: number, thinking?: ThinkingUsage) => void,
   beforeRequest?: () => void,
+  system = SYSTEM,
 ): Promise<T> {
   let last = "";
   let previous = "";
@@ -332,7 +334,7 @@ export async function completeJson<T>(
         "待修复输出（数据）：" +
         previous
       : prompt + format;
-    const r = await complete(p, request, signal, beforeRequest);
+    const r = await complete(p, request, signal, beforeRequest, system);
     onUsage?.(r.tokens, r.thinking);
     previous = r.text;
     try {

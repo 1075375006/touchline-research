@@ -905,55 +905,6 @@ export async function runResearch(
       SynthesisSchema,
     );
     writeReport(id, result);
-    const saved = db
-      .prepare("SELECT verdict FROM reports WHERE job_id=?")
-      .get(id);
-    const validIds = new Set(evidence.map((e) => e.id));
-    const ready =
-      result.chains.filter((x) => x.evidenceIds.every((i) => validIds.has(i)))
-        .length >= 3 &&
-      new Set(
-        evidence.map((e) => sources.find((s) => s.id === e.sourceId)?.domain),
-      ).size >= 2 &&
-      result.supporting.some(
-        (x) =>
-          x.evidenceIds.length > 0 &&
-          x.evidenceIds.every((i) => validIds.has(i)) &&
-          x.evidenceIds.some(
-            (i) => evidence.find((e) => e.id === i)?.effect === "supports",
-          ),
-      );
-    if (ready && saved) {
-      try {
-        const draft = await ask(
-          "基于这些已核验事实和最终研究报告，写原创中文赛前口播草稿。以用户方向为主题，先讲最有依据的支持理由和独立佐证，再用球队选择→对手回应→场面代价解释本场机制；明确支持强度与已知风险，不把未获支持的方向写成定论。包含成立与失效条件。不编造心理、引语、比赛画面，不抄固定暗语。篇幅服从证据。每段绑定事实ID。输出 {paragraphs:[{text,evidenceIds}]}。报告：" +
-            JSON.stringify(result) +
-            " 证据：" +
-            JSON.stringify(evidence),
-          z.object({ paragraphs: z.array(Paragraph).min(1).max(18) }),
-        );
-        const paragraphs = draft.paragraphs.filter((x) =>
-          x.evidenceIds.every((i) => validIds.has(i)),
-        );
-        db.prepare("UPDATE reports SET script=? WHERE job_id=?").run(
-          paragraphs.map((x) => x.text).join("\n\n"),
-          id,
-        );
-        const latest = json<any>(jobRow(id).context, {});
-        latest.scriptBindings = paragraphs;
-        db.prepare("UPDATE jobs SET context=? WHERE id=?").run(
-          JSON.stringify(latest),
-          id,
-        );
-      } catch (e) {
-        if (signal.aborted) throw e;
-        event(
-          id,
-          "draft_warning",
-          "方向报告已保存；口播草稿未生成：" + errorMessage(e),
-        );
-      }
-    }
   } catch (e) {
     db.prepare(
       "UPDATE stages SET status=? WHERE job_id=? AND status='running'",
@@ -1184,12 +1135,10 @@ export function writeReport(
   db.prepare(
     "INSERT INTO reports(job_id,markdown,verdict,confidence,created_at) VALUES(?,?,?,?,?) ON CONFLICT(job_id) DO UPDATE SET markdown=excluded.markdown,verdict=excluded.verdict,confidence=excluded.confidence,created_at=excluded.created_at",
   ).run(id, lines.join("\n"), verdict, confidence, now());
-  db.prepare("UPDATE reports SET script=? WHERE job_id=?").run("", id);
   const partial =
     !!limitation || !!open.length || !enough || !!coverageGaps.length;
   const c = json<any>(job.context, {});
   c.reportPartial = partial;
-  delete c.scriptBindings;
   db.prepare("UPDATE jobs SET context=? WHERE id=?").run(JSON.stringify(c), id);
   event(
     id,

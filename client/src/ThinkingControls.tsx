@@ -12,11 +12,13 @@ export default function ThinkingControls({
   model,
   value,
   onChange,
+  description = "用于搜索规划、证据审查、补搜决策和最终报告。发送模型的原生思考参数；实际支持的等级取决于模型及网关。",
 }: {
   type: string;
   model: string;
   value: ThinkingConfig;
   onChange: (value: ThinkingConfig) => void;
+  description?: string;
 }) {
   const adapter = resolveThinkingAdapter({
     type,
@@ -31,9 +33,7 @@ export default function ThinkingControls({
   return (
     <div className="panel" style={{ padding: 18, marginBottom: 18 }}>
       <h3>主动思考</h3>
-      <p className="muted small">
-        用于搜索规划、证据审查、补搜决策和最终报告。发送模型的原生思考参数；实际支持的等级取决于模型及网关。
-      </p>
+      <p className="muted small">{description}</p>
       <Field label="思考模式">
         <select
           aria-label="思考模式"
@@ -45,7 +45,7 @@ export default function ThinkingControls({
             })
           }
         >
-          <option value="enabled">开启主动思考（研究推荐）</option>
+          <option value="enabled">开启主动思考（推荐）</option>
           <option value="default">模型默认（不发送思考参数）</option>
           <option value="disabled">请求关闭思考（模型需支持）</option>
         </select>

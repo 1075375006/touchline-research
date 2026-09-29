@@ -2,7 +2,7 @@ name: touchline
 services:
   app:
     build: .
-    image: touchline-research:1.1.5
+    image: touchline-research:1.3.0
     init: true
     restart: unless-stopped
     ports:

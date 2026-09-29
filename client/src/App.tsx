@@ -1,3 +1,5 @@
+import { Writing } from "./writing/Writing";
+import { WritingStyles } from "./writing/Styles";
 import { useEffect, useState, FormEvent } from "react";
 import { Routes, Route, NavLink, useLocation } from "react-router-dom";
 import {
@@ -162,7 +164,8 @@ function Shell({ user, reload }: { user: any; reload: () => void }) {
   const nav = [
     { to: "/", label: "工作台", icon: LayoutDashboard },
     { to: "/matches", label: "比赛中心", icon: CalendarDays },
-    { to: "/jobs", label: "研究任务", icon: Waypoints },
+    { to: "/jobs", label: "资料研究", icon: Waypoints },
+    { to: "/writing", label: "口播写作", icon: BookOpen },
     { to: "/reports", label: "报告档案", icon: FileText },
     { to: "/evidence", label: "证据库", icon: BookOpen },
   ];
@@ -304,6 +307,8 @@ function Shell({ user, reload }: { user: any; reload: () => void }) {
               <Route path="/matches" element={<Matches />} />
               <Route path="/jobs" element={<Jobs />} />
               <Route path="/jobs/:id" element={<JobDetail />} />
+              <Route path="/writing" element={<Writing />} />
+              <Route path="/writing/styles" element={<WritingStyles />} />
               <Route path="/reports" element={<Reports />} />
               <Route path="/evidence" element={<EvidencePage />} />
               <Route

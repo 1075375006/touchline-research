@@ -642,11 +642,15 @@ test("isolated system integration", async (t) => {
         ),
       );
       assert.equal(j.context.reportPartial, false);
-      assert(j.report.script);
-      assert(j.context.scriptBindings.length);
+      assert.equal(j.report.script, "");
+      assert.equal(j.context.scriptBindings, undefined);
+      assert.equal(
+        db.prepare("SELECT COUNT(*) AS n FROM writing_runs").get()?.n,
+        0,
+      );
       assert(j.evidence.some((e: any) => e.effect === "opposes"));
       assert(!j.evidence.some((e: any) => e.claim.includes("虚构")));
-      assert.equal(j.model_calls, 72);
+      assert.equal(j.model_calls, 71);
       assert.equal(j.queries, 46);
       for (const s of j.stages) {
         assert.equal(s.data.directionPolicyVersion, 1);
@@ -696,7 +700,7 @@ test("isolated system integration", async (t) => {
     },
   );
   await t.test(
-    "verified support can produce a draft without inventing opposing evidence",
+    "verified support finishes research without automatically writing a draft",
     async () => {
       const id = await makeJob();
       await runResearch(
@@ -707,7 +711,7 @@ test("isolated system integration", async (t) => {
       const result = await admin.get("/api/jobs/" + id).expect(200);
       assert(result.body.evidence.some((e: any) => e.effect === "supports"));
       assert(!result.body.evidence.some((e: any) => e.effect === "opposes"));
-      assert(result.body.report.script);
+      assert.equal(result.body.report.script, "");
       assert.equal(result.body.report.verdict, "弱支持");
       assert.equal(result.body.context.reportPartial, false);
     },
