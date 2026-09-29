@@ -225,6 +225,9 @@ function EvidenceCard({ e, s }: { e: any; s: any }) {
       </div>
       <h3>{e.claim}</h3>
       <blockquote>{e.quote}</blockquote>
+      {e.directionReason && (
+        <p className="muted">与用户方向的关系：{e.directionReason}</p>
+      )}
       {e.limitation && <p className="evidence-limitation">{e.limitation}</p>}
       <div className="evidence-source">
         <span>
@@ -271,7 +274,11 @@ export function JobDetail() {
         return;
       }
       await api("/jobs/" + id + "/" + action, body({}));
-      toast("任务状态已更新");
+      toast(
+        action === "refresh-search"
+          ? "搜索配置已更新，已保存的资料和冻结时间保留"
+          : "任务状态已更新",
+      );
       await reload();
     } catch (e) {
       toast((e as Error).message, true);
@@ -282,6 +289,20 @@ export function JobDetail() {
   }
   if (loading) return <Loading />;
   if (error) return <ErrorBox message={error} retry={reload} />;
+  const kickedOff = Date.parse(j.fixture.kickoff) <= Date.now();
+  const searchEngines =
+    j.search_config.engine === "searxng"
+      ? "SearXNG"
+      : [
+          ...(["free", "hybrid"].includes(j.search_config.enginePool)
+            ? j.search_config.engines
+            : []),
+          ...(["api", "hybrid"].includes(j.search_config.enginePool)
+            ? Object.entries(j.search_config.apiProviders || {})
+                .filter(([, p]: any) => p.enabled && p.hasKey)
+                .map(([name]) => name + " API")
+            : []),
+        ].join(" / ") || "无可用引擎";
   const closed = j.stages.filter((s: any) => s.status === "closed").length,
     progress = Math.round((closed / STAGES.length) * 100);
   const evidence = j.evidence.filter(
@@ -320,7 +341,12 @@ export function JobDetail() {
               ) && (
                 <button
                   className="btn primary"
-                  disabled={!!busy}
+                  disabled={!!busy || kickedOff}
+                  title={
+                    kickedOff
+                      ? "比赛已经开球，不能继续赛前研究"
+                      : "从检查点继续研究"
+                  }
                   onClick={() => act("resume")}
                 >
                   <Play size={16} />
@@ -369,6 +395,44 @@ export function JobDetail() {
         <Badge status={j.status} />
       </div>
       {j.error && <ErrorBox message={j.error} />}
+      <section className="panel task-search-status">
+        <div>
+          <strong>本任务搜索引擎：{searchEngines}</strong>
+          <p className="muted">
+            研究主线：各阶段优先寻找支持用户方向的证据，再补充独立佐证；真实矛盾与证据缺口如实记录。
+          </p>
+          {j.stages.some(
+            (s: any) => s.status === "closed" && !s.data.directionPolicyVersion,
+          ) && (
+            <p className="muted">
+              此任务包含旧版已完成阶段，原结果已保留；新建任务和重新打开的阶段采用上述取证规则。
+            </p>
+          )}
+          <p className="muted">
+            {j.searchConfigChanged
+              ? "本任务仍使用创建时的配置，与当前保存的系统设置不同。更新后失败查询可重试。"
+              : "任务使用保存的搜索配置；查询与原文均保留检查点。"}
+          </p>
+          {kickedOff &&
+            ["paused", "failed", "cancelled", "partial"].includes(j.status) && (
+              <p className="muted">
+                本场已于 {fullDate(j.fixture.kickoff)}{" "}
+                开球，赛前任务不能继续；已有资料保留供复盘。
+              </p>
+            )}
+        </div>
+        {canWrite &&
+          j.searchConfigChanged &&
+          ["paused", "failed", "cancelled", "partial"].includes(j.status) && (
+            <button
+              className="btn"
+              disabled={!!busy}
+              onClick={() => act("refresh-search")}
+            >
+              更新搜索配置
+            </button>
+          )}
+      </section>
       <div className="job-stats">
         <div>
           <small>已审计阶段</small>
@@ -457,8 +521,16 @@ export function JobDetail() {
                             " 条证据 · " +
                             String(state.data.gaps?.length || 0) +
                             " 个缺口"
-                          : state?.status === "running"
-                            ? "当前阶段 · 已保存检查点"
+                          : ["running", "failed", "paused", "limited"].includes(
+                                state?.status,
+                              )
+                            ? (state?.status === "failed"
+                                ? "阶段中断"
+                                : state?.status === "limited"
+                                  ? "预算受限"
+                                  : state?.status === "paused"
+                                    ? "已暂停"
+                                    : "当前阶段") + " · 已保存检查点"
                             : "等待研究"}
                       </small>
                     </div>
@@ -490,6 +562,8 @@ export function JobDetail() {
                             {
                               search: "网页搜索",
                               search_done: "读取来源",
+                              model_start: "主动思考请求",
+                              model_done: "模型步骤完成",
                               search_warning: "搜索限制",
                               audit: "覆盖审计",
                               stage_started: "阶段开始",
@@ -504,7 +578,26 @@ export function JobDetail() {
                         <time>{fmt(e.created_at)}</time>
                       </div>
                       <p>{e.message}</p>
+                      {e.data?.step && <small>{e.data.step}</small>}
+                      {typeof e.data?.thinking?.reasoningTokens ===
+                        "number" && (
+                        <small>
+                          上游思考用量：{e.data.thinking.reasoningTokens} tokens
+                        </small>
+                      )}
                       {e.data?.reason && <small>{e.data.reason}</small>}
+                      {e.data?.supportAngle && (
+                        <small>
+                          {(
+                            {
+                              support: "寻找支持证据",
+                              corroboration: "补充独立佐证",
+                              verification: "核验支持条件",
+                            } as Record<string, string>
+                          )[e.data.purpose] || "支持取证切口"}
+                          ：{e.data.supportAngle}
+                        </small>
+                      )}
                       {e.data?.warnings?.length > 0 && (
                         <details>
                           <summary>查看限制详情</summary>
@@ -764,7 +857,7 @@ export function JobDetail() {
                 ) : (
                   <Empty
                     title="尚未生成口播草稿"
-                    detail="需要至少三条有依据的因果链、两个独立来源域名，以及可核验反证；材料不足或调用失败时保留方向报告。"
+                    detail="需要至少三条有依据的因果链、两个独立来源域名和可追溯的支持材料；真实反证作为风险说明，未找到反证不会单独阻止生成。材料不足或调用失败时保留方向报告。"
                   />
                 )}
               </div>

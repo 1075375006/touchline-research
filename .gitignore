@@ -9,3 +9,4 @@ coverage/
 
 .local-admin.txt
 release/
+.backups/

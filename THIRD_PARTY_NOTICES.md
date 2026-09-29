@@ -1,6 +1,6 @@
 # Third-party notices
 
-SearchBoost 0.2.3 is used as an unmodified dependency. Its license is reproduced below; installed dependencies retain their individual licenses in node_modules. Reference repositories are acknowledged in README.md.
+SearchBoost 0.2.4-beta.2 is used as an unmodified dependency. Its license is reproduced below; installed dependencies retain their individual licenses in node_modules. Reference repositories are acknowledged in README.md.
 
 ## SearchBoost
 

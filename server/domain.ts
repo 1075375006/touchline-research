@@ -1,3 +1,8 @@
+import {
+  ThinkingSchema,
+  thinkingValidation,
+  type ThinkingConfig,
+} from "./thinking.js";
 import { z } from "zod";
 export const STAGES = [
   {
@@ -111,16 +116,23 @@ export const METRICS = [
   "争顶成功",
   "盘带成功",
 ];
-export const ProviderSchema = z.object({
-  name: z.string().trim().min(1).max(80),
-  type: z.enum(["openai", "responses", "anthropic", "gemini", "ollama"]),
-  baseUrl: z.string().url().max(500),
-  model: z.string().trim().min(1).max(150),
-  apiKey: z.string().max(2000).optional(),
-  enabled: z.boolean().default(true),
-  maxTokens: z.number().int().min(512).max(32768).default(4096),
-  timeoutSeconds: z.number().int().min(10).max(600).default(180),
-});
+export const ProviderSchema = z
+  .object({
+    name: z.string().trim().min(1).max(80),
+    type: z.enum(["openai", "responses", "anthropic", "gemini", "ollama"]),
+    baseUrl: z.string().url().max(500),
+    model: z.string().trim().min(1).max(150),
+    apiKey: z.string().max(2000).optional(),
+    thinking: ThinkingSchema.prefault({}),
+    enabled: z.boolean().default(true),
+    maxTokens: z.number().int().min(512).max(32768).default(4096),
+    timeoutSeconds: z.number().int().min(10).max(600).default(180),
+  })
+  .superRefine((p, ctx) => {
+    const problem = thinkingValidation(p);
+    if (problem)
+      ctx.addIssue({ code: "custom", path: ["thinking"], message: problem });
+  });
 export const ResearchSchema = z.object({
   maxQueries: z.number().int().min(40).max(400).default(120),
   resultsPerQuery: z.number().int().min(2).max(8).default(3),
@@ -131,13 +143,53 @@ export const ResearchSchema = z.object({
   maxRunMinutes: z.number().int().min(10).max(240).default(90),
   customInstructions: z.string().max(4000).default(""),
 });
+export const SEARCH_API_NAMES = [
+  "tavily",
+  "brave",
+  "exa",
+  "anysearch",
+] as const;
+export const SEARCH_ENGINE_NAMES = [
+  "bing",
+  "ddg",
+  "yahoo",
+  "exa-free",
+  "anysearch",
+  "tavily",
+  "brave",
+  "exa",
+] as const;
+export const SearchBaseUrl = z
+  .string()
+  .url()
+  .max(500)
+  .refine((value) => {
+    const u = new URL(value);
+    return (
+      ["http:", "https:"].includes(u.protocol) &&
+      !u.username &&
+      !u.password &&
+      !u.search &&
+      !u.hash
+    );
+  }, "接口地址仅支持 HTTP(S)，不能携带用户名、密码、查询串或片段");
+const searchProvider = (baseUrl: string) =>
+  z
+    .object({
+      baseUrl: SearchBaseUrl.default(baseUrl),
+      enabled: z.boolean().default(true),
+      credentialId: z.string().max(80).default(""),
+    })
+    .prefault({});
 export const SearchSchema = z.object({
-  engine: z.enum(["searchboost", "searxng"]).default("searchboost"),
+  engine: z
+    .enum(["searchboost", "searchboost-api", "searxng"])
+    .default("searchboost"),
   searxngUrl: z.string().max(500).default("http://searxng:8080"),
   engines: z
-    .array(z.enum(["bing", "ddg", "yahoo"]))
+    .array(z.enum(["bing", "ddg", "yahoo", "exa-free", "anysearch"]))
     .min(1)
-    .default(["bing", "ddg", "yahoo"]),
+    .default(["bing", "ddg", "yahoo", "exa-free", "anysearch"]),
   excludeDomains: z.array(z.string().max(200)).max(100).default([]),
   trustedDomains: z
     .array(z.string().max(200))
@@ -151,7 +203,54 @@ export const SearchSchema = z.object({
       "bbc.com",
       "reuters.com",
     ]),
-  timeoutSeconds: z.number().int().min(10).max(90).default(25),
+  timeoutSeconds: z.number().int().min(10).max(120).default(25),
+  enginePool: z.enum(["free", "api", "hybrid"]).default("free"),
+  ranking: z.enum(["balanced", "research", "fresh"]).default("balanced"),
+  complexity: z.enum(["simple", "medium", "complex"]).default("simple"),
+  maxResults: z.number().int().min(1).max(20).default(8),
+  recency: z.enum(["", "day", "week", "month", "year"]).default(""),
+  includeDomains: z.array(z.string().max(200)).max(100).default([]),
+  engineWeights: z
+    .partialRecord(z.enum(SEARCH_ENGINE_NAMES), z.number().min(0).max(100))
+    .default({}),
+  minScore: z.number().min(0).max(100).default(0),
+  depth: z.enum(["", "basic", "advanced"]).default(""),
+  community: z.boolean().default(false),
+  reader: z.enum(["direct", "searchboost"]).default("direct"),
+  strategy: z.enum(["fused", "adaptive"]).default("fused"),
+  apiProviders: z
+    .object({
+      tavily: searchProvider("https://api.tavily.com"),
+      brave: searchProvider("https://api.search.brave.com/res/v1"),
+      exa: searchProvider("https://api.exa.ai"),
+      anysearch: searchProvider("https://api.anysearch.com/v1"),
+    })
+    .prefault({}),
+  jev: z
+    .object({
+      baseUrl: SearchBaseUrl.default("https://api.typesafe.ai/v1"),
+      credentialId: z.string().max(80).default(""),
+      enabled: z.boolean().default(false),
+      timeoutSeconds: z.number().int().min(30).max(600).default(180),
+      intent: z
+        .string()
+        .max(2000)
+        .default(
+          "优先寻找可核验的足球赛前原始资料，同时保留反证和不确定信息。",
+        ),
+      keywords: z.array(z.string().min(1).max(100)).max(8).default([]),
+      constraints: z.array(z.string().min(1).max(300)).max(8).default([]),
+    })
+    .prefault({}),
+  x: z.object({ credentialId: z.string().max(80).default("") }).prefault({}),
+  tools: z
+    .object({
+      fused_search: z.boolean().default(true),
+      fetch_page: z.boolean().default(true),
+      x_search: z.boolean().default(true),
+      adaptive_search: z.boolean().default(true),
+    })
+    .prefault({}),
 });
 export const FixtureSchema = z.object({
   home: z.string().trim().min(1).max(120),
@@ -163,7 +262,8 @@ export const FixtureSchema = z.object({
   language: z.string().max(50).default(""),
   sourceUrl: z.union([z.string().url().max(2000), z.literal("")]).default(""),
 });
-export type Provider = z.infer<typeof ProviderSchema> & {
+export type Provider = Omit<z.infer<typeof ProviderSchema>, "thinking"> & {
+  thinking?: ThinkingConfig;
   id: string;
   secret: string;
 };
@@ -177,6 +277,7 @@ export type Fixture = z.infer<typeof FixtureSchema> & {
   updatedAt: string;
 };
 export type Evidence = {
+  directionReason?: string;
   id: string;
   stage: string;
   claim: string;
@@ -195,11 +296,13 @@ export type Source = {
   text: string;
   snippet: string;
   published: string | null;
+  publishedBasis?: string;
   fetchedAt: string;
   status: "read" | "snippet" | "failed" | "after_cutoff";
   engine: string;
   tier: "official_or_trusted" | "unclassified";
   error?: string;
+  reader?: string;
 };
 export function json<T>(raw: unknown, fallback: T): T {
   try {

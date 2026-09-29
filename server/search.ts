@@ -1,6 +1,13 @@
+import { articlePublication, publicationTime } from "./publication.js";
 import * as cheerio from "cheerio";
-import { runFused } from "search-boost/lib/runtime.mjs";
-import { SearchConfig, Source, now, errorMessage } from "./domain.js";
+import {
+  SearchConfig,
+  SearchSchema,
+  Source,
+  now,
+  errorMessage,
+} from "./domain.js";
+import { searchTool, fusedDefaults } from "./search-runtime.js";
 import { canonicalUrl, requestText } from "./network.js";
 import { uid } from "./db.js";
 export type Hit = {
@@ -14,7 +21,9 @@ export async function searchWeb(
   query: string,
   cfg: SearchConfig,
   signal?: AbortSignal,
-): Promise<{ hits: Hit[]; warnings: string[] }> {
+  intent?: string,
+): Promise<{ hits: Hit[]; warnings: string[]; diagnostics?: any }> {
+  cfg = SearchSchema.parse(cfg);
   const timeout = AbortSignal.any([
     AbortSignal.timeout(cfg.timeoutSeconds * 1000),
     ...(signal ? [signal] : []),
@@ -40,40 +49,73 @@ export async function searchWeb(
       warnings: (r.unresponsive_engines || []).map((e: any) => String(e)),
     };
   }
-  const r = await runFused({
-    query,
-    engineList: cfg.engines,
-    enginePool: "free",
-    layer: "free",
-    maxResults: 8,
-    maxResultsCap: 8,
-    complexity: "simple",
-    community: false,
-    signal: timeout,
-    excludeDomains: cfg.excludeDomains,
-  });
+  const adaptive = cfg.strategy === "adaptive";
+  const r = await searchTool(
+    adaptive ? "adaptive_search" : "fused_search",
+    adaptive
+      ? {
+          questions: [query],
+          intent: [cfg.jev.intent, intent]
+            .filter(Boolean)
+            .join("；")
+            .slice(0, 2000),
+          ...(cfg.jev.keywords.length ? { keywords: cfg.jev.keywords } : {}),
+          constraints: cfg.jev.constraints,
+          page_size: cfg.maxResults,
+        }
+      : { query, ...fusedDefaults(cfg) },
+    cfg,
+    signal,
+  );
   return {
     hits: (r.results || [])
       .map((h: any) => ({
         url: h.url,
         title: h.title || "",
-        snippet: h.snippet || "",
+        snippet: h.snippet || h.description || "",
         published: h.published || null,
-        engine: (h.engines || []).join(","),
+        engine: (h.engines || [adaptive ? "jev-adaptive" : "searchboost"]).join(
+          ",",
+        ),
       }))
       .filter((h: Hit) => !excluded(h.url, cfg)),
     warnings: [
-      ...(r.warnings || []),
-      ...Object.entries(r.engineStats || {})
-        .filter(([, v]: any) => v.errors)
-        .map(([k, v]: any) => k + ": " + (v.note || "搜索失败")),
+      ...new Set([
+        ...(r.warnings || []),
+        ...Object.entries(r.engineStats || {})
+          .filter(([, v]: any) => v.errors)
+          .map(([k, v]: any) => k + ": " + (v.note || "搜索失败")),
+      ]),
     ],
+    diagnostics: {
+      strategy: cfg.strategy,
+      enginePool: r.enginePool,
+      ranking: r.ranking,
+      engineStats: r.engineStats,
+      recovery: r.recovery,
+      enginesUsed: r.enginesUsed,
+      cacheHit: r.cacheHit,
+      funnel: r.funnel,
+      nextCursor: r.nextCursor,
+      totalResults: r.totalResults,
+      retrievalSufficient: r.retrievalSufficient,
+      convergence: r.convergence,
+      reviewSummary: r.reviewSummary,
+      keywordProgress: r.keywordProgress,
+      pendingAssessments: r.pendingAssessments,
+      stopReason: r.stopReason,
+    },
   };
 }
 function excluded(url: string, cfg: SearchConfig) {
   try {
     const h = new URL(url).hostname;
-    return cfg.excludeDomains.some((d) => h === d || h.endsWith("." + d));
+    const matches = (d: string) =>
+      h === d.toLowerCase() || h.endsWith("." + d.toLowerCase());
+    return (
+      cfg.excludeDomains.some(matches) ||
+      (cfg.includeDomains.length > 0 && !cfg.includeDomains.some(matches))
+    );
   } catch {
     return true;
   }
@@ -84,6 +126,7 @@ export async function readSource(
   cutoff: string,
   signal?: AbortSignal,
 ): Promise<Source> {
+  cfg = SearchSchema.parse(cfg);
   const url = canonicalUrl(hit.url),
     domain = new URL(url).hostname;
   const s: Source = {
@@ -93,10 +136,8 @@ export async function readSource(
     title: hit.title,
     snippet: hit.snippet,
     text: "",
-    published:
-      hit.published && Number.isFinite(Date.parse(hit.published))
-        ? new Date(hit.published).toISOString()
-        : null,
+    published: publicationTime(hit.published, url).published,
+    publishedBasis: "搜索索引；" + publicationTime(hit.published, url).basis,
     fetchedAt: now(),
     status: "snippet",
     engine: hit.engine,
@@ -107,6 +148,18 @@ export async function readSource(
       : "unclassified",
   };
   try {
+    if (cfg.reader === "searchboost") {
+      const page = await searchTool("fetch_page", { url }, cfg, signal);
+      s.text = String(page.content || "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .slice(0, 22000);
+      if (s.text.length < 120)
+        throw new Error("SearchBoost 未返回足够的可读正文");
+      s.status = s.published && s.published > cutoff ? "after_cutoff" : "read";
+      s.reader = page.via;
+      return s;
+    }
     const res = await requestText(url, {
       signal,
       timeout: cfg.timeoutSeconds * 1000,
@@ -121,12 +174,11 @@ export async function readSource(
     if (!/text\/html|application\/xhtml|text\/plain/.test(res.contentType))
       throw new Error("当前正文读取器仅支持HTML或纯文本");
     const $ = cheerio.load(res.text);
-    const date =
-      $('meta[property="article:published_time"]').attr("content") ||
-      $('meta[name="date"]').attr("content") ||
-      $("time[datetime]").first().attr("datetime");
-    if (date && Number.isFinite(Date.parse(date)))
-      s.published = new Date(date).toISOString();
+    const date = articlePublication($, s.url);
+    if (date.published) {
+      s.published = date.published;
+      s.publishedBasis = date.basis;
+    } else if (!s.published) s.publishedBasis = date.basis;
     s.title = $("title").first().text().trim() || s.title;
     $("script,style,nav,header,footer,aside,noscript,form,svg").remove();
     const content = $("article").length

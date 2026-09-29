@@ -2,7 +2,7 @@ name: touchline
 services:
   app:
     build: .
-    image: touchline-research:1.0.0
+    image: touchline-research:1.1.5
     init: true
     restart: unless-stopped
     ports:
@@ -21,6 +21,8 @@ services:
       - no-new-privileges:true
     cap_drop:
       - ALL
+    tmpfs:
+      - /tmp:size=64m,mode=1777
     stop_grace_period: 20s
   searxng:
     image: ${SEARXNG_IMAGE:-searxng/searxng:latest}

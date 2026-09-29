@@ -1,3 +1,4 @@
+import { thinkingConfig } from "./thinking.js";
 import "dotenv/config";
 import { DatabaseSync } from "node:sqlite";
 import { mkdirSync, existsSync, readFileSync, writeFileSync } from "node:fs";
@@ -29,6 +30,7 @@ db.exec(`PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA busy_timeout=50
 CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,username TEXT UNIQUE NOT NULL,password TEXT NOT NULL,role TEXT NOT NULL,enabled INTEGER NOT NULL DEFAULT 1,created_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,expires_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS settings(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS search_credentials(id TEXT PRIMARY KEY,kind TEXT NOT NULL,secret TEXT NOT NULL,created_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS providers(id TEXT PRIMARY KEY,name TEXT NOT NULL,type TEXT NOT NULL,base_url TEXT NOT NULL,model TEXT NOT NULL,secret TEXT NOT NULL,enabled INTEGER NOT NULL,max_tokens INTEGER NOT NULL,timeout_seconds INTEGER NOT NULL,created_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS fixtures(id TEXT PRIMARY KEY,data TEXT NOT NULL,updated_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS jobs(id TEXT PRIMARY KEY,fixture_id TEXT NOT NULL REFERENCES fixtures(id),fixture TEXT NOT NULL,direction TEXT NOT NULL,line TEXT NOT NULL,provider_id TEXT NOT NULL REFERENCES providers(id),status TEXT NOT NULL,stage_index INTEGER NOT NULL DEFAULT 0,queries INTEGER NOT NULL DEFAULT 0,model_calls INTEGER NOT NULL DEFAULT 0,tokens INTEGER NOT NULL DEFAULT 0,config TEXT NOT NULL,search_config TEXT NOT NULL,created_by TEXT NOT NULL REFERENCES users(id),created_at TEXT NOT NULL,started_at TEXT,finished_at TEXT,cutoff TEXT NOT NULL,run_after TEXT NOT NULL,error TEXT,context TEXT NOT NULL DEFAULT '{}');
@@ -42,6 +44,17 @@ CREATE INDEX IF NOT EXISTS jobs_status ON jobs(status,run_after);
 CREATE INDEX IF NOT EXISTS events_job ON events(job_id,id);
 CREATE INDEX IF NOT EXISTS sources_job ON sources(job_id);
 CREATE INDEX IF NOT EXISTS evidence_job ON evidence(job_id);`);
+// Existing encrypted providers retain all fields; new thinking settings have safe defaults.
+if (
+  !db
+    .prepare("PRAGMA table_info(providers)")
+    .all()
+    .some((column) => column.name === "thinking")
+) {
+  db.exec(
+    "ALTER TABLE providers ADD COLUMN thinking TEXT NOT NULL DEFAULT '{}'",
+  );
+}
 export const uid = () => randomUUID();
 export function seal(value: string) {
   if (!value) return "";
@@ -120,6 +133,7 @@ export function publicProvider(r: Record<string, unknown>) {
     enabled: !!r.enabled,
     maxTokens: r.max_tokens,
     timeoutSeconds: r.timeout_seconds,
+    thinking: thinkingConfig(json(r.thinking, {})),
     hasKey: !!r.secret,
   };
 }

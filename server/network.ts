@@ -2,6 +2,15 @@ import { lookup } from "node:dns/promises";
 import { isIP } from "node:net";
 import ipaddr from "ipaddr.js";
 import { Agent, fetch as httpFetch } from "undici";
+export class UpstreamHttpError extends Error {
+  constructor(
+    public status: number,
+    public retryAfterMs = 0,
+  ) {
+    super("上游 HTTP " + status);
+    this.name = "UpstreamHttpError";
+  }
+}
 export function isPublicIp(address: string) {
   try {
     return ipaddr.process(address).range() === "unicast";
@@ -25,9 +34,13 @@ export async function requestText(
     headers?: Record<string, string>;
     body?: string;
     limit?: number;
+    onText?: (chunk: string, contentType: string) => boolean;
   } = {},
 ): Promise<{ text: string; url: string; contentType: string }> {
   let url = validHttpUrl(value);
+  const started = Date.now();
+  let receivedBytes = 0;
+  let firstByteMs: number | null = null;
   const signal = AbortSignal.any([
     AbortSignal.timeout(opts.timeout || 30000),
     ...(opts.signal ? [opts.signal] : []),
@@ -73,24 +86,51 @@ export async function requestText(
       }
       if (!response.ok) {
         await response.body?.cancel();
-        throw new Error("上游 HTTP " + response.status);
+        const retry = response.headers.get("retry-after");
+        const seconds = retry ? Number(retry) : 0;
+        const wait = Number.isFinite(seconds)
+          ? seconds * 1000
+          : Math.max(0, Date.parse(retry || "") - Date.now());
+        throw new UpstreamHttpError(
+          response.status,
+          Number.isFinite(wait) ? wait : 0,
+        );
       }
       const max = opts.limit || 2_000_000;
+      const contentType = response.headers.get("content-type") || "";
+      const decoder = new TextDecoder();
       const parts: Uint8Array[] = [];
       let length = 0;
       if (response.body)
         for await (const part of response.body) {
           length += part.length;
+          receivedBytes += part.length;
+          firstByteMs ??= Date.now() - started;
           if (length > max) {
             throw new Error("响应超过读取大小限制");
           }
           parts.push(part);
+          if (
+            opts.onText?.(decoder.decode(part, { stream: true }), contentType)
+          )
+            break;
         }
+      opts.onText?.(decoder.decode(), contentType);
       return {
         text: Buffer.concat(parts).toString("utf8"),
         url: url.href,
-        contentType: response.headers.get("content-type") || "",
+        contentType,
       };
+    } catch (e) {
+      if (e instanceof Error)
+        Object.assign(e, {
+          requestProgress: {
+            elapsedMs: Date.now() - started,
+            receivedBytes,
+            firstByteMs,
+          },
+        });
+      throw e;
     } finally {
       await agent.close();
     }

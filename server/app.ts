@@ -1,3 +1,4 @@
+import { thinkingSummary, type ThinkingUsage } from "./thinking.js";
 import express from "express";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
@@ -39,9 +40,12 @@ import {
   evidenceList,
   controlJob,
   updateJobBudget,
+  updateJobSearch,
   jobIsActive,
 } from "./research.js";
 import { searchWeb } from "./search.js";
+import { publicSearchConfig, prepareSearchConfig } from "./search-config.js";
+import { searchTool } from "./search-runtime.js";
 import { validHttpUrl } from "./network.js";
 const credentials = z.object({
   username: z
@@ -111,7 +115,12 @@ function jobSummary(r: any) {
     ...r,
     fixture: json(r.fixture, {}),
     config: json(r.config, {}),
-    search_config: json(r.search_config, {}),
+    search_config: publicSearchConfig(
+      SearchSchema.parse(json(r.search_config, {})),
+    ),
+    searchConfigChanged:
+      JSON.stringify(SearchSchema.parse(json(r.search_config, {}))) !==
+      JSON.stringify(searchConfig()),
     context: json(r.context, {}),
   };
 }
@@ -175,7 +184,7 @@ export function createApp() {
   });
   app.get("/api/health", (_req, res) => {
     db.prepare("SELECT 1").get();
-    res.json({ ok: true, version: "1.0.0", time: now() });
+    res.json({ ok: true, version: "1.1.5", time: now() });
   });
   app.get("/api/auth/status", (req, res) => {
     const initialized = !!db.prepare("SELECT id FROM users LIMIT 1").get();
@@ -315,7 +324,7 @@ export function createApp() {
     validHttpUrl(p.baseUrl);
     const id = uid();
     db.prepare(
-      "INSERT INTO providers(id,name,type,base_url,model,secret,enabled,max_tokens,timeout_seconds,created_at) VALUES(?,?,?,?,?,?,?,?,?,?)",
+      "INSERT INTO providers(id,name,type,base_url,model,secret,enabled,max_tokens,timeout_seconds,created_at,thinking) VALUES(?,?,?,?,?,?,?,?,?,?,?)",
     ).run(
       id,
       p.name,
@@ -327,6 +336,7 @@ export function createApp() {
       p.maxTokens,
       p.timeoutSeconds,
       now(),
+      JSON.stringify(p.thinking),
     );
     audit(res.locals.user.id, "provider_create", p.name);
     res.status(201).json({ id });
@@ -341,7 +351,7 @@ export function createApp() {
     const secret =
       p.apiKey === undefined || p.apiKey === "" ? r.secret : seal(p.apiKey);
     db.prepare(
-      "UPDATE providers SET name=?,type=?,base_url=?,model=?,secret=?,enabled=?,max_tokens=?,timeout_seconds=? WHERE id=?",
+      "UPDATE providers SET name=?,type=?,base_url=?,model=?,secret=?,enabled=?,max_tokens=?,timeout_seconds=?,thinking=? WHERE id=?",
     ).run(
       p.name,
       p.type,
@@ -351,6 +361,7 @@ export function createApp() {
       Number(p.enabled),
       p.maxTokens,
       p.timeoutSeconds,
+      JSON.stringify(p.thinking),
       String(req.params.id),
     );
     audit(res.locals.user.id, "provider_update", p.name);
@@ -374,18 +385,29 @@ export function createApp() {
     async (req, res) => {
       const start = Date.now();
       const p = getProvider(String(req.params.id));
+      let thinking: ThinkingUsage | undefined;
       await completeJson(
         p,
         '连接测试：只返回JSON对象 {"ok":true}',
         z.object({ ok: z.literal(true) }),
+        undefined,
+        (_tokens, meta) => {
+          thinking = meta;
+        },
       );
-      res.json({ ok: true, latency: Date.now() - start, model: p.model });
+      res.json({
+        ok: true,
+        latency: Date.now() - start,
+        model: p.model,
+        thinking,
+        thinkingSummary: thinkingSummary(p),
+      });
     },
   );
   app.get("/api/settings", permission(), (_req, res) =>
     res.json({
       research: researchConfig(),
-      search: searchConfig(),
+      search: publicSearchConfig(searchConfig()),
       fixtures: getSetting("fixtures", { mode: "sporttery", redBlackUrl: "" }),
     }),
   );
@@ -394,7 +416,7 @@ export function createApp() {
     let value: unknown;
     if (key === "research") value = ResearchSchema.parse(req.body);
     else if (key === "search") {
-      value = SearchSchema.parse(req.body);
+      value = prepareSearchConfig(req.body);
       validHttpUrl((value as any).searxngUrl);
     } else if (key === "fixtures") {
       value = z
@@ -415,6 +437,43 @@ export function createApp() {
     const start = Date.now();
     const r = await searchWeb(q.query, searchConfig());
     res.json({ ...r, latency: Date.now() - start, ok: r.hits.length > 0 });
+  });
+  app.post("/api/search/tools", permission(), mutateLimit, async (req, res) => {
+    const q = z
+      .object({
+        tool: z.enum([
+          "fused_search",
+          "fetch_page",
+          "x_search",
+          "adaptive_search",
+          "search_stats",
+          "search_layer",
+          "clear_cache",
+        ]),
+        input: z.record(z.string(), z.unknown()).default({}),
+      })
+      .parse(req.body);
+    const start = Date.now();
+    if (q.tool === "search_layer") {
+      const { layer } = z
+        .object({ layer: z.enum(["show", "free", "api"]).default("show") })
+        .strict()
+        .parse(q.input);
+      const cfg = searchConfig();
+      if (layer !== "show") {
+        cfg.enginePool = layer === "api" ? "hybrid" : "free";
+        cfg.engine = layer === "api" ? "searchboost-api" : "searchboost";
+        setSetting("search", cfg);
+        audit(res.locals.user.id, "search_layer", layer);
+      }
+      return res.json({
+        layer: cfg.enginePool === "free" ? "free" : "api",
+        enginePool: cfg.enginePool,
+      });
+    }
+    const result = await searchTool(q.tool, q.input, searchConfig());
+    audit(res.locals.user.id, "search_tool", q.tool);
+    res.json({ result, latency: Date.now() - start });
   });
   app.get("/api/fixtures", (_req, res) =>
     res.json({ items: listFixtures(), lastSync: getSetting("lastSync", null) }),
@@ -600,6 +659,18 @@ export function createApp() {
         .parse(req.body);
       updateJobBudget(id, input);
       audit(res.locals.user.id, "job_budget", id);
+      res.json({ ok: true });
+    },
+  );
+  app.post(
+    "/api/jobs/:id/refresh-search",
+    permission("researcher"),
+    mutateLimit,
+    (req, res) => {
+      const id = String(req.params.id);
+      ownJob(id, res.locals.user);
+      updateJobSearch(id);
+      audit(res.locals.user.id, "job_search_config", id);
       res.json({ ok: true });
     },
   );
@@ -793,16 +864,14 @@ export function createApp() {
       _next: express.NextFunction,
     ) => {
       const status = err instanceof z.ZodError ? 400 : err.status || 502;
-      res
-        .status(status)
-        .json({
-          error:
-            err instanceof z.ZodError
-              ? err.issues
-                  .map((i) => i.path.join(".") + "：" + i.message)
-                  .join("；")
-              : errorMessage(err).slice(0, 1200),
-        });
+      res.status(status).json({
+        error:
+          err instanceof z.ZodError
+            ? err.issues
+                .map((i) => i.path.join(".") + "：" + i.message)
+                .join("；")
+            : errorMessage(err).slice(0, 1200),
+      });
     },
   );
   return app;

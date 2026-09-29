@@ -280,7 +280,7 @@ test("isolated system integration", async (t) => {
             model: "fixture-model",
             secret: "test-secret",
             enabled: true,
-            maxTokens: 512,
+            maxTokens: 4096,
             timeoutSeconds: 10,
           };
           const output = await complete(p, "test");
@@ -357,7 +357,10 @@ test("isolated system integration", async (t) => {
     );
     return id;
   };
-  const mockServices = (jobId: string): ResearchServices => {
+  const mockServices = (
+    jobId: string,
+    omitOpposes = false,
+  ): ResearchServices => {
     let searches = 0;
     const quoteA =
       "Alpha recorded 12 attempts and 8 successful recoveries in its confirmed recent match.";
@@ -366,20 +369,25 @@ test("isolated system integration", async (t) => {
     const quoteC =
       "The official team update confirms a stable starting core for this fixture.";
     return {
-      search: async (query) => ({
-        hits: [0, 1].map((i) => ({
-          url:
-            "https://" +
-            (i ? "second.example" : "first.example") +
-            "/" +
-            ++searches,
-          title: "Verified test source",
-          snippet: "Not evidence",
-          published: "2025-01-01T00:00:00.000Z",
-          engine: "mock",
-        })),
-        warnings: [],
-      }),
+      search: async (query, _config, _signal, intent) => {
+        assert.match(intent || "", /用户研究方向（数据）：/);
+        assert((intent || "").includes("Alpha 主队不败"));
+        assert.match(intent || "", /支持.*独立佐证/);
+        return {
+          hits: [0, 1].map((i) => ({
+            url:
+              "https://" +
+              (i ? "second.example" : "first.example") +
+              "/" +
+              ++searches,
+            title: "Verified test source",
+            snippet: "Not evidence",
+            published: "2025-01-01T00:00:00.000Z",
+            engine: "mock",
+          })),
+          warnings: [],
+        };
+      },
       read: async (hit) => ({
         id: uid(),
         url: hit.url,
@@ -400,6 +408,11 @@ test("isolated system integration", async (t) => {
         tier: "official_or_trusted",
       }),
       ask: async (_provider, prompt, schema, _signal, usage, before) => {
+        assert.equal(_provider.thinking?.mode, "enabled");
+        assert.equal(_provider.thinking?.effort, "high");
+        assert(prompt.includes("每轮先判断现有材料能回答什么"));
+        assert(prompt.includes("每一个阶段都先拆解该方向"));
+        assert(prompt.includes('"direction":"Alpha 主队不败"'));
         before?.();
         usage?.(10);
         const ss = db
@@ -417,8 +430,16 @@ test("isolated system integration", async (t) => {
           output = {
             queries: [
               {
+                query: "Alpha Beta " + marker + " 2026 independent report",
+                reason: "用独立报告佐证支持条件",
+                purpose: "corroboration",
+                supportAngle: "核对支持主队不败的事实能否由独立来源佐证",
+              },
+              {
                 query: "Alpha Beta " + marker + " 2026 official",
-                reason: "验证主张",
+                reason: "寻找支持主队不败的事实",
+                purpose: "support",
+                supportAngle: "核验有利于用户不败方向的具体比赛条件",
               },
             ],
             hypotheses: ["前提一", "前提二", "前提三", "前提四", "前提五"],
@@ -430,13 +451,32 @@ test("isolated system integration", async (t) => {
             followups: [
               {
                 query:
-                  "Alpha Beta counterexample " +
+                  "Alpha Beta conflict check " +
                   prompt.split("。阶段")[1].split("，")[0],
-                reason: "主动检索反证",
+                reason: "核对支持材料中的风险",
+                purpose: "verification",
+                supportAngle: "核查支持主张所需条件的冲突",
+              },
+              {
+                query:
+                  "Alpha Beta corroboration " +
+                  prompt.split("。阶段")[1].split("，")[0],
+                reason: "补充支持主张的独立原始材料",
+                purpose: "corroboration",
+                supportAngle: "佐证主队不败所需条件，不能把转载算作独立来源",
               },
             ],
           };
-        else if (prompt.includes("只提取这场历史比赛")) {
+        else if (prompt.includes("执行最终逐条引语支持审核")) {
+          output = {
+            decisions: JSON.parse(prompt.split("候选：")[1]).map((c: any) => ({
+              index: c.index,
+              sourceId: c.sourceId,
+              verdict: c.mechanicalRejection ? "unsupported" : "supported",
+              reason: c.mechanicalRejection || "与原文主体一致",
+            })),
+          };
+        } else if (prompt.includes("只提取这场历史比赛")) {
           const names = JSON.parse(
             prompt.split(" 的指标 ")[1].split("。原文：")[0],
           );
@@ -468,9 +508,9 @@ test("isolated system integration", async (t) => {
             supporting: [
               { text: "有记录的支持事实", evidenceIds: support.slice(0, 1) },
             ],
-            opposing: [
-              { text: "对手有可验证威胁", evidenceIds: oppose.slice(0, 1) },
-            ],
+            opposing: oppose.length
+              ? [{ text: "对手有可验证威胁", evidenceIds: oppose.slice(0, 1) }]
+              : [],
             chains: [1, 2, 3].map((i) => ({
               text: "因果链 " + i,
               evidenceIds: support.slice(0, 1),
@@ -517,7 +557,7 @@ test("isolated system integration", async (t) => {
               {
                 claim: "支持事实C",
                 quote: quoteC,
-                sourceId: first.id,
+                sourceId: last.id,
                 effect: "supports",
                 kind: "fact",
                 confidence: "high",
@@ -564,6 +604,15 @@ test("isolated system integration", async (t) => {
             ],
           };
         }
+        if (omitOpposes && output.claims)
+          output.claims = output.claims.filter(
+            (c: any) => c.effect !== "opposes",
+          );
+        for (const claim of output.claims || [])
+          claim.directionReason =
+            claim.effect === "supports"
+              ? "该事实可为主队不败所需的稳定表现提供支持，强度受样本限制"
+              : "该事实体现主队不败方向的风险或需要排除的误差";
         return schema.parse(output);
       },
     };
@@ -597,8 +646,21 @@ test("isolated system integration", async (t) => {
       assert(j.context.scriptBindings.length);
       assert(j.evidence.some((e: any) => e.effect === "opposes"));
       assert(!j.evidence.some((e: any) => e.claim.includes("虚构")));
-      assert.equal(j.model_calls, 60);
-      assert.equal(j.queries, 34);
+      assert.equal(j.model_calls, 72);
+      assert.equal(j.queries, 46);
+      for (const s of j.stages) {
+        assert.equal(s.data.directionPolicyVersion, 1);
+        assert.deepEqual(
+          s.data.plan.queries.map((q: any) => q.purpose),
+          ["support", "corroboration"],
+        );
+        assert.equal(s.data.searches[0].purpose, "support");
+        assert.equal(s.data.searches[1].purpose, "corroboration");
+        assert.equal(s.data.followups[0].purpose, "corroboration");
+        assert(s.data.searches.every((q: any) => q.supportAngle?.length > 0));
+      }
+      assert(j.evidence.every((e: any) => e.directionReason));
+      assert.match(j.report.markdown, /支持方向的证据与佐证/);
       const exported = await admin
         .get("/api/reports/" + id + "/export?format=json")
         .expect(200);
@@ -634,6 +696,23 @@ test("isolated system integration", async (t) => {
     },
   );
   await t.test(
+    "verified support can produce a draft without inventing opposing evidence",
+    async () => {
+      const id = await makeJob();
+      await runResearch(
+        id,
+        new AbortController().signal,
+        mockServices(id, true),
+      );
+      const result = await admin.get("/api/jobs/" + id).expect(200);
+      assert(result.body.evidence.some((e: any) => e.effect === "supports"));
+      assert(!result.body.evidence.some((e: any) => e.effect === "opposes"));
+      assert(result.body.report.script);
+      assert.equal(result.body.report.verdict, "弱支持");
+      assert.equal(result.body.context.reportPartial, false);
+    },
+  );
+  await t.test(
     "budget interruption, checkpoint preservation and resume",
     async () => {
       const id = await makeJob({ maxQueries: 1 });
@@ -661,7 +740,7 @@ test("isolated system integration", async (t) => {
       db.prepare("UPDATE jobs SET status=? WHERE id=?").run("running", id);
       await runResearch(id, new AbortController().signal, svc);
       r = db.prepare("SELECT * FROM jobs WHERE id=?").get(id)!;
-      assert.equal(r.queries, 34);
+      assert.equal(r.queries, 46);
       assert.equal(JSON.parse(String(r.context)).reportPartial, false);
       assert.equal(
         db
@@ -671,6 +750,76 @@ test("isolated system integration", async (t) => {
           .get(id, "closed")?.n,
         12,
       );
+    },
+  );
+  await t.test(
+    "search outage checkpoints retry and config refresh preserves saved material",
+    async () => {
+      const id = await makeJob();
+      const svc = mockServices(id);
+      const originalSearch = svc.search;
+      svc.search = async () => ({
+        hits: [],
+        warnings: ["ddg HTTP 202"],
+        diagnostics: { engineStats: { ddg: { errors: 1 } } },
+      });
+      await assert.rejects(
+        runResearch(id, new AbortController().signal, svc),
+        /待重试查询/,
+      );
+      let stage = db
+        .prepare("SELECT * FROM stages WHERE job_id=? AND stage_id=?")
+        .get(id, "identity")!;
+      let data = JSON.parse(String(stage.data));
+      assert.equal(stage.status, "failed");
+      assert.equal(data.searches[0].done, false);
+      assert.equal(data.searches[0].retryable, true);
+      assert.equal(
+        db.prepare("SELECT model_calls FROM jobs WHERE id=?").get(id)
+          ?.model_calls,
+        1,
+      );
+      const cutoff = db
+        .prepare("SELECT cutoff FROM jobs WHERE id=?")
+        .get(id)?.cutoff;
+      db.prepare("UPDATE jobs SET status=?,search_config=? WHERE id=?").run(
+        "failed",
+        JSON.stringify({
+          engine: "searchboost",
+          engines: ["bing", "ddg", "yahoo"],
+        }),
+        id,
+      );
+      const old = await admin.get("/api/jobs/" + id).expect(200);
+      assert.equal(old.body.searchConfigChanged, true);
+      await admin
+        .post("/api/jobs/" + id + "/refresh-search")
+        .send({})
+        .expect(200);
+      const refreshed = await admin.get("/api/jobs/" + id).expect(200);
+      assert.equal(refreshed.body.searchConfigChanged, false);
+      assert.equal(refreshed.body.cutoff, cutoff);
+      assert.equal(refreshed.body.status, "failed");
+      assert.equal(
+        refreshed.body.stages.find((s: any) => s.stage_id === "identity").data
+          .searches.length,
+        1,
+      );
+      svc.search = originalSearch;
+      db.prepare("UPDATE jobs SET status=? WHERE id=?").run("running", id);
+      await runResearch(id, new AbortController().signal, svc);
+      stage = db
+        .prepare("SELECT * FROM stages WHERE job_id=? AND stage_id=?")
+        .get(id, "identity")!;
+      data = JSON.parse(String(stage.data));
+      assert.equal(stage.status, "closed");
+      assert.equal(data.searches[1].query, data.searches[0].query);
+      assert.equal(data.searches[1].done, true);
+      assert.equal(
+        db.prepare("SELECT queries FROM jobs WHERE id=?").get(id)?.queries,
+        47,
+      );
+      assert(data.claimAudit.decisions.length > 0);
     },
   );
   await t.test(

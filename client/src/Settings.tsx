@@ -1,3 +1,6 @@
+import ThinkingControls from "./ThinkingControls";
+import { thinkingConfig, thinkingSummary } from "../../server/thinking";
+import SearchSettings from "./SearchSettings";
 import { useState, FormEvent } from "react";
 import {
   Activity,
@@ -76,6 +79,10 @@ function ProviderModal({
     [base, setBase] = useState(provider?.baseUrl || protocols.openai.base),
     [busy, setBusy] = useState(false),
     [error, setError] = useState("");
+  const [thinking, setThinking] = useState(() =>
+    thinkingConfig(provider?.thinking),
+  );
+  const [model, setModel] = useState(provider?.model || "");
   const toast = useToast();
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -90,7 +97,8 @@ function ProviderModal({
             name: f.get("name"),
             type,
             baseUrl: base,
-            model: f.get("model"),
+            model,
+            thinking,
             apiKey: f.get("apiKey") || undefined,
             enabled: f.get("enabled") === "on",
             maxTokens: Number(f.get("maxTokens")),
@@ -129,6 +137,7 @@ function ProviderModal({
             value={type}
             onChange={(e) => {
               setType(e.target.value);
+              setThinking({ ...thinking, adapter: "auto", effort: "high" });
               setBase(protocols[e.target.value].base);
             }}
           >
@@ -153,7 +162,8 @@ function ProviderModal({
         >
           <input
             name="model"
-            defaultValue={provider?.model}
+            value={model}
+            onChange={(e) => setModel(e.target.value)}
             required
             maxLength={150}
             placeholder="填写实际可用的模型 ID"
@@ -176,8 +186,17 @@ function ProviderModal({
             }
           />
         </Field>
+        <ThinkingControls
+          type={type}
+          model={model}
+          value={thinking}
+          onChange={setThinking}
+        />
         <div className="form-grid">
-          <Field label="单次输出上限（tokens）">
+          <Field
+            label="单次总输出上限（tokens）"
+            hint="部分模型的思考也占用此额度；请给最终研究 JSON 留足空间。"
+          >
             <input
               name="maxTokens"
               type="number"
@@ -231,9 +250,18 @@ function ModelSettings() {
       const r = await api("/providers/" + id + "/test", body({}));
       setResult((old) => ({
         ...old,
-        [id]: "连接成功 · " + (r.latency / 1000).toFixed(1) + " 秒",
+        [id]:
+          "短请求通过 · " +
+          (r.latency / 1000).toFixed(1) +
+          " 秒 · " +
+          (r.thinkingSummary || "") +
+          (r.thinking?.observed
+            ? "；上游返回思考标记"
+            : "；上游未提供思考确认"),
       }));
-      toast("模型连接与 JSON 输出测试通过");
+      toast(
+        "短请求与 JSON 输出测试通过；长资料研究还取决于网关超时、上下文及输出上限",
+      );
     } catch (e) {
       setResult((old) => ({
         ...old,
@@ -260,7 +288,10 @@ function ModelSettings() {
         <Cpu size={18} />
         <span>
           支持 OpenAI 兼容、Responses、Anthropic、Gemini 与
-          Ollama。模型需要能遵循指令并输出 JSON；实际兼容性以连接测试为准。
+          Ollama。连接测试仅验证短请求、鉴权及 JSON
+          输出；长资料研究还取决于网关超时、模型上下文及输出上限。Responses
+          使用流式传输。主动思考默认开启、深度为
+          high；不支持的模型可显式选择模型默认。测试和实际研究使用同一组思考参数。
         </span>
       </div>
       {loading ? (
@@ -302,6 +333,10 @@ function ModelSettings() {
                 <div>
                   <small>基础地址</small>
                   <span>{p.baseUrl}</span>
+                </div>
+                <div>
+                  <small>思考设置</small>
+                  <span>{thinkingSummary(p)}</span>
                 </div>
                 <div>
                   <small>密钥</small>
@@ -388,218 +423,6 @@ function ModelSettings() {
           </div>
         </Modal>
       )}
-    </>
-  );
-}
-function SearchSettings({
-  config,
-  onSaved,
-}: {
-  config: any;
-  onSaved: () => void;
-}) {
-  const [engine, setEngine] = useState(config.engine),
-    [busy, setBusy] = useState(false),
-    [testing, setTesting] = useState(false),
-    [test, setTest] = useState<any>(null);
-  const toast = useToast();
-  async function save(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setBusy(true);
-    const f = new FormData(e.currentTarget);
-    try {
-      await api(
-        "/settings/search",
-        body(
-          {
-            engine,
-            searxngUrl: f.get("searxngUrl"),
-            engines: f.getAll("engines"),
-            timeoutSeconds: Number(f.get("timeoutSeconds")),
-            excludeDomains: String(f.get("excludeDomains"))
-              .split(/[,\n]/)
-              .map((s) => s.trim())
-              .filter(Boolean),
-            trustedDomains: String(f.get("trustedDomains"))
-              .split(/[,\n]/)
-              .map((s) => s.trim())
-              .filter(Boolean),
-          },
-          "PUT",
-        ),
-      );
-      toast("搜索设置已保存，新任务将使用此配置");
-      onSaved();
-    } catch (e) {
-      toast((e as Error).message, true);
-    } finally {
-      setBusy(false);
-    }
-  }
-  return (
-    <>
-      <div className="section-heading">
-        <div>
-          <h2>独立搜索引擎</h2>
-          <p>搜索负责发现网页；分析模型只负责提出问题和理解证据。</p>
-        </div>
-      </div>
-      <form onSubmit={save}>
-        <div className="choice-grid">
-          {[
-            {
-              id: "searchboost",
-              name: "SearchBoost",
-              tag: "免搜索密钥",
-              desc: "聚合 Bing、DuckDuckGo、Yahoo，去重后读取网页原文。",
-            },
-            {
-              id: "searxng",
-              name: "SearXNG",
-              tag: "自托管",
-              desc: "通过 Docker 搜索服务汇聚结果，部署与数据都由你控制。",
-            },
-          ].map((x) => (
-            <label
-              className={"choice-card " + (engine === x.id ? "selected" : "")}
-              key={x.id}
-            >
-              <input
-                type="radio"
-                name="engine"
-                checked={engine === x.id}
-                onChange={() => setEngine(x.id)}
-              />
-              <div>
-                <strong>
-                  {x.name}
-                  <span>{x.tag}</span>
-                </strong>
-                <p>{x.desc}</p>
-              </div>
-            </label>
-          ))}
-        </div>
-        <Field
-          label="SearXNG 地址"
-          hint="使用附带 Compose 服务时为 http://searxng:8080；需启用 JSON 输出。"
-        >
-          <input
-            name="searxngUrl"
-            type="url"
-            defaultValue={config.searxngUrl}
-          />
-        </Field>
-        <div className="field">
-          <span>SearchBoost 免费引擎</span>
-          <div className="checkbox-group">
-            {[
-              ["bing", "Bing"],
-              ["ddg", "DuckDuckGo"],
-              ["yahoo", "Yahoo"],
-            ].map(([id, label]) => (
-              <label className="checkbox-row" key={id}>
-                <input
-                  type="checkbox"
-                  name="engines"
-                  value={id}
-                  defaultChecked={config.engines.includes(id)}
-                />
-                {label}
-              </label>
-            ))}
-          </div>
-        </div>
-        <div className="form-grid">
-          <Field
-            label="可信来源域名"
-            hint="每行一个域名。信任级别不替代原文和时效核验。"
-          >
-            <textarea
-              name="trustedDomains"
-              rows={5}
-              defaultValue={config.trustedDomains.join("\n")}
-            />
-          </Field>
-          <Field label="排除来源域名" hint="每行一个域名，同时排除其子域名。">
-            <textarea
-              name="excludeDomains"
-              rows={5}
-              defaultValue={config.excludeDomains.join("\n")}
-              placeholder="填写不希望采集的站点"
-            />
-          </Field>
-        </div>
-        <Field label="单次搜索 / 读取超时（秒）">
-          <input
-            name="timeoutSeconds"
-            type="number"
-            min={10}
-            max={90}
-            required
-            defaultValue={config.timeoutSeconds}
-          />
-        </Field>
-        <div className="form-footer">
-          <span>免费引擎可能限流或返回验证页；系统会记录真实错误。</span>
-          <Submit busy={busy}>
-            <Save size={16} />
-            保存搜索配置
-          </Submit>
-        </div>
-      </form>
-      <div className="diagnostic">
-        <h3>
-          <Activity size={18} />
-          搜索连通性诊断
-        </h3>
-        <p>使用已保存的配置测试，直接检查实际返回的网页结果。</p>
-        <form
-          className="inline-form"
-          onSubmit={async (e) => {
-            e.preventDefault();
-            setTesting(true);
-            setTest(null);
-            const f = new FormData(e.currentTarget);
-            try {
-              setTest(
-                await api("/search/test", body({ query: f.get("query") })),
-              );
-            } catch (e) {
-              toast((e as Error).message, true);
-            } finally {
-              setTesting(false);
-            }
-          }}
-        >
-          <input
-            name="query"
-            aria-label="测试搜索词"
-            required
-            defaultValue="UEFA official football fixtures"
-          />
-          <Submit busy={testing}>测试搜索</Submit>
-        </form>
-        {test && (
-          <div className="test-result">
-            <strong>
-              {test.ok
-                ? "找到 " + test.hits.length + " 条结果"
-                : "未找到可用结果"}{" "}
-              · {(test.latency / 1000).toFixed(1)} 秒
-            </strong>
-            {test.warnings?.length > 0 && (
-              <p className="text-error">{test.warnings.join("；")}</p>
-            )}
-            {test.hits.map((h: any) => (
-              <a key={h.url} href={h.url} target="_blank" rel="noreferrer">
-                {h.title}
-                <ExternalLink size={13} />
-              </a>
-            ))}
-          </div>
-        )}
-      </div>
     </>
   );
 }

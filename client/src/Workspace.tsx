@@ -209,7 +209,9 @@ export function Dashboard() {
               detail:
                 d.search === "searchboost"
                   ? "SearchBoost · 免费引擎池"
-                  : "SearXNG · 自托管搜索",
+                  : d.search === "searchboost-api"
+                    ? "SearchBoost · 第三方搜索 API"
+                    : "SearXNG · 自托管搜索",
               to: "/settings",
             },
             {
