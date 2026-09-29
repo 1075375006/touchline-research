@@ -1,0 +1,494 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 13,
+  "processedAt": "2026-09-29T19:18:53.004Z",
+  "sourceIds": [
+    "leishu-3f687cbbc5db",
+    "leishu-f8104cdaa82d",
+    "leishu-75f63aec7f58",
+    "leishu-74c2f4aa3ce7",
+    "leishu-cf294da082ec",
+    "leishu-1a9730f04ae1",
+    "leishu-95980d21ba46",
+    "leishu-2655a60819e1",
+    "leishu-2ba21981a789",
+    "leishu-63bda3740157",
+    "leishu-2a89d3976278",
+    "leishu-db6303579a8b"
+  ],
+  "sourceHashes": [
+    "92428792bfd35c2825eb2e9800608e47bb760c703915f2626da318f17352768c",
+    "6eb2f993a10d4f9b716b33b95c8abc1172149d72feb138a6394ee2974234ce32",
+    "df1c16cb8f977ac5d43a499e10a84e07f2db7b1f793773f055c51a9cf62c2abb",
+    "b79899ecc8d3aa184bbb3fa0711c36cb7328a916955621ef8cad0f5308c5b7a3",
+    "e80cb95370b06554c30d1fe45975b6d95a0ad85ed3cc4dc70a62b7222720dc4f",
+    "fd1d4c78b01e3eba66fe2a95bf009db2e6724947a3ad460e1e93b910dd62d57a",
+    "c1275b76b9f4c52e6c342fba218513c06b0b1b2a24c0d2c04d2119b2686e0045",
+    "61738d7aeadae0e302300a901e5b4a05166152fbd42921dae9a63e4ffaa5cc84",
+    "98b697d0e7869a0620e09b9e1d978c196d167d2d66c533bbbdc4b981d3e37347",
+    "3cb8d0512f75e07ef8ed092f8f11ce8d7c2e95a216609d4f0bd0d51ab884a68c",
+    "ccb804b132251626176807a15ab493923e74b2dbb57d167146006779f7cb78b6",
+    "98c0b6ad9db28621adfebc324a3844a117492d516c38cc8b81e5e9be74b8d413"
+  ],
+  "fullInputChars": 1198,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-3f687cbbc5db",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以内马尔点球助攻队友的行为致意梅西，落点是两人角色关系的温情回望，不判断比赛结果。",
+        "steps": [
+          "先提梅西曾无私传球助攻苏亚雷斯，并称其为双人配合。",
+          "补充当时内马尔在旁庆祝，构成昔日的角色对照。",
+          "转到如今内马尔也在点球时传球助攻队友，建立行为呼应。",
+          "据此解释为向梅西致敬，最后以祝愿式表达收束。"
+        ],
+        "bridge": "把相似的传球助攻行为视为致敬，是文本的核心解释；角色从旁观者变为大哥强化了呼应。",
+        "counter": "未讨论两次配合是否出于相同动机，也未列其他解释。",
+        "ending": "以对梅西的祝愿和“归来仍是少年”的抒情语句收尾。",
+        "risk": "致敬是作者对行为的诠释，文中没有给出内马尔本人确认；未核验相关事件。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n内少致敬梅西。 当年梅西无私分球助攻苏亚雷斯破门，完成了一次绝妙的双人配合，而内少只能在一旁默默的庆祝。",
+          "如今早已成为大哥的内少在面对点球时同样选择传球助攻队友得分。",
+          "向昔日的老大哥梅西致敬，愿你出走半生，归来仍是少年。"
+        ]
+      },
+      {
+        "id": "leishu-f8104cdaa82d",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "仅有“玫瑰cp在线发糖”标题式标签及人物标签，无正文论证终点可判。",
+        "steps": [],
+        "bridge": "无可读正文建立材料与观点之间的关系。",
+        "counter": "无反方因素可辨。",
+        "ending": "标签列举后结束。",
+        "risk": "正文缺失，不据标题补造互动情节或方向。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #玫瑰 cp 在线发糖！#梅西 #阿奎罗 #足球\n"
+        ]
+      },
+      {
+        "id": "leishu-75f63aec7f58",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把球场遇到内马尔并行跪拜礼描述为引人注意的操作，未提出更完整的判断或解释。",
+        "steps": [
+          "先用“球场遇到内少”设定场景。",
+          "称随后发生的举动为“骚操作”，制造惊奇评价。",
+          "补充举动是行跪拜礼，并以标签标出内马尔和巴西。"
+        ],
+        "bridge": "作者将跪拜礼作为值得注意的反常或趣味场面呈现，但没有展开原因。",
+        "counter": "没有讨论礼节含义、当事人动机或其他解读。",
+        "ending": "以动作描述和人物标签结束，没有推演结果。",
+        "risk": "文本极短，标题式评价不能支撑更强的褒贬或事实判断；未核验场景。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 球场遇到内少行跪拜礼（视频ID：6852245962094693647）\n",
+          "\n#爱足球 球场遇到内少，还有这骚操作！",
+          "行#跪拜礼 ！#内马尔 #巴西\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-74c2f4aa3ce7",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "提出金球奖取消背景下C罗是否还能追平梅西的问题，未给出答案或胜负方向。",
+        "steps": [
+          "先以“金球奖五大传奇第五位”引出人物盘点框架。",
+          "给出C罗曾三次获奖这一文本声称的信息。",
+          "补充2020年金球奖取消，再询问C罗是否有机会追平梅西。"
+        ],
+        "bridge": "问题把奖项取消与追平梅西的机会联系起来，但没有说明取消如何改变追赶路径。",
+        "counter": "未讨论梅西获奖数、未来奖项机会或其他影响因素。",
+        "ending": "以问句悬置结论，没有回答。",
+        "risk": "不能把标题式问句推成预测；文中信息未核验，且缺少论证。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 2020金球奖取消C罗还能追上梅西吗（视频ID：6851872381384871183）\n",
+          "\n金球奖五大传奇第五位。 3次获奖，2020金球奖取消，C罗还有机会追平梅西吗？"
+        ]
+      },
+      {
+        "id": "leishu-cf294da082ec",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有庆祝动作模仿秀的标题式标签和人物标签，无法从正文确定展示内容或观点。",
+        "steps": [],
+        "bridge": "没有正文论证可供拆解。",
+        "counter": "无可辨识的反方处理。",
+        "ending": "标签列举后结束。",
+        "risk": "不得依据标题或人物标签推断谁模仿了谁、模仿效果如何。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #C罗 庆祝动作模仿秀！#内马尔 #姆巴佩 #拉莫斯\n"
+        ]
+      },
+      {
+        "id": "leishu-1a9730f04ae1",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以内马尔和比伯共同娱乐、互相往来描绘两人交情亲近，结尾以玩笑表达对内马尔的亲近感。",
+        "steps": [
+          "先称两人是铁哥们，并列出一起玩游戏、看球。",
+          "再叙述内马尔邀请比伯去巴萨基地参观踢球。",
+          "补充比伯随后邀请内马尔到迪拜豪华别墅做客，形成往来。",
+          "由共同活动与互相邀请归纳友情，再以外貌玩笑和交友愿望收尾。"
+        ],
+        "bridge": "共同活动和互相做客被用作关系亲近的例证；豪宅细节增添“豪华”色彩。",
+        "counter": "没有处理友情程度的其他证据或不同解释。",
+        "ending": "以“长得帅的人都喜欢在一起玩”的玩笑，转为对内马尔的交友请求。",
+        "risk": "关系亲密的程度是作者概括；“果然”及外貌因果属修辞，未获论证。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n内少和比伯。 爱足球，内少和比伯可是铁哥们，两人一起玩游戏，一起看球。",
+          "当初内少邀请比伯去巴萨基地参观踢球，而回头迪拜就让内少来自己的豪华别墅做客。",
+          "果然长得帅的人都喜欢在一起玩。内少，我们做朋友吧。"
+        ]
+      },
+      {
+        "id": "leishu-95980d21ba46",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "以“现役足坛五大射手”为主题，并列出C罗、梅西、伊布、莱万、苏亚雷斯；未给出排名依据或具体顺序，不能推出谁更强。",
+        "steps": [
+          "标题提出“五大射手”的盘点框架。",
+          "标签列出五名球员，构成名单内容。",
+          "正文没有比较标准、排序或结论，止于列名。"
+        ],
+        "bridge": "从“射手”主题与球员姓名并列，形成名单式呈现；没有论据桥接到能力高低判断。",
+        "counter": "未提供反例、比较或不同意见，也没有说明入选标准。",
+        "ending": "以标签名单收束，没有进一步总结。",
+        "risk": "内容极短；不得把标题中的“五大”补成排名或实力论证，人物及其身份仅为原文表达。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 现役足坛五大射手！",
+          "#C罗 #梅西 #伊布 #莱万 #苏亚雷斯\n"
+        ]
+      },
+      {
+        "id": "leishu-2655a60819e1",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "implicit",
+        "claim": "标题和正文以“祸从天上来”引出踢球需谨慎的提醒，并列德布劳内、内马尔、巴舒亚伊及曼城作为相关人物或主题线索；没有展开具体事件或因果。",
+        "steps": [
+          "先用“祸从天上来”制造意外风险的提示。",
+          "接着将提示概括为踢球时需谨慎。",
+          "标签列出球员及曼城，但未说明各自遭遇或与提醒的关系。"
+        ],
+        "bridge": "由意外风险的措辞直接引到谨慎建议；具体风险如何发生、为何能避免并未说明。",
+        "counter": "没有讨论不可控因素，也没有提供其他观点或例证。",
+        "ending": "以警示口吻收束，未形成展开论证。",
+        "risk": "正文极短，标签不能替代事件叙述；不据此补造受伤或事故情节。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 祸从天上来，踢球需谨慎！#德布劳内 #内马尔 #巴舒亚伊 #曼城\n"
+        ]
+      },
+      {
+        "id": "leishu-2ba21981a789",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "原文按第五至第一位列出梅西的明星粉丝，最后以安东内拉与梅西的亲密关系作情感化收束；没有解释排名标准，也未提出比赛或球员实力方向。",
+        "steps": [
+          "先以“十大明星粉丝(下)”设定排名盘点。",
+          "依次列出第五至第三位的方济各、茱莉娅·罗伯茨、贾斯汀·比伯。",
+          "再列第二位科比和第一位安东内拉。",
+          "末句转为亲密关系的抒情表达，强化第一位的情感位置。"
+        ],
+        "bridge": "名单顺序提供盘点结构，末句则将安东内拉与梅西的关系作为情感落点；未论证名次依据。",
+        "counter": "没有说明排名标准、来源或对名单的异议。",
+        "ending": "从人物名单转入关系修辞，以亲密关系而非事实论证收尾。",
+        "risk": "人物及粉丝关系均是原文声称，未核验；排名不可解释为客观影响力排序。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n梅西的十大明星粉丝(下)。 - 第五位：教皇方济各。",
+          " - 第二位：科比。 - 第一位：安东内拉。",
+          "梅西是他的一切，而她是梅西的唯一。\n\n"
+        ]
+      },
+      {
+        "id": "leishu-63bda3740157",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以提问引出梅西的大牌明星粉丝，随后只列泰格·伍兹、库里和X教授相关标签；未展开名单排名、关系证据或进一步结论。",
+        "steps": [
+          "先用提问式标题引出梅西的明星粉丝这一主题。",
+          "标签列出泰格·伍兹、库里、X教授作为人物线索。",
+          "正文没有补充说明，内容止于名单提示。"
+        ],
+        "bridge": "主题提问与姓名标签共同构成明星粉丝盘点的框架，但没有给出证明关系的材料。",
+        "counter": "无排名标准、反例或其他立场。",
+        "ending": "以标签结束，没有总结。",
+        "risk": "极短文本；不能仅凭标签补写人物与梅西互动或粉丝关系的具体事实。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#爱足球 #梅西 的大牌明星粉丝，你都知道吗？",
+          "#泰格伍兹 #库里 #x教授\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-2a89d3976278",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "作者表示自己只猜中开头，随后称“两人”表现突出；文本没有交代人物身份、比赛过程或具体攻防内容，不能还原场面判断。",
+        "steps": [
+          "先回顾自己只猜中了开头，暗示此前存在预测或预期。",
+          "随后将注意力转向“两人”，并用强调语表达惊叹。",
+          "没有补充两人的身份、动作或结果，叙述在反应处结束。"
+        ],
+        "bridge": "从未具体交代的预期转为对两人表现的即时赞叹；缺少可检验的场面细节。",
+        "counter": "没有提出保留意见或解释猜测为何只对了一部分。",
+        "ending": "以感叹收尾，重在制造惊喜感。",
+        "risk": "内容为片段式反应，无法识别具体比赛、球员或攻防方向；不补造上下文。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n我只猜中了开头，这俩人！秀！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-db6303579a8b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "原文围绕C罗的粉丝作第五至第一位的名单盘点，并以“第一位粉丝绝对想不到”制造悬念；列出威尔·史密斯、马拉多纳、詹妮弗·洛佩兹、托尼·麦格雷戈和詹姆斯，未说明排名依据。",
+        "steps": [
+          "开头先用第一位出人意料的提示制造悬念。",
+          "随后从第五位列到第三位，逐步呈现名单。",
+          "再列第二位与第一位，完成排名揭晓。",
+          "正文止于名单，没有展开人物与C罗的关系证据。"
+        ],
+        "bridge": "悬念由名次揭晓兑现，名单顺序承担叙事推进；未提供支撑名次或粉丝关系的论据。",
+        "counter": "没有交代评选方式、来源或不同意见。",
+        "ending": "以第一位人物揭晓结束，未作解释性总结。",
+        "risk": "人物及粉丝关系均为原文所述，未核验；“绝对想不到”属于吸引注意的修辞。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n排第一位的粉丝绝对想不到。 - 第五位：威尔- 史密斯。",
+          " - 第四位：马拉多纳。 - 第三位：詹妮弗- 洛佩兹。",
+          " - 第二位：托尼- 麦克格雷戈。 - 第一位：詹姆斯。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-3f687cbbc5db以过去与当下相似行为建立致敬解释，再用祝愿收束。",
+        "leishu-1a9730f04ae1以共同活动和互相邀请作为友情例证，归纳关系亲近。",
+        "名单主题→姓名逐项列示→在缺少标准时止于盘点，如leishu-95980d21ba46、leishu-db6303579a8b。",
+        "悬念提示→名次揭晓→情感或惊叹收束，如leishu-2ba21981a789、leishu-db6303579a8b。"
+      ],
+      "variants": [
+        "leishu-74c2f4aa3ce7提出追赶问题但未作判断，direction为none。",
+        "leishu-f8104cdaa82d、leishu-cf294da082ec仅有标签式文字，正文缺失；leishu-75f63aec7f58只有简短场景描写。",
+        "leishu-2ba21981a789、leishu-63bda3740157、leishu-db6303579a8b为人物盘点；leishu-2655a60819e1是简短警示；leishu-2a89d3976278仅为场面反应，方向不可补。",
+        "leishu-95980d21ba46只列射手姓名，没有排序或优劣判断，direction为none。"
+      ],
+      "nonReusable": [
+        "leishu-3f687cbbc5db的行为相似不能单独证明主观致敬动机；分析时应标为作者解释。",
+        "leishu-1a9730f04ae1的互访可支持交往亲近，但不能据此认证“铁哥们”程度或外貌因果。",
+        "leishu-74c2f4aa3ce7只有问题，不可补写预测；缺失文本也不可按标题补造论据。",
+        "不能把“十大”或“五大”名单直接推成客观排名、实力结论或明确评选标准，如leishu-95980d21ba46、leishu-2ba21981a789。",
+        "不能仅凭标签补写具体事故、比赛过程或人物关系证据，如leishu-2655a60819e1、leishu-63bda3740157、leishu-2a89d3976278。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-3f687cbbc5db": "gpt-6-luna",
+    "leishu-f8104cdaa82d": "gpt-6-luna",
+    "leishu-75f63aec7f58": "gpt-6-luna",
+    "leishu-74c2f4aa3ce7": "gpt-6-luna",
+    "leishu-cf294da082ec": "gpt-6-luna",
+    "leishu-1a9730f04ae1": "gpt-6-luna",
+    "leishu-95980d21ba46": "gpt-6-luna",
+    "leishu-2655a60819e1": "gpt-6-luna",
+    "leishu-2ba21981a789": "gpt-6-luna",
+    "leishu-63bda3740157": "gpt-6-luna",
+    "leishu-2a89d3976278": "gpt-6-luna",
+    "leishu-db6303579a8b": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_023a9aea5dfa1907016abc0ed51bc887d0b8b9581dc3f32ca2": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_023a9aea5dfa1907016abc0ed51be887d0a097c63dec3e7ee1": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1711,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1711,
+            "output_tokens": 0
+          },
+          "rs_023a9aea5dfa1907016abc0ed601a087d086dd3be79665b325": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 280
+          },
+          "msg_023a9aea5dfa1907016abc0edb1d1887d0a6010204dc52cc33": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1503
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1503
+          }
+        }
+      },
+      "input_tokens": 1811,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1783,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 3594
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_088c691ff407cb82016abc0ef6cf9887d0a67f6408ed6991f2": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_088c691ff407cb82016abc0ef6cfb487d0a94e77814dc78a32": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1663,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1663,
+            "output_tokens": 0
+          },
+          "rs_088c691ff407cb82016abc0ef778e487d095a643bf543426fa": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 258
+          },
+          "msg_088c691ff407cb82016abc0efc94fc87d0809aab71bf76659a": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1796
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1796
+          }
+        }
+      },
+      "input_tokens": 1763,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2054,
+      "output_tokens_details": {
+        "reasoning_tokens": 258
+      },
+      "total_tokens": 3817
+    }
+  ]
+}

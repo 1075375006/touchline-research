@@ -1,0 +1,73 @@
+{
+  "verified": true,
+  "authors": 11,
+  "knowledge": 66,
+  "styles": [
+    {
+      "id": "corpus-laoxu",
+      "name": "老许的足球世界 · 比分重解与条件反转",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-chiyi",
+      "name": "驰一指南 · 时间线纠偏与对位推导",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-make",
+      "name": "马克放大镜 · 条件翻转与功能缺口",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-tiancai",
+      "name": "天才足球 · 胜负手锚定与强度分级",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-mubiao",
+      "name": "目标爱足球 · 清单分层与多场方向",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-paoge",
+      "name": "炮哥的体育世界 · 赛制约束与链路复现",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-fanpeidong",
+      "name": "说球的范佩东 · 条件转换与比赛路径",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-boyang",
+      "name": "博扬足球 · 争议拆因与规则推演",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-chengzi",
+      "name": "橙子北看台 · 赛制分支与条件修正",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-aile",
+      "name": "艾乐的战术板 · 空间对位与机会转化",
+      "knowledge": 6,
+      "exactMatch": true
+    },
+    {
+      "id": "corpus-leishu",
+      "name": "雷叔聊球 · 连环设问与利益链叙事",
+      "knowledge": 6,
+      "exactMatch": true
+    }
+  ]
+}

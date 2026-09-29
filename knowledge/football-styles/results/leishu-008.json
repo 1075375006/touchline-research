@@ -1,0 +1,480 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 8,
+  "processedAt": "2026-09-29T19:17:31.959Z",
+  "sourceIds": [
+    "leishu-22ae081bb1ff",
+    "leishu-5301fda4630d",
+    "leishu-da6ce7617fe5",
+    "leishu-2b67c588f1d0",
+    "leishu-1cacf5578417",
+    "leishu-28e9892b767c",
+    "leishu-0400cc3904e5",
+    "leishu-ee8866a8d655",
+    "leishu-afdf510d00ca",
+    "leishu-3dc2fb0281a1",
+    "leishu-4619c90701bc",
+    "leishu-fe0261e0a065"
+  ],
+  "sourceHashes": [
+    "63dfc17d1b517efef31cdde440ec226138f9b8a7c42427e52eca4381fc94f1aa",
+    "cfd12ceab2ff4db463f629834c7f173ac3635863e412d7944357f03540af70df",
+    "7c3dccf675a8495f099be1c9bbe8d8368d373a0244999ce3c5ebf307850d81ae",
+    "0d59865b6d70e1af7a3a726473d4dc1abdf0f47f6b662667d7e4a1b195082df6",
+    "f7d28d660030f4416e6c8a9c93fa9fb03f7b8216e194d2faf2c72c03126fdac4",
+    "17ab8aacb842aa2fbdb111c41c307904905da2d57d82c40e8a0f223f8e583e06",
+    "66b953e920b5d372254fad4e330182c9148d49ac818ea32f3ebe1c5a57fddd0d",
+    "faf2b1fa1f1b5ef8f5bace95be9ba2667b2229d4e28e72e60926cff93e0b2cc5",
+    "86830a5093abda9faadc8ae3a998f5dd92af06554ed1d0756b9cb754441ba5bf",
+    "d326e164560941e3a31ef8d7681d3716047e54c57e27db9ab9eb987333c76f38",
+    "df7adb7994f2b774c37373a8290002fe94308ea2a9078492d5d6aeb0681cff7d",
+    "73080eb3471dd56303b7dba3921f78e5cf560e9737dffd3c84c51a1c6d1cb68a"
+  ],
+  "fullInputChars": 1754,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-22ae081bb1ff",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "implicit",
+        "claim": "以姆巴佩确诊并退出法国队比赛为由，戏称内马尔外出玩乐导致大巴黎蒙受巨大损失。",
+        "steps": [
+          "先用“内马尔变成本泽马”设悬念，再说明姆巴佩确诊。",
+          "补充姆巴佩回家、不会参加欧国联比赛。",
+          "把缺席后果转成大巴黎损失的夸张说法，最后以“睡吧没事了”收口。"
+        ],
+        "bridge": "把球员缺阵直接连接到俱乐部损失，并把责任戏剧化地牵到内马尔身上；具体损失依据未展开。",
+        "counter": "未讨论姆巴佩缺席对俱乐部的实际影响，也未说明内马尔与确诊事件的因果关系。",
+        "ending": "先渲染出事和损失，再用反差式安慰语消解紧张感。",
+        "risk": "“几十个小目标”是修辞性估计；文本没有证明内马尔导致姆巴佩感染或俱乐部损失。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n内马尔变成本泽马。 别睡了又出大事了，内马尔变成本泽马了，为什么？",
+          "因为姆巴佩得新冠了，然后姆巴佩现在已经回家了，他不会参加欧国联的比赛，不会代表法国队出赛了。",
+          "你说这内马尔出去浪一圈，大巴黎损失几十个小目标。"
+        ]
+      },
+      {
+        "id": "leishu-5301fda4630d",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "作者将梅西留队解读为仍爱巴萨，同时认为苏亚雷斯离队显示梅西谈判地位被削弱，并预测巴托梅乌明年辞职、继任者在合同到期前卖掉梅西。",
+        "steps": [
+          "从梅西留队与苏亚雷斯转投尤文的反差起笔。",
+          "原以为梅西留队以苏亚雷斯也留下为条件，遂推断梅西谈判中被动。",
+          "借巴托梅乌让梅西处于被动及俱乐部领导者的自我辩护，解释管理层决策。",
+          "由此预测巴托梅乌明年辞职、继任者可能卖掉梅西，并称可待观察。"
+        ],
+        "bridge": "将苏亚雷斯离队视作梅西谈判影响力有限的信号，再把管理层行为延伸为未来人事与转会预测。",
+        "counter": "提到外界骂巴托梅乌，也转述领导者可将留住最佳球员视为政绩；没有检验梅西留队条件的其他解释。",
+        "ending": "以“大概率”预测和“走着看”收束，留下事后验证的姿态。",
+        "risk": "对谈判地位、离职及卖人均属作者推断或预测；“梅西爱巴萨”也未由所述材料充分证明。",
+        "anchorIndices": [
+          2,
+          3,
+          7
+        ],
+        "anchors": [
+          "梅西加油继续留在巴萨，这让我意外的是苏神竟然去尤文。",
+          "我以为梅西留队的条件是苏神也要留队，看来梅西在谈判中已经没有任何的地位了。",
+          "我想大概率明年巴梅乌会辞职，新上任的领导会把梅西卖掉在他的合同到期之前，不信我们走着看。"
+        ]
+      },
+      {
+        "id": "leishu-da6ce7617fe5",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "explicit",
+        "claim": "作者预测梅西转会费约一亿至两亿，去向为曼城；巴萨提出七亿被解释为抬价及维护豪门姿态。",
+        "steps": [
+          "先提出梅西转会价格问题，再称巴萨坚持要价七亿。",
+          "将高要价解释为抬价和豪门最后的倔强。",
+          "用内马尔、C罗的转会费作参照，并提出高价留人可能造成梅西拒绝出场的风险。",
+          "综合后预测费用一亿至两亿、略高于C罗但低于内马尔，去向曼城。"
+        ],
+        "bridge": "以既有转会费作价格锚点，再把合同年限与球员可能拒赛纳入议价判断，导向较低的预测区间及曼城去向。",
+        "counter": "考虑了巴萨不愿放人和球员可能不配合，但未说明曼城承接能力或其他潜在去向。",
+        "ending": "以“看看预测对不对”将判断交由未来验证。",
+        "risk": "比较案例和拒赛可能性不足以推出具体价格、去向；标题方向与预测仍是作者判断，非已核验结果。",
+        "anchorIndices": [
+          2,
+          4,
+          5
+        ],
+        "anchors": [
+          "巴萨俱乐部坚持想要梅西必须要付七个亿。",
+          "梅西怎么可能七个亿？内马尔当时才两个多亿，C罗一个多亿，这合同之后一年不让梅西走，梅西给你赖着不踢了怎么办？",
+          "所以现实一点可能转会费我预测是在一亿到两亿之间，要比C罗贵但没有内马尔贵，去的地方还是曼城。"
+        ]
+      },
+      {
+        "id": "leishu-2b67c588f1d0",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文缺失；标题及标签仅提示麦克迪恩与裁判相关主题，无法确定实质观点或方向。",
+        "steps": [],
+        "bridge": "无可分析的论证正文。",
+        "counter": "无法判断是否回应反方因素。",
+        "ending": "无正文收束信息。",
+        "risk": "不得仅凭标题和标签补写裁判评价或比赛判断。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-1cacf5578417",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文缺失；标题和标签仅提示西甲规定及相关人物，无法还原作者观点。",
+        "steps": [],
+        "bridge": "无可分析的论证正文。",
+        "counter": "无法判断是否处理反方因素。",
+        "ending": "无正文收束信息。",
+        "risk": "不能依据标题、标签或表情符号推定具体规则及评价。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-28e9892b767c",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用调侃笔调描绘贝尔高薪、休息、吃零食而不上场的状态，并引出替补席笑姿、蒙面睡姿、眺望冠军三幅“名画”。",
+        "steps": [
+          "先以高工资、睡觉、吃零食和不上场并置，塑造舒适又反差的形象。",
+          "称贝尔仍能给球迷贡献名场面，将不上场转成喜剧素材。",
+          "提出三大名画，依次列出替补席笑姿、蒙面睡美男和冠军眺望者。"
+        ],
+        "bridge": "把场外状态与三个场景标签并列，靠反差和戏谑称谓形成对贝尔的调侃；没有推进到比赛判断。",
+        "counter": "未提供贝尔视角或其他解释，也未讨论这些场景的背景。",
+        "ending": "用三项名画清单收束，依靠并列标签完成包袱。",
+        "risk": "对睡觉、零食、不上场的描述带有戏谑概括，文本未给出背景或支撑细节。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n贝尔的世界名画。 大圣贝尔，这日子过得可太舒服了，高工资拿着，小觉睡着，零食吃着，还不用上场比赛，关键还总能给球迷贡献名场面。",
+          "他的三大名画你知道吗？ - 名画一：替补席的笑姿。",
+          " - 名画二：蒙面睡美男。 - 名画三：冠军眺望者。"
+        ]
+      },
+      {
+        "id": "leishu-0400cc3904e5",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "把梅西进球减少解释为转向争取欧洲助攻王，并以双20成就和接近助攻纪录收束；没有比赛胜负方向。",
+        "steps": [
+          "先提出梅西复出后状态不佳、进球变少这一现象。",
+          "随即反驳负面解读，称他已拿过金靴，目标改为争取助攻王。",
+          "以进球加助攻双20及西甲历史第一人的说法支撑其进展。",
+          "再提距离穆勒助攻纪录仅一步之遥，转为强调纪录可望追近。"
+        ],
+        "bridge": "把进球减少解释成主动调整目标，而非状态下滑；双20和接近纪录被用作该解释的佐证。",
+        "counter": "提到进球变少这一不利观感，但用金靴经历和助攻成绩回应；未论证目标转换是否确为梅西意图。",
+        "ending": "以追近穆勒纪录并不困难的口吻作乐观收束。",
+        "risk": "动机归因没有文本内独立证据；成就及纪录均为原文声称，未核验。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n梅西的小心思居然有人黑。梅西复出后状态不好，进球变少了。",
+          "这不，进球加助攻双二十的成就已经解锁，成为了西甲历史第一人。",
+          "距离穆勒的二十一次助攻仅一步之遥。这对梅西来说不是张飞吃豆芽。"
+        ]
+      },
+      {
+        "id": "leishu-ee8866a8d655",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "围绕C罗一次以裆部挡球入网的特殊进球制造趣味，末尾把进球后的表情写成戏谑式挑战；无比赛方向。",
+        "steps": [
+          "先以现役射手身份和擅长多种进球方式作铺垫。",
+          "将一粒特殊进球设为叙述焦点，突出其不同寻常。",
+          "具体说明曼联时期他用裆部挡球入网。",
+          "补写进球后的表情，并以对话式玩笑收尾。"
+        ],
+        "bridge": "从射手身份转到罕见进球方式，再用表情和拟对白把动作转化为人物趣味。",
+        "counter": "没有讨论进球的其他解释或竞技意义；文本目标是呈现奇特场景，而非论证争议。",
+        "ending": "以仿佛向对手发起比较的俏皮话收束。",
+        "risk": "所谓第一射手、场景与表情均属原文陈述，未核验；结尾对白是修辞性拟写。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\nC罗的另类头球。 作为现役足坛的第一射手，C罗擅长用各种方式进球，但最特殊的一定是这粒。",
+          "曼联时期的C罗在禁区内用自己的裆部将球挡进了球门，而进球后的总裁更是漏出了诡异的笑容。",
+          "兄弟，这次我要和你再比一比。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-afdf510d00ca",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "标题和标签把C罗、马塞洛、佩佩与男性默契联系起来，但正文没有交代具体事件，不能补出叙事或比赛判断。",
+        "steps": [
+          "标题先提出“男人默契”的主题判断。",
+          "正文标签列出C罗、马塞洛、佩佩及皇马，提供人物关联。",
+          "没有动作、场景或因果说明来展开主题。"
+        ],
+        "bridge": "只有标题的概括与人物标签，缺少从具体材料通往主题的论证环节。",
+        "counter": "没有反方因素或解释；文本未提供可供回应的具体主张。",
+        "ending": "以主题标签结束，没有形成进一步论证。",
+        "risk": "正文极短，无法判断“默契”所指；不应依据标题和标签虚构场面。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 只有男人才会有的默契！",
+          "#C罗 #马塞洛 #佩佩 #皇马 #c罗马塞洛\n"
+        ]
+      },
+      {
+        "id": "leishu-3dc2fb0281a1",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把卢卡库离开曼联的原因戏剧化为一次庆祝落空：他助攻后等待队友庆祝却无人回应；文本没有比赛方向。",
+        "steps": [
+          "先以卢卡库在国米发展顺利引出离队原因问题。",
+          "把原因转向一场比赛中的助攻与庆祝场景。",
+          "称卢卡库助攻后等待灵皇前来庆祝，结果独自站着。",
+          "用落空的画面暗示这可能解释离队。"
+        ],
+        "bridge": "从队友未回应庆祝，跳到离队原因；尴尬场面承担了因果解释功能。",
+        "counter": "没有给出其他离队因素，也未说明这件事与离队决定之间的证据联系。",
+        "ending": "以“独自在风中”的形象化描述收束，强化失落感而非补充论证。",
+        "risk": "标题称“真相”，正文却只给单一轶事；因果关系未论证，相关事件均未核验。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n爱足球。 卢卡库在国米混的可是风生水起，要说他当时为啥要走？",
+          "原因是这场球憨憨助攻了灵皇，打开装逼的憨憨等灵皇过来和他庆祝，然后他独自在风中。"
+        ]
+      },
+      {
+        "id": "leishu-4619c90701bc",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以C罗换回泡面头为主线，从社交媒体上的新造型连到早年发型，再用外观比喻呈现其特点；没有比赛方向。",
+        "steps": [
+          "先对照其一直以小辫亮相与突然换发型。",
+          "指出新造型复刻出道初期的泡面头。",
+          "回溯他效力葡萄牙体育及初加盟曼联时的相似发型。",
+          "描写发丝竖起或垂下、染成黄色的外观，并以泡面作比喻。"
+        ],
+        "bridge": "新发型与早年造型相似，提供回忆线索；细节和比喻把造型变化变成怀旧趣闻。",
+        "counter": "没有讨论换发型的原因或其他评价，也没有反向信息需要回应。",
+        "ending": "落在泡面头的视觉比喻上，以形象描述而非观点判断结束。",
+        "risk": "发型时间与变化均为原文陈述，未核验；外观比喻是修辞，不是事实推论。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球，C罗一直以小辫造型亮相，但在ins上C罗昨天突然又变了发型，这次C罗复刻了出道初期的经典泡面头造型。",
+          " 在效力于葡萄牙体育时，在加盟曼联的初期，C罗都顶着泡面头。",
+          "当时C罗头发一缕缕竖起来或者垂下来，而且还被染成了黄色，远看C罗就像顶着一锅泡面在踢球。"
+        ]
+      },
+      {
+        "id": "leishu-fe0261e0a065",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "标题与标签把罗伯逊、利物浦、曼城同“爱拼才会赢”口号并置，但正文没有事例或论证，不能推出具体评价。",
+        "steps": [
+          "标题先用口号概括罗伯逊的拼搏形象。",
+          "正文重复口号，并列出英超、利物浦和曼城标签。",
+          "没有后续场面、表现细节或因果说明支撑概括。"
+        ],
+        "bridge": "口号直接承担人物评价，标签只提供球队与赛事关联，缺少具体证据到评价的中间环节。",
+        "counter": "未出现反方因素，也没有论述拼搏表现是否存在例外。",
+        "ending": "以标签和分隔符结束，没有形成完整论证。",
+        "risk": "正文信息不足，不应据球队标签补写对阵或表现；口号不能替代证据。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 罗伯逊爱拼才会赢！",
+          " #英超 #利物浦 #曼城\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "先列事件或条件，再接解释与结论：确诊及缺赛被转成损失说法，见leishu-22ae081bb1ff；转会费比较导向区间预测，见leishu-da6ce7617fe5。",
+        "由眼前反差推人物处境，再外推未来变化，见leishu-5301fda4630d。",
+        "0400：从进球减少转向目标解释，再用双20与纪录距离支撑；3dc2：用庆祝落空场景暗示离队原因。",
+        "ee886：以罕见进球动作接人物表情制造趣味；4619：由新造型回溯旧造型，以外观细节收束。"
+      ],
+      "variants": [
+        "leishu-28e9892b767c以场景并列和反差制造人物调侃，没有明确方向。",
+        "leishu-2b67c588f1d0、leishu-1cacf5578417只有标题与标签，实质正文缺失。",
+        "0400是成就与目标叙述但无比赛方向；ee886、3dc2、4619以人物场景或形象为中心；afdf、fe026仅有标题口号和标签，正文论证不足。"
+      ],
+      "nonReusable": [
+        "不能把戏谑归因当作因果证明：内马尔与姆巴佩确诊及大巴黎损失的连接未获论证，见leishu-22ae081bb1ff。",
+        "不能把价格类比直接当作转会预测的充分依据：具体去向及金额仍缺关键论证，见leishu-da6ce7617fe5。",
+        "不能把对谈判和管理层动机的推断写成已证实事实，见leishu-5301fda4630d。",
+        "3dc2不能把一次庆祝落空直接复用为离队原因的充分解释；afdf、fe026不能把标题主题或标签当作已展开的场景证据；0400的目标动机归因仍需独立支撑。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0ac138fa2cc8045d016abc0e6c50c887d0904befade013c28b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0ac138fa2cc8045d016abc0e6c50e887d09e6bc640eae8afb1": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 2081,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 2081,
+            "output_tokens": 0
+          },
+          "rs_0ac138fa2cc8045d016abc0e6d803087d0ab41dd35642e3f3b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 276
+          },
+          "msg_0ac138fa2cc8045d016abc0e75747887d092021a6519e6f074": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1739
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1739
+          }
+        }
+      },
+      "input_tokens": 2181,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2015,
+      "output_tokens_details": {
+        "reasoning_tokens": 276
+      },
+      "total_tokens": 4196
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_08b8d1e45a75cf6d016abc0e9da3c487d09e96c833462c7d44": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_08b8d1e45a75cf6d016abc0e9da3e087d0b1464c12e9611335": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1860,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1860,
+            "output_tokens": 0
+          },
+          "rs_08b8d1e45a75cf6d016abc0e9e4e6487d0b3835584bd21308b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 203
+          },
+          "msg_08b8d1e45a75cf6d016abc0ea45c5487d086424c63371de5a4": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1788
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1788
+          }
+        }
+      },
+      "input_tokens": 1960,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1991,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 3951
+    }
+  ]
+}

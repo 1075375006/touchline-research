@@ -1,0 +1,196 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-1fb26191a1b4",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "不能仅凭标题补出莱万相关叙事或观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-05e0ed922c68",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "标题的戏谑表达不足以确认正文主张。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-2bf0aa373ad3",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "不能据标题推演更衣室相关内容。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-b5fa65c152be",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以球星用技巧挑战无人机的叙事，收束为“有钱的球星都是这么玩的”这一玩笑式概括；没有比赛方向判断。",
+        "steps": [
+          "先称内马尔为证明脚法准，在网上发布踢爆无人机的视频。",
+          "接着引入罗纳尔多看到视频这一情节，并用反问制造较劲意味。",
+          "随后说罗纳尔多以高尔夫挑战内马尔，将两人的行为串成回应。",
+          "最后把这类挑战概括为有钱球星的玩法。"
+        ],
+        "bridge": "把后一个球星的挑战写成对前一展示的回应，再由两例归纳为球星玩法。",
+        "counter": "没有讨论挑战是否真实较量、结果如何或其他解释，重点在趣味叙事。",
+        "ending": "以概括性玩笑收束，不延伸为足球技战术判断。",
+        "risk": "“为了证明”及回应关系是文本的叙事说法，未给出依据；相关事实不作核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n有钱的球星都这么玩，内马尔。 为了证明自己脚法准，在网上发布了一条踢爆无人机的视频，结果被我们的罗纳尔多球王看到了，这能服你？",
+          "于是罗纳尔多直接用高尔夫挑战了内马尔。",
+          "原来有钱的球星都是这么玩的。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-d79e01966189",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文仅有标题及话题标签，未提供巴萨、皇马出局的论述或结论。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "标题以疑问句收尾，但正文没有回答。",
+        "risk": "不能把标题中的反问当作作者已经论证的观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-978a3f9b7d94",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "讲述C罗生日、派对和收到豪车礼物，继而猜测车型并以“五菱宏光”作反差式玩笑；没有足球比赛方向。",
+        "steps": [
+          "先以生日引出C罗，并称尤文图斯秘密筹划派对、在都灵庆生。",
+          "再补充其妻子参加派对并送豪车，评价为幸福。",
+          "随后转向叙述者对车型的好奇，邀请读者一起猜。",
+          "最后猜为五菱宏光，以与“豪车”铺垫形成反差收尾。"
+        ],
+        "bridge": "生日与礼物提供人物叙事背景，“猜车型”转成互动，末句靠反差制造笑点。",
+        "counter": "没有比较车型或给出猜测依据；“五菱宏光”是玩笑猜测，不是论证结论。",
+        "ending": "用具体车型的反差收束。",
+        "risk": "生日、派对及礼物均为原文声称，未核验；标题询问车型，正文只给出个人猜测。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n爱足球，C罗怎么过生日？ 昨天是总裁的生日，尤文图斯秘密筹划生日派对，在市中心都灵为C罗庆生。",
+          "C罗的媳妇也参加了，还给C罗送了一辆豪车作为生日礼物，真的是太幸福了。",
+          "我猜是五菱宏光。\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-b5fa65c152be：先叙述展示，再接挑战情节，最后将两例概括为球星玩法。",
+        "leishu-978a3f9b7d94：生日礼物铺垫后转入猜车型，以反差笑点结束。"
+      ],
+      "variants": [
+        "leishu-1fb26191a1b4、leishu-05e0ed922c68、leishu-2bf0aa373ad3、leishu-d79e01966189：只有标题或标签，正文不足以判断方向。",
+        "leishu-b5fa65c152be与leishu-978a3f9b7d94：人物趣闻叙事，均无比赛方向判断。"
+      ],
+      "nonReusable": [
+        "leishu-d79e01966189：标题疑问不能代替正文论证，不能据此推断作者支持何种结论。",
+        "leishu-978a3f9b7d94：末尾车型是明示的个人猜测，不能当成已证实的礼物信息。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_050d7f5ce9935106016abc0ef5603887d09a0cef41fccaee53": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_050d7f5ce9935106016abc0ef5605487d094f93dabaf224064": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1686,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1686,
+          "output_tokens": 0
+        },
+        "rs_050d7f5ce9935106016abc0ef5e99487d0aca6d4a47265f6a9": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 163
+        },
+        "msg_050d7f5ce9935106016abc0ef8ef8087d095ec5331a1e80548": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1207
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1207
+        }
+      }
+    },
+    "input_tokens": 1786,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1370,
+    "output_tokens_details": {
+      "reasoning_tokens": 163
+    },
+    "total_tokens": 3156
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,227 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-32df70aca02c",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "报告内马尔禁赛及威廉将替代参赛，没有比赛结果或胜负方向。",
+        "steps": [
+          "先给出内马尔禁赛这一消息。",
+          "接着说明威廉将代替他参加美洲杯。",
+          "以人员变动为终点，没有继续推导影响或预测。"
+        ],
+        "bridge": "两项消息并列，未提供由缺阵到球队表现的推理桥梁。",
+        "counter": "没有讨论替补效果或其他因素。",
+        "ending": "停在替代参赛的资讯陈述。",
+        "risk": "事实仅是原文声称；篇幅短，不能补出战术影响。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n内马尔禁赛，将由威廉代替内马尔参加美洲杯。"
+        ]
+      },
+      {
+        "id": "leishu-6ba1fb0ba439",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "以“最努力的球星”评价C罗，并用生涯第53个帽子戏法作支撑。",
+        "steps": [
+          "先用“最努力”给出对C罗的正面评价。",
+          "随后列出生涯第53个帽子戏法这一成就。",
+          "以成就数字强化赞誉，但未展开努力与成就的具体因果。"
+        ],
+        "bridge": "把帽子戏法数量作为赞誉的支撑，但其与努力程度的关系未论证。",
+        "counter": "未处理其他解释或反向因素。",
+        "ending": "以成就数字收束对球员的褒扬。",
+        "risk": "“最努力”是评价；数字及其含义均仅按原文陈述，未核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n最努力的球星！职业生涯中第53个帽子戏法！"
+        ]
+      },
+      {
+        "id": "leishu-2b5914ec29aa",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "向马赛洛送上31岁生日祝福，没有进一步观点或论证方向。",
+        "steps": [
+          "点出马赛洛。",
+          "说明其31岁生日。",
+          "直接送上生日祝福，没有继续展开人物评价。"
+        ],
+        "bridge": "年龄与生日构成祝福的缘由，不形成进一步推论。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以简短祝福结束。",
+        "risk": "文本极短，不应补造人物事迹或评价。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n马赛洛31岁生日快乐！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7c3631009f05",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以调侃式口吻评价博格巴“很骚”，没有展开具体观点。",
+        "steps": [
+          "先点出博格巴。",
+          "用“很骚”作口语化评价。",
+          "以笑声语气收尾，没有提供行为或表现作为依据。"
+        ],
+        "bridge": "没有论证桥梁，主要依靠口语评价和语气传达态度。",
+        "counter": "没有处理反方因素。",
+        "ending": "以“哈哈”结束。",
+        "risk": "评价所指未由正文解释，不替作者补充具体含义。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n博格巴很骚嘛，哈哈！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-0e164e69e136",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "implicit",
+        "claim": "认为梅西的盘带与射门难以应对，并以其百米速度回应“速度不够快”的质疑，解释其过人能力。",
+        "steps": [
+          "先声称梅西百米速度为“11抄3”，并评价盘带与射门无解。",
+          "提出一种可能质疑：梅西速度不够快。",
+          "反驳称其百米速度仍可以，并将此作为过人能力的解释。",
+          "末句语意不清，未进一步完成论证。"
+        ],
+        "bridge": "把百米速度足以支撑过人作为隐含前提，但没有展开速度如何转化为盘带优势。",
+        "counter": "提及并回应速度不足的质疑；未讨论其他影响过人的因素。",
+        "ending": "以含混残句结束，未形成清晰总结。",
+        "risk": "原文存在疑似识别错误及语意不通处；速度数据、能力判断和因果关系均未核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n梅西百米11抄3，梅西的盘带与射门已经无解了。",
+          "或许你会认为他的速度不够快，其实你错了，梅西的百米速度还是可以的，这就是他能亓里走单弱的原因。",
+          "也许永远都不会那句话。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-07ea0daa1f93",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "主张过人应有明确目的，并强调身体素质尤其速度与对抗能力的重要性，建议多跑多练。",
+        "steps": [
+          "先提出过人应有目的，列出传球、射门或吸引防守等选择。",
+          "转而指出身体素质也有作用。",
+          "将速度与对抗能力列为最重要因素。",
+          "以多跑多练作为训练建议收束。"
+        ],
+        "bridge": "从身体素质的重要性转到训练建议，隐含反复训练能提升所需能力。",
+        "counter": "未讨论技术、判断等因素与身体素质的权重关系。",
+        "ending": "用简短训练建议结束。",
+        "risk": "建议未说明训练方法或适用条件；重要性判断及效果未核验。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n过人要有目的性，是摆脱后传球、射门还是吸引防守？",
+          "注意身体素质其实也起很大的作用，速度与对抗能力是最重要的，多跑多练就行。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-0e164e69e136以速度回应质疑，再将其连接到过人能力，但因果展开有限。",
+        "leishu-07ea0daa1f93由过人目的转向身体条件，再落到训练建议。",
+        "leishu-6ba1fb0ba439用帽子戏法数量支撑对努力程度的赞誉。"
+      ],
+      "variants": [
+        "leishu-32df70aca02c是人员变动资讯，没有比赛方向；leishu-2b5914ec29aa和leishu-7c3631009f05是短祝福或态度表达，均无完整论证链。",
+        "leishu-0e164e69e136包含质疑与回应；leishu-07ea0daa1f93是技能知识与建议，论证方向不同。"
+      ],
+      "nonReusable": [
+        "leishu-6ba1fb0ba439不能把成就数字直接当作努力程度的充分证明，原文未展开因果。",
+        "leishu-0e164e69e136不能把百米速度直接等同于过人能力的原因，原文缺少中间机制。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0f7da7702d7d8d24016abc0f5f1fcc87d0a053ad305125ba54": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0f7da7702d7d8d24016abc0f5f1ff087d09533fb0fe65d3ff3": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1529,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1529,
+          "output_tokens": 0
+        },
+        "rs_0f7da7702d7d8d24016abc0f5fa2c087d080ac9dd43d431823": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 257
+        },
+        "msg_0f7da7702d7d8d24016abc0f645abc87d09459fe85c3ee1e85": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1396
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1396
+        }
+      }
+    },
+    "input_tokens": 1629,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1653,
+    "output_tokens_details": {
+      "reasoning_tokens": 257
+    },
+    "total_tokens": 3282
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

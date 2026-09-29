@@ -1,0 +1,171 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "争议/表象拆因",
+        "chain": "先提出热议说法或可见结果，再用数据、人员或战术机制拆成结构性解释，最后限定结论。",
+        "when": "适合赛后复盘、战术解释；不是所有赛前文案的通用开头。",
+        "counterHandling": "可承认反方方案或结果不确定；避免把个案当普遍因果、把动机当事实。",
+        "ids": [
+          "boyang-def456469d75",
+          "boyang-afc632e77470",
+          "boyang-9059bc35cbe6"
+        ]
+      },
+      {
+        "name": "赛前对位推演",
+        "chain": "列阵容、伤停与近期状态→找强点对软肋或关键变量→推破局方式、轮换影响及有条件倾向。",
+        "when": "适用于具体对阵前瞻；可落在战术建议，也可给隐含胜负方向，不必押比分。",
+        "counterHandling": "指出对手反制与预测前提；状态、伤停、首发未确认时保留分支。",
+        "ids": [
+          "boyang-215499f9f1f7",
+          "boyang-256b4ccf61a6",
+          "boyang-9e813bcf1275"
+        ]
+      },
+      {
+        "name": "规则/赛程路径推演",
+        "chain": "解释积分、签位或赛程条件→逐步推导可能对阵、压力与轮换→说明路径影响，不越过条件直接断言结果。",
+        "when": "适用于赛制科普、出线或淘汰赛路径分析；可保持无方向。",
+        "counterHandling": "区分确定规则与假设结果，标明尚需哪些比赛条件成立。",
+        "ids": [
+          "boyang-833a6076d4b9",
+          "boyang-d35f250c55d0",
+          "boyang-b77cca97a377"
+        ]
+      },
+      {
+        "name": "人物/事件叙事",
+        "chain": "以生涯节点、单场事件或今昔反差切入→补背景与可核信息→落在情绪、影响或开放问题，而非强行推出赛果。",
+        "when": "适用于人物故事、告别、伤情与赛后抒情。",
+        "counterHandling": "区分事实与动机推测；单一镜头或发言不足以证明长期性格、转会意图。",
+        "ids": [
+          "boyang-082e2207da6a",
+          "boyang-b68279a7b0fe",
+          "boyang-01156c931146"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "资讯/知识盘点",
+        "chain": "按赛程、名单、规则或历史条目组织信息，结尾可只留看点，不必选边。",
+        "ids": [
+          "boyang-5802cc0b39c2",
+          "boyang-17b15cc85940",
+          "boyang-b97c69615e0f"
+        ]
+      },
+      {
+        "name": "排名与名单评估",
+        "chain": "设定比较维度→逐队或逐位置列素材→给层级判断；身价、荣誉仅作背景，不能单独充当战力证明。",
+        "ids": [
+          "boyang-2947dad03c0c",
+          "boyang-4d3ae1ba59ec",
+          "boyang-a6c4b609b7ca"
+        ]
+      },
+      {
+        "name": "开放式、无方向收束",
+        "chain": "提出问题或并列可能性，把判断留给读者；适合信息不足或主题本身非预测。",
+        "ids": [
+          "boyang-107ca6b6f2d8",
+          "boyang-4a618b0900e3",
+          "boyang-f3c3277d502e"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "常见跳步：身价、单场数据、旧交锋或历史类比直接外推整体实力、动机与赛果；需补中间机制并核验来源。",
+        "ids": [
+          "boyang-001c9658025e",
+          "boyang-c4fddd95bc18",
+          "boyang-5ae339ae793e"
+        ]
+      },
+      {
+        "problem": "未经证实的传闻、心理归因、魔咒或阴谋论被写成论据；应标注不确定性或舍弃。",
+        "ids": [
+          "boyang-28eff9456582",
+          "boyang-c1bb2e61fdcd",
+          "boyang-1d966026f019"
+        ]
+      },
+      {
+        "problem": "文本质量问题会破坏推理：错名错数、标题与正文不符、列表未完成或重复自相矛盾；引用前核对，缺材料时不补造。",
+        "ids": [
+          "boyang-71818060cf0c",
+          "boyang-8e821b08fb78",
+          "boyang-4bc0f1014321"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_02f33d754a48156c016abc0c82736087d09cb1d2dc575e9ffc": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 51,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 51,
+          "output_tokens": 0
+        },
+        "msg_02f33d754a48156c016abc0c82738c87d0b5eb8bc57cb12457": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 17521,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 17521,
+          "output_tokens": 0
+        },
+        "rs_02f33d754a48156c016abc0c831cd087d08962766a816783b3": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 84
+        },
+        "msg_02f33d754a48156c016abc0c84c96887d0b7fabb94d01f31af": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1032
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1032
+        }
+      }
+    },
+    "input_tokens": 17574,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1116,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 18690
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

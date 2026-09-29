@@ -1,0 +1,183 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "材料—桥梁—倾向",
+        "chain": "先列近期战绩、排名、人员或主客场信息，再说明这些材料如何影响对位，收束为看好、谨慎或守底线；倾向强弱不一，不等于明确胜负预测。",
+        "when": "赛前单场分析；结论应与证据强度相称。",
+        "counterHandling": "可补列对手优势或本方风险，但不能只罗列因素便声称已证明结论。",
+        "ids": [
+          "chengzi-6c70dcb53020",
+          "chengzi-85f5ac1c8ead",
+          "chengzi-1936fbf5bba5"
+        ]
+      },
+      {
+        "name": "以战术或状态作中间解释",
+        "chain": "从双方打法、阵型、攻守特征或近期状态出发，推演可能的对位、节奏与场面，再给有限倾向；有时只判断场面，不押胜负。",
+        "when": "战术特点确有具体对应关系时。",
+        "counterHandling": "保留对方反制方式和临场变化；场面优势不可直接扩成取胜。",
+        "ids": [
+          "chengzi-86c80dbc7d45",
+          "chengzi-9400c02ce4cb",
+          "chengzi-0646b8d43a27"
+        ]
+      },
+      {
+        "name": "赛程与人员条件修正",
+        "chain": "先比较密集赛程、伤停、轮换或行程，再推测体能、可用阵容及比赛策略，作为实力判断的修正项。",
+        "when": "有明确赛程或人员信息，且能解释其对比赛的影响时。",
+        "counterHandling": "不把疲劳、缺阵或征召单独当作赛果充分原因；同时考虑替补、恢复与对手条件。",
+        "ids": [
+          "chengzi-22afe7605674",
+          "chengzi-771b00bf8a86",
+          "chengzi-497bec7c8c58"
+        ]
+      },
+      {
+        "name": "先立优势、再纳入反方",
+        "chain": "列出一方利好后，补入对手强项或本方短板，最后降低结论强度，或说明为何仍保留原倾向。",
+        "when": "双方因素相抵、证据不够支持强断言时。",
+        "counterHandling": "反方因素需真正进入推演；不能只轻描淡写后照旧下结论。",
+        "ids": [
+          "chengzi-33f4b223b7b3",
+          "chengzi-b1a0b749064a",
+          "chengzi-0646b8d43a27"
+        ]
+      },
+      {
+        "name": "赛季格局或球队画像",
+        "chain": "以转会、阵容、积分、攻防数据或联赛分层为材料，归纳争冠、保级或竞争力变化；终点常是条件式前景，而非单场预测。",
+        "when": "赛季前瞻、联赛盘点或球队分析。",
+        "counterHandling": "区分已发生事实与后续推测；说明补员、适配、赛程等仍可能改变判断。",
+        "ids": [
+          "chengzi-497bec7c8c58",
+          "chengzi-951c1d021bd2",
+          "chengzi-6f3071516f69"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "多场分支并列",
+        "chain": "每场各自建立材料、桥梁与结论；方向可相反、强弱可不同，不合并成全篇单一判断。",
+        "ids": [
+          "chengzi-81d3ccc1def8",
+          "chengzi-237f3982999a"
+        ]
+      },
+      {
+        "name": "无方向资讯、解释或复盘",
+        "chain": "按球队、联赛、赛制或比赛过程整理信息，终点是说明、盘点或复盘，不补造胜负预测。",
+        "ids": [
+          "chengzi-036362458f61",
+          "chengzi-9352c4dc3b43"
+        ]
+      },
+      {
+        "name": "含蓄或仅判断场面",
+        "chain": "用“期待”“守底线”“比赛不易”等措辞表达弱倾向，或只谈胶着、节奏及风险，不明确选胜者。",
+        "ids": [
+          "chengzi-62701cf25a06",
+          "chengzi-41b89a7d78fd"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "历史交锋、少量样本或短期战绩被直接外推为本场结论，未交代阵容与情境差异。",
+        "ids": [
+          "chengzi-3ee9b52530f5",
+          "chengzi-b231adeed6f8"
+        ]
+      },
+      {
+        "problem": "以战意、情绪、商业动机、玄学或主观印象替代可检验的竞技机制。",
+        "ids": [
+          "chengzi-2935ab3a3a92",
+          "chengzi-5dc5aa72822d"
+        ]
+      },
+      {
+        "problem": "数据、伤停、转会传闻或球队信息未经核验即作论据；相关性被写成因果。",
+        "ids": [
+          "chengzi-335e3b6d19ce",
+          "chengzi-771b00bf8a86"
+        ]
+      },
+      {
+        "problem": "结论语义模糊，或标题、正文、方向不一致；缺正文、纯标题样本不能据以恢复论证。",
+        "ids": [
+          "chengzi-f9a0385401c9",
+          "chengzi-f41cd7e03bac"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0fcdeebed78ec706016abc0ed8f2b487d0be68576bfd8037a2": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 51,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 51,
+          "output_tokens": 0
+        },
+        "msg_0fcdeebed78ec706016abc0ed8f2d487d0a655a6fd9ee141aa": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 17243,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 17243,
+          "output_tokens": 0
+        },
+        "rs_0fcdeebed78ec706016abc0ed9f1c087d091b9dbed821ec7d9": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 137
+        },
+        "msg_0fcdeebed78ec706016abc0edc70e487d086b3795b8221d0b6": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1169
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1169
+        }
+      }
+    },
+    "input_tokens": 17296,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1306,
+    "output_tokens_details": {
+      "reasoning_tokens": 137
+    },
+    "total_tokens": 18602
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,212 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-b40b318590b4",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文缺失；标题只提出里皮辞职及其遭遇的问题，无法据此确定作者观点或论证方向。",
+        "steps": [],
+        "bridge": "没有正文材料，无法判断。",
+        "counter": "无可分析内容。",
+        "ending": "仅有标题和话题标签，不构成论证收束。",
+        "risk": "不能把标题问题补成作者的解释或立场。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-1fc54890c0cf",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "explicit",
+        "claim": "作者借中国队进球、球迷齐唱国歌及红色看台的场面，表达对中国足球崛起的肯定和期待。",
+        "steps": [
+          "先以“奇迹有颜色”设定振奋、象征性的表达基调。",
+          "叙述中国主场对韩国时中国队进球。",
+          "把球迷高唱国歌、看台一片红色写成强烈的集体情绪体验。",
+          "由这一场面的感染力直接落到“中国足球必将崛起”。"
+        ],
+        "bridge": "比赛进球与球迷共同情绪被当作中国足球未来向好的象征，但没有说明它们如何证明长期发展趋势。",
+        "counter": "没有讨论比赛结果、球队实力或其他不利因素。",
+        "ending": "以中国足球必将崛起作明确判断收尾。",
+        "risk": "从单次比赛场景跃迁至必然的长期前景，论据不足；场景及赛事表述仅为原文声称，未核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球，如果奇迹有颜色，那一定是中国红。",
+          " 中国主场对战韩国，当中国队进球时，贺龙体育场全场球迷高唱国歌，全场一片红色海洋，鸡皮疙瘩都起来了。",
+          "中国足球必将崛起。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1a4ae9f848cb",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文仅把C毛称为“中国快乐足球代表”，没有解释称号依据，也没有提出可辨认的评价方向。",
+        "steps": [
+          "先点出“中国快乐足球代表”这一称呼。",
+          "将称呼对应到C毛。",
+          "正文到此结束，没有展开例证或论证。"
+        ],
+        "bridge": "没有提供从人物表现到称号判断的中间依据。",
+        "counter": "没有出现反方因素或补充说明。",
+        "ending": "以称号本身结束，没有额外结论。",
+        "risk": "文本极短；不应根据标题或外部信息推断C毛是谁、为何获此称号。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n中国快乐足球代表之C毛。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-db7b0fca6987",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文点名朱辰杰并表达看好、加油的鼓励；没有说明看好的理由或作出具体赛场预测。",
+        "steps": [
+          "先点名朱辰杰。",
+          "直接表达看好。",
+          "以加油作鼓励性收束。"
+        ],
+        "bridge": "没有给出表现、能力或前景信息来支撑看好；它是态度表达，不构成具体方向判断。",
+        "counter": "没有提及可能的困难或保留意见。",
+        "ending": "以加油结束。",
+        "risk": "不能把一般鼓励扩展为对其比赛结果、职业发展或能力的论证。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n朱辰杰，看好你哦！加油！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-6e330e00ef55",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文声称武磊是入选亚洲杯的唯一中国球员；没有进一步评价或推演。",
+        "steps": [
+          "以武磊为主题。",
+          "给出其入选亚洲杯的说法。",
+          "补充“唯一中国球员”这一限定，正文随即结束。"
+        ],
+        "bridge": "没有从入选信息推出比赛表现、球队前景或其他判断。",
+        "counter": "没有提供其他球员、名单范围或反面信息。",
+        "ending": "以“唯一中国球员”的说法收束。",
+        "risk": "该说法仅按原文记录，未核验；不能将标题或事实性陈述扩写成预测。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n武磊入选亚洲杯的唯一中国球员！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-875532fb989f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文表达希望武磊早日康复，是祝愿而非对比赛走向或康复结果的判断。",
+        "steps": [
+          "点明武磊为祝愿对象。",
+          "表达希望其早日康复。",
+          "以祝愿语气结束，没有展开原因或后续推论。"
+        ],
+        "bridge": "没有论证环节；祝愿本身不构成对结果的预测。",
+        "counter": "没有提及伤情、恢复条件或不确定性。",
+        "ending": "直接以祝愿收束。",
+        "risk": "文本极短，不能补造伤情、复出时间或竞技影响。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n希望武磊早日康复～\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-1fc54890c0cf由进球与球迷场面引向崛起判断，情绪象征承担主要桥梁；其余文本多为直接陈述或祝愿。"
+      ],
+      "variants": [
+        "leishu-b40b318590b4只有标题与标签，正文缺失；leishu-1a4ae9f848cb、leishu-db7b0fca6987、leishu-6e330e00ef55、leishu-875532fb989f均未展开论证。"
+      ],
+      "nonReusable": [
+        "不能把leishu-1fc54890c0cf的单场感染力当成长期崛起的充分证明；不能替leishu-b40b318590b4补写辞职原因，也不能替短文本补造论据。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0badd6bcfc46fc25016abc0f01bba887d0b49f2803097a9db0": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0badd6bcfc46fc25016abc0f01bbc087d0b6d40f693cce7f07": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1472,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1472,
+          "output_tokens": 0
+        },
+        "rs_0badd6bcfc46fc25016abc0f021acc87d0986820c16f26c825": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 283
+        },
+        "msg_0badd6bcfc46fc25016abc0f074ec487d0a3d62e620c0284bf": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1269
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1269
+        }
+      }
+    },
+    "input_tokens": 1572,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1552,
+    "output_tokens_details": {
+      "reasoning_tokens": 283
+    },
+    "total_tokens": 3124
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

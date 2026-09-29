@@ -1,0 +1,30 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "records": 354,
+  "characters": 113308,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 354,
+  "availability": {
+    "body": 326,
+    "missing": 27,
+    "partial": 1
+  },
+  "directions": {
+    "none": 191,
+    "implicit": 61,
+    "explicit": 75,
+    "unavailable": 27
+  },
+  "kinds": {
+    "知识解释": 26,
+    "赛前方向": 54,
+    "赛后复盘": 9,
+    "人物叙事": 148,
+    "缺失": 27,
+    "场面倾向": 20,
+    "资讯盘点": 32,
+    "非足球": 38
+  },
+  "uniqueKnownVideoIds": 354
+}

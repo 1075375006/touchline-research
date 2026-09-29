@@ -1,0 +1,217 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-8a399dafe92b",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "仅有标题、标签和分隔符，没有可分析的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断论证桥梁。",
+        "counter": "无正文可供判断。",
+        "ending": "无正文收束。",
+        "risk": "标题不能替代正文；按缺失处理。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-51d4978ebf11",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "讲述卡洛斯·凯撒凭外形与人际手腕在足坛维持球星形象、却从未出场的故事，并以“练出一座未来”引出后续。",
+        "steps": [
+          "先称其长期行骗，并点出效力多家名队却未登场，建立反差。",
+          "再以长相、身材、体能和速度解释他为何看起来像好前锋。",
+          "补入情商与口碑，转而写其沉迷名利享乐、不训练。",
+          "以“不训练怎么办”的反问，转向“练出一座未来”的悬念。"
+        ],
+        "bridge": "外形条件和社交口碑足以制造球星印象，支撑其未上场仍能维持身份的叙事。",
+        "counter": "承认实力不佳且从不训练，但没有解释他如何具体骗过俱乐部或长期避免登场。",
+        "ending": "用未来计划作悬念式收尾，正文未展开其做法。",
+        "risk": "涉及人物经历的陈述均为原文声称；“练出一座未来”没有后续论据，叙事在此中断。",
+        "anchorIndices": [
+          1,
+          4,
+          7
+        ],
+        "anchors": [
+          "\n一位从未上场的足球皇帝。 讲一个骗子在足坛行骗二十多年的故事，他就是卡洛斯- 恩里克- 萨波索。",
+          " 虽说凯撒实力不咋地，但外表极具欺骗性，高大壮实的身材，体能、速度十分惊人，让人一看就知道是一位好前锋。",
+          "那怎么办？他决定练出一座未来。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9ab6e718693e",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和标签，没有正文论证或可确定的叙事内容。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "无正文可供判断。",
+        "ending": "无正文收束。",
+        "risk": "不能仅凭标题补出格策与罗伊斯的故事。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-d6905bda7b27",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "对梅西脚法片段提出是否经过后期合成的疑问，没有给出判断。",
+        "steps": [
+          "先以“逆天脚法”评价画面效果。",
+          "随后用疑问句提出画面是否为后期合成。"
+        ],
+        "bridge": "惊人的视觉效果引出对真实性的怀疑，但文本没有提供验证线索。",
+        "counter": "没有列出支持合成或非合成的因素。",
+        "ending": "以开放式疑问收尾，不作结论。",
+        "risk": "文本极短，不能从疑问推定作者认定画面造假。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n梅西逆天脚法，这些应该不是后期合成的吧？"
+        ]
+      },
+      {
+        "id": "leishu-9621d04405d8",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "讲加斯科因捡起裁判掉落的黄牌并模仿出牌，结果被裁判出示黄牌的趣事，以调侃收束。",
+        "steps": [
+          "先交代比赛背景及裁判掉落黄牌。",
+          "加斯科因捡牌归还，并模仿裁判出牌动作。",
+          "叙述裁判随即给他出示黄牌，形成反转。",
+          "以“皮一下舒服了吗”直接调侃其行为。"
+        ],
+        "bridge": "模仿裁判动作被写成触发判罚的关键，构成玩笑的因果反差。",
+        "counter": "没有讨论判罚缘由或其他解释，重点放在趣味效果。",
+        "ending": "用反问式调侃读者和当事人。",
+        "risk": "事件及判罚均为原文声称；文本未提供规则背景或其他证据。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n畅玩爱足球。 还有这种操作？1995年的一场苏超联赛，坏小子加斯科因热心肠地捡起主裁判不慎掉在地上的黄牌，交给裁判时模仿了裁判出牌动作，结果裁判毫不犹豫地给了他一张黄牌。",
+          "请问加斯科因，皮这一下舒服了吗？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-c9f02cd66f71",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "将马图尼斯的海啸幸存、足球梦想与C罗的长期支持连成一段人物故事，突出C罗对其人生的影响。",
+        "steps": [
+          "先称C罗既是马图尼斯的偶像，也是改变其一生的人。",
+          "以穿葡萄牙球衣漂流二十一天的经历交代幸存背景。",
+          "转到C罗为其足球梦想默默守护十一年的说法。",
+          "最后用加入里斯本竞技及球衣号码、姓名后缀呼应C罗。"
+        ],
+        "bridge": "幸存者的足球梦想与C罗的支持、相似球衣标识相连，形成影响与传承的叙事。",
+        "counter": "没有呈现马图尼斯或其他方面的补充视角，也未解释“守护”的具体内容。",
+        "ending": "以球衣细节作象征性呼应，正文没有进一步总结。",
+        "risk": "年份、经历及支持时长均为原文声称；文本未给出来源，且未核验。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n爱足球，海啸幸存者与C罗。 对于马图尼斯来说，C罗不仅是他的偶像，还是改变他一生的人，是二零零四年印度洋海啸的幸存者。",
+          "为了他的足球梦，C罗默默守护了他十一年。",
+          " 在马托尼斯十八岁时，他加入了C罗的母队里斯本竞技，身穿二十八号球衣，上面印着马托尼斯、C.R.和曾经的C罗同样的号码，同样的后缀C.R.。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-51d4978ebf11以名队未登场制造反差，再用外形、社交口碑解释形象，转入悬念。",
+        "leishu-9621d04405d8以动作、判罚结果构成反转，再用反问完成调侃。",
+        "leishu-c9f02cd66f71按幸存经历、梦想支持、球衣呼应推进人物叙事。"
+      ],
+      "variants": [
+        "leishu-8a399dafe92b、leishu-9ab6e718693e正文缺失，不能据标题补方向。",
+        "leishu-d6905bda7b27仅提出画面真实性疑问，不给结论。",
+        "leishu-51d4978ebf11以悬念收尾；leishu-9621d04405d8以玩笑收尾。"
+      ],
+      "nonReusable": [
+        "leishu-d6905bda7b27的“逆天”评价不能当作画面真实性证据。",
+        "leishu-51d4978ebf11没有说明如何长期避免出场，不能替文本补造行骗机制。",
+        "leishu-c9f02cd66f71以球衣细节呼应人物关系，但该细节本身不证明支持的具体过程。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_03c694eca2869ec5016abc0f1e1e8887d0bb1ea4a3db606f4c": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_03c694eca2869ec5016abc0f1e1eb487d0b6d6e98d8ed38348": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1979,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1979,
+          "output_tokens": 0
+        },
+        "rs_03c694eca2869ec5016abc0f1ed08887d0880169e87de16f26": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 293
+        },
+        "msg_03c694eca2869ec5016abc0f242af487d0bea823e6558b2c42": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1478
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1478
+        }
+      }
+    },
+    "input_tokens": 2079,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1771,
+    "output_tokens_details": {
+      "reasoning_tokens": 293
+    },
+    "total_tokens": 3850
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,223 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-20faec4612d2",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借罗本与队友冲突的轶事，戏称他是“三棍客”中的“铁棍客”；没有比赛方向判断。",
+        "steps": [
+          "先用“三剑客/三棍客”对照设问，引出罗本。",
+          "叙述他因不满表现向队友泄愤，继而遭多人围殴。",
+          "接着说更衣室出现铁棍，最后据此给他冠以“铁棍客”头衔。"
+        ],
+        "bridge": "冲突后出现铁棍被当作回应或威慑的笑料，由此把“棍”与罗本联系起来。",
+        "counter": "没有交代冲突背景、铁棍用途或其他解释，直接以轶事支撑戏称。",
+        "ending": "以“三棍客”头把交椅作夸张式收尾。",
+        "risk": "叙事把前后事件连成因果笑点，但未提供佐证；不据此认证事件真伪。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n荷兰足球三剑客名燥天下，荷兰足球三棍客你听说过吗？",
+          "没错，罗本就是其中的一员。在一场比赛中场休息的时候，罗本因不满上半场自己的表现，用水砸队友泄愤，结果引来了至少十名队友的群殴，这人缘是多不好。",
+          "所以三棍客的头把交椅就是罗本铁棍客。\n"
+        ]
+      },
+      {
+        "id": "leishu-9a26f6e971a6",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "转述伊基塔关于哥伦比亚若不夺冠便剪掉长发的条件承诺，并以“拭目以待”留下悬念；未判断夺冠结果。",
+        "steps": [
+          "先提出哥伦比亚夺冠与否这一条件。",
+          "将伊基塔剪发作为未夺冠时的后果。",
+          "以“拭目以待”收束，等待条件结果揭晓。"
+        ],
+        "bridge": "把个人外表变化与球队成绩绑定，形成可关注的后续悬念。",
+        "counter": "没有讨论哥伦比亚夺冠可能性或承诺是否会兑现。",
+        "ending": "用观望语气留待后续，不给出胜负预测。",
+        "risk": "承诺内容仅为原文转述，未核验；篇幅很短，论证仅止于条件陈述。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n伊基塔说哥伦比亚不夺冠他就剪掉一头长发，拭目以待！"
+        ]
+      },
+      {
+        "id": "leishu-0859f1c736d6",
+        "availability": "body",
+        "kind": "赛后复盘",
+        "direction": "none",
+        "claim": "以阿根廷获胜为由头，向梅西送上生日祝福；没有进一步论证比赛或预测方向。",
+        "steps": [
+          "先称阿根廷赢了。",
+          "随后转向梅西生日这一祝贺对象。",
+          "把赛果与生日祝福并置，直接收束。"
+        ],
+        "bridge": "胜利与生日同框，构成简短的庆祝语境，但未明说两者存在因果关系。",
+        "counter": "没有提供比赛过程、对手或不同意见。",
+        "ending": "以生日祝福结束。",
+        "risk": "只有一句正文，不能扩展为比赛复盘；赛果仅按原文记录，不作核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n阿根廷赢了，梅西生日快乐！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-5f7dd97628ea",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "表达希望博格巴快乐、去向不拘的支持态度；没有评价具体去向或预测。",
+        "steps": [
+          "以“只要你快乐”设定表达态度的条件。",
+          "将“去哪里都行”作为对去向的宽容回应。",
+          "用简短祝愿式口吻结束，没有展开论据。"
+        ],
+        "bridge": "把球员的个人快乐置于具体去向选择之上。",
+        "counter": "没有讨论转会选择、竞技影响或相反立场。",
+        "ending": "以无条件支持收束。",
+        "risk": "正文未交代去向背景，不能补出具体转会判断。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n只要你快乐，去哪里都行！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-d1aab3bd7551",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "按父亲节主题罗列多位球员与子女的组合，没有提出评价或比赛方向。",
+        "steps": [
+          "先以戈麦斯与女儿、克洛泽与儿子们开列人物组合。",
+          "随后列出鲁小胖与儿子、罗德里格斯与女儿、内马尔与儿子、欧文与女儿。",
+          "再补充希勒与女儿、伊本与孩子们，列表结束。"
+        ],
+        "bridge": "以球员与子女的并列关系承接父亲节主题，靠人物名单形成内容。",
+        "counter": "没有比较人物、解释亲子关系或处理不同观点。",
+        "ending": "在最后一组人物组合后停止，没有总结判断。",
+        "risk": "正文只给出姓名与关系，未提供事迹；不据此补充人物信息。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n· 戈麦斯和女儿。\n· 克洛泽和儿子们。",
+          "\n· 内马尔和儿子。\n· 欧文和女儿。",
+          "\n· 希勒和女儿。\n· 伊本和孩子们。"
+        ]
+      },
+      {
+        "id": "leishu-026ba7102ce3",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "称卡恩为传奇并祝其生日快乐；没有展开人物评价或方向判断。",
+        "steps": [
+          "先以“致传奇”表达敬意。",
+          "点名卡恩作为祝贺对象。",
+          "以生日祝福结束。"
+        ],
+        "bridge": "“传奇”是祝贺前的赞誉，但正文没有说明其依据。",
+        "counter": "没有列出成就或回应其他评价。",
+        "ending": "直接以生日快乐收束。",
+        "risk": "正文极短，不能补造人物论据；赞誉按原文表述，不作认证。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n致传奇！卡恩，生日快乐！\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-20faec4612d2由冲突轶事转接铁棍笑点，再落到绰号；leishu-d1aab3bd7551以人物关系名单承接节日主题。"
+      ],
+      "variants": [
+        "leishu-9a26f6e971a6以条件承诺制造悬念但不预测结果；leishu-0859f1c736d6、leishu-5f7dd97628ea、leishu-026ba7102ce3均为简短祝贺或支持表达，没有展开方向论证。"
+      ],
+      "nonReusable": [
+        "不能把leishu-9a26f6e971a6的条件承诺当作哥伦比亚夺冠预测；不能从leishu-d1aab3bd7551的姓名关系列表推导人物评价或父职表现。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0cc42e228bed93d9016abc0f3c3d1c87d0a5f2c82c31bff220": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0cc42e228bed93d9016abc0f3c3d3c87d0982c66169d24c377": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1636,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1636,
+          "output_tokens": 0
+        },
+        "rs_0cc42e228bed93d9016abc0f3cfe3c87d08b8f52f72c1ef64e": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 371
+        },
+        "msg_0cc42e228bed93d9016abc0f43be6887d0acb1dfb2034403e8": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1440
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1440
+        }
+      }
+    },
+    "input_tokens": 1736,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1811,
+    "output_tokens_details": {
+      "reasoning_tokens": 371
+    },
+    "total_tokens": 3547
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

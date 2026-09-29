@@ -1,0 +1,192 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-0b7a5c27a2bf",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只有“偶尔失手，温柔”的简短表达，没有明确足球主题或可辨认的论证方向。",
+        "steps": [
+          "以“偶尔失手”提出一种失误情境。",
+          "用“温柔”转向宽容、柔和的语气，但未说明对象或理由。"
+        ],
+        "bridge": "将失误与温柔并置，形成情绪上的反差；文本未交代二者关系。",
+        "counter": "没有提出反方观点或处理异议。",
+        "ending": "以两个短语收束，未形成结论性论证。",
+        "risk": "材料极短，不能据此补出足球情节、人物或作者立场。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n偶尔失手，温柔。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-e11642be6dad",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "除标题及足球相关标签外，没有可分析的正文论证。",
+        "steps": [],
+        "bridge": "缺少正文，无法识别由材料到观点的推导。",
+        "counter": "无正文，无法判断是否处理反方因素。",
+        "ending": "无正文收束可供分析。",
+        "risk": "标题和标签不构成实质论据，不据此推断观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-74b54f5e0a7a",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题式提问和足球标签，没有解释韩国队犯规原因的正文。",
+        "steps": [],
+        "bridge": "提问本身没有提供原因、证据或推理环节。",
+        "counter": "无正文，无法判断是否考虑其他解释。",
+        "ending": "没有正文结论。",
+        "risk": "不得把标题的问题当成作者已经给出的判断或论证。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-65dab263aae3",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "文本抛出卡马拉赛前后场边行为与罚款的故事线索，但没有明确解释所谓“超能力”，也未给出评价结论。",
+        "steps": [
+          "标题用“比兴奋剂还厉害”设置夸张悬念。",
+          "正文称卡马拉趁无人注意跑到对方球门前放下某物，以问题形式引出事件。",
+          "随后称他们认为他被罚款10万法郎，转入后果信息，但未交代罚款依据。"
+        ],
+        "bridge": "以反常行为和罚款制造故事悬念；二者是否存在因果关系，文本没有说明。",
+        "counter": "未呈现卡马拉的解释、行为目的或其他对事件的说法。",
+        "ending": "以罚款信息结束，没有回答前面的设问或回扣“超能力”。",
+        "risk": "不得认证事件及罚款说法；叙述跳跃，所谓放下何物也未揭示。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n比兴奋剂还厉害的超能力。 前锋卡马拉在中场休息前趁看对方没有人注意悄悄跑到对方球门前放下了什么？",
+          "他们认为卡马拉在比赛过程中被卢旺达市协征收了10万法郎的罚款。"
+        ]
+      },
+      {
+        "id": "leishu-4f24f3433971",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以伊朗队员的感动和裁判果断判罚点球的叙述，隐含将公平判罚呈现为足球精神的正面例证。",
+        "steps": [
+          "标题先以“公平竞争，这才是足球”提出价值判断。",
+          "正文提到2003年香港贺岁杯伊朗对丹麦比赛中的点球判罚。",
+          "用伊朗队员“十分感动”及裁判“果断吹罚”强化这一场景的正面意味。"
+        ],
+        "bridge": "把队员感动和果断判罚作为公平竞争值得肯定的情绪与行动依据，但未交代判罚细节。",
+        "counter": "未说明争议情形、判罚依据或其他立场。",
+        "ending": "以单句轶事支撑标题价值判断，没有展开论证。",
+        "risk": "事实仅是原文声称；正文未说明为何感动，也不足以核验公平性。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n伊朗队员十分感动，2003年香港贺岁杯在伊朗和丹麦的足球比赛中果断吹罚点球。"
+        ]
+      },
+      {
+        "id": "leishu-c2ee1466f6f0",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和足球标签，没有关于卡洛斯·凯撒的正文叙述或论据。",
+        "steps": [],
+        "bridge": "缺少正文，无法判断标题评价如何由材料推出。",
+        "counter": "无正文，无法分析反方或限定条件。",
+        "ending": "无正文结尾。",
+        "risk": "不能据标题补写人物经历或证明其是否不会踢球。",
+        "anchorIndices": [],
+        "anchors": []
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-65dab263aae3以反常行为与罚款线索制造悬念，但因果未交代；leishu-4f24f3433971以感动反应和裁判行动支撑公平竞争的价值暗示。"
+      ],
+      "variants": [
+        "leishu-0b7a5c27a2bf只有情绪化短语，无明确方向；leishu-e11642be6dad、leishu-74b54f5e0a7a、leishu-c2ee1466f6f0缺少实质正文，方向不可用。"
+      ],
+      "nonReusable": [
+        "leishu-65dab263aae3不能把相邻出现的行为与罚款直接当作已证明因果；leishu-4f24f3433971不能把标题价值判断当成已充分论证的事实结论。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0b26bf8e39db780e016abc0f5c7d0887d0a44888e4a2cdf757": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0b26bf8e39db780e016abc0f5c7d2c87d089948f39c608f7a6": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1521,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1521,
+          "output_tokens": 0
+        },
+        "rs_0b26bf8e39db780e016abc0f5d2bf087d0a504dceb48573416": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 342
+        },
+        "msg_0b26bf8e39db780e016abc0f63614887d0833ce9973c73d00b": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1233
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1233
+        }
+      }
+    },
+    "input_tokens": 1621,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1575,
+    "output_tokens_details": {
+      "reasoning_tokens": 342
+    },
+    "total_tokens": 3196
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

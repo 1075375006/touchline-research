@@ -1,0 +1,447 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 19,
+  "processedAt": "2026-09-29T19:21:03.296Z",
+  "sourceIds": [
+    "leishu-3b1fadd3b28d",
+    "leishu-087eb5dd8791",
+    "leishu-ca0d234baf00",
+    "leishu-c7de876bff9c",
+    "leishu-25e6a7f45dc1",
+    "leishu-b305e4819c30",
+    "leishu-0b7a5c27a2bf",
+    "leishu-e11642be6dad",
+    "leishu-74b54f5e0a7a",
+    "leishu-65dab263aae3",
+    "leishu-4f24f3433971",
+    "leishu-c2ee1466f6f0"
+  ],
+  "sourceHashes": [
+    "a6818891619daed67ec319fe79ee1826cf484ba909715a385986d4b3e7db77d5",
+    "8e16e53ae920e34bedee822d0c04f24a30f3436030d0067c542fdc562980402a",
+    "6f5eb52a94a3186f77efe50e16b90224331b3931b16af86ce952731d39b08c5c",
+    "550606cae334bf2256ade57acfa1864c6d8f95627c9af6d5755203cb9bb0b72e",
+    "4dc118a23d47cb4a8c9e473ffddd10d21b3a79a2f18512c0c00db72cf63ec28a",
+    "b2d457fba309ca2ae6eb127ad0a5a4ab46c9e83903ab16879b331ae683d06a3c",
+    "1da2f962eccd757910c0fcdb0d817a43722d6d85dddccff3b7d149f4b0ab7b34",
+    "f930e966ff0394fe2ce36741af8cb509b8680eca9aea705a980216dbe3c4a46c",
+    "ee4f08a106d3f2e59d7410b4ee35e29d5b295bdb34ca12689faf9dd1d6f847fc",
+    "4a7ab4dda1ea8875e2607e6fab4699a3ea7d744c44a7d3cb0dc48902a0652e1a",
+    "ef8e29dc5c8b822273d7940cd2bb627115233e8e9a7d25f3f50ea296e06ba060",
+    "d93ed92a9ba70b8cc06fa734373a880056816282f4a47fba1fb59a2836719b4e"
+  ],
+  "fullInputChars": 1403,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-3b1fadd3b28d",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "把马内塑造成谦逊、未忘本且值得球员学习的人物。",
+        "steps": [
+          "以19岁才被发掘、见人鞠躬开篇，先确立谦逊形象。",
+          "讲他请记者拍照给母亲，补出早年经历与朴素愿望。",
+          "转到九年后的生活变化，再强调他没有忘记初心。",
+          "列举不爱奢侈、捐助家乡等行为，推至奋斗、职业精神和热爱值得学习。"
+        ],
+        "bridge": "早年困顿与成名后的克制、回馈家乡，被串成“未忘本”的品格证据。",
+        "counter": "未呈现相反行为或其他解释，直接以正面事例支撑评价。",
+        "ending": "从人物赞许收束到对所有球员的学习倡议。",
+        "risk": "人物经历、行为均是原文声称，未核验；由有限事例推及整体品格，论证较概括。",
+        "anchorIndices": [
+          1,
+          3,
+          6
+        ],
+        "anchors": [
+          "\n全村的希望。 19岁才被发掘的马内，见谁都是90度的鞠躬。",
+          "九年时间，这位来自塞内加尔农村的孩子早已不是当年那个食不果腹、为生活发愁的黑人小伙，但他从未忘记他的初心。",
+          "他多年来的奋斗与坚持、他的职业精神以及他对足球最真挚的热爱，值得所有球员学习。"
+        ]
+      },
+      {
+        "id": "leishu-087eb5dd8791",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和话题文字，没有十大球星名单或正文观点。",
+        "steps": [],
+        "bridge": "无可分析的论证材料。",
+        "counter": "无。",
+        "ending": "正文缺失，无法判断榜单内容或如何收束。",
+        "risk": "标题不能代替正文；不得据标题补写排名和论据。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-ca0d234baf00",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "列出2019年最富球星榜单中第十至第六名，未给出排名依据或完整结论。",
+        "steps": [
+          "先称这是2019年最富球星榜单。",
+          "依次报出第十名博格巴、第九名C罗和第八名阿圭罗。",
+          "继续列出第七名苏亚雷斯与第六名鲁尼，文本至此结束。"
+        ],
+        "bridge": "排名仅由名次与球员姓名构成，没有财富数据或比较过程。",
+        "counter": "没有讨论口径、反例或不同排名；也未交代榜单其余名次。",
+        "ending": "以第六名鲁尼结束现有正文，没有总结。",
+        "risk": "标题与正文主题不一致；正文虽有榜单片段，但不能据此补足后续名次或推断来源。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n二零一九年最富的十大球星。 - 第十名：博格巴。",
+          " - 第九名：C罗。 - 第八名：阿圭罗。",
+          " - 第七名：苏亚雷斯。 - 第六名：鲁尼。"
+        ]
+      },
+      {
+        "id": "leishu-c7de876bff9c",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "叙述苏亚雷斯完成高空落球停球挑战，并以惊讶反应收尾；没有进一步主张。",
+        "steps": [
+          "交代从45米高处放球、球员须将球停稳的挑战设定。",
+          "作者联想到球下落可能砸伤脚，援引小时候被篮球砸蒙的经历。",
+          "叙述苏亚雷斯尝试两次后稳稳卸球，与先前担忧形成反差。",
+          "转而请观众替自己的心理感受想形容词。"
+        ],
+        "bridge": "个人受伤联想抬高对挑战难度的预期，成功停球遂产生惊讶效果。",
+        "counter": "担忧被结果反转，但没有分析球速、技术或挑战条件等因素。",
+        "ending": "以征询观众感受的互动问题结束，不作技术结论。",
+        "risk": "停球过程与高度均为原文声称，未核验；这是反应式叙述而非论证挑战难度的完整解释。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n高空四十五米停球。 不知道是谁想到这种挑战，在离地四十五米的高空将皮球放下，让其自由落体，然后球员将球停稳。",
+          "毕竟小时候在篮球场被砸蒙过。可是没想到尝试两次之后，苏亚雷斯竟然稳稳的将球卸下。",
+          " 请大家帮我想一想，现在要用什么来形容我的心理感受？"
+        ]
+      },
+      {
+        "id": "leishu-25e6a7f45dc1",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和话题文字，没有进球过程或支持标题判断的正文。",
+        "steps": [],
+        "bridge": "无可分析的论证材料。",
+        "counter": "无。",
+        "ending": "正文缺失，无法判断其如何呈现帽子戏法或收束。",
+        "risk": "标题不能证明具体场面，不能据此补写C罗表现。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-b305e4819c30",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "借曼城德比大胜及巴神的进球庆祝，突出其标志性的“why always me”姿态。",
+        "steps": [
+          "以日期、德比和曼城6比1取胜交代比赛背景。",
+          "说明曼城先破门，并写巴神在禁区无人盯防时推射得手。",
+          "转到进球后的淡定庆祝：掀起球衣套在头上。",
+          "把动作联系到“why always me”，以一句英文结束。"
+        ],
+        "bridge": "把庆祝动作解释为内心态度的外显，但文本没有提供巴神本人解释或语境佐证。",
+        "counter": "没有呈现比赛其他进球、对手反应或不同解读，叙述集中于巴神片段。",
+        "ending": "用英文短句作尾声，未继续说明其含义。",
+        "risk": "比赛和场面均为原文声称，未核验；由动作推到内心意涵存在解释跳步，末句含义不明。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\nwhy always me？ 2011年10月23日，曼城德比，曼城6比1大胜曼联。",
+          "进球后的巴神淡定自若，将球衣掀起套在头上，展现出内心深处的why always me。",
+          "i've learned the heart away.\n"
+        ]
+      },
+      {
+        "id": "leishu-0b7a5c27a2bf",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只有“偶尔失手，温柔”的简短表达，没有明确足球主题或可辨认的论证方向。",
+        "steps": [
+          "以“偶尔失手”提出一种失误情境。",
+          "用“温柔”转向宽容、柔和的语气，但未说明对象或理由。"
+        ],
+        "bridge": "将失误与温柔并置，形成情绪上的反差；文本未交代二者关系。",
+        "counter": "没有提出反方观点或处理异议。",
+        "ending": "以两个短语收束，未形成结论性论证。",
+        "risk": "材料极短，不能据此补出足球情节、人物或作者立场。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n偶尔失手，温柔。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-e11642be6dad",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "除标题及足球相关标签外，没有可分析的正文论证。",
+        "steps": [],
+        "bridge": "缺少正文，无法识别由材料到观点的推导。",
+        "counter": "无正文，无法判断是否处理反方因素。",
+        "ending": "无正文收束可供分析。",
+        "risk": "标题和标签不构成实质论据，不据此推断观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-74b54f5e0a7a",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题式提问和足球标签，没有解释韩国队犯规原因的正文。",
+        "steps": [],
+        "bridge": "提问本身没有提供原因、证据或推理环节。",
+        "counter": "无正文，无法判断是否考虑其他解释。",
+        "ending": "没有正文结论。",
+        "risk": "不得把标题的问题当成作者已经给出的判断或论证。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-65dab263aae3",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "文本抛出卡马拉赛前后场边行为与罚款的故事线索，但没有明确解释所谓“超能力”，也未给出评价结论。",
+        "steps": [
+          "标题用“比兴奋剂还厉害”设置夸张悬念。",
+          "正文称卡马拉趁无人注意跑到对方球门前放下某物，以问题形式引出事件。",
+          "随后称他们认为他被罚款10万法郎，转入后果信息，但未交代罚款依据。"
+        ],
+        "bridge": "以反常行为和罚款制造故事悬念；二者是否存在因果关系，文本没有说明。",
+        "counter": "未呈现卡马拉的解释、行为目的或其他对事件的说法。",
+        "ending": "以罚款信息结束，没有回答前面的设问或回扣“超能力”。",
+        "risk": "不得认证事件及罚款说法；叙述跳跃，所谓放下何物也未揭示。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n比兴奋剂还厉害的超能力。 前锋卡马拉在中场休息前趁看对方没有人注意悄悄跑到对方球门前放下了什么？",
+          "他们认为卡马拉在比赛过程中被卢旺达市协征收了10万法郎的罚款。"
+        ]
+      },
+      {
+        "id": "leishu-4f24f3433971",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以伊朗队员的感动和裁判果断判罚点球的叙述，隐含将公平判罚呈现为足球精神的正面例证。",
+        "steps": [
+          "标题先以“公平竞争，这才是足球”提出价值判断。",
+          "正文提到2003年香港贺岁杯伊朗对丹麦比赛中的点球判罚。",
+          "用伊朗队员“十分感动”及裁判“果断吹罚”强化这一场景的正面意味。"
+        ],
+        "bridge": "把队员感动和果断判罚作为公平竞争值得肯定的情绪与行动依据，但未交代判罚细节。",
+        "counter": "未说明争议情形、判罚依据或其他立场。",
+        "ending": "以单句轶事支撑标题价值判断，没有展开论证。",
+        "risk": "事实仅是原文声称；正文未说明为何感动，也不足以核验公平性。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n伊朗队员十分感动，2003年香港贺岁杯在伊朗和丹麦的足球比赛中果断吹罚点球。"
+        ]
+      },
+      {
+        "id": "leishu-c2ee1466f6f0",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和足球标签，没有关于卡洛斯·凯撒的正文叙述或论据。",
+        "steps": [],
+        "bridge": "缺少正文，无法判断标题评价如何由材料推出。",
+        "counter": "无正文，无法分析反方或限定条件。",
+        "ending": "无正文结尾。",
+        "risk": "不能据标题补写人物经历或证明其是否不会踢球。",
+        "anchorIndices": [],
+        "anchors": []
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-3b1fadd3b28d以早年境遇、成名后行为和公益事例累积品格判断；leishu-c7de876bff9c用预期与结果反差制造惊讶。",
+        "leishu-b305e4819c30先给比赛背景，再缩至进球和庆祝动作，最后赋予动作含义。",
+        "leishu-65dab263aae3以反常行为与罚款线索制造悬念，但因果未交代；leishu-4f24f3433971以感动反应和裁判行动支撑公平竞争的价值暗示。"
+      ],
+      "variants": [
+        "leishu-087eb5dd8791与leishu-25e6a7f45dc1仅有标题或话题文字，正文缺失，无方向可分析。",
+        "leishu-ca0d234baf00是名单片段，止于第六名；leishu-c7de876bff9c以互动问题收尾，均未提出明确胜负方向。",
+        "leishu-0b7a5c27a2bf只有情绪化短语，无明确方向；leishu-e11642be6dad、leishu-74b54f5e0a7a、leishu-c2ee1466f6f0缺少实质正文，方向不可用。"
+      ],
+      "nonReusable": [
+        "leishu-3b1fadd3b28d不宜把少数正面事例直接当作完整品格证明；leishu-b305e4819c30不宜把庆祝动作的作者解读当成已证实的内心动机。",
+        "leishu-65dab263aae3不能把相邻出现的行为与罚款直接当作已证明因果；leishu-4f24f3433971不能把标题价值判断当成已充分论证的事实结论。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-3b1fadd3b28d": "gpt-6-luna",
+    "leishu-087eb5dd8791": "gpt-6-luna",
+    "leishu-ca0d234baf00": "gpt-6-luna",
+    "leishu-c7de876bff9c": "gpt-6-luna",
+    "leishu-25e6a7f45dc1": "gpt-6-luna",
+    "leishu-b305e4819c30": "gpt-6-luna",
+    "leishu-0b7a5c27a2bf": "gpt-6-luna",
+    "leishu-e11642be6dad": "gpt-6-luna",
+    "leishu-74b54f5e0a7a": "gpt-6-luna",
+    "leishu-65dab263aae3": "gpt-6-luna",
+    "leishu-4f24f3433971": "gpt-6-luna",
+    "leishu-c2ee1466f6f0": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_05ecd528064d0b12016abc0f17df6c87d09dffab097700a689": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_05ecd528064d0b12016abc0f17df8887d0b44bfd6aec6a69f1": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 2018,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 2018,
+            "output_tokens": 0
+          },
+          "rs_05ecd528064d0b12016abc0f18881087d0804a0dbdb352a7f7": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 327
+          },
+          "msg_05ecd528064d0b12016abc0f2351e887d0a9cd4baddb5c61c7": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1509
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1509
+          }
+        }
+      },
+      "input_tokens": 2118,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1836,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 3954
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0b26bf8e39db780e016abc0f5c7d0887d0a44888e4a2cdf757": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0b26bf8e39db780e016abc0f5c7d2c87d089948f39c608f7a6": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1521,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1521,
+            "output_tokens": 0
+          },
+          "rs_0b26bf8e39db780e016abc0f5d2bf087d0a504dceb48573416": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 342
+          },
+          "msg_0b26bf8e39db780e016abc0f63614887d0833ce9973c73d00b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1233
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1233
+          }
+        }
+      },
+      "input_tokens": 1621,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1575,
+      "output_tokens_details": {
+        "reasoning_tokens": 342
+      },
+      "total_tokens": 3196
+    }
+  ]
+}

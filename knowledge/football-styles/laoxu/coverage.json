@@ -1,0 +1,19 @@
+{
+  "author": "老许的足球世界",
+  "slug": "laoxu",
+  "records": 12,
+  "characters": 29270,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 12,
+  "availability": {
+    "body": 12
+  },
+  "directions": {
+    "explicit": 11,
+    "implicit": 1
+  },
+  "kinds": {
+    "赛前方向": 12
+  },
+  "uniqueKnownVideoIds": 12
+}

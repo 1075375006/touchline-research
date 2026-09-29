@@ -1,0 +1,80 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 17022,
+    "completion_tokens": 12529,
+    "total_tokens": 29551,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5743
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 17022
+  },
+  "coverage": {
+    "records": 22,
+    "availability": {
+      "body": 20,
+      "missing": 1,
+      "partial": 1
+    },
+    "directions": {
+      "explicit": 19,
+      "implicit": 1,
+      "unavailable": 1,
+      "none": 1
+    },
+    "kinds": {
+      "赛前方向": 20,
+      "缺失": 1,
+      "非足球": 1
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "3cf59f3c6fa50e1bfdd5c0f0f4eefb60f6b7ef9d3419e1c066260db16e736860",
+        "6b45fa0e430e5b5b6f26a0539ad5f229ea8afbce5affbae743c0f2102e925db4",
+        "5ae6f0439aedd18f40bbd4b8ddfbb7d6edca587ffb500ebde8d612d3f33b361a",
+        "76f9b73e6f6317eef5f53657dc14cb1c30d754fd82adb987dfaf99421ef4c6b6",
+        "2fd8c70cd3ffd1a5bb7b7063a345c4317d8d4028f76e6dff78f0584faee5dfa5",
+        "181fa975ca1c46520dbc3e968ca356f7084fe4ba970a93f7c2cf253be7562687",
+        "6242a6b8d5d13e7cba37c5b20b9693f585cddf941abb01dfe5a81ed86db975d8",
+        "92d14d80737c7785ab3c3ffcf814248f040c66552e8ea882790fab0644094db1"
+      ]
+    },
+    {
+      "part": 2,
+      "sourceHashes": [
+        "f030e49f5176187bf72776bd97139aba66953a7fdf2c1a46e915be9614540671",
+        "ed95bc91bea61f92b8ea804821d8b9977de6b17926754bd7d68e8a1642ae04d5",
+        "9e13f29a954cd11342af1710bf7fa05f459db1b01dccc7599790d5592fe2693a",
+        "4bb925c6e22a94bd8e7b24a9d397baffcd35460e2385d4643f9bdbe20ebb14d3",
+        "3df0d09c42dd6cf3b01935bc7baf07d9f254be49e8040a658ef912412fd85491",
+        "a87cf1f862727540483dc5acc8c54c7100bb22fbc2b197e4a8370dd5602fa32b"
+      ]
+    },
+    {
+      "part": 3,
+      "sourceHashes": [
+        "a9c76550288e0b6b1a77b6bd3d8344ba41f415f8ee5a6f6c3e2ad14212b58e7f",
+        "2b8b89692d358eb8e046cafe3ac072d130155db1fe613099f5f61be852b2b3d4",
+        "fed7a40bb7a13df32fd1aae0db3f36eac67f8d6827d75a94f99368b01a498f06",
+        "63f60d73c415f032098702fd44c8cbaa56aa757d27485d75590b6eb62bf5daec",
+        "ce73e0a6b54a1b485a154987e93338d0aaec1aea0bd1a33c4e39820ea000c31c"
+      ]
+    },
+    {
+      "part": 4,
+      "sourceHashes": [
+        "18d68e08a9d52ddbd169447094dc7cdad5c9420937cb19339f24ec9e8b6fe4d8",
+        "fd37ad72259b63e9b1f6fa333b51b7ebd8463a125ac35d12f0e8d58c978ae829",
+        "e2af94933ee465f8eead1811e0f1a5d4e7e07d47d034d0b3d3e9ea079689f640"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T19:04:10.993Z"
+}

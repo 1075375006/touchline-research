@@ -1,0 +1,171 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "赛前条件推演",
+        "chain": "先列状态、阵容、赛程、场地或实力差异，再经战术对位、体能或利益动机形成赛果/场面倾向；结论可强可弱。",
+        "when": "有具体比赛条件且中间推理可说明时使用。",
+        "counterHandling": "可保留冷门风险、双向可能或只判断场面；因素分析不等于明确押注。",
+        "ids": [
+          "leishu-4aca9096deb1",
+          "leishu-665ded4cad43"
+        ]
+      },
+      {
+        "name": "规则与利益解释",
+        "chain": "先说明规则、经济或商业条件，再推导其影响及取舍；若进一步预测结果，须补足条件到结果的因果桥梁。",
+        "when": "解释制度、收入、赛制或经营动机时。",
+        "counterHandling": "区分规则效果与操纵猜测；条件不足时止于解释，不推比赛方向。",
+        "ids": [
+          "leishu-8b873d6b28d9",
+          "leishu-c2e1c22c7133"
+        ]
+      },
+      {
+        "name": "人物评价与经历叙事",
+        "chain": "以经历、行为、数据或反差为材料，累积成能力、品格或处境判断；也可由受挫转向成就或惋惜。",
+        "when": "人物故事、球员短评或集锦介绍。",
+        "counterHandling": "单一高光、转述或作者解读只支撑有限印象，不等于完整能力/品格证明。",
+        "ids": [
+          "leishu-a705df60d7cc",
+          "leishu-3b1fadd3b28d"
+        ]
+      },
+      {
+        "name": "场景铺垫与趣味收束",
+        "chain": "从具体动作、对话或反差起笔，逐步加码，再用比喻、误会、反转或夸张落到笑点；通常不承担严肃赛果论证。",
+        "when": "轶事、短视频配文、人物互动。",
+        "counterHandling": "明确区分戏仿与事实；只描述观感时不外推动机或因果。",
+        "ids": [
+          "leishu-37059c572e54",
+          "leishu-9621d04405d8"
+        ]
+      },
+      {
+        "name": "信息盘点与解释",
+        "chain": "设定名单、排行、规则或动作主题，逐项列例或解释，再以悬念、互动或概括收束；有时止于信息呈现。",
+        "when": "榜单、资格说明、动作起源及节目预告。",
+        "counterHandling": "标准、数据不全时只称盘点，不补排名、优劣或结论。",
+        "ids": [
+          "leishu-9031cebbe243",
+          "leishu-95980d21ba46"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "开放或无方向分支",
+        "chain": "设问、悬念、祝愿、短标签、知识说明或场面描写可以止于开放状态，不应补成胜负判断。",
+        "ids": [
+          "leishu-48e10e63b741",
+          "leishu-74c2f4aa3ce7"
+        ]
+      },
+      {
+        "name": "有方向但依据强弱不一",
+        "chain": "有的明确预测，有的只表达微弱倾向、候选结果或场面预期；赛前判断与赛后复盘也应区分。",
+        "ids": [
+          "leishu-031e07b2442e",
+          "leishu-0d39a5a121aa"
+        ]
+      },
+      {
+        "name": "正文缺失或仅有标题",
+        "chain": "材料不足时标记不可判定，不从标题、标签或名单主题补写论据。",
+        "ids": [
+          "leishu-7fc6d0b3a112",
+          "leishu-b40b318590b4"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "把巧合、商业热度、裁判往绩、身价或赛程利益直接当成操纵或赛果因果，缺少可检验桥梁。",
+        "ids": [
+          "leishu-94d0f7294762",
+          "leishu-d08766f3cf58"
+        ]
+      },
+      {
+        "problem": "相反情形都被解释为支持同一结论，或以单场样本、单个动作直接推出稳定规律与动机。",
+        "ids": [
+          "leishu-b67903b914e5",
+          "leishu-b305e4819c30"
+        ]
+      },
+      {
+        "problem": "用标题、设问、绰号、残缺数据或短标签替代正文证据；应保留无方向或信息不足。",
+        "ids": [
+          "leishu-2caef51f8b74",
+          "leishu-a527d0cdf685"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_035616a06463155c016abc0fe4aa9887d0943e7f2a9219595d": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 51,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 51,
+          "output_tokens": 0
+        },
+        "msg_035616a06463155c016abc0fe4aac087d0807d34ecde7873ba": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 17864,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 17864,
+          "output_tokens": 0
+        },
+        "rs_035616a06463155c016abc0fe5b00087d09989d5a06a3d1c1d": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 123
+        },
+        "msg_035616a06463155c016abc0fe8875487d09018da4a5f68664d": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1014
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1014
+        }
+      }
+    },
+    "input_tokens": 17917,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1137,
+    "output_tokens_details": {
+      "reasoning_tokens": 123
+    },
+    "total_tokens": 19054
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

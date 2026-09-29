@@ -1,0 +1,21 @@
+{
+  "author": "艾乐的战术板",
+  "slug": "aile",
+  "records": 7,
+  "characters": 9237,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 7,
+  "availability": {
+    "body": 6,
+    "partial": 1
+  },
+  "directions": {
+    "explicit": 6,
+    "none": 1
+  },
+  "kinds": {
+    "赛前方向": 6,
+    "知识解释": 1
+  },
+  "uniqueKnownVideoIds": 7
+}

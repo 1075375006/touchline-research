@@ -1,0 +1,224 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-6c311ec56176",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只作一句关于“踢脚”灵活性的感叹，没有形成比赛或人物观点。",
+        "steps": [
+          "标题指向“踢脚”这一动作或对象。",
+          "正文以灵活作评价，但未提供具体动作、场景或依据。",
+          "表达停在感叹，没有推出比赛判断或后续结论。"
+        ],
+        "bridge": "评价词直接表达赞叹，但没有从具体材料过渡到可辨认的论证结论。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以一句感叹收束。",
+        "risk": "措辞简短且“踢脚”所指不明；不据此补造足球场景。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n踢脚是出神入画的灵活！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1dbd5f21ac44",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "正文提出“教你如何过人”的主题，但未给出方法或实际教学内容。",
+        "steps": [
+          "标题承诺讲解过人技巧。",
+          "正文重复这一主题，没有列出动作、条件或步骤。",
+          "因此没有从说明材料推到具体教学结论。"
+        ],
+        "bridge": "标题中的教学承诺没有在正文展开，论证桥梁缺失。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以主题句结束，未形成完整讲解。",
+        "risk": "正文极短；不能把标题承诺当成已提供的技巧。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n足球教你如何风骚过人。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9bc395ea9018",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "正文直接宣称踢足球比打篮球更赚钱，但没有说明比较口径或证据。",
+        "steps": [
+          "标题先提出足球与篮球收入比较。",
+          "正文用“原来”语气重复足球更赚钱的判断。",
+          "没有给出收入数据、比较对象或推导过程，结论直接落下。"
+        ],
+        "bridge": "隐含前提是两项运动的收入可以直接比较，但正文未说明比较范围。",
+        "counter": "没有列出篮球收入或其他可能影响比较的因素。",
+        "ending": "以惊叹式判断收束。",
+        "risk": "判断明确但论据缺失；不认证其收入结论。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n原来踢足球比篮球还赚钱！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-52d88809380f",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文仅介绍为球星足球集锦作宣传式描述，没有具体球星、比赛或观点。",
+        "steps": [
+          "正文将内容定位为球星足球集锦。",
+          "以精彩即将出现的措辞营造期待。",
+          "没有展示集锦内容或据此推出评价、判断。"
+        ],
+        "bridge": "宣传语以“精彩”预设观看价值，但未提供支撑材料。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以期待式短句收束。",
+        "risk": "只有概括性宣传文字；不补充具体球星或集锦内容。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n球星足球集锦，精彩一触即发。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-a85dbb1704bf",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文点名孙兴慜并描述其眼睛特征，没有展开人物评价或论证。",
+        "steps": [
+          "先点出孙兴慜及韩国球星身份。",
+          "随后突出其眼睛这一外貌特征。",
+          "没有提供进一步人物经历、评价依据或观点结论。"
+        ],
+        "bridge": "由人物身份转向外貌描述，但没有形成可辨认的论证连接。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以外貌标签结束。",
+        "risk": "内容单薄；不把标题或外貌描述延伸为人物判断。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n孙兴慜，韩国球星小眼睛。"
+        ]
+      },
+      {
+        "id": "leishu-3aeabbf291f4",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "implicit",
+        "claim": "作者认为双方不会“演剧本”、会全力争胜，并在收束时倾向巴黎圣日耳曼：其状态、伤病情况更有利，或将夺冠。",
+        "steps": [
+          "先以欧冠决赛的重要性及巴黎未获欧冠、国米缺少本季冠军，论证双方都有争胜动机。",
+          "再列巴黎淘汰利物浦、伤员恢复等情况，对照国米赛程较少、伤员有限及教练去向传闻。",
+          "比较休息、旅途与裁判因素，认为这些差异不大，回应偏哨或赛程阴谋说。",
+          "承认奖金以外可能存在额外收益的剧本论，但以欧冠荣誉难以金钱衡量作反驳。",
+          "最后转向状态、伤病、交锋及夺冠气势，落到巴黎更占优并暗示晋级夺冠。"
+        ],
+        "bridge": "以双方荣誉动机推出会全力比赛，再把状态与人员情况当作竞技优势，隐含其能转化为决赛胜势。",
+        "counter": "处理了剧本论、奖金诱因、赛程、旅途、裁判及交锋等异议；但对国米欧冠经验和赛程较少未充分衡量。",
+        "ending": "以巴黎冲击三冠王、可能进入新的欧冠境界的修辞收束，随后转入账号宣传。",
+        "risk": "对“不会演”及状态优势的推断不等于胜负证明；文中交锋叙述与巴黎决赛经历表述存在含混，且均未核验。",
+        "anchorIndices": [
+          3,
+          17,
+          33
+        ],
+        "anchors": [
+          "最近甚至是整个一年最重要的就是这比赛了，这场是欧冠的决赛，我认为也是绝对不会演的，谁都想要这个荣誉。",
+          "那么国际米兰也肯定不会演，全力拼搏。我们就往下走，双方都全力拼搏的情况下，显然大巴黎的状态是不是更好一些？",
+          "人意甲应该是五大联赛之首。 大巴黎从来没有夺过欧冠冠军，今年能冲击三冠王，他的气势现在真的很棒，没有进过大观园的大巴黎，恐怕今天要进入新的世界里边看一看了。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "以参赛动机及冠军荣誉需求反驳剧本论，再转向人员状态推出赛前倾向，例：leishu-3aeabbf291f4。",
+        "短文本常以一句主题或评价直接收束，缺少材料到结论的展开，例：leishu-9bc395ea9018、leishu-a85dbb1704bf。"
+      ],
+      "variants": [
+        "多篇正文只有主题句或宣传描述，未形成方向；如 leishu-6c311ec56176、leishu-1dbd5f21ac44、leishu-52d88809380f。",
+        "leishu-9bc395ea9018虽无证据，仍明确作足球收入比较判断；leishu-3aeabbf291f4则以赛前因素隐含倾向巴黎。"
+      ],
+      "nonReusable": [
+        "不能把动机强烈直接等同于不会受非竞技因素影响，也不能把状态或伤病概括直接当作胜负证明，例：leishu-3aeabbf291f4。",
+        "不能将短句中的比较断言当作已论证事实，缺少口径和数据的例子：leishu-9bc395ea9018。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_009c2faf1b1899c5016abc0f6517d487d087f6e9702955af70": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_009c2faf1b1899c5016abc0f6517ec87d08bf9dc7bebfc4db2": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 3029,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 3029,
+          "output_tokens": 0
+        },
+        "rs_009c2faf1b1899c5016abc0f65987487d08b1ad7682441ec0e": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 230
+        },
+        "msg_009c2faf1b1899c5016abc0f69d3a887d0b037964e879ca10b": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1534
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1534
+        }
+      }
+    },
+    "input_tokens": 3129,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1764,
+    "output_tokens_details": {
+      "reasoning_tokens": 230
+    },
+    "total_tokens": 4893
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

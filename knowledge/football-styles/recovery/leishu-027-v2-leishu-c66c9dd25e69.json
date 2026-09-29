@@ -1,0 +1,236 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-c66c9dd25e69",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以梅西对巴萨的感恩与留队表态，塑造他珍视巴萨、愿长期留下的形象。",
+        "steps": [
+          "先称梅西懂得感恩。",
+          "接着把巴萨治好其侏儒症作为恩情背景。",
+          "引出梅西愿长期留队、称生命因巴萨改变的表态。",
+          "以“亏欠”与“改变生命”强化感恩和归属感。"
+        ],
+        "bridge": "治疗经历被设为重大恩情，梅西的引语则被用来印证感恩与留队意愿。",
+        "counter": "没有呈现留队意愿可能变化的条件，也未展开巴萨给予与梅西回报的其他面向。",
+        "ending": "以梅西自述收束，让人物形象落在对巴萨的感激与承诺上。",
+        "risk": "治疗经历及引语均为原文声称，未核验；从感恩表态延伸为稳定长期归属，含有推断。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 梅西一生所爱（视频ID：6687419343199800587）\n",
+          "\n梅西是一个懂得感恩的人。我们知道，当初是巴萨俱乐部治好了梅西的侏儒症。",
+          "他们要我留这里多久，我就会留多久。我亏欠巴塞罗那的比他们给我的机会更多，我的生命是他们改变的。"
+        ]
+      },
+      {
+        "id": "leishu-5b671fdca125",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借内马尔的格言表达乐观与目标的重要性，没有具体比赛或人物评价方向。",
+        "steps": [
+          "先将话语归于内马尔。",
+          "以胜利者身上的伤痕呈现成功伴随代价。",
+          "再把乐观态度和明确目标说成难以阻挡的力量。"
+        ],
+        "bridge": "格言将伤痕与胜利相连，再以乐观和目标作为克服阻碍的解释。",
+        "counter": "没有讨论乐观或目标不足以克服阻碍的情形。",
+        "ending": "以普遍化的励志判断结束，没有回到内马尔的具体经历。",
+        "risk": "格言内容为原文转述，未核验；从格言归属无法推出具体事迹或比赛观点。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 内马尔男神（视频ID：6686820383129177351）\n",
+          "\n内马尔曾经说过：每个胜利者的身上都有伤痕，但在这个世界上几乎没有东西能够阻挡一个拥有乐观态度和明确目标的人。"
+        ]
+      },
+      {
+        "id": "leishu-e16b294385d5",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "只有重复呼喊“卡卡”，没有形成可辨认的评价或论证方向。",
+        "steps": [
+          "以卡卡姓名开篇。",
+          "重复呼喊以加强语气。",
+          "没有提供理由、事例或明确判断。"
+        ],
+        "bridge": "没有论证桥梁；重复只形成情绪强调。",
+        "counter": "没有提出或回应反方因素。",
+        "ending": "停在重复呼喊，没有进一步收束观点。",
+        "risk": "文本极短，不能据此补造对卡卡的评价；标题也不构成正文论据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 卡卡（视频ID：6686472283558595852）\n",
+          "\n卡卡！卡卡！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-bfa371ce7273",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "表达对C罗有所教益的感受，但没有说明教了什么或据此作何评价。",
+        "steps": [
+          "先点名C罗。",
+          "直接称其教会自己很多。",
+          "没有列出具体教益或展开判断。"
+        ],
+        "bridge": "只有个人受教的断言，没有从事例通向更具体结论的环节。",
+        "counter": "没有处理其他解释或反面因素。",
+        "ending": "以重复标题式感叹收尾。",
+        "risk": "“教会很多”缺少内容支撑，不能替作者补出具体品质或事迹。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## C罗你教会了我很多（视频ID：6686296653055462663）\n",
+          "\nC罗你教会了我很多！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-30e1d57a9fe8",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "把C罗塑造成兼具天才、富裕外形条件与花花公子标签的足坛代表，并以体魄、肌肉和不服输性格作解释。",
+        "steps": [
+          "先并列“天才、富帅、花花公子”三种标签。",
+          "提出足坛中谁将这些标志集于一身的设问。",
+          "以“非C罗莫属”给出明确答案。",
+          "补充强壮体魄、结实肌肉和不服输性格作为依据。"
+        ],
+        "bridge": "设问把多个标签合并成评判标准，再由身体条件和性格为C罗的代表性背书。",
+        "counter": "没有说明各标签的依据，也未比较其他候选者；“花花公子”仅被直接列出。",
+        "ending": "以身体与性格特征补强对C罗的概括。",
+        "risk": "“非莫属”是修辞性断言；所列特征及其能代表全部标签的关系均未展开论证。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## C罗不是一般的帅（视频ID：6686008070457396494）\n",
+          "\n天才、富帅、花花公子。在足坛中问到如今谁是世界上这些标志统一的人，恐怕非C罗莫属。",
+          "因为强壮的体魄、结实的肌肉和不服输的性格。"
+        ]
+      },
+      {
+        "id": "leishu-00e06ca88f0c",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "将马塞洛称作“最骚后卫”，但没有给出支撑这一评价的理由。",
+        "steps": [
+          "以“最骚后卫”提出评价。",
+          "紧接着说“没有理由”，拒绝或省略论证。",
+          "没有提供表现、比较对象或进一步结论。"
+        ],
+        "bridge": "没有可辨认的论证桥梁；评价依赖口号式强调。",
+        "counter": "未处理反方，也没有说明“没有理由”是幽默表达还是确实不作论证。",
+        "ending": "以“没有理由”作结，观点停留在断言。",
+        "risk": "评价标准与依据均缺失，不应补造其球场表现作为论据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 马赛洛最骚后卫（视频ID：6685574002796203272）\n",
+          "\n最骚后卫没有理由！\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-c66c9dd25e69以治疗恩情引出感恩自述，形成归属人物形象。",
+        "leishu-30e1d57a9fe8以标签设定评判框架，再给出C罗答案并补列特征。"
+      ],
+      "variants": [
+        "leishu-5b671fdca125是无具体比赛方向的励志格言；leishu-e16b294385d5与leishu-bfa371ce7273只有呼喊或感叹，无法推出实质方向。",
+        "leishu-00e06ca88f0c明确作出评价却自称没有理由；leishu-c66c9dd25e69则以人物引语支撑感恩叙事。"
+      ],
+      "nonReusable": [
+        "leishu-30e1d57a9fe8不能把并列标签当作已证明的事实，也不能将体魄和性格自动视为全部标签的依据。",
+        "leishu-00e06ca88f0c不能替“最骚”补入场上表现；leishu-e16b294385d5与leishu-bfa371ce7273也不能从短句扩写出未说出的品质。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0d92d3519d5e342c016abc0f3df23487d092b650cf84deb2ab": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0d92d3519d5e342c016abc0f3df25887d09753c2d3f4890e24": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1551,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1551,
+          "output_tokens": 0
+        },
+        "rs_0d92d3519d5e342c016abc0f3e79d487d0a5e0b76dc5d0842f": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 165
+        },
+        "msg_0d92d3519d5e342c016abc0f418c3c87d089d1c1c2b8eb393e": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1547
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1547
+        }
+      }
+    },
+    "input_tokens": 1651,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1712,
+    "output_tokens_details": {
+      "reasoning_tokens": 165
+    },
+    "total_tokens": 3363
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

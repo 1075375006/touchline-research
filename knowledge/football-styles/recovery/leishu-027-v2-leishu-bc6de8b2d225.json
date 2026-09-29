@@ -1,0 +1,222 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-bc6de8b2d225",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以梅西克服成长困难和响应阿根廷召唤，塑造其深爱国家、愿意挺身而出的形象。",
+        "steps": [
+          "先称梅西在已萨帮助下度过生长停滞难关。",
+          "再将他对阿根廷的爱比作美国队长对国家的爱。",
+          "补入他曾对母队失望、仍响应召唤挺身而出的对照。",
+          "由此突出其爱国与担当。"
+        ],
+        "bridge": "把克服个人困难与失望后仍回应国家召唤，作为忠诚、担当的表现。",
+        "counter": "提及曾经失望，但未展开其原因或对照解释。",
+        "ending": "以美国队长作类比，收束为爱国者形象。",
+        "risk": "未提供成长停滞及相关经历的具体细节；类比承担主要评价作用。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n梅西靠着已萨的帮助度过了生长停滞的难关。",
+          "梅西对于阿根廷的爱也同美国队长对于国家的爱一样，尽管曾对母队失望，但阿根廷向他发出召唤后，梅西依然会担身而出。"
+        ]
+      },
+      {
+        "id": "leishu-ce9bbcc09df1",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文以称呼和提问引出卡卡是否厉害，没有给出回答或明确判断。",
+        "steps": [
+          "先用“上帝之子”称呼卡卡。",
+          "随后提出卡卡是否厉害的问题。",
+          "正文没有提供事例、评价依据或结论。"
+        ],
+        "bridge": "没有从称呼或提问推进到可辨认的判断。",
+        "counter": "未涉及反方因素；也未回答提出的问题。",
+        "ending": "以问句结束，论证方向未形成。",
+        "risk": "标题带有赞誉色彩，但正文仅有称呼和提问，不能据此补出结论。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n上帝之子卡卡！卡卡很厉害吗？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7e0efac0a25b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "直接断言孙兴慜是亚洲球王，正文没有展开论据。",
+        "steps": [
+          "开头点出孙兴慜这一人物。",
+          "紧接着将其称为“亚洲球王”。",
+          "没有列举表现、比较对象或推导过程。"
+        ],
+        "bridge": "从人物姓名直接跳到最高级评价，正文未交代评价标准。",
+        "counter": "未提及其他球员或可能的异议。",
+        "ending": "以称号式判断直接收束。",
+        "risk": "结论明确但依据缺失；不据称号补造比较论据。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n孙兴慜亚洲球王！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-ebe0df7a3ee9",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "连续赞扬马赛洛无人能挡、堪称世界最佳。",
+        "steps": [
+          "先表示意外，转入对马赛洛的评价。",
+          "称其比谁都厉害，并称无人能挡。",
+          "再将评价推至“世界最佳”。",
+          "没有呈现支撑这些判断的表现或比较。"
+        ],
+        "bridge": "以递进式赞誉从个人能力推至世界范围的最佳判断。",
+        "counter": "没有处理竞争者、评价标准或其他限制。",
+        "ending": "用最高级称号作情绪化收束。",
+        "risk": "论断强度逐步上升，正文没有提供相应论据；保留其赞美修辞属性。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n没想到你比谁都厉害，谁都挡不住你，你是世界最佳。"
+        ]
+      },
+      {
+        "id": "leishu-b12bd219fe26",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "断言马赛洛越来越优秀，但没有说明变化依据。",
+        "steps": [
+          "点出马赛洛。",
+          "直接评价其表现越来越优秀。",
+          "未补充时间节点、事例或比较标准。"
+        ],
+        "bridge": "把“越来越”作为发展趋势判断，但没有展示趋势如何得出。",
+        "counter": "未谈及表现波动或其他解释。",
+        "ending": "以简短的持续进步判断结束。",
+        "risk": "正文只有结论，无法从中还原具体论证过程。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n马赛洛越来越优秀了。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-3b5927ccbd28",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "给出一段过人练习提示，强调追球后休息、不要中途躺下，并多练和加快反应。",
+        "steps": [
+          "先描述一个未命名的过人动作及追球要求。",
+          "接着要求完成后休息，并提醒不要半路躺下。",
+          "最后归结为多练习、反应要快。"
+        ],
+        "bridge": "把动作执行、体能休息和反应速度连成练习建议，但具体动作衔接不清。",
+        "counter": "未讨论适用情境、动作风险或不同练习方式。",
+        "ending": "以重复强调反应快作教学收束。",
+        "risk": "动作名称不明，且“追球”与“休息”之间的顺序和含义有限；不补造技术细节。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n不知道叫啥过人，然后需要你追球，最后再休息，不要躺在半路上，这需要多练习，反应要快，反应要快好的。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "短篇人物评价多由人物或处境直接跳到判断，论据很少，如孙兴慜篇、马赛洛篇。",
+        "人物叙事篇先给经历再接类比和评价，如梅西篇；类比承担主要的意义连接。"
+      ],
+      "variants": [
+        "卡卡篇虽有赞誉称呼，正文以疑问结束，判断方向未形成。",
+        "足球教学篇是动作提示与练习要求，不是人物评价或比赛预测。"
+      ],
+      "nonReusable": [
+        "不能把“越来越优秀”扩写成持续进步的具体比赛表现，马赛洛篇没有提供这些依据。",
+        "不能因卡卡篇标题及称呼而替正文回答“是否厉害”。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_03f8937e3ac02d13016abc0f5e8ef887d0ba9dcacfff538d05": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_03f8937e3ac02d13016abc0f5e8f1c87d083bb5792b0820058": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1506,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1506,
+          "output_tokens": 0
+        },
+        "rs_03f8937e3ac02d13016abc0f5f3bd087d0a12491eff61f5814": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 174
+        },
+        "msg_03f8937e3ac02d13016abc0f6831a087d0af5d39f48abded43": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1291
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1291
+        }
+      }
+    },
+    "input_tokens": 1606,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1465,
+    "output_tokens_details": {
+      "reasoning_tokens": 174
+    },
+    "total_tokens": 3071
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

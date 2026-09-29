@@ -1,0 +1,27 @@
+{
+  "author": "天才足球",
+  "slug": "tiancai",
+  "records": 60,
+  "characters": 65768,
+  "exactDuplicateRecords": 2,
+  "analyzedRecords": 60,
+  "availability": {
+    "body": 58,
+    "missing": 2
+  },
+  "directions": {
+    "explicit": 30,
+    "none": 18,
+    "implicit": 10,
+    "unavailable": 2
+  },
+  "kinds": {
+    "赛后复盘": 9,
+    "人物叙事": 8,
+    "非足球": 2,
+    "资讯盘点": 2,
+    "赛前方向": 37,
+    "缺失": 2
+  },
+  "uniqueKnownVideoIds": 10
+}

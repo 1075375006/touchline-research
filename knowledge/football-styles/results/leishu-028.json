@@ -1,0 +1,492 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 28,
+  "processedAt": "2026-09-29T19:20:38.342Z",
+  "sourceIds": [
+    "leishu-42f7dd99a616",
+    "leishu-51e161770f73",
+    "leishu-9fddce663215",
+    "leishu-e7caf93ced2f",
+    "leishu-1b6fa0955fd7",
+    "leishu-7a87b4231090",
+    "leishu-6c311ec56176",
+    "leishu-1dbd5f21ac44",
+    "leishu-9bc395ea9018",
+    "leishu-52d88809380f",
+    "leishu-a85dbb1704bf",
+    "leishu-3aeabbf291f4"
+  ],
+  "sourceHashes": [
+    "958bce6f0be918cef6c0be647715f548b64544a39017657964ef974ed62bb66d",
+    "f52201f8074da7a8cd9c81fe0bc5ab55c84b5445e5234825892895ef32197616",
+    "63bf3aedd564299eeb6631f7163ff9f752d8d11085691602ba0f1e294afb2b50",
+    "34866218da71bb8285534b1fcd2822b36ad936edb521e2378149e49778ddeb1a",
+    "3c6d37ce76f66db2223700840fb5e9b9335d0c468852c3b6963147aad958c5c4",
+    "334cd2571c4c65d71a9d37697db116a67ebc5c069b820fa7362567fac8f1e9d7",
+    "7b5eaeaef436b6fad0f36c236b1f97c6fc7ad5b14044af37cb9a39126a23f36d",
+    "36920b0807809935f696996f9246d80ff4a43ad676a7af25cbb0292c0d96185d",
+    "4810d0f914cfa854fa6aa29039a110d1079f10c09a4a7d3fd530746338de628c",
+    "44724ba43805e126a514344af1cd98e4730e63e67ef143a52e3eb04f318a7878",
+    "1bbb75db9d4da16eced36617a7370a72fa8f9e737161cf87de8734b107012fcb",
+    "64faccd32f897ad6da9fccd33f64c182a891ee7e81c8e4073116b414aa8e53de"
+  ],
+  "fullInputChars": 2547,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-42f7dd99a616",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用C罗请教、内马尔答应示范的对话引出过人操作，没有提出明确结论或实际技巧论证。",
+        "steps": [
+          "C罗以请教过人开场，设定学习情境。",
+          "内马尔答应教学，转入示范预告。",
+          "以“只教一遍”和询问学会与否收尾，未呈现技巧内容。"
+        ],
+        "bridge": "角色对话把观众置于学徒位置，但对话没有提供可检验的技巧步骤。",
+        "counter": "没有反方观点；也没有讨论动作适用条件或学习难点。",
+        "ending": "用教学完成的口吻作悬念式收尾，未给出观点结论。",
+        "risk": "短文本未呈现所称操作，不能据此补写过人方法或判断技术效果。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔教你踢足球（视频ID：6682163365072112908）\n",
+          "\nC罗，内马尔你教我过人可否？内马尔，C罗老哥好的，今儿就教你骚操作。",
+          "看好了，只教一遍。学会了吗？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-51e161770f73",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "仅询问读者在球场踢什么位置，没有进一步提出位置判断或观点。",
+        "steps": [
+          "以足球场为话题场景。",
+          "直接向读者提问所踢位置。",
+          "文本止于提问，没有展开回答或论证。"
+        ],
+        "bridge": "没有论证桥梁，只有面向读者的互动提问。",
+        "counter": "未涉及反方因素。",
+        "ending": "以开放问题结束。",
+        "risk": "文本极短，不应补造位置分类、职责或作者立场。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 守门员和边锋（视频ID：6681754155830250760）\n",
+          "\n你在足球场上踢什么位置？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9fddce663215",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出“是什么让你爱上足球”的问题，没有给出原因或偏向。",
+        "steps": [
+          "先以足球作为共同话题。",
+          "询问读者爱上足球的缘由。",
+          "没有举例、解释或归纳，正文止于提问。"
+        ],
+        "bridge": "没有从材料推到结论的桥梁；问题本身承担互动功能。",
+        "counter": "未处理反方因素，也没有展开任何原因。",
+        "ending": "以开放式提问收束。",
+        "risk": "不可把提问擅自解释成作者对足球魅力的判断。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 是什么让你喜欢上足球（视频ID：6681238850725039367）\n",
+          "\n是什么让你爱上足球？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-e7caf93ced2f",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "以足球集锦的精彩和瞬间性突出足球观赏魅力，但没有涉及比赛胜负或具体场面判断。",
+        "steps": [
+          "先将内容定位为足球集锦。",
+          "用“精彩一触即发”强调瞬间呈现的吸引力。",
+          "以足球魅力作概括性收束。"
+        ],
+        "bridge": "从集锦的精彩印象概括到足球具有观赏魅力，属于评价性推断。",
+        "counter": "未列举具体片段或不同观感，也未处理反面因素。",
+        "ending": "用笼统赞叹收束，没有进一步论证。",
+        "risk": "仅有宣传式概括，未说明精彩来自何种动作或场面。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 足球过人技巧（视频ID：6680824339916442893）\n",
+          "\n足球集锦，精彩一触即发，足球的魅力就如此！",
+          "\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1b6fa0955fd7",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "直接赞扬内马尔控球技术厉害，没有提供具体表现或论据。",
+        "steps": [
+          "点名内马尔作为评价对象。",
+          "将控球技术作为评价维度。",
+          "直接给出正面评价，未铺陈推理。"
+        ],
+        "bridge": "评价本身承担结论，没有可见的材料到判断过程。",
+        "counter": "没有反方因素或条件限定。",
+        "ending": "以简短赞语结束。",
+        "risk": "不可将标题式评价当成已展示的技术证据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 内马尔控球技术厉害（视频ID：6680490528255282444）\n",
+          "\n内马尔控球技术厉害👍\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7a87b4231090",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "借“过你就像过清晨马路”的比喻赞扬过人轻松，再以集锦精彩和技巧重要作概括。",
+        "steps": [
+          "标题用清晨马路比喻过人轻松。",
+          "正文将内容定位为旋风腿足球集锦。",
+          "以精彩和技巧价值作概括性评价。"
+        ],
+        "bridge": "比喻先制造轻松突破的印象，集锦评价再强化技巧观赏性。",
+        "counter": "没有具体对抗片段、失败案例或对技巧适用性的限定。",
+        "ending": "以“技巧胜过一切”的绝对化评价收束。",
+        "risk": "概括超出文本提供的证据；未展示的集锦内容不能替作者补证。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 过你就像过清晨马路（视频ID：6679375612374797572）\n",
+          "\n旋风腿足球集锦。精彩一触即发，技巧胜过一切。",
+          "\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-6c311ec56176",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只作一句关于“踢脚”灵活性的感叹，没有形成比赛或人物观点。",
+        "steps": [
+          "标题指向“踢脚”这一动作或对象。",
+          "正文以灵活作评价，但未提供具体动作、场景或依据。",
+          "表达停在感叹，没有推出比赛判断或后续结论。"
+        ],
+        "bridge": "评价词直接表达赞叹，但没有从具体材料过渡到可辨认的论证结论。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以一句感叹收束。",
+        "risk": "措辞简短且“踢脚”所指不明；不据此补造足球场景。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n踢脚是出神入画的灵活！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1dbd5f21ac44",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "正文提出“教你如何过人”的主题，但未给出方法或实际教学内容。",
+        "steps": [
+          "标题承诺讲解过人技巧。",
+          "正文重复这一主题，没有列出动作、条件或步骤。",
+          "因此没有从说明材料推到具体教学结论。"
+        ],
+        "bridge": "标题中的教学承诺没有在正文展开，论证桥梁缺失。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以主题句结束，未形成完整讲解。",
+        "risk": "正文极短；不能把标题承诺当成已提供的技巧。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n足球教你如何风骚过人。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9bc395ea9018",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "正文直接宣称踢足球比打篮球更赚钱，但没有说明比较口径或证据。",
+        "steps": [
+          "标题先提出足球与篮球收入比较。",
+          "正文用“原来”语气重复足球更赚钱的判断。",
+          "没有给出收入数据、比较对象或推导过程，结论直接落下。"
+        ],
+        "bridge": "隐含前提是两项运动的收入可以直接比较，但正文未说明比较范围。",
+        "counter": "没有列出篮球收入或其他可能影响比较的因素。",
+        "ending": "以惊叹式判断收束。",
+        "risk": "判断明确但论据缺失；不认证其收入结论。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n原来踢足球比篮球还赚钱！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-52d88809380f",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文仅介绍为球星足球集锦作宣传式描述，没有具体球星、比赛或观点。",
+        "steps": [
+          "正文将内容定位为球星足球集锦。",
+          "以精彩即将出现的措辞营造期待。",
+          "没有展示集锦内容或据此推出评价、判断。"
+        ],
+        "bridge": "宣传语以“精彩”预设观看价值，但未提供支撑材料。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以期待式短句收束。",
+        "risk": "只有概括性宣传文字；不补充具体球星或集锦内容。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n球星足球集锦，精彩一触即发。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-a85dbb1704bf",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文点名孙兴慜并描述其眼睛特征，没有展开人物评价或论证。",
+        "steps": [
+          "先点出孙兴慜及韩国球星身份。",
+          "随后突出其眼睛这一外貌特征。",
+          "没有提供进一步人物经历、评价依据或观点结论。"
+        ],
+        "bridge": "由人物身份转向外貌描述，但没有形成可辨认的论证连接。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以外貌标签结束。",
+        "risk": "内容单薄；不把标题或外貌描述延伸为人物判断。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n孙兴慜，韩国球星小眼睛。"
+        ]
+      },
+      {
+        "id": "leishu-3aeabbf291f4",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "implicit",
+        "claim": "作者认为双方不会“演剧本”、会全力争胜，并在收束时倾向巴黎圣日耳曼：其状态、伤病情况更有利，或将夺冠。",
+        "steps": [
+          "先以欧冠决赛的重要性及巴黎未获欧冠、国米缺少本季冠军，论证双方都有争胜动机。",
+          "再列巴黎淘汰利物浦、伤员恢复等情况，对照国米赛程较少、伤员有限及教练去向传闻。",
+          "比较休息、旅途与裁判因素，认为这些差异不大，回应偏哨或赛程阴谋说。",
+          "承认奖金以外可能存在额外收益的剧本论，但以欧冠荣誉难以金钱衡量作反驳。",
+          "最后转向状态、伤病、交锋及夺冠气势，落到巴黎更占优并暗示晋级夺冠。"
+        ],
+        "bridge": "以双方荣誉动机推出会全力比赛，再把状态与人员情况当作竞技优势，隐含其能转化为决赛胜势。",
+        "counter": "处理了剧本论、奖金诱因、赛程、旅途、裁判及交锋等异议；但对国米欧冠经验和赛程较少未充分衡量。",
+        "ending": "以巴黎冲击三冠王、可能进入新的欧冠境界的修辞收束，随后转入账号宣传。",
+        "risk": "对“不会演”及状态优势的推断不等于胜负证明；文中交锋叙述与巴黎决赛经历表述存在含混，且均未核验。",
+        "anchorIndices": [
+          3,
+          17,
+          33
+        ],
+        "anchors": [
+          "最近甚至是整个一年最重要的就是这比赛了，这场是欧冠的决赛，我认为也是绝对不会演的，谁都想要这个荣誉。",
+          "那么国际米兰也肯定不会演，全力拼搏。我们就往下走，双方都全力拼搏的情况下，显然大巴黎的状态是不是更好一些？",
+          "人意甲应该是五大联赛之首。 大巴黎从来没有夺过欧冠冠军，今年能冲击三冠王，他的气势现在真的很棒，没有进过大观园的大巴黎，恐怕今天要进入新的世界里边看一看了。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-42f7dd99a616以角色对话引出教学情境，但未展示论据；leishu-e7caf93ced2f由集锦印象推到观赏评价。",
+        "以参赛动机及冠军荣誉需求反驳剧本论，再转向人员状态推出赛前倾向，例：leishu-3aeabbf291f4。",
+        "短文本常以一句主题或评价直接收束，缺少材料到结论的展开，例：leishu-9bc395ea9018、leishu-a85dbb1704bf。"
+      ],
+      "variants": [
+        "leishu-51e161770f73与leishu-9fddce663215是互动提问，无方向；leishu-1b6fa0955fd7直接评价控球，缺少推理；leishu-7a87b4231090以比喻和集锦评价技巧。",
+        "多篇正文只有主题句或宣传描述，未形成方向；如 leishu-6c311ec56176、leishu-1dbd5f21ac44、leishu-52d88809380f。",
+        "leishu-9bc395ea9018虽无证据，仍明确作足球收入比较判断；leishu-3aeabbf291f4则以赛前因素隐含倾向巴黎。"
+      ],
+      "nonReusable": [
+        "不能把leishu-42f7dd99a616的教学预告补写成实际技巧论证；不能把leishu-1b6fa0955fd7的赞语当作技术证据；不能把leishu-7a87b4231090的绝对化口号当作经比较得出的结论。",
+        "不能把动机强烈直接等同于不会受非竞技因素影响，也不能把状态或伤病概括直接当作胜负证明，例：leishu-3aeabbf291f4。",
+        "不能将短句中的比较断言当作已论证事实，缺少口径和数据的例子：leishu-9bc395ea9018。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-42f7dd99a616": "gpt-6-luna",
+    "leishu-51e161770f73": "gpt-6-luna",
+    "leishu-9fddce663215": "gpt-6-luna",
+    "leishu-e7caf93ced2f": "gpt-6-luna",
+    "leishu-1b6fa0955fd7": "gpt-6-luna",
+    "leishu-7a87b4231090": "gpt-6-luna",
+    "leishu-6c311ec56176": "gpt-6-luna",
+    "leishu-1dbd5f21ac44": "gpt-6-luna",
+    "leishu-9bc395ea9018": "gpt-6-luna",
+    "leishu-52d88809380f": "gpt-6-luna",
+    "leishu-a85dbb1704bf": "gpt-6-luna",
+    "leishu-3aeabbf291f4": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0131dd2c67d4a506016abc0f44cf6487d0b31492f4a2da2589": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0131dd2c67d4a506016abc0f44cf8087d08065514cf0cc5854": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1444,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1444,
+            "output_tokens": 0
+          },
+          "rs_0131dd2c67d4a506016abc0f454c0c87d093dc1cf2387266e7": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 420
+          },
+          "msg_0131dd2c67d4a506016abc0f4cf15487d098cf36e490ebe786": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1303
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1303
+          }
+        }
+      },
+      "input_tokens": 1544,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1723,
+      "output_tokens_details": {
+        "reasoning_tokens": 420
+      },
+      "total_tokens": 3267
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_009c2faf1b1899c5016abc0f6517d487d087f6e9702955af70": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_009c2faf1b1899c5016abc0f6517ec87d08bf9dc7bebfc4db2": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 3029,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 3029,
+            "output_tokens": 0
+          },
+          "rs_009c2faf1b1899c5016abc0f65987487d08b1ad7682441ec0e": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 230
+          },
+          "msg_009c2faf1b1899c5016abc0f69d3a887d0b037964e879ca10b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1534
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1534
+          }
+        }
+      },
+      "input_tokens": 3129,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1764,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 4893
+    }
+  ]
+}

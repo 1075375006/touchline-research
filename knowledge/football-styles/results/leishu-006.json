@@ -1,0 +1,471 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 6,
+  "processedAt": "2026-09-29T19:18:54.040Z",
+  "sourceIds": [
+    "leishu-94fdd66d88ce",
+    "leishu-4e5f366c0d41",
+    "leishu-1a5d9381fc48",
+    "leishu-e7fc46428097",
+    "leishu-9899109cd0ab",
+    "leishu-48e10e63b741",
+    "leishu-b40b318590b4",
+    "leishu-1fc54890c0cf",
+    "leishu-1a4ae9f848cb",
+    "leishu-db7b0fca6987",
+    "leishu-6e330e00ef55",
+    "leishu-875532fb989f"
+  ],
+  "sourceHashes": [
+    "83a270249e3553033291a86480bc2b82b66bdd68e85d9dbf2314e7e997d8dfa1",
+    "8685fa8a236e045121f75dd302d14652f1d6c91309cac968917a1194f47c6bd0",
+    "4c12cf4a48a361df5423c328fa50a88518a31063c33143222a2e00cdd205c083",
+    "7b18eeaf54ed3096b276ca4b1ca5f38ebd550d84f70499b05d2d42b1c20e9cab",
+    "dabf3f9e3697b8a48acd52c9acd20c2c3c5ddf215d0e0b1215480990e89116ce",
+    "341968e96c2ff77a3351a0c3aff492a007d188951ab62189b985800c111e9788",
+    "6691e69a027d8d58aeef8bcba37f2910c16821573f2020f765df57fac5530b61",
+    "367319b1f7e308b695f8f67bd47c74f9337acefe779fe2f61befbd0816eeb789",
+    "5b40f086a109aa07b0ef1479bcd1dcada1962f9923c5bd8d7709fb0cc3cb3b0f",
+    "de46950a29612cf9548c2f5580472778b81daf90fd772a933f168524d0fd1862",
+    "778f62d9ecd9ed8a6bb59bf0e3d80fc6b5984b22a393e16b5f1121b0ece2f210",
+    "0f2407b568a7fa10255aacd56b8b5948373128107b0a1e1fe39e856123ed5b28"
+  ],
+  "fullInputChars": 1005,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-94fdd66d88ce",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "explicit",
+        "claim": "承认国足弱，但否定外国人评价可界定国足水平。",
+        "steps": [
+          "先承认国足实力弱。",
+          "随即把争点转为评价者身份，否定外国人的评价资格或效力。",
+          "以对立句收束，但没有给出判断国足的替代标准。"
+        ],
+        "bridge": "隐含前提是外国人的评价不应被当作国足实力的最终尺度；文本未解释原因。",
+        "counter": "承认实力弱，部分让步；没有回应外国评价是否有事实依据。",
+        "ending": "用转折口号区分实力判断与评价来源，未继续论证。",
+        "risk": "极短文本，评价对象和理由均不展开；类别为非具体赛事论述。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #中非兄弟 我们#国足 是弱，但是不是你们#外国人 #老外评价的！"
+        ]
+      },
+      {
+        "id": "leishu-4e5f366c0d41",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "借顶级后卫也会出现严重失误，反衬王燊超的类似表现并非国足球员独有；结尾以反讽调侃王燊超。",
+        "steps": [
+          "先称大卫·路易斯在英超属于顶级后卫。",
+          "举其对曼城比赛中停球失误并导致对方破门。",
+          "转举中超后卫王燊超，称其相关距离表现更甚。",
+          "把这次表现讽为王燊超最接近顶级后卫的时刻。"
+        ],
+        "bridge": "以顶级球员也会犯错作类比，暗示单次失误不足以证明国足球员整体不行；末句再把比较转为嘲讽。",
+        "counter": "承认路易斯是顶级后卫构成反例，但没有讨论两人的整体水平或失误背景。",
+        "ending": "从类比转向挖苦，没有明确给出严肃评价标准。",
+        "risk": "个别失误不足以推出球员整体能力；文本所述比赛细节未核验，且第二句有疑似转写错字。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n大卫- 路易斯在英超算顶级后卫吧？结果在对曼城的比赛中上演停球五米远，间接性助攻曼城破门。",
+          "再来看看中超后卫王燊超，贫穷远的长度对于路易斯来说有过之而无解。",
+          "这是王燊超离顶级后卫最近的一次。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1a5d9381fc48",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "implicit",
+        "claim": "用标题式悬念暗示国足表现不佳与某人缺席有关，但正文未说明此人是谁，也未给出因果论证。",
+        "steps": [
+          "先提出国足踢球不行这一判断。",
+          "将其原因归于少了某个人。",
+          "标签点出温格、孔蒂，却未说明指向谁或其作用。",
+          "以悬念省略答案，论证停留在设问。"
+        ],
+        "bridge": "隐含前提是某人的存在能够改变国足表现；文本没有交代这种影响如何发生。",
+        "counter": "没有处理其他可能原因，也没有证据支撑单因归因。",
+        "ending": "以未解悬念收尾，未完成观点说明。",
+        "risk": "正文极短，标签不能确认被指人物；因果仅为暗示，不能补足。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 #国足 踢球不行，原来是因为少了他……#温格 #孔蒂\n"
+        ]
+      },
+      {
+        "id": "leishu-e7fc46428097",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "抛出中国足球第一人的问题，并暗示某人离开后国足长期沉沦；正文没有明确回答其身份。",
+        "steps": [
+          "先提出中国足球第一人是谁的疑问。",
+          "继而声称少了某人后，国足沉沦近千年。",
+          "列出武磊、范志毅标签，却未说明谁是答案或为何。",
+          "以夸张时间跨度强化人物重要性，答案仍悬置。"
+        ],
+        "bridge": "把国足后续低迷归因于某人的缺席，靠夸张后果突出其分量。",
+        "counter": "未比较候选人物，也未提供历史依据或其他解释。",
+        "ending": "以悬念和夸张收束，不完成标题设问。",
+        "risk": "“近千年”显然具有修辞色彩；人物身份与因果均未在正文落实。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 中国足球第一人是谁，你知道吗？",
+          "没了他，#国足 沉沦了近千年！#武磊 #范志毅 #爱足球\n"
+        ]
+      },
+      {
+        "id": "leishu-9899109cd0ab",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以调侃口吻称武磊走红，进而把阿奎罗的相关举动解释为借其热度；没有提供举动细节。",
+        "steps": [
+          "先断言武磊很受关注。",
+          "把阿奎罗的行为描述为主动蹭热度。",
+          "借两人名气反差制造玩笑效果，但未交代具体事件。"
+        ],
+        "bridge": "将阿奎罗的行为动机解释为借势武磊，依赖武磊正当红这一前提。",
+        "counter": "没有提供阿奎罗行为的具体内容，也未考虑其他动机。",
+        "ending": "以夸张赞叹和调侃落点收尾。",
+        "risk": "动机判断缺少文本内证据，标题和正文均未展开事件背景；相关事实未核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 我们的武球王可太火了呀，连#阿奎罗 都忍不住来\"蹭波\"热度！"
+        ]
+      },
+      {
+        "id": "leishu-48e10e63b741",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出孙兴慜与武磊谁是亚洲一哥的问题，但正文没有作出选择或给出比较依据。",
+        "steps": [
+          "并列提出孙兴慜与武磊。",
+          "把二人置于亚洲一哥的比较框架。",
+          "以疑问句结束，没有后续指标、论据或结论。"
+        ],
+        "bridge": "问题预设二人可以按某种标准比较，但标准未说明。",
+        "counter": "未呈现双方优劣或回应不同评价标准。",
+        "ending": "保留悬念，不形成方向性判断。",
+        "risk": "正文仅有设问，不能据标题补出立场或比较结果。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 孙兴慜vs武磊，谁才是亚洲一哥？"
+        ]
+      },
+      {
+        "id": "leishu-b40b318590b4",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文缺失；标题只提出里皮辞职及其遭遇的问题，无法据此确定作者观点或论证方向。",
+        "steps": [],
+        "bridge": "没有正文材料，无法判断。",
+        "counter": "无可分析内容。",
+        "ending": "仅有标题和话题标签，不构成论证收束。",
+        "risk": "不能把标题问题补成作者的解释或立场。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-1fc54890c0cf",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "explicit",
+        "claim": "作者借中国队进球、球迷齐唱国歌及红色看台的场面，表达对中国足球崛起的肯定和期待。",
+        "steps": [
+          "先以“奇迹有颜色”设定振奋、象征性的表达基调。",
+          "叙述中国主场对韩国时中国队进球。",
+          "把球迷高唱国歌、看台一片红色写成强烈的集体情绪体验。",
+          "由这一场面的感染力直接落到“中国足球必将崛起”。"
+        ],
+        "bridge": "比赛进球与球迷共同情绪被当作中国足球未来向好的象征，但没有说明它们如何证明长期发展趋势。",
+        "counter": "没有讨论比赛结果、球队实力或其他不利因素。",
+        "ending": "以中国足球必将崛起作明确判断收尾。",
+        "risk": "从单次比赛场景跃迁至必然的长期前景，论据不足；场景及赛事表述仅为原文声称，未核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球，如果奇迹有颜色，那一定是中国红。",
+          " 中国主场对战韩国，当中国队进球时，贺龙体育场全场球迷高唱国歌，全场一片红色海洋，鸡皮疙瘩都起来了。",
+          "中国足球必将崛起。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1a4ae9f848cb",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文仅把C毛称为“中国快乐足球代表”，没有解释称号依据，也没有提出可辨认的评价方向。",
+        "steps": [
+          "先点出“中国快乐足球代表”这一称呼。",
+          "将称呼对应到C毛。",
+          "正文到此结束，没有展开例证或论证。"
+        ],
+        "bridge": "没有提供从人物表现到称号判断的中间依据。",
+        "counter": "没有出现反方因素或补充说明。",
+        "ending": "以称号本身结束，没有额外结论。",
+        "risk": "文本极短；不应根据标题或外部信息推断C毛是谁、为何获此称号。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n中国快乐足球代表之C毛。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-db7b0fca6987",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文点名朱辰杰并表达看好、加油的鼓励；没有说明看好的理由或作出具体赛场预测。",
+        "steps": [
+          "先点名朱辰杰。",
+          "直接表达看好。",
+          "以加油作鼓励性收束。"
+        ],
+        "bridge": "没有给出表现、能力或前景信息来支撑看好；它是态度表达，不构成具体方向判断。",
+        "counter": "没有提及可能的困难或保留意见。",
+        "ending": "以加油结束。",
+        "risk": "不能把一般鼓励扩展为对其比赛结果、职业发展或能力的论证。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n朱辰杰，看好你哦！加油！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-6e330e00ef55",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文声称武磊是入选亚洲杯的唯一中国球员；没有进一步评价或推演。",
+        "steps": [
+          "以武磊为主题。",
+          "给出其入选亚洲杯的说法。",
+          "补充“唯一中国球员”这一限定，正文随即结束。"
+        ],
+        "bridge": "没有从入选信息推出比赛表现、球队前景或其他判断。",
+        "counter": "没有提供其他球员、名单范围或反面信息。",
+        "ending": "以“唯一中国球员”的说法收束。",
+        "risk": "该说法仅按原文记录，未核验；不能将标题或事实性陈述扩写成预测。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n武磊入选亚洲杯的唯一中国球员！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-875532fb989f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文表达希望武磊早日康复，是祝愿而非对比赛走向或康复结果的判断。",
+        "steps": [
+          "点明武磊为祝愿对象。",
+          "表达希望其早日康复。",
+          "以祝愿语气结束，没有展开原因或后续推论。"
+        ],
+        "bridge": "没有论证环节；祝愿本身不构成对结果的预测。",
+        "counter": "没有提及伤情、恢复条件或不确定性。",
+        "ending": "直接以祝愿收束。",
+        "risk": "文本极短，不能补造伤情、复出时间或竞技影响。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n希望武磊早日康复～\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-4e5f366c0d41以顶级球员失误作类比，再转向反讽；leishu-94fdd66d88ce先让步、再转移争点。",
+        "leishu-1fc54890c0cf由进球与球迷场面引向崛起判断，情绪象征承担主要桥梁；其余文本多为直接陈述或祝愿。"
+      ],
+      "variants": [
+        "leishu-48e10e63b741仅设问，无结论；leishu-1a5d9381fc48与leishu-e7fc46428097以悬念暗示因果或人物重要性；leishu-9899109cd0ab以调侃推断动机。",
+        "leishu-b40b318590b4只有标题与标签，正文缺失；leishu-1a4ae9f848cb、leishu-db7b0fca6987、leishu-6e330e00ef55、leishu-875532fb989f均未展开论证。"
+      ],
+      "nonReusable": [
+        "不能把设问或标签当作已给出的答案：leishu-48e10e63b741、leishu-e7fc46428097；不能把单次失误直接外推整体能力：leishu-4e5f366c0d41；不能把未说明的行为动机当作已证实原因：leishu-9899109cd0ab。",
+        "不能把leishu-1fc54890c0cf的单场感染力当成长期崛起的充分证明；不能替leishu-b40b318590b4补写辞职原因，也不能替短文本补造论据。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-94fdd66d88ce": "gpt-6-luna",
+    "leishu-4e5f366c0d41": "gpt-6-luna",
+    "leishu-1a5d9381fc48": "gpt-6-luna",
+    "leishu-e7fc46428097": "gpt-6-luna",
+    "leishu-9899109cd0ab": "gpt-6-luna",
+    "leishu-48e10e63b741": "gpt-6-luna",
+    "leishu-b40b318590b4": "gpt-6-luna",
+    "leishu-1fc54890c0cf": "gpt-6-luna",
+    "leishu-1a4ae9f848cb": "gpt-6-luna",
+    "leishu-db7b0fca6987": "gpt-6-luna",
+    "leishu-6e330e00ef55": "gpt-6-luna",
+    "leishu-875532fb989f": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0e2bd51ccb26b7b9016abc0ed3536887d0b9648dcd0ff151b4": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0e2bd51ccb26b7b9016abc0ed3538887d082e5dc50bdbf3212": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1663,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1663,
+            "output_tokens": 0
+          },
+          "rs_0e2bd51ccb26b7b9016abc0ed3fc1887d088e1e6e0fabf0f45": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 278
+          },
+          "msg_0e2bd51ccb26b7b9016abc0edc58a887d09222dc598ad2df6d": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1582
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1582
+          }
+        }
+      },
+      "input_tokens": 1763,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1860,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 3623
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0badd6bcfc46fc25016abc0f01bba887d0b49f2803097a9db0": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0badd6bcfc46fc25016abc0f01bbc087d0b6d40f693cce7f07": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1472,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1472,
+            "output_tokens": 0
+          },
+          "rs_0badd6bcfc46fc25016abc0f021acc87d0986820c16f26c825": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 283
+          },
+          "msg_0badd6bcfc46fc25016abc0f074ec487d0a3d62e620c0284bf": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1269
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1269
+          }
+        }
+      },
+      "input_tokens": 1572,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1552,
+      "output_tokens_details": {
+        "reasoning_tokens": 283
+      },
+      "total_tokens": 3124
+    }
+  ]
+}

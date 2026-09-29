@@ -1,0 +1,231 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-84e88f4620f4",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "以“跑不过、抢不过拽球衣”构成夸张的足球场面笑点，没有进一步主张比赛走势或责任判断。",
+        "steps": [
+          "标题先并列跑动与争抢两种场景。",
+          "正文重复这组说法，并以笑脸标出戏谑语气。",
+          "表达停留在调侃，没有给出原因、证据或后续结论。"
+        ],
+        "bridge": "把拽球衣写成压过速度和争抢能力的共同因素，笑点依赖夸张对照。",
+        "counter": "没有讨论动作背景、规则判断或其他解释。",
+        "ending": "以表情符号收住笑谈，不延伸论证。",
+        "risk": "正文极短，无法据此确定具体比赛或事件；不补出画面信息。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 跑不过拽球衣，抢不过拽球衣（视频ID：6745752615969164557）\n",
+          "\n#足球 #爱足球 跑不过拽球衣，抢不过拽球衣😂\n"
+        ]
+      },
+      {
+        "id": "leishu-2455717d2330",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "implicit",
+        "claim": "把兰帕德的任意球表现作为能力证明，并用反问挑战“他不行”的评价；未提供教学步骤。",
+        "steps": [
+          "标题将内容标为任意球教学。",
+          "正文点明兰帕德及“蓝8任意球”，但未说明动作细节。",
+          "以“还有谁敢说他不行”把示范转成对其能力的辩护。"
+        ],
+        "bridge": "预设任意球表现足以反驳对兰帕德能力的否定。",
+        "counter": "没有呈现质疑者的依据，也没有展示或讲解可核对的技术细节。",
+        "ending": "用反问作肯定式收束。",
+        "risk": "“教学”只是标题标注，现有正文没有教学过程；实际表现未经核验。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 兰帕德蓝8任意球教学（视频ID：6745033999439219979）\n",
+          "\n#足球 #爱足球 #兰帕德 蓝8任意球教学，还有谁敢说他不行？"
+        ]
+      },
+      {
+        "id": "leishu-4eafbdb68761",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "邀请读者认识韩国球员黄喜灿；没有展开人物介绍或评价方向。",
+        "steps": [
+          "标题指出人物姓名与韩国球员身份。",
+          "正文重复“认识一下”的邀请。",
+          "没有补充经历、特点或论据，内容止于引介。"
+        ],
+        "bridge": "由姓名及国籍身份引出认识人物的主题，但未建立进一步判断。",
+        "counter": "没有呈现评价或其他观点，因此无反方处理。",
+        "ending": "以感叹号作简短引介式收尾。",
+        "risk": "信息量仅限身份标签，不能据此补写球员经历或特点。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 韩国球员黄喜灿认识一下（视频ID：6744274553113038092）\n",
+          "\n#足球 #爱足球 韩国球员黄喜灿认识一下！"
+        ]
+      },
+      {
+        "id": "leishu-d8d558188b42",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "explicit",
+        "claim": "标题和正文以“英足总是圣母玻璃心”的贬抑框架质疑其对调侃与歧视的区分处理，但未说明具体事件或裁定。",
+        "steps": [
+          "先提出“调侃是否等于歧视”的问题。",
+          "紧接着把争议指向英足总的判断。",
+          "用“圣母玻璃心”给出负面定性，未补充论据。"
+        ],
+        "bridge": "隐含前提是相关表达属于调侃而非歧视，英足总反应因此显得过度。",
+        "counter": "没有交代调侃内容、受影响者观点或英足总依据，未处理相反解释。",
+        "ending": "用带贬义的设问收束，实质倾向批评英足总。",
+        "risk": "只有标题式短句；具体争议缺失，无法核对其分类与批评是否成立。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 调侃=歧视？英足总是圣母玻璃心（视频ID：6743160138472951043）\n",
+          "\n#足球 #爱足球 调侃=歧视？英足总是圣母玻璃心？"
+        ]
+      },
+      {
+        "id": "leishu-c9b45b38c951",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以“守时的煤老板”给梅西贴上守时、带有戏谑色彩的称呼；没有叙述支撑该称呼的事件。",
+        "steps": [
+          "标题以“守时”修饰“煤老板”，并点出梅西。",
+          "正文重复这一称呼，未展开具体情境。",
+          "表达形成轻松的人物标签，但没有提供证明过程。"
+        ],
+        "bridge": "将“守时”当作人物特征呈现，昵称则提供调侃语气。",
+        "counter": "没有说明相关行为或可能的例外，也没有回应其他评价。",
+        "ending": "停在称呼本身，不推进到更广泛判断。",
+        "risk": "正文未给出故事或证据，不能把称号当作已证实事实。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 守时的煤老板#梅西（视频ID：6741288939144875267）\n",
+          "\n#足球 #梅西 #爱足球 守时的煤老板\n"
+        ]
+      },
+      {
+        "id": "leishu-85cbba6d7e69",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把卢卡库与“快乐足球”“小魔兽”并置，形成轻松的人物化表达；未明确说明褒贬或具体表现。",
+        "steps": [
+          "标题先将“快乐足球”与“小魔兽”联系起来。",
+          "正文重复这一表达，并以笑脸提示戏谑语气。",
+          "没有举出比赛或行为例子，也没有展开评价。"
+        ],
+        "bridge": "依靠“快乐足球”与球员昵称的并置制造轻松联想，具体含义未说明。",
+        "counter": "没有出现反方观点或事实说明，故不补写争议。",
+        "ending": "以笑脸作幽默式收束。",
+        "risk": "短句不足以判定是在赞扬、调侃某次表现还是引用特定场景。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 快乐足球，小魔兽#卢卡库（视频ID：6739018815977360647）\n",
+          "\n#足球 #爱足球 快乐足球，小魔兽#卢卡库 😂\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "短文常用标签或昵称直接定调，再以反问、重复或表情完成收束，如 leishu-2455717d2330、leishu-c9b45b38c951。",
+        "只有 leishu-d8d558188b42呈现清晰批评链：提出调侃与歧视之问，随即负面框定英足总；中间论据缺位。"
+      ],
+      "variants": [
+        "leishu-84e88f4620f4与leishu-85cbba6d7e69偏幽默场面或人物联想，无可确定的观点方向。",
+        "leishu-4eafbdb68761、leishu-c9b45b38c951、leishu-85cbba6d7e69是简短人物引介或标签；leishu-2455717d2330虽标教学，正文只作能力辩护。"
+      ],
+      "nonReusable": [
+        "不能把标题中的教学或介绍标签当作正文已提供教程、人物资料，如 leishu-2455717d2330、leishu-4eafbdb68761。",
+        "不能从绰号和笑脸补造事件或事实依据，如 leishu-c9b45b38c951、leishu-85cbba6d7e69。",
+        "不能把 leishu-d8d558188b42的贬抑设问当成已论证的歧视争议结论；具体语境与双方依据均未给出。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_00bf832022f83c5d016abc0f4a633c87d0aa4bf92bdf0d4035": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_00bf832022f83c5d016abc0f4a635887d080c55fbd5047e2a8": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1511,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1511,
+          "output_tokens": 0
+        },
+        "rs_00bf832022f83c5d016abc0f4ae6d887d0ad8baba1b4b0258e": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 292
+        },
+        "msg_00bf832022f83c5d016abc0f5040b887d0aa9191940d12aa50": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1613
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1613
+        }
+      }
+    },
+    "input_tokens": 1611,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1905,
+    "output_tokens_details": {
+      "reasoning_tokens": 292
+    },
+    "total_tokens": 3516
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

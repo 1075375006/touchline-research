@@ -1,0 +1,229 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-5216317a7074",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "将瓜迪奥拉与另一位成功教练写成场下惺惺相惜、场上激烈交锋的对照关系；未给出具体比赛判断。",
+        "steps": [
+          "先称瓜迪奥拉的处境为“噩梦”，设定戏剧化语气。",
+          "再称两位教练都成功，并写其场下互相欣赏。",
+          "以场上重拳出击形成反差，落在场内交锋的张力上。"
+        ],
+        "bridge": "用场下亲近与场上对抗的反差支撑“噩梦”式表达，但未说明具体缘由。",
+        "counter": "未交代对抗细节或其他解释，也未展开反方因素。",
+        "ending": "以场内外反差收束，没有胜负预测。",
+        "risk": "篇幅极短；“最成功”是作者评价，未提供依据。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n瓜迪奥拉的噩梦。 这个世界上最成功的两个足球教练，场下惺惺相惜，场上重拳出击。"
+        ]
+      },
+      {
+        "id": "leishu-ac3ba9d85c12",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借内马尔球技与发型都“花里胡哨”的并列作调侃，没有比赛方向。",
+        "steps": [
+          "先用“烫头小哥”给内马尔贴上轻松戏称。",
+          "把球技的花哨与发型的花哨并列。",
+          "以夸张语气收在发型也过于花哨的玩笑上。"
+        ],
+        "bridge": "把场上风格和外形选择归到同一种“花哨”印象，形成类比调侃。",
+        "counter": "没有解释球技评价或提供其他看法。",
+        "ending": "用夸张措辞完成对发型的调侃。",
+        "risk": "语句简短且带戏谑；没有论证比赛表现或胜负。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n烫头小哥内马尔。 内马尔球技，花里胡哨也就算了，连发型都花里胡哨，得一塌糊涂。"
+        ]
+      },
+      {
+        "id": "leishu-1ad11049a14e",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "重复拉莫斯“作为后卫，这是我该做的”这一自我定位，没有展开具体事迹或比赛判断。",
+        "steps": [
+          "先以“爱足球”作简短引入。",
+          "引出拉莫斯关于后卫职责的表述。",
+          "再次重复同一表述，未增加论据或转向新的结论。"
+        ],
+        "bridge": "将后卫身份与“该做的”相连，呈现职责自述；文本没有说明所指行为。",
+        "counter": "未提供背景、例证或其他立场。",
+        "ending": "重复引语式表述后结束。",
+        "risk": "材料极短，无法据此还原具体事件；不补充引语背后的情境。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n爱足球。 拉莫斯：我是一名后卫，这都是我该做的。",
+          " 爱足球，拉莫斯：我是一名后卫，这都是我该做的。"
+        ]
+      },
+      {
+        "id": "leishu-0bbd14c4809b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以C罗曾有抢队友进球的“黑历史”解释眼下被抢进球，并用“出来混迟早要还”作调侃；未作赛果判断。",
+        "steps": [
+          "先提出C罗也曾坑过队友的说法。",
+          "把当前进球被抢与其过去经历联系起来，称其“有原因”。",
+          "用“迟早要还”把旧事包装成报应式玩笑。",
+          "追加游戏式口吻劝其别生气，转成轻松收尾。"
+        ],
+        "bridge": "以过去类似行为作为眼下遭遇的戏谑性解释，因果更像报应梗而非论证。",
+        "counter": "未说明两次情境是否相同，也未处理其他解释。",
+        "ending": "用“不要生气啦”的劝慰口吻化解调侃。",
+        "risk": "“有原因”缺少具体过程支撑；文本含玩笑语气，不宜当作事实因果论证。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\nC罗也坑过队友。 话说C罗进球被抢是有原因的，因为总裁你也有过这种黑历史，出来混迟早要还的。",
+          "你3杀才送了俩人头，不要生气啦。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-aa30f357d9d0",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把梅西在决赛点球大战罚失点球及其失落表现，叙述成职业生涯痛苦的一刻；不是比赛预测。",
+        "steps": [
+          "先交代决赛对阵宿敌智利，并以火药味铺陈比赛氛围。",
+          "转到点球大战，写梅西首轮主罚及射失。",
+          "描写其掀衣角、神情落寞，呈现失落。",
+          "以触手可及却再次失之交臂，将个人情绪落到未能如愿的遗憾。"
+        ],
+        "bridge": "由关键点球失手连接到人物的悲伤，再把比赛结果感受概括为再次错失机会。",
+        "counter": "未展开罚失之外的比赛过程，也未说明其他因素；重点在情绪描写。",
+        "ending": "以“触手可及却又再一次失之交臂”收束遗憾感。",
+        "risk": "“最痛苦”及情绪解释是作者的叙述与评价；相关赛事细节不作核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球：梅西生涯最痛苦一球。 2016年的美洲杯决赛，阿根廷再次遇到宿敌智利，整场比赛火药味十足。",
+          "最后点球大战，梅西首轮上场罚点球，还是熟悉的短距离助跑，但是点球射飞了。",
+          "罚失点球的梅西掀起衣角难掩悲伤，坐在休息席的他神情落寞，触手可及却又再一次失之交臂。"
+        ]
+      },
+      {
+        "id": "leishu-7505bc9a19e4",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以贝克汉姆的形象、球衣号码和弧线进球构成怀旧式赞美，没有比赛方向。",
+        "steps": [
+          "先点出“贝氏弧线”作为主题。",
+          "依次描写脸庞、笑容与阳光午后，营造青春画面。",
+          "将身穿7号的少年形象与优美弧线、瞩目进球相连。",
+          "以进球的醒目效果收住赞美。"
+        ],
+        "bridge": "从外形和场景营造怀旧氛围，再以标志性弧线进球作为画面高潮。",
+        "counter": "没有讨论其他表现、评价或反面因素。",
+        "ending": "落在举世瞩目的进球画面上。",
+        "risk": "纯画面化赞美，未提供具体比赛背景或论证过程。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n贝氏弧线。 英俊的脸庞，青春的笑容，阳光明媚的午后，那个身穿7号的翩翩少年，那道优美的弧线，那个举世瞩目的进球。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "用场内外反差塑造戏剧张力，见 leishu-5216317a7074。",
+        "由事件转向人物情绪并以遗憾收束，见 leishu-aa30f357d9d0。"
+      ],
+      "variants": [
+        "多篇为人物调侃或怀旧叙事，均无明确比赛方向，如 leishu-ac3ba9d85c12、leishu-7505bc9a19e4。",
+        "leishu-1ad11049a14e仅重复职责表述，缺少事件背景；leishu-0bbd14c4809b以报应梗解释遭遇。"
+      ],
+      "nonReusable": [
+        "不能把 leishu-0bbd14c4809b的玩笑式“迟早要还”当作有证据的因果论证。",
+        "不能从 leishu-1ad11049a14e的重复表述补造拉莫斯所指的具体事迹。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_07df6ade5768fd8c016abc0f201d8c87d0b61f294de262bc22": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_07df6ade5768fd8c016abc0f201da487d0aad402233e80db91": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1759,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1759,
+          "output_tokens": 0
+        },
+        "rs_07df6ade5768fd8c016abc0f20db0087d08562963be9ddadc2": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 178
+        },
+        "msg_07df6ade5768fd8c016abc0f26125887d0909e1ab6f4782632": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1636
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1636
+        }
+      }
+    },
+    "input_tokens": 1859,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1814,
+    "output_tokens_details": {
+      "reasoning_tokens": 178
+    },
+    "total_tokens": 3673
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,467 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 17,
+  "processedAt": "2026-09-29T19:18:38.525Z",
+  "sourceIds": [
+    "leishu-05602fdb8325",
+    "leishu-3586e3c77b6c",
+    "leishu-f1becc023903",
+    "leishu-79a00d50dce1",
+    "leishu-471be49d7eba",
+    "leishu-c17ee921eaa9",
+    "leishu-1fb26191a1b4",
+    "leishu-05e0ed922c68",
+    "leishu-2bf0aa373ad3",
+    "leishu-b5fa65c152be",
+    "leishu-d79e01966189",
+    "leishu-978a3f9b7d94"
+  ],
+  "sourceHashes": [
+    "114b0f642f4bca2d250581eac553a09f93709bc436892b91008f78dcc618e7fe",
+    "edfa35308fc9d24a5fdd811ae108cf86a608ee241a40dd03322b7120ae7d67d1",
+    "7b32d72466fc3f10c39e89166a1589568df3391c2d1f30fe0832cf37d650cecc",
+    "646ff32b0fa52809740d2e703df566e1ee356dc6d3eedd233efdca88bb41da4d",
+    "2541808d0965cf778de9b8dd350f8c9663a30a13e58aaad4f80171f3428c1c85",
+    "987eddaf0ccf6a3c021e47a7391c54387667554d95db8d8627486435a2dd0feb",
+    "752810938fb05b0a8b5c4d98e70461c09c94b15ac1cfeddb8acb7ea6ce663333",
+    "43d95a55dbd41d289b0917d5e7e03d0197c2e6a368e54ec44c5145bc533c7dce",
+    "b87317f160010065c4fd634b6d2feecc6ae094c3e83fa8a5139977139a2c5963",
+    "07039bf8b3189c284e8353e8ba590d14b6467bd1e559bb3b86ab12e04184914b",
+    "d21107c0cddaeb1cf2d0582915fe7048a8b017ec735b5a520c831438dee515d8",
+    "d9ba5b8bbfc2e037d958060bf410f5d4a4cee2cea82c64abed336b0e5a323db5"
+  ],
+  "fullInputChars": 1116,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-05602fdb8325",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以罗纳尔迪尼奥的拖鞋与微笑作印象式点题，没有展开观点或判断。",
+        "steps": [
+          "标题点出罗纳尔迪尼奥",
+          "正文用拖鞋、微笑形成简短画面",
+          "话题标签表明足球主题，未继续论证"
+        ],
+        "bridge": "没有从画面细节推到人物评价的桥梁。",
+        "counter": "未提出反方因素。",
+        "ending": "以感叹式短句和标签收束。",
+        "risk": "正文极短，不能据标题补写画面或人物特质。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 罗纳尔迪尼奥那双拖鞋那个微笑（视频ID：6802855650851425544）\n",
+          "\n#足球 #罗纳尔迪尼奥 #爱足球 那双拖鞋，那个微笑！"
+        ]
+      },
+      {
+        "id": "leishu-3586e3c77b6c",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "只点出C罗的招牌动作，没有说明动作内容或表达进一步判断。",
+        "steps": [
+          "标题将对象限定为C罗",
+          "正文重复“招牌动作”这一主题",
+          "标签确认足球语境，未给出论据或结论"
+        ],
+        "bridge": "没有呈现动作细节，也没有由动作导向评价的推理。",
+        "counter": "未处理反方因素。",
+        "ending": "以重复感叹和标签结束。",
+        "risk": "不能把标题当作动作说明；文本信息有限。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## C罗的招牌动作（视频ID：6799953990617468174）\n",
+          "\n#足球 #爱足球 C罗的招牌动作！！"
+        ]
+      },
+      {
+        "id": "leishu-f1becc023903",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "把球场突发情景改写成轰炸区、游戏失败的玩笑，没有形成实质足球判断。",
+        "steps": [
+          "先以降落伞落入球场制造意外",
+          "转而提醒带球者避开对方球迷区，并用“爆头”夸张化",
+          "再把对方禁区比作轰炸区",
+          "以“吃不了鸡”接入游戏梗收尾"
+        ],
+        "bridge": "靠球场场景与游戏、轰炸意象的类比制造笑点，不承担比赛分析。",
+        "counter": "未讨论事件原因或可能的其他解释。",
+        "ending": "以游戏梗将意外场面收成笑谈。",
+        "risk": "文本未说明具体比赛及事件背景；玩笑不应当作事实判断。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 球场上的意外（视频ID：6798074957122260237）\n",
+          "\n球场上的意外。 踢着踢着球怎么一个降落伞就落下来了？",
+          "对面的禁区是轰炸区，看来这次吃不了鸡了。"
+        ]
+      },
+      {
+        "id": "leishu-79a00d50dce1",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“战斗民族”作感叹式标签，没有说明所指事件或展开论证。",
+        "steps": [
+          "标题先给出“战斗民族”的概括",
+          "正文重复这一评价式短句",
+          "足球标签只标示主题，未补充具体材料"
+        ],
+        "bridge": "没有说明何种行为支撑该称呼。",
+        "counter": "未处理反方因素。",
+        "ending": "以感叹号收束。",
+        "risk": "文本缺少事件描述，不能从标题或标签补出情节。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 不愧是战斗民族（视频ID：6797658954538306823）\n",
+          "\n#足球 #爱足球 不愧是战斗民族！\n"
+        ]
+      },
+      {
+        "id": "leishu-471be49d7eba",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "只称其为“球场最强纸飞机”，没有交代对象、表现或判断依据。",
+        "steps": [
+          "标题提出纸飞机这一主题",
+          "正文重复“球场最强”的夸张称呼",
+          "足球标签标示语境，但没有后续说明"
+        ],
+        "bridge": "“最强”是无证据支撑的修辞，不构成可追踪的推论。",
+        "counter": "未提出比较对象或反方因素。",
+        "ending": "以感叹式短句结束。",
+        "risk": "不能据标题推断纸飞机的具体表现或场景。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 球场最强纸飞机（视频ID：6797312720682208519）\n",
+          "\n#足球 #爱足球 球场最强纸飞机！\n"
+        ]
+      },
+      {
+        "id": "leishu-c17ee921eaa9",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "围绕球员庆祝滑行作轻松描述与身体安全玩笑，没有评价比赛胜负或场面优劣。",
+        "steps": [
+          "先把庆祝称作球员释放自己的方式",
+          "以“最长”设问引出滑行场面",
+          "描述滑过半场、速度快、队友跟不上",
+          "转而劝其站起，并夸张担心腿被磨损"
+        ],
+        "bridge": "由庆祝这一常见表达方式转向滑行长度和速度的现场描写，再以身体受损玩笑收尾。",
+        "counter": "未讨论庆祝方式的其他意义或实际伤情。",
+        "ending": "用对球员的戏谑关心作结。",
+        "risk": "滑行距离、速度及伤害均为原文描述或夸张表达，未核验；无比赛结论。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 最长的滑轨（视频ID：6795079531863592199）\n",
+          "\n最长的滑轨。 我们都知道球场和华贵庆祝是球员释放自己的方式，可你见过最长的华贵吗？",
+          "不过兄弟快站起来，不然我担心你腿都给磨没了，就剩下大胯了。"
+        ]
+      },
+      {
+        "id": "leishu-1fb26191a1b4",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "不能仅凭标题补出莱万相关叙事或观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-05e0ed922c68",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "标题的戏谑表达不足以确认正文主张。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-2bf0aa373ad3",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题与话题标签，没有可拆解的正文观点。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "仅有标题及标签。",
+        "risk": "不能据标题推演更衣室相关内容。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-b5fa65c152be",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以球星用技巧挑战无人机的叙事，收束为“有钱的球星都是这么玩的”这一玩笑式概括；没有比赛方向判断。",
+        "steps": [
+          "先称内马尔为证明脚法准，在网上发布踢爆无人机的视频。",
+          "接着引入罗纳尔多看到视频这一情节，并用反问制造较劲意味。",
+          "随后说罗纳尔多以高尔夫挑战内马尔，将两人的行为串成回应。",
+          "最后把这类挑战概括为有钱球星的玩法。"
+        ],
+        "bridge": "把后一个球星的挑战写成对前一展示的回应，再由两例归纳为球星玩法。",
+        "counter": "没有讨论挑战是否真实较量、结果如何或其他解释，重点在趣味叙事。",
+        "ending": "以概括性玩笑收束，不延伸为足球技战术判断。",
+        "risk": "“为了证明”及回应关系是文本的叙事说法，未给出依据；相关事实不作核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n有钱的球星都这么玩，内马尔。 为了证明自己脚法准，在网上发布了一条踢爆无人机的视频，结果被我们的罗纳尔多球王看到了，这能服你？",
+          "于是罗纳尔多直接用高尔夫挑战了内马尔。",
+          "原来有钱的球星都是这么玩的。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-d79e01966189",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文仅有标题及话题标签，未提供巴萨、皇马出局的论述或结论。",
+        "steps": [],
+        "bridge": "正文缺失，无法判断。",
+        "counter": "正文缺失，无法判断。",
+        "ending": "标题以疑问句收尾，但正文没有回答。",
+        "risk": "不能把标题中的反问当作作者已经论证的观点。",
+        "anchorIndices": [],
+        "anchors": []
+      },
+      {
+        "id": "leishu-978a3f9b7d94",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "讲述C罗生日、派对和收到豪车礼物，继而猜测车型并以“五菱宏光”作反差式玩笑；没有足球比赛方向。",
+        "steps": [
+          "先以生日引出C罗，并称尤文图斯秘密筹划派对、在都灵庆生。",
+          "再补充其妻子参加派对并送豪车，评价为幸福。",
+          "随后转向叙述者对车型的好奇，邀请读者一起猜。",
+          "最后猜为五菱宏光，以与“豪车”铺垫形成反差收尾。"
+        ],
+        "bridge": "生日与礼物提供人物叙事背景，“猜车型”转成互动，末句靠反差制造笑点。",
+        "counter": "没有比较车型或给出猜测依据；“五菱宏光”是玩笑猜测，不是论证结论。",
+        "ending": "用具体车型的反差收束。",
+        "risk": "生日、派对及礼物均为原文声称，未核验；标题询问车型，正文只给出个人猜测。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n爱足球，C罗怎么过生日？ 昨天是总裁的生日，尤文图斯秘密筹划生日派对，在市中心都灵为C罗庆生。",
+          "C罗的媳妇也参加了，还给C罗送了一辆豪车作为生日礼物，真的是太幸福了。",
+          "我猜是五菱宏光。\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "短素材常以标题或重复口号直接定调，正文未提供支撑链条，如leishu-05602fdb8325、leishu-471be49d7eba。",
+        "场景类素材以具体意外或动作起笔，再借比喻、夸张形成笑点，如leishu-f1becc023903、leishu-c17ee921eaa9。",
+        "leishu-b5fa65c152be：先叙述展示，再接挑战情节，最后将两例概括为球星玩法。",
+        "leishu-978a3f9b7d94：生日礼物铺垫后转入猜车型，以反差笑点结束。"
+      ],
+      "variants": [
+        "人物主题仅作印象点题、没有人物评价展开：leishu-05602fdb8325、leishu-3586e3c77b6c。",
+        "球场趣味片段没有比赛方向；短口号文本也不足以推定方向：leishu-f1becc023903、leishu-79a00d50dce1、leishu-471be49d7eba、leishu-c17ee921eaa9。",
+        "leishu-1fb26191a1b4、leishu-05e0ed922c68、leishu-2bf0aa373ad3、leishu-d79e01966189：只有标题或标签，正文不足以判断方向。",
+        "leishu-b5fa65c152be与leishu-978a3f9b7d94：人物趣闻叙事，均无比赛方向判断。"
+      ],
+      "nonReusable": [
+        "不能把“最强”“战斗民族”或招牌动作等标题性表达当成已有论据：leishu-471be49d7eba、leishu-79a00d50dce1、leishu-3586e3c77b6c。",
+        "不能将游戏梗、夸张伤害或场景描述升级为已核实的比赛事实：leishu-f1becc023903、leishu-c17ee921eaa9。",
+        "leishu-d79e01966189：标题疑问不能代替正文论证，不能据此推断作者支持何种结论。",
+        "leishu-978a3f9b7d94：末尾车型是明示的个人猜测，不能当成已证实的礼物信息。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-05602fdb8325": "gpt-6-luna",
+    "leishu-3586e3c77b6c": "gpt-6-luna",
+    "leishu-f1becc023903": "gpt-6-luna",
+    "leishu-79a00d50dce1": "gpt-6-luna",
+    "leishu-471be49d7eba": "gpt-6-luna",
+    "leishu-c17ee921eaa9": "gpt-6-luna",
+    "leishu-1fb26191a1b4": "gpt-6-luna",
+    "leishu-05e0ed922c68": "gpt-6-luna",
+    "leishu-2bf0aa373ad3": "gpt-6-luna",
+    "leishu-b5fa65c152be": "gpt-6-luna",
+    "leishu-d79e01966189": "gpt-6-luna",
+    "leishu-978a3f9b7d94": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0ab77867b113f4bb016abc0ed3fdd487d0b9f27e7b9212ae75": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0ab77867b113f4bb016abc0ed3fdf487d08c84b319dddc8258": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1583,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1583,
+            "output_tokens": 0
+          },
+          "rs_0ab77867b113f4bb016abc0ed497a087d08e9a729b3209d174": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 352
+          },
+          "msg_0ab77867b113f4bb016abc0edb03d487d0bb910646e7b09032": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1376
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1376
+          }
+        }
+      },
+      "input_tokens": 1683,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1728,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 3411
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_050d7f5ce9935106016abc0ef5603887d09a0cef41fccaee53": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_050d7f5ce9935106016abc0ef5605487d094f93dabaf224064": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1686,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1686,
+            "output_tokens": 0
+          },
+          "rs_050d7f5ce9935106016abc0ef5e99487d0aca6d4a47265f6a9": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 163
+          },
+          "msg_050d7f5ce9935106016abc0ef8ef8087d095ec5331a1e80548": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1207
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1207
+          }
+        }
+      },
+      "input_tokens": 1786,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1370,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 3156
+    }
+  ]
+}

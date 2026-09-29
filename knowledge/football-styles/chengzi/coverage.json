@@ -1,0 +1,30 @@
+{
+  "author": "橙子北看台",
+  "slug": "chengzi",
+  "records": 878,
+  "characters": 1044267,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 878,
+  "availability": {
+    "body": 845,
+    "missing": 25,
+    "partial": 8
+  },
+  "directions": {
+    "explicit": 359,
+    "none": 110,
+    "implicit": 383,
+    "unavailable": 26
+  },
+  "kinds": {
+    "资讯盘点": 115,
+    "赛后复盘": 40,
+    "赛前方向": 579,
+    "缺失": 26,
+    "人物叙事": 25,
+    "知识解释": 67,
+    "场面倾向": 12,
+    "非足球": 14
+  },
+  "uniqueKnownVideoIds": 878
+}

@@ -1,0 +1,226 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-591361dee95d",
+        "availability": "partial",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "介绍姆巴佩并预告其第6至第10名进球；没有说明排名依据，也未给出比赛判断。",
+        "steps": [
+          "先以法国新星、杀手形象作人物定调。",
+          "随后宣布观看其十大进球中的第6至第10球。",
+          "提及第1至第5球留待下期，形成分期收束。"
+        ],
+        "bridge": "人物评价引出进球集锦，但评价并未论证排名或比赛结论。",
+        "counter": "没有反方因素；正文极短，且出现疑似错字或转写异常。",
+        "ending": "预告上期内容并以“下期再见”结束。",
+        "risk": "正文信息有限，疑似截断或转写不完整；不补造集锦内容与排序理由。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n来自法国的姆巴佩是一名冉冉升起的新星，也是一名绝对的杀手。",
+          "让我们来看一下姆巴佩的十大进球之6-10球。",
+          "太阳晒，第1-5球。\n我们下期再见。\n"
+        ]
+      },
+      {
+        "id": "leishu-4748b46f1db6",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "以门柱像有防护罩的夸张说法描绘一次球门相关场面，没有比赛方向判断。",
+        "steps": [
+          "点出门柱这一场面对象。",
+          "用“球门有防护罩”作夸张比喻，突出门柱阻挡效果。"
+        ],
+        "bridge": "比喻将门柱表现为仿佛能额外防守的屏障。",
+        "counter": "未交代具体射门、比赛情境或其他解释。",
+        "ending": "以惊叹式比喻收尾。",
+        "risk": "只有一句描述，无法据此补出场景细节或结果。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n门柱的力量，这球门有防护罩！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9274d68c74cc",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "塑造博格巴爱做发型、以造型表达自我但并非自傲，并会在世界杯期间克制造型以凸显表现的形象。",
+        "steps": [
+          "先概括踢球与做头两项爱好，称其发型风格突出。",
+          "举龙珠致敬的造型说明其表达方式。",
+          "转述其自我解释：展现自己不等于骄傲自大。",
+          "再写世界杯期间不弄怪发型，将理由落在希望球迷关注表现。"
+        ],
+        "bridge": "由造型实例和本人解释，转向把克制发型理解为重视赛场表现。",
+        "counter": "以本人说法回应“骄傲自大”的可能观感；未呈现其他观点。",
+        "ending": "以世界杯期间的自我约束收束，形成有原则的形象。",
+        "risk": "人物动机主要由转述交代，文本未提供独立佐证。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n博格巴人生两大爱好：踢球、做头，是圈内出了名的发型怪，一直走在时尚的尖端。",
+          "博格巴说这叫美国精神，只是愿意展现自己，并不代表骄傲自大。",
+          "但是博格巴也是有原则的，在世界杯期间为了让球迷更关注他的表现，不弄古怪发型。"
+        ]
+      },
+      {
+        "id": "leishu-730ef9e3607f",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "概括门将有炫酷扑救动作，并以蝎子摆尾、空翻作例，没有比赛胜负或表现评价论证。",
+        "steps": [
+          "先将门将扑救概括为炫酷。",
+          "随后列出蝎子摆尾、空翻，作为动作例示。"
+        ],
+        "bridge": "以高难度动作名称支撑“炫酷”的视觉印象。",
+        "counter": "没有对扑救效果、难度差异或比赛背景作说明。",
+        "ending": "以“小意思”强化夸张语气。",
+        "risk": "一句概括性文案，无法确认具体画面或动作发生情境。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n那些炫酷的扑救，蝎子摆尾，空翻都是小意思。"
+        ]
+      },
+      {
+        "id": "leishu-48b00134f171",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借阿尔维斯的开瓶盖、下楼梯等片段表现其行为方式特别，以幽默反应收束。",
+        "steps": [
+          "先以疑问引出球员开瓶盖的话题，并提到阿尔维斯晒图、休息。",
+          "再描述其下楼梯方式及队友似乎见怪不怪的反应。",
+          "补充特殊开瓶盖技法，以“辣眼睛”表达调侃。"
+        ],
+        "bridge": "动作描述与队友反应共同构成“与众不同”的人物趣味。",
+        "counter": "没有认真讨论开瓶方式或其他解释，整体是轻松调侃。",
+        "ending": "以“辣眼睛”作主观反应式收尾。",
+        "risk": "所述画面和队友表情均为原文声称，未提供进一步语境。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n足球运动员都是这样开瓶盖吗？阿尔维斯也在In5上晒出了自己p的图，休息一会也好。",
+          "阿尔维斯下楼梯也与众不同，看看后面队友见怪不怪的表情，还有特殊技法的开瓶盖，真的辣眼睛。"
+        ]
+      },
+      {
+        "id": "leishu-ae26f779f023",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "用过马路作比喻表达过人轻松，没有说明具体比赛、对手或实际结果。",
+        "steps": [
+          "先以第一人称提出过人的动作。",
+          "再用过马路作比喻，强化轻松、从容的语气。"
+        ],
+        "bridge": "比喻将过人描写成毫不费力的日常动作。",
+        "counter": "没有提供画面或对手反应来支撑这一夸张表达。",
+        "ending": "以比喻句直接结束。",
+        "risk": "仅有一句修辞性描述，不能补成具体比赛判断。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n我过你们就像过马路一样。\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "以动作实例支撑人物印象，如博格巴的造型与克制（leishu-9274d68c74cc）、阿尔维斯的生活片段（leishu-48b00134f171）。",
+        "以夸张比喻或动作名称快速营造画面感，未延伸为胜负论证（leishu-4748b46f1db6、leishu-730ef9e3607f）。"
+      ],
+      "variants": [
+        "姆巴佩条目是分期集锦预告，不含排名依据或实质方向（leishu-591361dee95d）。",
+        "多条短文只有场景描写或修辞，没有可还原的论证方向（leishu-4748b46f1db6、leishu-730ef9e3607f、leishu-ae26f779f023）。"
+      ],
+      "nonReusable": [
+        "不能把夸张描述当成已证明的竞技判断，例如“有防护罩”不证明门柱表现或比赛结果（leishu-4748b46f1db6）。",
+        "不能把人物自述直接当作独立证据；博格巴动机只由文中转述支撑（leishu-9274d68c74cc）。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0f4c81f7457f65db016abc0f60538887d095549123a79e20bc": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0f4c81f7457f65db016abc0f6053b887d0ba69ce2c05d31a14": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1655,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1655,
+          "output_tokens": 0
+        },
+        "rs_0f4c81f7457f65db016abc0f61361487d0b478f79bc29a1e20": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 300
+        },
+        "msg_0f4c81f7457f65db016abc0f68fa6c87d09b702627f1b0cd42": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1506
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1506
+        }
+      }
+    },
+    "input_tokens": 1755,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1806,
+    "output_tokens_details": {
+      "reasoning_tokens": 300
+    },
+    "total_tokens": 3561
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

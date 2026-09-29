@@ -1,0 +1,323 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "占位阻断",
+        "chain": "标题/ID/‘字幕已提取’占位→无可读正文→missing/unavailable，不产出方向",
+        "when": "仅标题、抓取失败、占位声明",
+        "counterHandling": "不把占位当正文；只记体裁差异",
+        "ids": [
+          "mubiao-124d98f04fc4",
+          "mubiao-43594cf37b9f",
+          "mubiao-06d424f92df4",
+          "mubiao-22e30b3c0631",
+          "mubiao-9a284ce2b836"
+        ]
+      },
+      {
+        "name": "清单+概率落方向",
+        "chain": "积分/近况→伤停/历史→opta/OPPA/超算/热区→逐场胜平或出线倾向",
+        "when": "赛前资料、轮次盘点、小组分析",
+        "counterHandling": "区分纯盘点与实质方向；概率需口径",
+        "ids": [
+          "mubiao-9864bb216f32",
+          "mubiao-1b0237c87b0d",
+          "mubiao-da4e257d2d2b",
+          "mubiao-e2db8066f251",
+          "mubiao-c4f8918b2d51"
+        ]
+      },
+      {
+        "name": "环境裁判变量放大",
+        "chain": "天气/海拔/裁判尺度/赛程/换帅→与打法匹配→放大或削弱某方→倾向",
+        "when": "单场前瞻、密集赛程",
+        "counterHandling": "变量作调整因子，不直接等价赛果",
+        "ids": [
+          "mubiao-4be961b456af",
+          "mubiao-a84c12677f07",
+          "mubiao-1d4fa9add826",
+          "mubiao-d956f8465b50",
+          "mubiao-73cbf6e9268c"
+        ]
+      },
+      {
+        "name": "历史恩怨心理钩子",
+        "chain": "旧仇/魔咒/苦主福哨→动机或心理优势→抵消纸面强弱→倾向或悬念",
+        "when": "宿敌、势均、淘汰赛",
+        "counterHandling": "小样本标注，玄学不当因果",
+        "ids": [
+          "mubiao-dc7660123eb7",
+          "mubiao-cfb93b29f843",
+          "mubiao-4bc52513e3f7",
+          "mubiao-271dcd3c6674",
+          "mubiao-83062fab0999"
+        ]
+      },
+      {
+        "name": "反向削弱强队",
+        "chain": "对手伤退/状态差/欧战消耗/防线年龄/更衣室→削弱热门→冷门或保留",
+        "when": "强队未稳、密集赛程",
+        "counterHandling": "区分可验证与动机猜疑",
+        "ids": [
+          "mubiao-fc60192dda40",
+          "mubiao-585446aae3bf",
+          "mubiao-3a638f8dc5d7",
+          "mubiao-9a47293aac05",
+          "mubiao-c2fc30431d57"
+        ]
+      },
+      {
+        "name": "概率引用后弱化",
+        "chain": "引概率→用士气/换帅/场地/情感质疑数字→反模型结论或保留",
+        "when": "概率与直觉冲突",
+        "counterHandling": "质疑需依据，修辞非证据",
+        "ids": [
+          "mubiao-fdd0338f40c3",
+          "mubiao-cb3ed4fd0919",
+          "mubiao-f67d4388b8ed"
+        ]
+      },
+      {
+        "name": "个案升格群体意义",
+        "chain": "个体事例/履历密度→情感升格→群体希望或改命结论",
+        "when": "人物叙事、基层、青训",
+        "counterHandling": "限制外推，区分个案与整体",
+        "ids": [
+          "mubiao-0dc0c7f37032",
+          "mubiao-17ebb0281102",
+          "mubiao-871790e6e6f6"
+        ]
+      },
+      {
+        "name": "赛后复盘精神落点",
+        "chain": "过程/比分→提炼主题/精神/联赛判断→覆盖胜负",
+        "when": "赛后复盘、决赛总结",
+        "counterHandling": "防止口号替代因果",
+        "ids": [
+          "mubiao-17ebb0281102",
+          "mubiao-2f0162e35b3e",
+          "mubiao-e3dd63f994b3",
+          "mubiao-ee6df380a91a",
+          "mubiao-1072b0ab0079"
+        ]
+      },
+      {
+        "name": "知识解释迁移",
+        "chain": "规则/资本/赛制/占比→说明或迁移为通用方法→结论",
+        "when": "知识科普、赛季指南、教学",
+        "counterHandling": "区分解释与预测；占比需来源",
+        "ids": [
+          "mubiao-9638b9da169e",
+          "mubiao-d4f2a6908025",
+          "mubiao-c3d995e5e276",
+          "mubiao-f9d9072dc2fe"
+        ]
+      },
+      {
+        "name": "三分法折中",
+        "chain": "强队判胜，接近或均不胜判平，弱队留拿分惊喜；势均用沉闷/五五开",
+        "when": "多场盘点缺信号",
+        "counterHandling": "低置信落点，不当确定",
+        "ids": [
+          "mubiao-c51943fc4b02",
+          "mubiao-c58880fd8949",
+          "mubiao-0d13cf2fb978",
+          "mubiao-68079fcd8666"
+        ]
+      },
+      {
+        "name": "扩军赛制兜底",
+        "chain": "小组第三也能晋级/扩军→输球改算分→出线判断",
+        "when": "大赛小组赛",
+        "counterHandling": "算分需与概率一致",
+        "ids": [
+          "mubiao-b07c1c2ae2c4",
+          "mubiao-6225edc54d01",
+          "mubiao-a6086e86288f"
+        ]
+      },
+      {
+        "name": "阵型对位找空当",
+        "chain": "列阵型→找空当/关键点→攻防倾向",
+        "when": "战术前瞻",
+        "counterHandling": "需执行层证据，不是阵型标签定果",
+        "ids": [
+          "mubiao-d681c63a0eef",
+          "mubiao-8541ae3f0139",
+          "mubiao-62ced8a3a1fe"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "纯资讯/占位无方向",
+        "chain": "标题或赛程/名单→无正文→方向none/missing",
+        "ids": [
+          "mubiao-7c490f7f6aa3",
+          "mubiao-24adc067ed92",
+          "mubiao-e21b2ac20523",
+          "mubiao-0182a21128a6"
+        ]
+      },
+      {
+        "name": "赛前逐场方向汇总",
+        "chain": "多场并列→逐场数据→倾向/看点",
+        "ids": [
+          "mubiao-42be2b54890a",
+          "mubiao-367a08da895e",
+          "mubiao-a4fbd102ffbd"
+        ]
+      },
+      {
+        "name": "赛后复盘",
+        "chain": "比分过程→主题提炼",
+        "ids": [
+          "mubiao-e3dd63f994b3",
+          "mubiao-ee6df380a91a",
+          "mubiao-1072b0ab0079"
+        ]
+      },
+      {
+        "name": "知识解释/规则",
+        "chain": "规则/占比→解释或建议",
+        "ids": [
+          "mubiao-9638b9da169e",
+          "mubiao-d4f2a6908025",
+          "mubiao-c3d995e5e276"
+        ]
+      },
+      {
+        "name": "人物叙事嵌入赛前",
+        "chain": "人物/传闻作主线→弱化比赛判断",
+        "ids": [
+          "mubiao-725f73cae138",
+          "mubiao-fdf0d7f0730e",
+          "mubiao-d35130e22cb5"
+        ]
+      },
+      {
+        "name": "情绪悬念无明确方向",
+        "chain": "复仇/血战/告别→张力替代结论",
+        "ids": [
+          "mubiao-93f5a25af908",
+          "mubiao-725f73cae138",
+          "mubiao-dad7ea7d7b3b"
+        ]
+      },
+      {
+        "name": "声明不预测但实质给向",
+        "chain": "免责语→逐场胜平/名次",
+        "ids": [
+          "mubiao-0d13cf2fb978",
+          "mubiao-68079fcd8666",
+          "mubiao-eda9633cf026",
+          "mubiao-db323c220d47"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "占位语当正文、标题代替阅读",
+        "ids": [
+          "mubiao-43594cf37b9f",
+          "mubiao-8ddce2e68dbe",
+          "mubiao-e5b4f026a22a",
+          "mubiao-d72fb6c0be0b"
+        ]
+      },
+      {
+        "problem": "声明不预测却逐场给胜负/名次",
+        "ids": [
+          "mubiao-ae392ca5fe2e",
+          "mubiao-9435e9ae0280",
+          "mubiao-0d13cf2fb978",
+          "mubiao-db323c220d47"
+        ]
+      },
+      {
+        "problem": "概率/赔率/热区跳步到结果，缺口径",
+        "ids": [
+          "mubiao-a74dc357d380",
+          "mubiao-fb8f3186532f",
+          "mubiao-367a08da895e",
+          "mubiao-8081f2d08411"
+        ]
+      },
+      {
+        "problem": "玄学、命硬、魔咒替代因果",
+        "ids": [
+          "mubiao-cfb93b29f843",
+          "mubiao-fb377eba0fcc",
+          "mubiao-e3dd63f994b3"
+        ]
+      },
+      {
+        "problem": "动机指认/派系/人情/假球暗示",
+        "ids": [
+          "mubiao-6bfe8b5257b8",
+          "mubiao-a9f70281cf5c",
+          "mubiao-6746872f8a88",
+          "mubiao-9638b9da169e"
+        ]
+      },
+      {
+        "problem": "单场外推/跳步归因",
+        "ids": [
+          "mubiao-58bab9c644d8",
+          "mubiao-e71ae4028dff",
+          "mubiao-871790e6e6f6"
+        ]
+      },
+      {
+        "problem": "译名数据错漏仍作论据",
+        "ids": [
+          "mubiao-fe2c69a137e0",
+          "mubiao-e921a9c923ca",
+          "mubiao-0891b98d4210",
+          "mubiao-10d2c8798032"
+        ]
+      },
+      {
+        "problem": "同材料正反两用/自相矛盾",
+        "ids": [
+          "mubiao-3a638f8dc5d7",
+          "mubiao-484cc3d56c92",
+          "mubiao-b07c1c2ae2c4",
+          "mubiao-6225edc54d01"
+        ]
+      },
+      {
+        "problem": "裁判历史/纪录当赛果吉兆",
+        "ids": [
+          "mubiao-a38b137906b9",
+          "mubiao-180ed7a9a852",
+          "mubiao-3f6a7fe17276",
+          "mubiao-e921a9c923ca"
+        ]
+      },
+      {
+        "problem": "热区/球迷热度/超算百分比无来源",
+        "ids": [
+          "mubiao-f4f48f2330c7",
+          "mubiao-5dbc804e714b",
+          "mubiao-7ddc01d57621",
+          "mubiao-718ff2e48160"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 17177,
+    "completion_tokens": 10614,
+    "total_tokens": 27791,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8231
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 17177
+  },
+  "model": "deepseek-flash"
+}

@@ -1,0 +1,24 @@
+{
+  "author": "说球的范佩东",
+  "slug": "fanpeidong",
+  "records": 25,
+  "characters": 57206,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 25,
+  "availability": {
+    "missing": 1,
+    "body": 23,
+    "partial": 1
+  },
+  "directions": {
+    "unavailable": 1,
+    "implicit": 7,
+    "explicit": 17
+  },
+  "kinds": {
+    "缺失": 1,
+    "赛前方向": 23,
+    "赛后复盘": 1
+  },
+  "uniqueKnownVideoIds": 25
+}

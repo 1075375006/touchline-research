@@ -1,0 +1,21 @@
+{
+  "author": "驰一指南",
+  "slug": "chiyi",
+  "records": 6,
+  "characters": 13721,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 6,
+  "availability": {
+    "missing": 2,
+    "body": 4
+  },
+  "directions": {
+    "unavailable": 2,
+    "implicit": 4
+  },
+  "kinds": {
+    "缺失": 2,
+    "赛前方向": 4
+  },
+  "uniqueKnownVideoIds": 6
+}

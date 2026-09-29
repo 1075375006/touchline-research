@@ -1,0 +1,202 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "赛制与积分推演",
+        "chain": "先列积分、净胜球、相互战绩和剩余赛程，再分情形计算容错与出线条件；结论可为某队占优，也可停在条件推演。",
+        "when": "小组赛形势、晋级路径或末轮动力分析。",
+        "counterHandling": "把他队赛果、规则条件标为假设，列出不同结果分支；不把单场胜负等同最终出线。",
+        "ids": [
+          "chengzi-d82797dd0441",
+          "chengzi-2c f3b7e900a",
+          "chengzi-09aab3f4d74e",
+          "chengzi-fc9187ef7537"
+        ]
+      },
+      {
+        "name": "材料—中间判断—方向",
+        "chain": "以战绩、阵容、伤停、交锋或赛程为输入，经由状态、战术匹配或体能判断，落到胜负倾向或风险提示。",
+        "when": "赛前单场分析；需明确每项材料如何影响比赛，而非只堆数据。",
+        "counterHandling": "补充对手优势或反向变量，区分事实、传闻与推测；资料不足时保留倾向，不强行给确定结论。",
+        "ids": [
+          "chengzi-7b45f1ccec2d",
+          "chengzi-fae577f8b4fb",
+          "chengzi-9901c4b37bff",
+          "chengzi-02e192f819a5"
+        ]
+      },
+      {
+        "name": "战术处方与对位推演",
+        "chain": "指出对手特点和本方短板，再提出打法选择，推演其可能创造的机会或限制；可止于战术建议，不必预测赛果。",
+        "when": "赛前支招、弱队应对强队或赛后讨论打法。",
+        "counterHandling": "把战术方案写成条件性判断，说明执行能力及对手反制，不以别队爆冷直接证明方案有效。",
+        "ids": [
+          "chengzi-25bf1219dd98",
+          "chengzi-60179f3dd610",
+          "chengzi-39e97a6be474",
+          "chengzi-9961d296d1bb"
+        ]
+      },
+      {
+        "name": "关键节点复盘",
+        "chain": "按比赛进程选取换人、进球、判罚或战术变化，说明局势如何改变，再归因或提出后续问题。",
+        "when": "赛后复盘；时间轴叙述与单点归因应区分。",
+        "counterHandling": "交代其他可能因素，避免用一个节点解释全部结果，也不以后见之明包装赛前判断。",
+        "ids": [
+          "chengzi-a2c190097720",
+          "chengzi-36f5a4d8ae63",
+          "chengzi-cc68f2e22ee1"
+        ]
+      },
+      {
+        "name": "动力与赛程变量",
+        "chain": "从积分任务、赛程密度或出线处境推测比赛动力，再讨论其对策略和比赛强度的影响。",
+        "when": "强弱对阵之外，比赛目标可能改变选择时。",
+        "counterHandling": "动力是推测而非结果保证；同时考察轮换、能力差异及临场执行。",
+        "ids": [
+          "chengzi-4c0b09561fb8",
+          "chengzi-f4cf8f561b78",
+          "chengzi-beec37929c52",
+          "chengzi-f2bf47b7eede"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "无方向盘点或知识解释",
+        "chain": "列看点、规则或数据，供读者理解，不必归结胜负；结尾可留问或悬置。",
+        "ids": [
+          "chengzi-bd33f43563a0",
+          "chengzi-c670c47785d4",
+          "chengzi-fcdcfff4b5b0"
+        ]
+      },
+      {
+        "name": "多场并列与分支推演",
+        "chain": "按球队、小组或比赛逐项分析，各自形成条件和倾向，不强求同一结论。",
+        "ids": [
+          "chengzi-0ee5382e7b72",
+          "chengzi-d1bbcf229c60",
+          "chengzi-11f8d18cb50a"
+        ]
+      },
+      {
+        "name": "人物、资讯或情绪叙事",
+        "chain": "围绕人物、新闻或观赛感受展开；可能没有明确比赛方向。",
+        "ids": [
+          "chengzi-18ddffa850c6",
+          "chengzi-4e8844c465b6",
+          "chengzi-4a7841682a69"
+        ]
+      },
+      {
+        "name": "缺文或截断",
+        "chain": "标题、占位或残缺材料不足以还原论证，不补造结论。",
+        "ids": [
+          "chengzi-50edd5bdc3b8",
+          "chengzi-230f62f07bb2"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "把资本、收视、关系、人情或裁判影射当作赛果依据，属于未经证实的动机推断。",
+        "ids": [
+          "chengzi-1d370ebbf0cd",
+          "chengzi-252f9eb1d70c",
+          "chengzi-722bd317b24a"
+        ]
+      },
+      {
+        "problem": "用单场、少量样本、历史命中率或玄学规律外推未来，或把相关性说成因果。",
+        "ids": [
+          "chengzi-d71e63c2eeeb",
+          "chengzi-eed4efcbe258",
+          "chengzi-e540157ad109"
+        ]
+      },
+      {
+        "problem": "传闻、错置队名数据、静态排名或假设赛果未经核验便进入推演；事实错误会使论证失效。",
+        "ids": [
+          "chengzi-1644855cbb9f",
+          "chengzi-095d69a0d131",
+          "chengzi-be64ee2b6fda"
+        ]
+      },
+      {
+        "problem": "以自夸命中、绝对断言、模糊免责或反问替代可检验依据，造成结论不闭环。",
+        "ids": [
+          "chengzi-0e9485858745",
+          "chengzi-3f0b176496a9",
+          "chengzi-ebf1fec8a0ed"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0df7ed0aa1ac64e8016abc0eb6dae087d080870184c1ae3f58": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 51,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 51,
+          "output_tokens": 0
+        },
+        "msg_0df7ed0aa1ac64e8016abc0eb6dafc87d0875095f06e59219a": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 16946,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 16946,
+          "output_tokens": 0
+        },
+        "rs_0df7ed0aa1ac64e8016abc0eb77ea087d0982426a8df507439": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 99
+        },
+        "msg_0df7ed0aa1ac64e8016abc0eba1b3087d0b2764ed5cf83aef5": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1505
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1505
+        }
+      }
+    },
+    "input_tokens": 16999,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1604,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 18603
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

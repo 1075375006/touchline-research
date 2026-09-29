@@ -1,0 +1,225 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-06ff08338cf6",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“有梅西的薯片，你舍得吃吗”发问，正文没有给出判断或论证方向。",
+        "steps": [
+          "先以梅西与薯片的组合制造话题",
+          "再用提问邀请受众回应；没有补充理由或结论"
+        ],
+        "bridge": "把梅西形象与日常商品并置，依靠新奇感引发互动。",
+        "counter": "未提出反方因素，也没有展开商品或足球内容。",
+        "ending": "停在设问，没有收束成观点。",
+        "risk": "正文极短，不能据标题补出广告、评价或足球论点。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #足球 #梅西 有梅西的薯片，你舍得吃吗？"
+        ]
+      },
+      {
+        "id": "leishu-fc6d03b38185",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "作者明说梅西是“好男人”，以其对妻子的感情和社交场合表现支撑这一评价。",
+        "steps": [
+          "先对照球场霸气与夜店中的拘谨，制造形象反差",
+          "继而称他与妻子青梅竹马，且荣誉再多仍爱妻",
+          "再以外界羡慕其感情作为补充",
+          "最后写他与名模合照时弯腰、无表情，强化拘谨印象"
+        ],
+        "bridge": "把长期伴侣关系及社交中的克制，解释为专一、顾家的人格表现。",
+        "counter": "没有讨论其他解释；合照表现与“好男人”的关系较弱。",
+        "ending": "以合照时的僵硬姿态收尾，回扣场内外反差。",
+        "risk": "有关私生活及他人羡慕等均为原文声称；由场景推人格存在跳步。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球好男人梅西。 梅西私底下形象与他球场上的霸气不一样，在夜店的梅西完全不像球场上的王者形象，总是在一旁坐着一脸不知所措，紧紧靠着妻子安东拉。",
+          " 梅西是足坛绝对的好男人，他和妻子安东拉是青梅竹马，不论多大的荣誉，梅西依旧不改他对妻子的爱，外界也一直羡慕他们非常好的感情。",
+          "在与名模合照时，梅西没有表情的弯着腰，好像一尊蜡像。"
+        ]
+      },
+      {
+        "id": "leishu-9b639439001d",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "explicit",
+        "claim": "作者以年龄段概括不同球星的受众，终点是C罗似乎不分男女老少、普遍有人认识和喜欢。",
+        "steps": [
+          "先称姆巴佩、内马尔、梅西各有不同年龄段的男性受众",
+          "转到C罗，反称似乎人人都喜欢",
+          "再以男女老少都认识C罗作补充"
+        ],
+        "bridge": "将受众范围更广，连接为C罗的大众知名度与普遍好感。",
+        "counter": "没有检验分组依据，也未区分“认识”与“喜欢”。",
+        "ending": "以“最起码”降低断言强度，落在人人认识的概括上。",
+        "risk": "受众画像没有来源；从认识推到喜欢，论据不足。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n爱足球，足球界的惊天秘密。 不知大家有没有发现一个秘密，喜欢姆巴佩的大多是八到十六岁的男性，喜欢内马尔的大多是十六到二十二岁的男性，喜欢梅西的大多是二十二到三十五岁的男性，喜欢c罗的好像大家都喜欢c罗。",
+          "最起码男女老少都认识c罗。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-801fdfc91196",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出梅西愿与C罗一起吃饭及会吃什么的好奇，没有表达实质判断。",
+        "steps": [
+          "先陈述两人愿意一起吃饭",
+          "随即转为好奇他们会吃什么",
+          "用表情符号收住，没有进一步展开"
+        ],
+        "bridge": "借两位球星同桌的设想引发轻松想象，不构成论证。",
+        "counter": "未处理任何反方因素。",
+        "ending": "以疑问和表情结束。",
+        "risk": "正文只有设问；不应从标题补造两人的关系或立场。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n梅西愿意和C罗一起吃饭，非常好奇他们会吃什么呢？",
+          "🤔\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-045210f3e355",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "仅以“球场上的野狼DISCO”作标签式表达，没有明确观点或论证方向。",
+        "steps": [
+          "先用“爱足球”引入",
+          "再将球场与野狼DISCO并置",
+          "没有提供比赛、人物或理由，文本即告结束"
+        ],
+        "bridge": "依赖流行文化联想营造气氛，不负责推出结论。",
+        "counter": "没有反方因素或论证内容。",
+        "ending": "短句收尾，没有观点闭合。",
+        "risk": "正文虽极短但并非占位声明；不能仅凭标题补出歌曲内容。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n爱足球，球场上的野狼DISCO。\n\n"
+        ]
+      },
+      {
+        "id": "leishu-8db1e34d9764",
+        "availability": "body",
+        "kind": "赛后复盘",
+        "direction": "implicit",
+        "claim": "借比利时大胜及德布劳内直接参与全部进球，突出其表现出色；其自称只是做好工作形成谦逊反差。",
+        "steps": [
+          "先报比利时4比0战胜苏格兰",
+          "继而列德布劳内3传1射、参与4球",
+          "再引其称自己没有踢世界级比赛，只是在做好工作"
+        ],
+        "bridge": "进球参与数据支撑个人表现突出，球员自述则把高产与低调并置。",
+        "counter": "没有讨论对手、队友贡献或数据之外的表现。",
+        "ending": "以德布劳内的自谦原话收束，形成反差。",
+        "risk": "比赛与数据是原文声称，未核验；由参与进球概括整体表现仍有简化。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n比利时4比0苏格兰，德布劳内3传1射，参与4粒进球。",
+          "丁丁说：我并没有踢什么世界级的比赛，只是做好了我的工作。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "人物评价以场景反差或关系信息连接人格结论，如 leishu-fc6d03b38185；比赛表现以比分、个人数据支撑突出印象，如 leishu-8db1e34d9764。"
+      ],
+      "variants": [
+        "提问、标签或联想没有论证终点，方向应标none，如 leishu-06ff08338cf6、leishu-801fdfc91196、leishu-045210f3e355；受众概括则直接落到C罗的大众性，如 leishu-9b639439001d。"
+      ],
+      "nonReusable": [
+        "不能把“认识”直接当作“喜欢”，也不能把单一社交场景直接当作稳定人格证明；分别见 leishu-9b639439001d、leishu-fc6d03b38185。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0d2792743956ebf1016abc0f31d54087d0a7d734a8365e3c68": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0d2792743956ebf1016abc0f31d55887d0b35262e2a50206ba": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1708,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1708,
+          "output_tokens": 0
+        },
+        "rs_0d2792743956ebf1016abc0f3278e487d08328512ef8eb7280": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 287
+        },
+        "msg_0d2792743956ebf1016abc0f3aafb487d08faab9b79f92087c": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1375
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1375
+        }
+      }
+    },
+    "input_tokens": 1808,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1662,
+    "output_tokens_details": {
+      "reasoning_tokens": 287
+    },
+    "total_tokens": 3470
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,233 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-42f7dd99a616",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用C罗请教、内马尔答应示范的对话引出过人操作，没有提出明确结论或实际技巧论证。",
+        "steps": [
+          "C罗以请教过人开场，设定学习情境。",
+          "内马尔答应教学，转入示范预告。",
+          "以“只教一遍”和询问学会与否收尾，未呈现技巧内容。"
+        ],
+        "bridge": "角色对话把观众置于学徒位置，但对话没有提供可检验的技巧步骤。",
+        "counter": "没有反方观点；也没有讨论动作适用条件或学习难点。",
+        "ending": "用教学完成的口吻作悬念式收尾，未给出观点结论。",
+        "risk": "短文本未呈现所称操作，不能据此补写过人方法或判断技术效果。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔教你踢足球（视频ID：6682163365072112908）\n",
+          "\nC罗，内马尔你教我过人可否？内马尔，C罗老哥好的，今儿就教你骚操作。",
+          "看好了，只教一遍。学会了吗？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-51e161770f73",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "仅询问读者在球场踢什么位置，没有进一步提出位置判断或观点。",
+        "steps": [
+          "以足球场为话题场景。",
+          "直接向读者提问所踢位置。",
+          "文本止于提问，没有展开回答或论证。"
+        ],
+        "bridge": "没有论证桥梁，只有面向读者的互动提问。",
+        "counter": "未涉及反方因素。",
+        "ending": "以开放问题结束。",
+        "risk": "文本极短，不应补造位置分类、职责或作者立场。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 守门员和边锋（视频ID：6681754155830250760）\n",
+          "\n你在足球场上踢什么位置？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9fddce663215",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出“是什么让你爱上足球”的问题，没有给出原因或偏向。",
+        "steps": [
+          "先以足球作为共同话题。",
+          "询问读者爱上足球的缘由。",
+          "没有举例、解释或归纳，正文止于提问。"
+        ],
+        "bridge": "没有从材料推到结论的桥梁；问题本身承担互动功能。",
+        "counter": "未处理反方因素，也没有展开任何原因。",
+        "ending": "以开放式提问收束。",
+        "risk": "不可把提问擅自解释成作者对足球魅力的判断。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 是什么让你喜欢上足球（视频ID：6681238850725039367）\n",
+          "\n是什么让你爱上足球？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-e7caf93ced2f",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "以足球集锦的精彩和瞬间性突出足球观赏魅力，但没有涉及比赛胜负或具体场面判断。",
+        "steps": [
+          "先将内容定位为足球集锦。",
+          "用“精彩一触即发”强调瞬间呈现的吸引力。",
+          "以足球魅力作概括性收束。"
+        ],
+        "bridge": "从集锦的精彩印象概括到足球具有观赏魅力，属于评价性推断。",
+        "counter": "未列举具体片段或不同观感，也未处理反面因素。",
+        "ending": "用笼统赞叹收束，没有进一步论证。",
+        "risk": "仅有宣传式概括，未说明精彩来自何种动作或场面。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 足球过人技巧（视频ID：6680824339916442893）\n",
+          "\n足球集锦，精彩一触即发，足球的魅力就如此！",
+          "\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1b6fa0955fd7",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "直接赞扬内马尔控球技术厉害，没有提供具体表现或论据。",
+        "steps": [
+          "点名内马尔作为评价对象。",
+          "将控球技术作为评价维度。",
+          "直接给出正面评价，未铺陈推理。"
+        ],
+        "bridge": "评价本身承担结论，没有可见的材料到判断过程。",
+        "counter": "没有反方因素或条件限定。",
+        "ending": "以简短赞语结束。",
+        "risk": "不可将标题式评价当成已展示的技术证据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 内马尔控球技术厉害（视频ID：6680490528255282444）\n",
+          "\n内马尔控球技术厉害👍\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7a87b4231090",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "借“过你就像过清晨马路”的比喻赞扬过人轻松，再以集锦精彩和技巧重要作概括。",
+        "steps": [
+          "标题用清晨马路比喻过人轻松。",
+          "正文将内容定位为旋风腿足球集锦。",
+          "以精彩和技巧价值作概括性评价。"
+        ],
+        "bridge": "比喻先制造轻松突破的印象，集锦评价再强化技巧观赏性。",
+        "counter": "没有具体对抗片段、失败案例或对技巧适用性的限定。",
+        "ending": "以“技巧胜过一切”的绝对化评价收束。",
+        "risk": "概括超出文本提供的证据；未展示的集锦内容不能替作者补证。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 过你就像过清晨马路（视频ID：6679375612374797572）\n",
+          "\n旋风腿足球集锦。精彩一触即发，技巧胜过一切。",
+          "\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-42f7dd99a616以角色对话引出教学情境，但未展示论据；leishu-e7caf93ced2f由集锦印象推到观赏评价。"
+      ],
+      "variants": [
+        "leishu-51e161770f73与leishu-9fddce663215是互动提问，无方向；leishu-1b6fa0955fd7直接评价控球，缺少推理；leishu-7a87b4231090以比喻和集锦评价技巧。"
+      ],
+      "nonReusable": [
+        "不能把leishu-42f7dd99a616的教学预告补写成实际技巧论证；不能把leishu-1b6fa0955fd7的赞语当作技术证据；不能把leishu-7a87b4231090的绝对化口号当作经比较得出的结论。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0131dd2c67d4a506016abc0f44cf6487d0b31492f4a2da2589": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0131dd2c67d4a506016abc0f44cf8087d08065514cf0cc5854": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1444,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1444,
+          "output_tokens": 0
+        },
+        "rs_0131dd2c67d4a506016abc0f454c0c87d093dc1cf2387266e7": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 420
+        },
+        "msg_0131dd2c67d4a506016abc0f4cf15487d098cf36e490ebe786": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1303
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1303
+        }
+      }
+    },
+    "input_tokens": 1544,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1723,
+    "output_tokens_details": {
+      "reasoning_tokens": 420
+    },
+    "total_tokens": 3267
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

@@ -1,0 +1,125 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 11589,
+    "completion_tokens": 11036,
+    "total_tokens": 22625,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3523
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 11589
+  },
+  "coverage": {
+    "records": 60,
+    "availability": {
+      "body": 58,
+      "missing": 2
+    },
+    "directions": {
+      "explicit": 30,
+      "none": 18,
+      "implicit": 10,
+      "unavailable": 2
+    },
+    "kinds": {
+      "赛后复盘": 9,
+      "人物叙事": 8,
+      "非足球": 2,
+      "资讯盘点": 2,
+      "赛前方向": 37,
+      "缺失": 2
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "303073407c51858beb900abb32cac4290f05833c5731e9cdd725c1e09be35ea8",
+        "b4b3cf058d7bbf97d8621448c5967def473682cbbfac9f4596849a4334b67f3b",
+        "55d3870fd048f096ca4c860a961912d402546dcd4169e56ebd341ec4ba3e7e24",
+        "fbbe31e9a1b263b844deca142c04a5963e511ade2bca097d7b128eaaf86da25a",
+        "b6828de5e54ea8a6ba4d495c652dc4ef5e3e13392d916ebd418b391e09f1e713",
+        "4cf31f0d2081d1b6d725ef85c19ac835d7ce01d2aaee11b3f4446cab89892e61",
+        "1e28ab830225d8d093996bce138cee0f8c528834be63b1496407b230670984e3",
+        "7c7902db9c8d19fe2eff0cf641a6f25d355d88e8600a05c56249c13770a66552",
+        "001a687d9f0f88f7581926dd485c1f3b73382a9e8e63852f51101ff52d25b0e0",
+        "d230aa66a33bb0262afc64d433f401449b2fef10a31a613eba03ce3f961788e8",
+        "6095614b47aec0f03954965cf015e01f7f865b24f19ab64056e1ad0c22e278b9",
+        "2728b962b8500a7d1eb48dde58aa056763ac1d7957574124e7263ec5be2605a6"
+      ]
+    },
+    {
+      "part": 2,
+      "sourceHashes": [
+        "ecf9394301d9ddcd5b03532d9a734d71340382dcbc0099d2b44a57a2c503e52d",
+        "b5ee40849bdbeeba0d644ab65d308b8836e7bd299f8d67c1b2c652d23145b5ce",
+        "95b78a9eef34a574a2f504f2f14c9b756c1180ad1fac97a8c8c28f9f547abb8d",
+        "bc1b6955178aa1556ea174602a505adb1d3cd95f7ddce352e165e76f3d1a37ce",
+        "231c835162a365b33ca59292d4762cf6869951bdcf5f5b1490f64781dae5ac96",
+        "3ac7cc6382c0ef057c2b1bb7d6e0dc8105ee38a0d2d98a925fcd7211f165a798",
+        "4c106f8ea2f2b3f45311c258edd1faa2c89b56ccbd95f24b618d3a17998f9724",
+        "cd962f7a03c0244bb7acd14ef2d3f423b779138adecef8645841f38a811b7bf4",
+        "9dca7094c34f487883160124a017155ba8546a197ca0b30c2dc295499550df16",
+        "4a0dfc5752fe52c5516484e9c807996a59ab27b59ac46767963f23c7de65e167",
+        "2760b8d15ea032c74e040e1e8341e47b3050018fb2cb008a12987a3a133ac03b",
+        "1b376f2612301f27f4aee9e507f8253210786ce0fc777357c1c4f121d8b5c421"
+      ]
+    },
+    {
+      "part": 3,
+      "sourceHashes": [
+        "60990de4eb51b6476da5cd56ab760b20f5ade70e5febd58734a3a665e5fd17f1",
+        "35410cc5601f00f876957db36376804f5e3f95c20e872b692334f63a7286ae39",
+        "eedfc09a546c58552f25142f91aaba479cf6fe9411d6514d6bad25e7f4f4f33b",
+        "f87fd1fe3f5cdc8469ff49b71a93d789f83c383682dda0bd55273db45bb1dc8b",
+        "5437ac123b701786bc6ac427d63eec0e345580527219b51c90f888da45145448",
+        "78a9e70e73bad0a31c0712b1435c5fc37dd656d26e07308ade81e0d33755ed68",
+        "7173ab9d2c9cb102ec5fe8591b60cea268aeede3dbf2f1607654c5e0e46e44ed",
+        "b7c2ca2e3a4490e5a3b6bf00256ef2fa6170b3e4a1c0b906bc18a6b71829a889",
+        "090054f2afeccbfa13d1e47b126adc04c45c712ff80eec5e324cab62ec0722cc",
+        "0d4a793ade1d3b6c7c9252c81a3c31e5f5239ac93aa9bcbd799d4ceda92f35f5",
+        "f79c3d750a39bb1cff5becce571873d954b2a6a16027838f83af27d2faa7a596",
+        "8b968121f58ea2ac5171705a6893ba702688e45a0531347b0c19bc1442b64719"
+      ]
+    },
+    {
+      "part": 4,
+      "sourceHashes": [
+        "ee33af10321aabb4fa5e2b48f346383a9296ad3a516773a46f7618b1d17bd639",
+        "150db9b27eb37b4819f44248beaf2af52be69595df606df25a8350b83a31718e",
+        "af017ecb7958b8f12a7d533d9fc68246b2d385e78c590e12f89dbe2dec6744b9",
+        "63ad00ca47863798c62c36d8e2672cbd3685b4ad2828a9c3214239ef34fc93e7",
+        "8e1cbacedea36e244add9de9b610d460e5499f9b202563b05c573c8a2692b597",
+        "7ee48aec92b69190e1c48ce49cc5197a91d94d02a0547bd43c41546a30572984",
+        "f51d5de696c5f182e801498b85d82f7313a2d6b276886ab8b5451b7b348c0939",
+        "9d017b0c2adee6f722d6e133883203ccb90a954e4937f2e9edca93e79ac3607f",
+        "e6df8143119ac2761c003e338cddf3e8ca49a7ef1e5a5091ed31bb4d4b74c5d2",
+        "b79d24af122d25760c9486e1a3547466a280703c92a55ea5cdc9cef231b7d38c",
+        "5b4a5200ef94bf8ef9fb7d48e7ed470ad388797531005343b499b11633f4815f",
+        "8ef7283d40ffa74dcd128b855515adbf68bfcbf0f5c7553cda1dd10ffc1a7165"
+      ]
+    },
+    {
+      "part": 5,
+      "sourceHashes": [
+        "0ea8800560660ffc85b4464c5452e03a67d7ae998a86c1211ab70067486fc666",
+        "004f29aa316396ad4b08145a6108d2efc4d409a009fd468075d413ae88ef396a",
+        "785cf70c5e87f8c1bf0dca16f2604b771cc941fe100ad2f6f96efaac04a8035c",
+        "682cf3d5925b0c371874fb6b539341b0181b990e1da7625feb84c2654d198bc3",
+        "7c43f0d7b1a6c1c57401d5771799886802442c4fdca59b37248dcfde23dfad95",
+        "8290e20872bea6079697dccf8f946b701b538b81ac4aafd3925e64a8a64886f2",
+        "08b8efcaa9982d66943e2220d7db31bc84192321b8b8abdeab87873b46594863",
+        "4fe5ae0931a719df7e22903b7d236c8dbfda23e8f5fcf7bc63799a4f9512ef49",
+        "268e7d7b16751053daf78c893c03389748ce071b90421e99d7c622935eab8f01",
+        "1e093378bbeb629971ca8e9d77ccc658390123803041318b00f9d377271a2a0e",
+        "ce9a7e3706da012700404ae99d06187fd404c4e2b4451d663d9ec44dd10d0a5c",
+        "d39ef4fea6c64aad849b4c6938b326f03ff023318d4edd38147639d494d95405"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T19:03:07.036Z"
+}

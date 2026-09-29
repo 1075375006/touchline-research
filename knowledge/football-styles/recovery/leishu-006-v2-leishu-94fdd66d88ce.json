@@ -1,0 +1,224 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-94fdd66d88ce",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "explicit",
+        "claim": "承认国足弱，但否定外国人评价可界定国足水平。",
+        "steps": [
+          "先承认国足实力弱。",
+          "随即把争点转为评价者身份，否定外国人的评价资格或效力。",
+          "以对立句收束，但没有给出判断国足的替代标准。"
+        ],
+        "bridge": "隐含前提是外国人的评价不应被当作国足实力的最终尺度；文本未解释原因。",
+        "counter": "承认实力弱，部分让步；没有回应外国评价是否有事实依据。",
+        "ending": "用转折口号区分实力判断与评价来源，未继续论证。",
+        "risk": "极短文本，评价对象和理由均不展开；类别为非具体赛事论述。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #中非兄弟 我们#国足 是弱，但是不是你们#外国人 #老外评价的！"
+        ]
+      },
+      {
+        "id": "leishu-4e5f366c0d41",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "借顶级后卫也会出现严重失误，反衬王燊超的类似表现并非国足球员独有；结尾以反讽调侃王燊超。",
+        "steps": [
+          "先称大卫·路易斯在英超属于顶级后卫。",
+          "举其对曼城比赛中停球失误并导致对方破门。",
+          "转举中超后卫王燊超，称其相关距离表现更甚。",
+          "把这次表现讽为王燊超最接近顶级后卫的时刻。"
+        ],
+        "bridge": "以顶级球员也会犯错作类比，暗示单次失误不足以证明国足球员整体不行；末句再把比较转为嘲讽。",
+        "counter": "承认路易斯是顶级后卫构成反例，但没有讨论两人的整体水平或失误背景。",
+        "ending": "从类比转向挖苦，没有明确给出严肃评价标准。",
+        "risk": "个别失误不足以推出球员整体能力；文本所述比赛细节未核验，且第二句有疑似转写错字。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n大卫- 路易斯在英超算顶级后卫吧？结果在对曼城的比赛中上演停球五米远，间接性助攻曼城破门。",
+          "再来看看中超后卫王燊超，贫穷远的长度对于路易斯来说有过之而无解。",
+          "这是王燊超离顶级后卫最近的一次。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-1a5d9381fc48",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "implicit",
+        "claim": "用标题式悬念暗示国足表现不佳与某人缺席有关，但正文未说明此人是谁，也未给出因果论证。",
+        "steps": [
+          "先提出国足踢球不行这一判断。",
+          "将其原因归于少了某个人。",
+          "标签点出温格、孔蒂，却未说明指向谁或其作用。",
+          "以悬念省略答案，论证停留在设问。"
+        ],
+        "bridge": "隐含前提是某人的存在能够改变国足表现；文本没有交代这种影响如何发生。",
+        "counter": "没有处理其他可能原因，也没有证据支撑单因归因。",
+        "ending": "以未解悬念收尾，未完成观点说明。",
+        "risk": "正文极短，标签不能确认被指人物；因果仅为暗示，不能补足。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 #国足 踢球不行，原来是因为少了他……#温格 #孔蒂\n"
+        ]
+      },
+      {
+        "id": "leishu-e7fc46428097",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "抛出中国足球第一人的问题，并暗示某人离开后国足长期沉沦；正文没有明确回答其身份。",
+        "steps": [
+          "先提出中国足球第一人是谁的疑问。",
+          "继而声称少了某人后，国足沉沦近千年。",
+          "列出武磊、范志毅标签，却未说明谁是答案或为何。",
+          "以夸张时间跨度强化人物重要性，答案仍悬置。"
+        ],
+        "bridge": "把国足后续低迷归因于某人的缺席，靠夸张后果突出其分量。",
+        "counter": "未比较候选人物，也未提供历史依据或其他解释。",
+        "ending": "以悬念和夸张收束，不完成标题设问。",
+        "risk": "“近千年”显然具有修辞色彩；人物身份与因果均未在正文落实。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 中国足球第一人是谁，你知道吗？",
+          "没了他，#国足 沉沦了近千年！#武磊 #范志毅 #爱足球\n"
+        ]
+      },
+      {
+        "id": "leishu-9899109cd0ab",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以调侃口吻称武磊走红，进而把阿奎罗的相关举动解释为借其热度；没有提供举动细节。",
+        "steps": [
+          "先断言武磊很受关注。",
+          "把阿奎罗的行为描述为主动蹭热度。",
+          "借两人名气反差制造玩笑效果，但未交代具体事件。"
+        ],
+        "bridge": "将阿奎罗的行为动机解释为借势武磊，依赖武磊正当红这一前提。",
+        "counter": "没有提供阿奎罗行为的具体内容，也未考虑其他动机。",
+        "ending": "以夸张赞叹和调侃落点收尾。",
+        "risk": "动机判断缺少文本内证据，标题和正文均未展开事件背景；相关事实未核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 我们的武球王可太火了呀，连#阿奎罗 都忍不住来\"蹭波\"热度！"
+        ]
+      },
+      {
+        "id": "leishu-48e10e63b741",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出孙兴慜与武磊谁是亚洲一哥的问题，但正文没有作出选择或给出比较依据。",
+        "steps": [
+          "并列提出孙兴慜与武磊。",
+          "把二人置于亚洲一哥的比较框架。",
+          "以疑问句结束，没有后续指标、论据或结论。"
+        ],
+        "bridge": "问题预设二人可以按某种标准比较，但标准未说明。",
+        "counter": "未呈现双方优劣或回应不同评价标准。",
+        "ending": "保留悬念，不形成方向性判断。",
+        "risk": "正文仅有设问，不能据标题补出立场或比较结果。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 孙兴慜vs武磊，谁才是亚洲一哥？"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-4e5f366c0d41以顶级球员失误作类比，再转向反讽；leishu-94fdd66d88ce先让步、再转移争点。"
+      ],
+      "variants": [
+        "leishu-48e10e63b741仅设问，无结论；leishu-1a5d9381fc48与leishu-e7fc46428097以悬念暗示因果或人物重要性；leishu-9899109cd0ab以调侃推断动机。"
+      ],
+      "nonReusable": [
+        "不能把设问或标签当作已给出的答案：leishu-48e10e63b741、leishu-e7fc46428097；不能把单次失误直接外推整体能力：leishu-4e5f366c0d41；不能把未说明的行为动机当作已证实原因：leishu-9899109cd0ab。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0e2bd51ccb26b7b9016abc0ed3536887d0b9648dcd0ff151b4": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0e2bd51ccb26b7b9016abc0ed3538887d082e5dc50bdbf3212": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1663,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1663,
+          "output_tokens": 0
+        },
+        "rs_0e2bd51ccb26b7b9016abc0ed3fc1887d088e1e6e0fabf0f45": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 278
+        },
+        "msg_0e2bd51ccb26b7b9016abc0edc58a887d09222dc598ad2df6d": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1582
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1582
+        }
+      }
+    },
+    "input_tokens": 1763,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1860,
+    "output_tokens_details": {
+      "reasoning_tokens": 278
+    },
+    "total_tokens": 3623
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

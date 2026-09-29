@@ -1,0 +1,184 @@
+{
+  "author": "橙子北看台",
+  "slug": "chengzi",
+  "part": 74,
+  "processedAt": "2026-09-29T19:15:22.908Z",
+  "sourceIds": [
+    "chengzi-e46daa7de7ee",
+    "chengzi-ad5f3e8760d9",
+    "chengzi-2462450bef4a"
+  ],
+  "sourceHashes": [
+    "cb1f59e12d5a47965cf608151207686cfec44419c786eea058c0cd9f9cd3488c",
+    "fe9f016037aa411ea4417fcfd5d50ba2abed7685d4b5434032cea448cceb7c35",
+    "f1459d72d37e3bdb47bc5de37f31134402b1e36ecb0f74dcb8a97b8ae2b451ec"
+  ],
+  "fullInputChars": 3314,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "chengzi-e46daa7de7ee",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "explicit",
+        "claim": "法国—克罗地亚倾向克罗地亚守住优势并晋级；西班牙—荷兰倾向西班牙占优；德国、葡萄牙所在场次偏向主队。",
+        "steps": [
+          "先交代欧国联赛程与参赛背景，再以首回合结果区分各队压力，法国两球落后最突出。",
+          "法国分支：虽有主场与强阵、求调整的动力，但克罗地亚老将首回合取胜、近三次交锋占优且善打反击，故担忧法国快攻受阻，判断克罗地亚有守住晋级优势的机会。",
+          "西荷分支：西班牙主场、不败纪录与冠军身份支撑其稳定性；同时列出中卫缺员、交锋不胜等隐患，再以荷兰冒进、年轻攻击手活跃转向西班牙占优。",
+          "德国、葡萄牙分支仅给出主队较占优；葡萄牙另有丹麦交锋接近、曾失点及锋线需支援等提醒。"
+        ],
+        "bridge": "首回合比分、主场与状态被用作倾向依据；法国部分另以克罗地亚反击能力连接到法国难以追回劣势。",
+        "counter": "纳入西班牙中卫风险、荷兰交锋优势及丹麦制造机会等反向因素，但最终仍维持主队倾向；德国分支论据较少。",
+        "ending": "以多场方向和风险提示收束，未给出精确比分。",
+        "risk": "部分赛果预测从有限交锋或阵容信息跳到比赛结果；文本所述事实未核验。",
+        "anchorIndices": [
+          2,
+          13,
+          21
+        ],
+        "anchors": [
+          "\n今天晚上万众期待的欧国联比赛又将开打，一条视频盘点一下目前A级别的哪些球队形势比较乐观，哪些球队压力比较大。",
+          "回到主场得上必须要抓紧调整了，只是克罗地亚的这帮老油条太会打反击了，我担心法国队的快攻打不出来，他们可能依旧会在主场迷失自我。",
+          "第五，就是这小孩和亚马尔和尼克威廉姆斯的表现还是非常活跃的，而荷兰队这边从第一场比赛来看有点冒进，我个人感觉还是西班牙队占据优势，希望他们可以打破之前的尴尬记录。"
+        ]
+      },
+      {
+        "id": "chengzi-ad5f3e8760d9",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "explicit",
+        "claim": "英格兰对爱尔兰倾向英格兰取胜并直接升级；意大利对法国倾向意大利守住主场底线。",
+        "steps": [
+          "开篇提出两场焦点及阵容、动机问题，随后用球队对欧国联的重视程度作为比较框架。",
+          "英格兰虽缺多名主力，但半主力曾客胜希腊、升级主动权在握，且仍有强力球员；结合升级动力，推向英格兰主场取胜。",
+          "爱尔兰已锁定小组第三、缺少继续争取的必要，被解释为动力不足；其球员发挥与此前取分虽被提及，未改变英格兰倾向。",
+          "意法分支将法国描述为投入不足、缺姆巴佩时进攻乏力，并以对以色列控球射门无果为例；意大利不败、刚胜比利时且主场作战，故判断意大利至少守住底线。"
+        ],
+        "bridge": "比赛动机与可用阵容被当作竞技表现的代理指标，再结合近期结果推导胜负倾向。",
+        "counter": "英格兰缺主力、爱尔兰个别球员发挥好，以及法国可能复仇均有提及；但被英格兰阵容深度或法国问题压过。",
+        "ending": "先给英格兰直接升级的判断，再以意大利捍卫主场作结。",
+        "risk": "将爱尔兰排名处境直接推作缺乏反抗意愿，且从零散战绩推结果；文本事实未核验。",
+        "anchorIndices": [
+          6,
+          10,
+          20
+        ],
+        "anchors": [
+          "这边今天都来了英格兰和法国队，由于近些年在大赛里成绩还算是不错，再加上国脚们比赛太多，所以有时候就把这欧国联当成了鸡肋，热热身就行了。",
+          " - 再来看看爱尔兰这边，今天最关键的一点就是他们目前六分已经定了，就是小组第三了，高不成低不就，何必进行无谓的反抗？",
+          "法国队这边是有点无所谓的样子了，不过法国队此前在欧国联上主场是输给了意大利，今天可能也要复仇。"
+        ]
+      },
+      {
+        "id": "chengzi-2462450bef4a",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "explicit",
+        "claim": "德国对波黑倾向德国发挥出色；荷兰对匈牙利则不看好荷兰轻松取胜，倾向匈牙利守住底线。",
+        "steps": [
+          "先提出德国主场能否大胜、荷兰对匈牙利的优势与困难，继而分别展开两场判断。",
+          "德国分支以小组排名、主场进失球、压制荷兰及上次对波黑多次进球被吹，拼成状态回升、可能爆发的叙述。",
+          "再以穆夏拉回归和波黑依赖年长前锋支撑德国优势，同时承认维尔茨、恩达夫缺阵造成损失，最后表达期待德国有好表现。",
+          "荷匈分支承认荷兰有主场、德容回归及球星阵容；但强调匈牙利连场不败、防守特点与避免再遭大败的动机，加上荷兰平局也可接受，转而期待匈牙利守住底线。"
+        ],
+        "bridge": "德国部分由近期表现和阵容质量推向强势预期；荷匈则把防守能力、比赛动机与荷兰压力较小连接到匈牙利不败式的守底判断。",
+        "counter": "德国伤员、匈牙利过往受挫及荷兰球星优势均被列出；德国结论保留损失，荷匈结论则更重视匈牙利韧性。",
+        "ending": "用“期待”而非确定赛果收束两场判断。",
+        "risk": "德国“该爆发”带有趋势外推；荷兰压力较小不足以单独证明匈牙利能守住，文本事实未核验。",
+        "anchorIndices": [
+          5,
+          10,
+          17
+        ],
+        "anchors": [
+          "特别是在他们的主场，他们可是打进了六球，一球未失，其中包括五球大胜老冤家匈牙利队以及一球小胜荷兰队。",
+          "只是这次维尔茨和恩达夫受伤，对于德国队的中前场来说有点损失。",
+          "而且意大利人马可- 罗西的这支球队防守可是他们的看家本领，他们应该不希望再一次被对手打爆。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "以首回合、主客场和状态形成赛果倾向，如chengzi-e46daa7de7ee、chengzi-2462450bef4a。",
+        "把比赛动机及阵容完整度转成胜负推断，如chengzi-ad5f3e8760d9。"
+      ],
+      "variants": [
+        "均为赛前多场方向判断；chengzi-e46daa7de7ee覆盖多组淘汰赛，chengzi-ad5f3e8760d9与chengzi-2462450bef4a各有两场并列分支。"
+      ],
+      "nonReusable": [
+        "不能把“缺乏动力”直接等同于不抵抗，如chengzi-ad5f3e8760d9；不能把期待爆发或守住底线写成已证实结果，如chengzi-2462450bef4a。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_01c6299b0ea33c26016abc0e2f025887d08f8b8778d0accb44": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_01c6299b0ea33c26016abc0e2f028487d08e66b59f36727c75": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 4036,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 4036,
+            "output_tokens": 0
+          },
+          "rs_01c6299b0ea33c26016abc0e2f8cec87d094fec64e385ff1e6": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 60
+          },
+          "msg_01c6299b0ea33c26016abc0e30bbf087d0a76c062b36a13279": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1458
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1458
+          }
+        }
+      },
+      "input_tokens": 4136,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1518,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 5654
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "极端结论先置→时间线/数据堆叠→个人英雄收束",
+        "chain": "开篇抛极端判断或冠军/英雄结论；中段按时间线、比分、数据堆叠；结尾归到个人英雄或精神价值。",
+        "when": "强强对话、国家德比、球星赞歌。",
+        "counterHandling": "承认对方阵容或场面占优，把劣势转为英雄更难得；但不同篇同题材事实可能矛盾，不宜作核验依据。",
+        "ids": [
+          "tiancai-3417fee115a7",
+          "tiancai-5beb75dbf68a",
+          "tiancai-ada8e12d3556"
+        ]
+      },
+      {
+        "name": "历史名局情绪复盘",
+        "chain": "先设绝境数据与强敌；按上半场、下半场、加时时间线写转折；升华奇迹、绝境之王、冠军之心。",
+        "when": "历史经典、人物或球队精神叙事。",
+        "counterHandling": "可分多分支，但比分细节可能选择性混用。",
+        "ids": [
+          "tiancai-e2253d0baa51",
+          "tiancai-3b903808b476",
+          "tiancai-37c7fefcd03c",
+          "tiancai-c01295ea8fec"
+        ]
+      },
+      {
+        "name": "竞技遗憾→人格/慈善/希望转向→重定义评价标准",
+        "chain": "写竞技遗憾或争议；转向人格、慈善、希望；重新定义成功或评价标准。",
+        "when": "人物生涯、告别、落败复盘。",
+        "counterHandling": "常无赛果方向，不落预测。",
+        "ids": [
+          "tiancai-26f0973263cd",
+          "tiancai-4963bbf583d7",
+          "tiancai-c3aa70af0727",
+          "tiancai-a74805e91457"
+        ]
+      },
+      {
+        "name": "足球情绪/名人偶遇或续航数据→体验或产品卖点→广告",
+        "chain": "用足球情绪、名人偶遇或跑动续航数据；转个人体验或产品属性；最后广告推荐或回扣口号。",
+        "when": "软广、品牌合作、产品类比。",
+        "counterHandling": "常未标明广告；以类比替代产品验证。",
+        "ids": [
+          "tiancai-de710f973525",
+          "tiancai-45e7d5ddb79e",
+          "tiancai-26f0973263cd",
+          "tiancai-6f617f53d05b"
+        ]
+      },
+      {
+        "name": "倒序榜单/盘点→逐项数据或记忆点→弱化最终预测",
+        "chain": "倒序榜单或球星盘点；逐项给数据、记忆点；不给或弱化最终预测，互动收束。",
+        "when": "排名、盘点、主题曲、话题型知识。",
+        "counterHandling": "标准混合主观偏好却给绝对名次。",
+        "ids": [
+          "tiancai-cca99c555a04",
+          "tiancai-31e191f538bc"
+        ]
+      },
+      {
+        "name": "对比信息开场→逐项列优缺→设对冲变量→隐性倾向或留问",
+        "chain": "输入身价、状态、换帅、核心离队；逐项列优势短板；设对冲变量；形成隐性倾向或留问。",
+        "when": "赛前前瞻、强弱对话。",
+        "counterHandling": "承认反方因素但不改优势判断，或把胜负抛回观众。",
+        "ids": [
+          "tiancai-a63186120f42",
+          "tiancai-bae6a9496259",
+          "tiancai-4c9d2350c3ba",
+          "tiancai-851609f7a961",
+          "tiancai-605a945e266b",
+          "tiancai-3cc68ff0c84a"
+        ]
+      },
+      {
+        "name": "换帅/核心离队解释风格重塑→判断新体系能否补位",
+        "chain": "换帅和核心离队；解释风格重塑；判断新体系能否补位。",
+        "when": "转型期球队、赛季初前瞻。",
+        "counterHandling": "用历史、主场、欧战经验心理压制，再用反方短板压低反方。",
+        "ids": [
+          "tiancai-911f014acbcd",
+          "tiancai-063e330626a8",
+          "tiancai-7d97ab97ec89",
+          "tiancai-4c9d2350c3ba"
+        ]
+      },
+      {
+        "name": "近期状态/热身/首轮→短期依据→推断士气和走势",
+        "chain": "近期状态、热身赛或首轮结果；作短期依据；推断士气和走势。",
+        "when": "赛前短评、首轮后。",
+        "counterHandling": "只给场面走势不判胜负；或先列双方短板后不改判断。",
+        "ids": [
+          "tiancai-b7b28566f4eb",
+          "tiancai-063e330626a8",
+          "tiancai-d12d6be97e07",
+          "tiancai-6c8440d15853"
+        ]
+      },
+      {
+        "name": "身价阵容深度→硬实力优势→强队大概率或阵型功能推分支",
+        "chain": "身价与阵容深度；判硬实力优势；推强队大概率，或按阵型关键球员功能推比赛分支；终点条件化走势或悬念。",
+        "when": "强弱分明、阵型对位、多场分析。",
+        "counterHandling": "补弱队意志变量使结论难否证；总身价直推概率但不量化。",
+        "ids": [
+          "tiancai-0d959b5fdad1",
+          "tiancai-3858d0f2cdb9",
+          "tiancai-7c9ab1e17038",
+          "tiancai-6b9029fc02ca"
+        ]
+      },
+      {
+        "name": "变量清单替代实力比较→逐项列不确定→全看临场",
+        "chain": "伤停、教练处境、战意；逐项列不确定；全看临场，不给方向。",
+        "when": "信息不足、双方接近、赛前风险提示。",
+        "counterHandling": "承认没有方向，互动收束。",
+        "ids": [
+          "tiancai-6b9029fc02ca",
+          "tiancai-91ca2de2efe3",
+          "tiancai-ddac1bed498e",
+          "tiancai-ff847a959132"
+        ]
+      },
+      {
+        "name": "阵容逐位论证→按位置列身价/功能→汇总推成绩",
+        "chain": "先定主帅和阵型；按门将、后卫、中场、锋线逐位列身价或功能；汇总优势推前四、欧冠或夺冠。",
+        "when": "阵容盘点、建队分析、赛季预测。",
+        "counterHandling": "多分支按位置；但身价总和或旅欧人数直接推冠军跳过体系。",
+        "ids": [
+          "tiancai-79a5c3e4cbfe",
+          "tiancai-2021c2b09f8e",
+          "tiancai-c5be6ce6a67c",
+          "tiancai-cbf90882cc79",
+          "tiancai-b48d43fa7a20"
+        ]
+      },
+      {
+        "name": "单场对阵→先立纸面强弱/首轮境遇→列战术矛盾胜负手→提问收束",
+        "chain": "单场对阵；立纸面强弱或首轮境遇；列战术矛盾点和胜负手；常以评论区提问收束，不直接给比分。",
+        "when": "赛前单场、首回合后。",
+        "counterHandling": "隐含倾向但两问句开放；或只问互动不落断言。",
+        "ids": [
+          "tiancai-2f279a44bb82",
+          "tiancai-747b23b8ffd6",
+          "tiancai-d3c637adf53d",
+          "tiancai-4516b47e2013"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "有明确赛果/冠军方向",
+        "chain": "结论较明确，后文仍可承认对手因素。",
+        "ids": [
+          "tiancai-3417fee115a7",
+          "tiancai-5beb75dbf68a",
+          "tiancai-ada8e12d3556",
+          "tiancai-e0cfb825b851"
+        ]
+      },
+      {
+        "name": "无最终赛果方向，以互动收束",
+        "chain": "只做分析或提问，不落胜负。",
+        "ids": [
+          "tiancai-31e191f538bc",
+          "tiancai-747b23b8ffd6",
+          "tiancai-d3c637adf53d",
+          "tiancai-4516b47e2013"
+        ]
+      },
+      {
+        "name": "排名/盘点型，含主题曲单样本",
+        "chain": "知识或记忆点优先，弱预测。",
+        "ids": [
+          "tiancai-cca99c555a04",
+          "tiancai-31e191f538bc"
+        ]
+      },
+      {
+        "name": "纯广告/非足球；足球内容夹广告",
+        "chain": "足球作入口，终点为产品。",
+        "ids": [
+          "tiancai-45e7d5ddb79e",
+          "tiancai-de710f973525",
+          "tiancai-26f0973263cd",
+          "tiancai-6f617f53d05b",
+          "tiancai-88e6b2bf1a68"
+        ]
+      },
+      {
+        "name": "人物生涯/历史复盘无预测",
+        "chain": "情绪或历史意义收束，direction为none。",
+        "ids": [
+          "tiancai-c3aa70af0727",
+          "tiancai-4963bbf583d7",
+          "tiancai-a74805e91457",
+          "tiancai-e2253d0baa51",
+          "tiancai-3b903808b476",
+          "tiancai-37c7fefcd03c",
+          "tiancai-c01295ea8fec",
+          "tiancai-a4cf258b341d",
+          "tiancai-88e6b2bf1a68"
+        ]
+      },
+      {
+        "name": "明确优势方但结尾仍提问或不下比分",
+        "chain": "前文有倾向，结尾开放。",
+        "ids": [
+          "tiancai-a63186120f42",
+          "tiancai-bae6a9496259",
+          "tiancai-d12d6be97e07",
+          "tiancai-694ef2b79f0f",
+          "tiancai-2add3e9d8d0b",
+          "tiancai-911f014acbcd",
+          "tiancai-7d97ab97ec89",
+          "tiancai-4c9d2350c3ba"
+        ]
+      },
+      {
+        "name": "只给场面走势不判胜负",
+        "chain": "判断节奏、空档、士气，不判胜负。",
+        "ids": [
+          "tiancai-b7b28566f4eb",
+          "tiancai-6c8440d15853",
+          "tiancai-063e330626a8"
+        ]
+      },
+      {
+        "name": "无互动提问，以推荐或总结收尾",
+        "chain": "结尾非提问，偏结论或推荐。",
+        "ids": [
+          "tiancai-4c9d2350c3ba",
+          "tiancai-6c8440d15853",
+          "tiancai-229c6175223f"
+        ]
+      },
+      {
+        "name": "隐含倾向但以两问句开放收尾",
+        "chain": "有倾向，用两问句保留悬念。",
+        "ids": [
+          "tiancai-d3023cceedf2",
+          "tiancai-dccd412179be"
+        ]
+      },
+      {
+        "name": "单场专题与多场合集重复同一场",
+        "chain": "同一场比赛在不同篇重复文本和判断。",
+        "ids": [
+          "tiancai-0d959b5fdad1",
+          "tiancai-3858d0f2cdb9",
+          "tiancai-1cbb9caa1f79",
+          "tiancai-d637de96e9a5"
+        ]
+      },
+      {
+        "name": "缺失正文，只有标题/fetch占位",
+        "chain": "信息缺失，direction unavailable。",
+        "ids": [
+          "tiancai-b829e71450c0",
+          "tiancai-8e1001d65a67"
+        ]
+      },
+      {
+        "name": "赛后评论但有明确观点，含单样本",
+        "chain": "非赛前预测，却作争议定性。",
+        "ids": [
+          "tiancai-b6650091e39a",
+          "tiancai-e0cfb825b851"
+        ]
+      },
+      {
+        "name": "多分支叙事",
+        "chain": "按场次、位置或比赛阶段分支。",
+        "ids": [
+          "tiancai-c01295ea8fec",
+          "tiancai-b48d43fa7a20",
+          "tiancai-e2253d0baa51"
+        ]
+      },
+      {
+        "name": "假设归化反事实，单样本",
+        "chain": "先结论，列假设阵容，推轻松出线。",
+        "ids": [
+          "tiancai-de49c81e9206",
+          "tiancai-cbf90882cc79",
+          "tiancai-b48d43fa7a20"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "同题材事实不统一或核验矛盾，如C罗对西班牙点球时间、第二球过程矛盾，伊斯坦布尔半场六比零与后文零比三矛盾。",
+        "ids": [
+          "tiancai-3417fee115a7",
+          "tiancai-5beb75dbf68a",
+          "tiancai-e2253d0baa51"
+        ]
+      },
+      {
+        "problem": "把未来事件写成已发生事实，如2026世界杯内容。",
+        "ids": [
+          "tiancai-c3aa70af0727",
+          "tiancai-de710f973525",
+          "tiancai-4963bbf583d7",
+          "tiancai-a74805e91457",
+          "tiancai-31e191f538bc"
+        ]
+      },
+      {
+        "problem": "单方叙述并推测裁判或球队动机。",
+        "ids": [
+          "tiancai-e0cfb825b851",
+          "tiancai-b6650091e39a"
+        ]
+      },
+      {
+        "problem": "广告未标明、人物赞歌转软广、历史奇迹末尾硬接商业。",
+        "ids": [
+          "tiancai-45e7d5ddb79e",
+          "tiancai-de710f973525",
+          "tiancai-26f0973263cd",
+          "tiancai-88e6b2bf1a68"
+        ]
+      },
+      {
+        "problem": "排名标准混合主观偏好却给绝对名次。",
+        "ids": [
+          "tiancai-cca99c555a04"
+        ]
+      },
+      {
+        "problem": "标题提问冠军但正文不给预测，只做互动。",
+        "ids": [
+          "tiancai-31e191f538bc"
+        ]
+      },
+      {
+        "problem": "强修辞跳过验证，或以身价、旅欧人数直接推冠军、晋级、取胜概率。",
+        "ids": [
+          "tiancai-bae6a9496259",
+          "tiancai-d12d6be97e07",
+          "tiancai-7d97ab97ec89",
+          "tiancai-cbf90882cc79",
+          "tiancai-de49c81e9206",
+          "tiancai-b48d43fa7a20",
+          "tiancai-0d959b5fdad1",
+          "tiancai-1cbb9caa1f79",
+          "tiancai-605a945e266b"
+        ]
+      },
+      {
+        "problem": "未核验状态、动机或最后一届、告别叙事当既定事实。",
+        "ids": [
+          "tiancai-d12d6be97e07",
+          "tiancai-2add3e9d8d0b",
+          "tiancai-229c6175223f"
+        ]
+      },
+      {
+        "problem": "前文强优势判断，结尾提问代替方向；或先强队大概率再补弱队搅局，使结论难否证。",
+        "ids": [
+          "tiancai-694ef2b79f0f",
+          "tiancai-7d97ab97ec89",
+          "tiancai-0d959b5fdad1",
+          "tiancai-3858d0f2cdb9"
+        ]
+      },
+      {
+        "problem": "同一场比赛不同篇重复同一套文本与判断，把重复当新内容。",
+        "ids": [
+          "tiancai-3858d0f2cdb9",
+          "tiancai-d637de96e9a5",
+          "tiancai-0d959b5fdad1",
+          "tiancai-1cbb9caa1f79"
+        ]
+      },
+      {
+        "problem": "段落重复、语句断裂、错字或语病。",
+        "ids": [
+          "tiancai-2f279a44bb82",
+          "tiancai-725a4a1b77d9",
+          "tiancai-747b23b8ffd6"
+        ]
+      },
+      {
+        "problem": "缺失正文，只有标题和fetch占位。",
+        "ids": [
+          "tiancai-b829e71450c0",
+          "tiancai-8e1001d65a67"
+        ]
+      },
+      {
+        "problem": "用足球跑动续航直接类比轮胎耐磨，以类比替代产品验证。",
+        "ids": [
+          "tiancai-6f617f53d05b"
+        ]
+      },
+      {
+        "problem": "未核验转会、伤停、红牌等当硬前提使用。",
+        "ids": [
+          "tiancai-ff847a959132",
+          "tiancai-0d959b5fdad1",
+          "tiancai-c5be6ce6a67c",
+          "tiancai-605a945e266b"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4597,
+    "completion_tokens": 11081,
+    "total_tokens": 15678,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7374
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 4597
+  },
+  "model": "deepseek-flash"
+}

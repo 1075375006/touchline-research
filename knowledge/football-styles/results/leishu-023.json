@@ -1,0 +1,491 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 23,
+  "processedAt": "2026-09-29T19:20:28.198Z",
+  "sourceIds": [
+    "leishu-06ff08338cf6",
+    "leishu-fc6d03b38185",
+    "leishu-9b639439001d",
+    "leishu-801fdfc91196",
+    "leishu-045210f3e355",
+    "leishu-8db1e34d9764",
+    "leishu-04011b4d2402",
+    "leishu-07c3bde4c5ef",
+    "leishu-ec9341ad47cc",
+    "leishu-6eacb5bad1fe",
+    "leishu-659b9bb19889",
+    "leishu-8b1161b2d634"
+  ],
+  "sourceHashes": [
+    "c8f0955029ea7f4657d066092631657fbae244016a1d0e586b5128dd477245de",
+    "a8bd07490701b5a80b04ab8e42647595b7d41a37387c81bf355c12b64cc7fbaa",
+    "41c986905378c6fb864139a7ab89010e0be50e26f6fa54b85b64c0b9681b5bab",
+    "cad072cfb2edabefe6dc14d9663f583f15053d97569e4391c92a20d4e763c595",
+    "494f9322c6cb11ae0dcb900182bda9fb8165763d99dba54962cc33eb40bf4b71",
+    "6b5f77a66694fe28a2a90b5633913e1e752919f097af084f109e4afd5efe15a9",
+    "6fc69e2de000657aa5057d485887e084b32630128f18bbb7af9a6f36204b33fc",
+    "dad3b8a24bdbde4fb2784f6cde57563465c5c9a56bcbe77d11ea2c77ef39afd2",
+    "2acf1b52385da5e3739e45126257c6b8136ec1926a6b46f87d9e3e3836c1e02d",
+    "225966d9fe2ea150ecea1bb331b0bb5df1d15abbb875805a63760e8e99ddf895",
+    "84eed872c7bead31743070732eb55458d1b6bfa4a698e7464dd42f302a70cb19",
+    "62e5d399ffb9851a9e4d924c4e9b9c4e40f9a882c6f38f3b7edf29ebdd7c847b"
+  ],
+  "fullInputChars": 1483,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-06ff08338cf6",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“有梅西的薯片，你舍得吃吗”发问，正文没有给出判断或论证方向。",
+        "steps": [
+          "先以梅西与薯片的组合制造话题",
+          "再用提问邀请受众回应；没有补充理由或结论"
+        ],
+        "bridge": "把梅西形象与日常商品并置，依靠新奇感引发互动。",
+        "counter": "未提出反方因素，也没有展开商品或足球内容。",
+        "ending": "停在设问，没有收束成观点。",
+        "risk": "正文极短，不能据标题补出广告、评价或足球论点。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #足球 #梅西 有梅西的薯片，你舍得吃吗？"
+        ]
+      },
+      {
+        "id": "leishu-fc6d03b38185",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "作者明说梅西是“好男人”，以其对妻子的感情和社交场合表现支撑这一评价。",
+        "steps": [
+          "先对照球场霸气与夜店中的拘谨，制造形象反差",
+          "继而称他与妻子青梅竹马，且荣誉再多仍爱妻",
+          "再以外界羡慕其感情作为补充",
+          "最后写他与名模合照时弯腰、无表情，强化拘谨印象"
+        ],
+        "bridge": "把长期伴侣关系及社交中的克制，解释为专一、顾家的人格表现。",
+        "counter": "没有讨论其他解释；合照表现与“好男人”的关系较弱。",
+        "ending": "以合照时的僵硬姿态收尾，回扣场内外反差。",
+        "risk": "有关私生活及他人羡慕等均为原文声称；由场景推人格存在跳步。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球好男人梅西。 梅西私底下形象与他球场上的霸气不一样，在夜店的梅西完全不像球场上的王者形象，总是在一旁坐着一脸不知所措，紧紧靠着妻子安东拉。",
+          " 梅西是足坛绝对的好男人，他和妻子安东拉是青梅竹马，不论多大的荣誉，梅西依旧不改他对妻子的爱，外界也一直羡慕他们非常好的感情。",
+          "在与名模合照时，梅西没有表情的弯着腰，好像一尊蜡像。"
+        ]
+      },
+      {
+        "id": "leishu-9b639439001d",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "explicit",
+        "claim": "作者以年龄段概括不同球星的受众，终点是C罗似乎不分男女老少、普遍有人认识和喜欢。",
+        "steps": [
+          "先称姆巴佩、内马尔、梅西各有不同年龄段的男性受众",
+          "转到C罗，反称似乎人人都喜欢",
+          "再以男女老少都认识C罗作补充"
+        ],
+        "bridge": "将受众范围更广，连接为C罗的大众知名度与普遍好感。",
+        "counter": "没有检验分组依据，也未区分“认识”与“喜欢”。",
+        "ending": "以“最起码”降低断言强度，落在人人认识的概括上。",
+        "risk": "受众画像没有来源；从认识推到喜欢，论据不足。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n爱足球，足球界的惊天秘密。 不知大家有没有发现一个秘密，喜欢姆巴佩的大多是八到十六岁的男性，喜欢内马尔的大多是十六到二十二岁的男性，喜欢梅西的大多是二十二到三十五岁的男性，喜欢c罗的好像大家都喜欢c罗。",
+          "最起码男女老少都认识c罗。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-801fdfc91196",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "提出梅西愿与C罗一起吃饭及会吃什么的好奇，没有表达实质判断。",
+        "steps": [
+          "先陈述两人愿意一起吃饭",
+          "随即转为好奇他们会吃什么",
+          "用表情符号收住，没有进一步展开"
+        ],
+        "bridge": "借两位球星同桌的设想引发轻松想象，不构成论证。",
+        "counter": "未处理任何反方因素。",
+        "ending": "以疑问和表情结束。",
+        "risk": "正文只有设问；不应从标题补造两人的关系或立场。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n梅西愿意和C罗一起吃饭，非常好奇他们会吃什么呢？",
+          "🤔\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-045210f3e355",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "仅以“球场上的野狼DISCO”作标签式表达，没有明确观点或论证方向。",
+        "steps": [
+          "先用“爱足球”引入",
+          "再将球场与野狼DISCO并置",
+          "没有提供比赛、人物或理由，文本即告结束"
+        ],
+        "bridge": "依赖流行文化联想营造气氛，不负责推出结论。",
+        "counter": "没有反方因素或论证内容。",
+        "ending": "短句收尾，没有观点闭合。",
+        "risk": "正文虽极短但并非占位声明；不能仅凭标题补出歌曲内容。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n爱足球，球场上的野狼DISCO。\n\n"
+        ]
+      },
+      {
+        "id": "leishu-8db1e34d9764",
+        "availability": "body",
+        "kind": "赛后复盘",
+        "direction": "implicit",
+        "claim": "借比利时大胜及德布劳内直接参与全部进球，突出其表现出色；其自称只是做好工作形成谦逊反差。",
+        "steps": [
+          "先报比利时4比0战胜苏格兰",
+          "继而列德布劳内3传1射、参与4球",
+          "再引其称自己没有踢世界级比赛，只是在做好工作"
+        ],
+        "bridge": "进球参与数据支撑个人表现突出，球员自述则把高产与低调并置。",
+        "counter": "没有讨论对手、队友贡献或数据之外的表现。",
+        "ending": "以德布劳内的自谦原话收束，形成反差。",
+        "risk": "比赛与数据是原文声称，未核验；由参与进球概括整体表现仍有简化。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n比利时4比0苏格兰，德布劳内3传1射，参与4粒进球。",
+          "丁丁说：我并没有踢什么世界级的比赛，只是做好了我的工作。"
+        ]
+      },
+      {
+        "id": "leishu-04011b4d2402",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "反驳“梅西不努力、C罗没天赋”的说法，认为两人的天赋与努力都突出，二者共同造就伟大。",
+        "steps": [
+          "先把两种说法并列为球迷误区。",
+          "以C罗的体质、速度和弹跳说明其身体天赋。",
+          "以梅西的生长经历及额外体能训练说明其付出。",
+          "再概括两人天赋和努力都超过多数球员，归为伟大原因。"
+        ],
+        "bridge": "个别身体条件和训练经历被用来说明两人兼具天赋与努力；两项都突出便解释其成就。",
+        "counter": "回应了两种标签，但未讨论训练投入如何比较，也未提供支撑比例判断的依据。",
+        "ending": "用天赋与努力并重作总结，将其归结为伟大的原因。",
+        "risk": "文中比例和经历均为原文声称；从少量特征推到总体努力程度，论证未展开。",
+        "anchorIndices": [
+          1,
+          3,
+          5
+        ],
+        "anchors": [
+          "\n梅西、c罗，足球界的两大误区。\n梅西不努力，c罗没天赋，是球迷才有的观点。",
+          "梅西小时候因生长激素不足，还需要比别人加强体能训练，加强肌肉强度。",
+          "他们的天赋超过了百分之九十九的球员，他们的努力程度更是超过了百分之九十九的球员，这就是他们伟大的原因。"
+        ]
+      },
+      {
+        "id": "leishu-07c3bde4c5ef",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "彩虹过人难度较高，维尼修斯即使被称作“小内马尔”并学习前辈，也不因此等同于内马尔的水平。",
+        "steps": [
+          "先指出彩虹过人花哨且考验技术。",
+          "以此动作已被内马尔练得娴熟作参照。",
+          "再提维尼修斯因身体特征相似而获“小内马尔”称号。",
+          "由称号引出学习前辈动作，最后强调称号不等于达到大神水平。"
+        ],
+        "bridge": "外号和模仿只能说明关联或学习意愿，不能直接证明技术水平相同。",
+        "counter": "没有举维尼修斯动作表现作比较；以对内马尔的拟人化告诫代替具体论证。",
+        "ending": "以与“大神”仍有距离收束，提醒勿把称号当作能力证明。",
+        "risk": "关于技术难度、外号缘由及水平差距均为原文表达，未给出比较标准。",
+        "anchorIndices": [
+          1,
+          3,
+          5
+        ],
+        "anchors": [
+          "\n到内马尔就能玩彩虹过人了吗？彩虹过人是足球中比较有难度的花哨球，这个对于球员自身技术有着很大的考验。",
+          "皇马的维尼修斯因为和内马尔四肢同样的位置，被誉为小内马尔。",
+          "但是内马尔要告诉你，不是叫你下一个内马尔就真的能玩彩虹过人，你离大神的距离还远着呢。"
+        ]
+      },
+      {
+        "id": "leishu-ec9341ad47cc",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用两人的相似经历、长期相伴及相隔相同天数的父子出生时间，营造梅西与C罗有缘分的叙事。",
+        "steps": [
+          "先列两人家庭成长、场上位置和荣誉等相似点。",
+          "补充他们常被比较并称为绝代双骄。",
+          "据这些共同点转向“冥冥中有缘分”的感叹。",
+          "再以年龄相差天数及相伴年数、儿子出生日期呼应缘分。"
+        ],
+        "bridge": "把相似经历和相同的时间间隔当作巧合线索，串成缘分主题，而非证明因果。",
+        "counter": "未提出反向解释或检验；“缘分”本身以感叹、修辞呈现。",
+        "ending": "落在两人儿子出生日期也相隔相同天数，强化巧合感。",
+        "risk": "日期、经历等均为原文声称；开头“二十年后将继续”未在正文进一步解释。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n二十年后将继续。梅西和c罗他们身上有太多共同点了，相似的家庭成长经历，在球场上踢差不多位置，获得的荣誉也不相上下，经常被拿来相互比较，被称为绝代双骄。",
+          "\nc罗比梅西大八百七十天，他们相伴走了十五年。",
+          "c罗的儿子迷你罗也比梅西的儿子嗲哥早八百七十天来到这个世上。"
+        ]
+      },
+      {
+        "id": "leishu-6eacb5bad1fe",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“反向C罗”和“快乐不分时间场合”作简短调侃，没有展开具体比赛判断或人物论证。",
+        "steps": [
+          "先以“反向C罗”给斯特林贴上对照式称呼。",
+          "再把“快乐”说成不受时间、场合限制。"
+        ],
+        "bridge": "依赖“反向C罗”与快乐足球的语境联想，正文未说明称呼的具体依据。",
+        "counter": "没有处理反例，也未解释所谓反向之处。",
+        "ending": "以一句概括式玩笑结束。",
+        "risk": "篇幅极短，无法据此补出人物表现或评价方向。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n被称为反向C罗，快乐是不分时间，不分场合的！"
+        ]
+      },
+      {
+        "id": "leishu-659b9bb19889",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只有对某种未明说内容的认同式感叹，无法确定其具体观点或论证方向。",
+        "steps": [
+          "先表示重新思考。",
+          "继而认为“这样说”似乎没有错，但没有交代所指内容或理由。"
+        ],
+        "bridge": "依赖缺失的语境，正文自身没有可还原的论证桥梁。",
+        "counter": "没有反方或支持材料。",
+        "ending": "以疑问表情和保留语气收束。",
+        "risk": "标题及正文均未给出“这样说”的具体对象，不据此补造观点。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n仔细想想，好像这样说也没有错！🤔\n"
+        ]
+      },
+      {
+        "id": "leishu-8b1161b2d634",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文向读者征询快乐足球的代表人物，没有给出名单、判断或论证。",
+        "steps": [
+          "先以提问邀请读者列举代表人物。",
+          "正文未继续提供示例或筛选标准。"
+        ],
+        "bridge": "无；这是征询式开场，不构成对特定人物的判断。",
+        "counter": "未提出反方或限定条件。",
+        "ending": "以开放提问结束，等待读者回应。",
+        "risk": "不能将标题扩写为具体人物盘点；原文没有答案。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n你知道哪些快乐足球的代表人物呢？\n\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "人物评价以场景反差或关系信息连接人格结论，如 leishu-fc6d03b38185；比赛表现以比分、个人数据支撑突出印象，如 leishu-8db1e34d9764。",
+        "以特征和经历并置推向综合评价，例：leishu-04011b4d2402。",
+        "以相似线索和重复数字营造巧合叙事，例：leishu-ec9341ad47cc。"
+      ],
+      "variants": [
+        "提问、标签或联想没有论证终点，方向应标none，如 leishu-06ff08338cf6、leishu-801fdfc91196、leishu-045210f3e355；受众概括则直接落到C罗的大众性，如 leishu-9b639439001d。",
+        "动作难度解释转为称号与能力区分，例：leishu-07c3bde4c5ef。",
+        "短句调侃、语境缺失感叹及开放提问均无明确论证终点，例：leishu-6eacb5bad1fe、leishu-659b9bb19889、leishu-8b1161b2d634。"
+      ],
+      "nonReusable": [
+        "不能把“认识”直接当作“喜欢”，也不能把单一社交场景直接当作稳定人格证明；分别见 leishu-9b639439001d、leishu-fc6d03b38185。",
+        "不能把“反向C罗”当作已论证的人物评价，例：leishu-6eacb5bad1fe。",
+        "不能替未说明的“这样说”补出对象或论据，例：leishu-659b9bb19889。",
+        "不能把提问当成已完成的代表人物盘点，例：leishu-8b1161b2d634。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-06ff08338cf6": "gpt-6-luna",
+    "leishu-fc6d03b38185": "gpt-6-luna",
+    "leishu-9b639439001d": "gpt-6-luna",
+    "leishu-801fdfc91196": "gpt-6-luna",
+    "leishu-045210f3e355": "gpt-6-luna",
+    "leishu-8db1e34d9764": "gpt-6-luna",
+    "leishu-04011b4d2402": "gpt-6-luna",
+    "leishu-07c3bde4c5ef": "gpt-6-luna",
+    "leishu-ec9341ad47cc": "gpt-6-luna",
+    "leishu-6eacb5bad1fe": "gpt-6-luna",
+    "leishu-659b9bb19889": "gpt-6-luna",
+    "leishu-8b1161b2d634": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0d2792743956ebf1016abc0f31d54087d0a7d734a8365e3c68": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0d2792743956ebf1016abc0f31d55887d0b35262e2a50206ba": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1708,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1708,
+            "output_tokens": 0
+          },
+          "rs_0d2792743956ebf1016abc0f3278e487d08328512ef8eb7280": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 287
+          },
+          "msg_0d2792743956ebf1016abc0f3aafb487d08faab9b79f92087c": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1375
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1375
+          }
+        }
+      },
+      "input_tokens": 1808,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1662,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 3470
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0f065b56a41fab00016abc0f5be1e887d091ebef6e5baebfd5": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0f065b56a41fab00016abc0f5be20887d08c79274e2005af01": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1899,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1899,
+            "output_tokens": 0
+          },
+          "rs_0f065b56a41fab00016abc0f5c85b487d093f609b14f302e22": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 195
+          },
+          "msg_0f065b56a41fab00016abc0f61214887d0a782e43c7824ed61": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1570
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1570
+          }
+        }
+      },
+      "input_tokens": 1999,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1765,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 3764
+    }
+  ]
+}

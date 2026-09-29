@@ -1,0 +1,31 @@
+{
+  "author": "目标爱足球",
+  "slug": "mubiao",
+  "records": 271,
+  "characters": 420488,
+  "exactDuplicateRecords": 6,
+  "analyzedRecords": 271,
+  "availability": {
+    "missing": 102,
+    "partial": 14,
+    "body": 153,
+    "graphic": 2
+  },
+  "directions": {
+    "unavailable": 102,
+    "none": 20,
+    "explicit": 88,
+    "implicit": 61
+  },
+  "kinds": {
+    "缺失": 97,
+    "资讯盘点": 48,
+    "赛后复盘": 10,
+    "赛前方向": 96,
+    "非足球": 10,
+    "场面倾向": 1,
+    "人物叙事": 4,
+    "知识解释": 5
+  },
+  "uniqueKnownVideoIds": 120
+}

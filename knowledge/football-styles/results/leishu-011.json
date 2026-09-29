@@ -1,0 +1,502 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 11,
+  "processedAt": "2026-09-29T19:19:22.941Z",
+  "sourceIds": [
+    "leishu-3825ec823179",
+    "leishu-f5865df3bbd9",
+    "leishu-b39cfd92100b",
+    "leishu-7aab6f37ba26",
+    "leishu-f561cc5061c4",
+    "leishu-681e2275bb74",
+    "leishu-8eb6903e4c84",
+    "leishu-c54123d50036",
+    "leishu-66d2c61cd545",
+    "leishu-d8988cea9244",
+    "leishu-a4f82c3c77db",
+    "leishu-957bcc3ce59b"
+  ],
+  "sourceHashes": [
+    "de69f1d7ceedaabfde5d843c35f563cf3d7b0db457a47442685271172d02292c",
+    "aa0fb9f51b38f304c10882ba5dc70d59fc99038eac00b733c045038e9dd45bda",
+    "f30f99e13d2b73bbc9f4414194e769a7369d5852bc689a0b4e1ece9359ddffee",
+    "0f96126aac590cc0d31133f450b9b3de62b1aa4b2e0f19f132e63affa06619a7",
+    "53654a8ed8f44dfbba6c90f9b62c9d5ff15f5d46c8e321ab8ea0d94c62291d0c",
+    "193647f0417db2c998f4a566865ca2617a6dee45a5b5e7fd3fefa48a49e6b4ab",
+    "e823fa4285ec6b8728b6e985b2e65ed0ec3ef3f03046588df2e116e5892801ef",
+    "6ac9ff367bf024a6753353e7899e511b898e57c9ed4f13c167dc69a34ef6ffad",
+    "e02d1ca0ebdcf85db3a21e4e3ea7d6d9bf349fabcad0b4ddba67447cd408e75c",
+    "0e94a9dec1c71a9e896464ee961b100844c57a316511779299c0a5425984e484",
+    "8ae8022edf44015f3ff82a9f5ea03c442a825063217a8ccadfcfd7bdf11994ff",
+    "dc867414f63241cf29055107c1df6c79448f9df0c857cf79532d0082a3b6c4a2"
+  ],
+  "fullInputChars": 1569,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-3825ec823179",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以求再给机会为主线，声称近期状态转好并能正确判断明日剧本，借此请求继续信任。",
+        "steps": [
+          "先承认联赛刚开始，自己的剧本表现不佳。",
+          "转而声称近期状态好转，作为改变的依据。",
+          "把欧冠表现也纳入自我背书，强化信心展示。",
+          "再次请求机会，并承诺明日判断正确、继续直播。"
+        ],
+        "bridge": "把自述的近期状态改善，直接当成未来判断可靠的根据。",
+        "counter": "承认此前表现不好，但没有具体说明失误或展示可检验的改进证据。",
+        "ending": "重复请求机会，以明日预测承诺和继续直播收尾。",
+        "risk": "状态与预测能力均为自述；从近期状态到明日正确存在跳步，语气带有夸张表演性。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n大哥再给我一次机会。 再给我一次机会，我知道武打联赛刚开始，我的剧本不是很好，但是最近你看了吗？",
+          "最近我一天一百分，状态很好，这欧冠我都能起立。",
+          "大哥再给我一次机会，好吧，我明天的剧本也能正确，全体起立，我一会还直播。"
+        ]
+      },
+      {
+        "id": "leishu-f5865df3bbd9",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "提出内马尔是否说了辱华词汇、为何不澄清及是否仍有人喜欢他的疑问；未给出答案或明确判断。",
+        "steps": [
+          "先以标签和提问引出“视频到底说了什么”。",
+          "接着追问内马尔为何不出来澄清。",
+          "再把是否确实辱骂与公众是否继续喜欢他并置。"
+        ],
+        "bridge": "将未澄清与争议指控、公众好恶联系起来，但没有说明彼此关系。",
+        "counter": "未呈现视频内容、当事人回应或其他解释，也未判定指控真伪。",
+        "ending": "以连续反问留下悬而未决的问题。",
+        "risk": "正文仅为提问式短文；不能据此认定辱华言论属实，也不能补出作者结论。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔被指使用辱华词汇，视频到底说了什么（视频ID：6878608006557338887）\n",
+          "\n#足球 #内马尔使用辱华词汇 视频到底说了什么？",
+          "#内马尔 为什么不出来澄清？真的骂了我们，还有人喜欢他？"
+        ]
+      },
+      {
+        "id": "leishu-b39cfd92100b",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "围绕内马尔视频是否导致人设崩塌、巴黎是否压下事件及平事代价发问，没有明确作答。",
+        "steps": [
+          "先以“视频出来了”引出人设是否崩塌的疑问。",
+          "再提出巴黎圣日耳曼是否把事情压下去的判断性问题。",
+          "最后用假设性的花钱平事问题转向事件处理代价。"
+        ],
+        "bridge": "把视频、公众形象、俱乐部处理和可能的金钱解决方式串联，但未提供因果证据。",
+        "counter": "没有展示视频内容、俱乐部行动或所谓平事的事实依据。",
+        "ending": "以假设自己愿付多少钱的问题收束。",
+        "risk": "标题和短文均为疑问、暗示，不足以证明人设崩塌、压事或花钱平事。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔视频流出，人设崩塌？（视频ID：6878211297943604488）\n",
+          "\n#足球 #内马尔 视频出来了，人设崩塌？",
+          "#巴黎圣日尔曼 没把事压下去啊，如果是你，愿意花多少钱平事？"
+        ]
+      },
+      {
+        "id": "leishu-7aab6f37ba26",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "希望内马尔只是口误并要求解释；若确实辱骂，则主张拉黑。",
+        "steps": [
+          "先以疑问引出内马尔是否骂人的争议。",
+          "随后要求他出来解释，并表达相信只是口误。",
+          "再设定条件：若事实确实如此，就把他拉黑。"
+        ],
+        "bridge": "把是否口误、是否属实作为区分宽容与切断支持的条件。",
+        "counter": "承认存在“确实如此”的可能，但未提供核实办法或证据。",
+        "ending": "用条件式拉黑表明支持有明确底线。",
+        "risk": "立场是条件性的；短文没有确认言论内容，也没有说明解释如何判断。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔被指骂我们，希望马儿只是口误（视频ID：6875300349289319693）\n",
+          "\n#dou来足球季 #足球 #内马尔 骂我们？",
+          "出来给我们解释一下，我相信马儿只是个口误！"
+        ]
+      },
+      {
+        "id": "leishu-f561cc5061c4",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "并列提出梅西离开巴萨的热搜与内马尔确诊新冠的消息，未展开两者关系或给出明确观点。",
+        "steps": [
+          "先以提问引出谁能抢走梅西离开巴萨的热搜。",
+          "随后点出巴黎圣日耳曼的内马尔确诊新冠。",
+          "将后者作为对前述热搜问题的回应式信息呈现。"
+        ],
+        "bridge": "默认内马尔确诊消息足以与梅西离队热度竞争，但未提供热度比较材料。",
+        "counter": "没有数据或解释支持“抢热搜”的程度，也没有讨论两则消息的关联。",
+        "ending": "以内马尔确诊这一信息收尾。",
+        "risk": "新闻内容仅为原文声称，未核验；标题式表达不等于提供热搜排名证据。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔确诊新冠，抢走梅西离开巴萨的热搜（视频ID：6867894022086724872）\n",
+          "\n#足球 谁能抢了#梅西 离开#巴萨 的热搜？",
+          "#巴黎圣日尔曼 的#内马尔 #内马尔确诊新冠 ！"
+        ]
+      },
+      {
+        "id": "leishu-681e2275bb74",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "仅以“喝蛋白粉的正确方式”和“小细节”作题，没有说明方法或形成可提取的结论。",
+        "steps": [
+          "先提出中非兄弟喝蛋白粉的主题。",
+          "再以“正确方式”暗示将介绍做法。",
+          "补充C罗、梅西标签及“小细节”，正文未展开。"
+        ],
+        "bridge": "标签暗示与足球人物有关，但没有实际论证或说明蛋白粉做法。",
+        "counter": "没有提供不同做法、依据或需要回应的反方观点。",
+        "ending": "停留在主题提示，没有具体收束结论。",
+        "risk": "文本只有标签式短句；不能据此补造饮用方法，也没有可判定的足球观点。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 中非兄弟：喝蛋白粉的正确方式（视频ID：6861441023483055367）\n",
+          "\n#中非兄弟 #足球 #球迷 喝蛋白粉的正确方式！",
+          "#c罗 #梅西 小细节！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-8eb6903e4c84",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "借拜仁大胜巴萨的标题式话题转入球迷住酒店难选、饮料提问，没有比赛方向判断。",
+        "steps": [
+          "以拜仁大胜巴萨作吸引注意的足球背景。",
+          "转到球迷住酒店选择的玩笑。",
+          "再问观众平时喝什么饮料，落点是互动而非赛事分析。"
+        ],
+        "bridge": "足球赛果只充当引子，酒店与饮料话题之间没有论证关系。",
+        "counter": "未讨论比赛或其他因素。",
+        "ending": "以饮料提问开放互动。",
+        "risk": "仅有短文案，无独立口播；标题提及比分不构成赛果分析。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 #拜仁8-2狂虐巴萨 #巴萨 球迷以后住酒店，难选了哦！",
+          "#足球 #球迷 你们都喝什么饮料呢？\n"
+        ]
+      },
+      {
+        "id": "leishu-c54123d50036",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "声明故事与足球无关，随后以口渴和拖鞋收尾，没有足球论点。",
+        "steps": [
+          "先将故事与足球、C罗、梅西切开。",
+          "补充“只是渴了”，把情境落在口渴。",
+          "再提拖鞋不错，以物件评价结束。"
+        ],
+        "bridge": "由明确排除足球转向日常状态与物件。",
+        "counter": "没有提出反方或足球相关判断。",
+        "ending": "用拖鞋评价收束。",
+        "risk": "文案极短，未交代故事本身；不补造情节。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 这个故事，和#足球 #c罗 #梅西 无关！",
+          "只是渴了！拖鞋不错！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-66d2c61cd545",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以今天不踢球为反差引子，称赞“老外真猛”，再用看懂梗的挑战召唤球迷。",
+        "steps": [
+          "宣布今天不踢足球，建立反差。",
+          "转称“老外真猛”，但未说明所指行为。",
+          "询问有多少人看懂，并把看懂与真球迷、梗联系起来。"
+        ],
+        "bridge": "把未说明的画面或梗当作受众理解门槛。",
+        "counter": "未解释“猛”的依据，也未展开反向看法。",
+        "ending": "以识梗挑战和球迷身份认同收束。",
+        "risk": "短文案缺少梗的上下文，无法还原具体所指。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 今天不踢#足球 了，#老外真猛！",
+          "看懂的有10个吗，真#球迷！#梗\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-d8988cea9244",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以踢球邀约和拿出诚意构成玩笑，补充欧冠淘汰仍很帅，没有比赛判断。",
+        "steps": [
+          "提出想踢足球就拿出诚意的条件式邀约。",
+          "另提欧冠淘汰，转向对人物外观的评价。",
+          "以淘汰后仍帅形成轻松收尾。"
+        ],
+        "bridge": "竞技淘汰与外貌称赞并置，形成反差而非因果论证。",
+        "counter": "未谈淘汰原因、表现或其他评价。",
+        "ending": "用“依然很帅”转为人物调侃。",
+        "risk": "没有交代被评价对象及画面语境；不推定具体人物。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 想和我踢#足球 ，请拿出一些诚意！",
+          "#欧冠 淘汰，依然很帅！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-a4f82c3c77db",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "用“踢足球吗”引出“不踢球的那种”双关，再称脚法不错，重点是玩笑式反差。",
+        "steps": [
+          "提出是否踢足球的问题。",
+          "以“不踢球的那种”反转问题的常规理解。",
+          "评价脚法不错，作为画面或动作的轻松赞语收束。"
+        ],
+        "bridge": "双关制造足球与非踢球情境的错位，脚法评价强化玩笑。",
+        "counter": "未交代动作细节，也没有赛事判断。",
+        "ending": "以简短称赞结束。",
+        "risk": "文案未说明双关具体所指，不能补出场景。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 踢#足球 吗？不踢球的那种！",
+          "脚法不错哦！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-957bcc3ce59b",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "先说踢球会渴并问是否喝水，随后转到梅西与C罗的体力玩笑，没有明确赛事方向。",
+        "steps": [
+          "由踢足球引出会渴的日常判断。",
+          "问观众是否想喝水，延续饮水话题。",
+          "转而猜测现实中的梅西应扛不动C罗，以球星作玩笑落点。"
+        ],
+        "bridge": "从运动口渴转到球星体格想象，靠足球人物关联而非论据衔接。",
+        "counter": "没有提供两人身体状况或比较依据。",
+        "ending": "以梅西、C罗的假设性玩笑结束。",
+        "risk": "“应该”是推测语气，不能当作事实；文本未展开论证。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 踢#足球 肯定会渴的，你想喝水吗？",
+          "现实中#梅西 应该扛不动#c罗 吧\n\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-3825ec823179以自述状态改善支撑未来承诺，再导向求机会；leishu-7aab6f37ba26以事实条件区分宽容和拉黑。",
+        "多以足球标签或球星作引子，迅速转入生活玩笑、互动或反差收尾，如leishu-8eb6903e4c84、leishu-957bcc3ce59b。"
+      ],
+      "variants": [
+        "leishu-f5865df3bbd9、leishu-b39cfd92100b以提问呈现争议但不作结论；leishu-f561cc5061c4是消息并列；leishu-681e2275bb74仅有主题提示。",
+        "本批均无比赛胜负或场面方向；leishu-c54123d50036明确排除足球，leishu-66d2c61cd545以识梗挑战为主。"
+      ],
+      "nonReusable": [
+        "不能把 leishu-f5865df3bbd9、leishu-b39cfd92100b 的疑问当成对指控或俱乐部处理的确认；不能把 leishu-f561cc5061c4 的热搜设问当成排名证据；leishu-681e2275bb74未给出蛋白粉内容。",
+        "不能把标题比分或球星姓名当成比赛论证，也不能替短文案补全未说明的画面与梗，如leishu-8eb6903e4c84、leishu-a4f82c3c77db。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-3825ec823179": "gpt-6-luna",
+    "leishu-f5865df3bbd9": "gpt-6-luna",
+    "leishu-b39cfd92100b": "gpt-6-luna",
+    "leishu-7aab6f37ba26": "gpt-6-luna",
+    "leishu-f561cc5061c4": "gpt-6-luna",
+    "leishu-681e2275bb74": "gpt-6-luna",
+    "leishu-8eb6903e4c84": "gpt-6-luna",
+    "leishu-c54123d50036": "gpt-6-luna",
+    "leishu-66d2c61cd545": "gpt-6-luna",
+    "leishu-d8988cea9244": "gpt-6-luna",
+    "leishu-a4f82c3c77db": "gpt-6-luna",
+    "leishu-957bcc3ce59b": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_011575289a739820016abc0ed3394c87d0b1e33ee83a9e2952": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 98,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 98,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_011575289a739820016abc0ed3396487d09480bf70fbff999b": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1694,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 1694,
+                "input_tokens": 1918,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1918,
+            "output_tokens": 0
+          },
+          "rs_011575289a739820016abc0ed3f7ec87d0b1d420bc0e4240e7": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 326
+          },
+          "msg_011575289a739820016abc0ee5173487d0a1adbcf2bc2e2aa8": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1527
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1527
+          }
+        }
+      },
+      "input_tokens": 2018,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "output_tokens": 1853,
+      "output_tokens_details": {
+        "reasoning_tokens": 326
+      },
+      "total_tokens": 3871
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0ee1bfe166e846fe016abc0f1e7aa887d0b177296b6b975dc3": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0ee1bfe166e846fe016abc0f1e7ad087d0ab799dce7092f549": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1869,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1869,
+            "output_tokens": 0
+          },
+          "rs_0ee1bfe166e846fe016abc0f1f030087d085a868186e8f30a4": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 230
+          },
+          "msg_0ee1bfe166e846fe016abc0f233e3087d09f9897776d02ce2a": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1322
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1322
+          }
+        }
+      },
+      "input_tokens": 1969,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1552,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 3521
+    }
+  ]
+}

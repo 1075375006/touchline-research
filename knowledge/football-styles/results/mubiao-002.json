@@ -1,0 +1,264 @@
+{
+  "author": "目标爱足球",
+  "slug": "mubiao",
+  "part": 2,
+  "processedAt": "2026-09-29T18:55:25.659Z",
+  "sourceIds": [
+    "mubiao-ad5cb757e87c",
+    "mubiao-d9ddfa6ff1bd",
+    "mubiao-46d9c511f557",
+    "mubiao-665929b7cf64",
+    "mubiao-a2f41862f3bd",
+    "mubiao-740dc1c94ac3",
+    "mubiao-b8574fd06440",
+    "mubiao-db6129d9f58f",
+    "mubiao-0d5370baf954",
+    "mubiao-9b9bc24ae41a",
+    "mubiao-ba8b744ba785",
+    "mubiao-ad60ecd60e6e"
+  ],
+  "sourceHashes": [
+    "b9d49694c057a58984af8a168fe338f35a6eefb359c8052815cc070604653387",
+    "d4eefedb35bfdd1d81c2aa341224c06c515dec580de4acd55a6a9715f88d91f5",
+    "ff4d1f503f2ec1efeacfd50fd76075ef885e2f5c206ab9abf755c7be879244f3",
+    "c7abcb9fd28de19a0b03a97199d55a46526f7ee73e7e5c3fa50eacc12f424a5b",
+    "67fd912c878e17ffcae84da1d4e0d155b3a91041709a2caa3ca01612d9b7d81d",
+    "5902ea0c41eba37d305eefe1d2c0fa8415c9b518dbe7a701e34a23c4b4c336be",
+    "c4024409278ba9e05320cc1e16933c02cda19d6c7546ca63d2ce3ec042c41c4c",
+    "4a82c53d728b14d8cad5290d8af280573330438aec50c0267319066f4e872050",
+    "cac79e0ed1d570e007da84574aec3e66ab233d6963426e33b7c4b127662b6345",
+    "c340d29b37ef47226e8ec997c5e6fa1cda11f572b0e9f7a0479c2a6185c80555",
+    "2badf5f1d055bb5ac191779f271f1f6701b334b4f8388d15860b0d19c3ee946e",
+    "d25071c9bd455cb7c465cbd2a7d142ed3313712ca60f17d7f40ef3bf68450eb1"
+  ],
+  "fullInputChars": 1411,
+  "extractionThinkingEffort": "low",
+  "method": "Configured model received every complete record; original anchors validated programmatically; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "mubiao-ad5cb757e87c",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为2026",
+          "世界杯决赛日知识分享",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-d9ddfa6ff1bd",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "知识分享节目7月19日",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-46d9c511f557",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（图文视频，",
+          "简短字幕内容",
+          "）"
+        ]
+      },
+      {
+        "id": "mubiao-665929b7cf64",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为英格兰",
+          "对阿根廷赛前分析",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-a2f41862f3bd",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为半决赛",
+          "法国对西班牙赛前分析",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-740dc1c94ac3",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "知识分享节目7月12日",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-b8574fd06440",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为1/4决赛",
+          "西班牙对阵比利时",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-db6129d9f58f",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "知识分享节目7月10日",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-0d5370baf954",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "1/8决赛赛前知识分享",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-9b9bc24ae41a",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "16强1/8决赛知识分享",
+          "的完整解说内容）"
+        ]
+      },
+      {
+        "id": "mubiao-ba8b744ba785",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（AI短视频，",
+          "简短字幕内容",
+          "）"
+        ]
+      },
+      {
+        "id": "mubiao-ad60ecd60e6e",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "无实际正文，无法确定观点方向",
+        "steps": [],
+        "bridge": "无",
+        "counter": "无",
+        "ending": "无",
+        "risk": "无正文，无法评估",
+        "anchors": [
+          "（字幕内容已提取，为世界杯",
+          "第13比赛日资料汇总",
+          "的完整解说内容，非常长）"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [],
+      "variants": [],
+      "nonReusable": []
+    }
+  },
+  "usage": {
+    "prompt_tokens": 1943,
+    "completion_tokens": 4374,
+    "total_tokens": 6317,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3296
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 1431
+  },
+  "model": "deepseek-flash"
+}

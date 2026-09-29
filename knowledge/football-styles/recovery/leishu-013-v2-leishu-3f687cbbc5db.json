@@ -1,0 +1,227 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-3f687cbbc5db",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以内马尔点球助攻队友的行为致意梅西，落点是两人角色关系的温情回望，不判断比赛结果。",
+        "steps": [
+          "先提梅西曾无私传球助攻苏亚雷斯，并称其为双人配合。",
+          "补充当时内马尔在旁庆祝，构成昔日的角色对照。",
+          "转到如今内马尔也在点球时传球助攻队友，建立行为呼应。",
+          "据此解释为向梅西致敬，最后以祝愿式表达收束。"
+        ],
+        "bridge": "把相似的传球助攻行为视为致敬，是文本的核心解释；角色从旁观者变为大哥强化了呼应。",
+        "counter": "未讨论两次配合是否出于相同动机，也未列其他解释。",
+        "ending": "以对梅西的祝愿和“归来仍是少年”的抒情语句收尾。",
+        "risk": "致敬是作者对行为的诠释，文中没有给出内马尔本人确认；未核验相关事件。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n内少致敬梅西。 当年梅西无私分球助攻苏亚雷斯破门，完成了一次绝妙的双人配合，而内少只能在一旁默默的庆祝。",
+          "如今早已成为大哥的内少在面对点球时同样选择传球助攻队友得分。",
+          "向昔日的老大哥梅西致敬，愿你出走半生，归来仍是少年。"
+        ]
+      },
+      {
+        "id": "leishu-f8104cdaa82d",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "仅有“玫瑰cp在线发糖”标题式标签及人物标签，无正文论证终点可判。",
+        "steps": [],
+        "bridge": "无可读正文建立材料与观点之间的关系。",
+        "counter": "无反方因素可辨。",
+        "ending": "标签列举后结束。",
+        "risk": "正文缺失，不据标题补造互动情节或方向。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #玫瑰 cp 在线发糖！#梅西 #阿奎罗 #足球\n"
+        ]
+      },
+      {
+        "id": "leishu-75f63aec7f58",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把球场遇到内马尔并行跪拜礼描述为引人注意的操作，未提出更完整的判断或解释。",
+        "steps": [
+          "先用“球场遇到内少”设定场景。",
+          "称随后发生的举动为“骚操作”，制造惊奇评价。",
+          "补充举动是行跪拜礼，并以标签标出内马尔和巴西。"
+        ],
+        "bridge": "作者将跪拜礼作为值得注意的反常或趣味场面呈现，但没有展开原因。",
+        "counter": "没有讨论礼节含义、当事人动机或其他解读。",
+        "ending": "以动作描述和人物标签结束，没有推演结果。",
+        "risk": "文本极短，标题式评价不能支撑更强的褒贬或事实判断；未核验场景。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 球场遇到内少行跪拜礼（视频ID：6852245962094693647）\n",
+          "\n#爱足球 球场遇到内少，还有这骚操作！",
+          "行#跪拜礼 ！#内马尔 #巴西\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-74c2f4aa3ce7",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "提出金球奖取消背景下C罗是否还能追平梅西的问题，未给出答案或胜负方向。",
+        "steps": [
+          "先以“金球奖五大传奇第五位”引出人物盘点框架。",
+          "给出C罗曾三次获奖这一文本声称的信息。",
+          "补充2020年金球奖取消，再询问C罗是否有机会追平梅西。"
+        ],
+        "bridge": "问题把奖项取消与追平梅西的机会联系起来，但没有说明取消如何改变追赶路径。",
+        "counter": "未讨论梅西获奖数、未来奖项机会或其他影响因素。",
+        "ending": "以问句悬置结论，没有回答。",
+        "risk": "不能把标题式问句推成预测；文中信息未核验，且缺少论证。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 2020金球奖取消C罗还能追上梅西吗（视频ID：6851872381384871183）\n",
+          "\n金球奖五大传奇第五位。 3次获奖，2020金球奖取消，C罗还有机会追平梅西吗？"
+        ]
+      },
+      {
+        "id": "leishu-cf294da082ec",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有庆祝动作模仿秀的标题式标签和人物标签，无法从正文确定展示内容或观点。",
+        "steps": [],
+        "bridge": "没有正文论证可供拆解。",
+        "counter": "无可辨识的反方处理。",
+        "ending": "标签列举后结束。",
+        "risk": "不得依据标题或人物标签推断谁模仿了谁、模仿效果如何。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#爱足球 #C罗 庆祝动作模仿秀！#内马尔 #姆巴佩 #拉莫斯\n"
+        ]
+      },
+      {
+        "id": "leishu-1a9730f04ae1",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以内马尔和比伯共同娱乐、互相往来描绘两人交情亲近，结尾以玩笑表达对内马尔的亲近感。",
+        "steps": [
+          "先称两人是铁哥们，并列出一起玩游戏、看球。",
+          "再叙述内马尔邀请比伯去巴萨基地参观踢球。",
+          "补充比伯随后邀请内马尔到迪拜豪华别墅做客，形成往来。",
+          "由共同活动与互相邀请归纳友情，再以外貌玩笑和交友愿望收尾。"
+        ],
+        "bridge": "共同活动和互相做客被用作关系亲近的例证；豪宅细节增添“豪华”色彩。",
+        "counter": "没有处理友情程度的其他证据或不同解释。",
+        "ending": "以“长得帅的人都喜欢在一起玩”的玩笑，转为对内马尔的交友请求。",
+        "risk": "关系亲密的程度是作者概括；“果然”及外貌因果属修辞，未获论证。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n内少和比伯。 爱足球，内少和比伯可是铁哥们，两人一起玩游戏，一起看球。",
+          "当初内少邀请比伯去巴萨基地参观踢球，而回头迪拜就让内少来自己的豪华别墅做客。",
+          "果然长得帅的人都喜欢在一起玩。内少，我们做朋友吧。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-3f687cbbc5db以过去与当下相似行为建立致敬解释，再用祝愿收束。",
+        "leishu-1a9730f04ae1以共同活动和互相邀请作为友情例证，归纳关系亲近。"
+      ],
+      "variants": [
+        "leishu-74c2f4aa3ce7提出追赶问题但未作判断，direction为none。",
+        "leishu-f8104cdaa82d、leishu-cf294da082ec仅有标签式文字，正文缺失；leishu-75f63aec7f58只有简短场景描写。"
+      ],
+      "nonReusable": [
+        "leishu-3f687cbbc5db的行为相似不能单独证明主观致敬动机；分析时应标为作者解释。",
+        "leishu-1a9730f04ae1的互访可支持交往亲近，但不能据此认证“铁哥们”程度或外貌因果。",
+        "leishu-74c2f4aa3ce7只有问题，不可补写预测；缺失文本也不可按标题补造论据。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_023a9aea5dfa1907016abc0ed51bc887d0b8b9581dc3f32ca2": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_023a9aea5dfa1907016abc0ed51be887d0a097c63dec3e7ee1": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1711,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1711,
+          "output_tokens": 0
+        },
+        "rs_023a9aea5dfa1907016abc0ed601a087d086dd3be79665b325": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 280
+        },
+        "msg_023a9aea5dfa1907016abc0edb1d1887d0a6010204dc52cc33": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1503
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1503
+        }
+      }
+    },
+    "input_tokens": 1811,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1783,
+    "output_tokens_details": {
+      "reasoning_tokens": 280
+    },
+    "total_tokens": 3594
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

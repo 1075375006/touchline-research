@@ -1,0 +1,485 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 26,
+  "processedAt": "2026-09-29T19:20:29.320Z",
+  "sourceIds": [
+    "leishu-20faec4612d2",
+    "leishu-9a26f6e971a6",
+    "leishu-0859f1c736d6",
+    "leishu-5f7dd97628ea",
+    "leishu-d1aab3bd7551",
+    "leishu-026ba7102ce3",
+    "leishu-32df70aca02c",
+    "leishu-6ba1fb0ba439",
+    "leishu-2b5914ec29aa",
+    "leishu-7c3631009f05",
+    "leishu-0e164e69e136",
+    "leishu-07ea0daa1f93"
+  ],
+  "sourceHashes": [
+    "8ea25c53a070cb42f07d282d442068bb428d2ef811085f3351678ac9c1e65265",
+    "74182f835aace22c3d4546364e6966aaf34031e0293c7da04e144f20b14377f4",
+    "83635a7962d6ce95246a9d43c22ccf263358db7dd4e761dc69ec180e2e24bad7",
+    "a1ada54bcfa9d32e99d53fde44904cfba6f5872400e48b63ffa781f9c823b58b",
+    "b148f68080bfbe17f0266ea4694d863f56c84dcd1335eb412688c1f79ebf2dd5",
+    "314b688df7e166ca5b3d4841a121f97c9ba2f554d40946fe949a9d3b5ef96b55",
+    "a5a432c5054763a96de5f38c772d3bc2aa0f2abe71c82301c656dec90580e5a3",
+    "f9dcaee020dc18d421f4a864829508f9f74aefaf345788800f1844fff558e187",
+    "5e7042a5a170355127baf0c316a58f4922e0d23272d60803ff1735eb847191f4",
+    "f9bdd40123b103ed35340666a62ce42fe249f305e69f7328844cc5b573fe0279",
+    "42c6aa3bbd3a09b83ed37804e089201c6810c6230cb3cce782bc6cbf557e23d6",
+    "cc888781d5bb330c91b343bb7c18fb48f53a9df6c33928654a445c175eb49447"
+  ],
+  "fullInputChars": 1013,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-20faec4612d2",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借罗本与队友冲突的轶事，戏称他是“三棍客”中的“铁棍客”；没有比赛方向判断。",
+        "steps": [
+          "先用“三剑客/三棍客”对照设问，引出罗本。",
+          "叙述他因不满表现向队友泄愤，继而遭多人围殴。",
+          "接着说更衣室出现铁棍，最后据此给他冠以“铁棍客”头衔。"
+        ],
+        "bridge": "冲突后出现铁棍被当作回应或威慑的笑料，由此把“棍”与罗本联系起来。",
+        "counter": "没有交代冲突背景、铁棍用途或其他解释，直接以轶事支撑戏称。",
+        "ending": "以“三棍客”头把交椅作夸张式收尾。",
+        "risk": "叙事把前后事件连成因果笑点，但未提供佐证；不据此认证事件真伪。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n荷兰足球三剑客名燥天下，荷兰足球三棍客你听说过吗？",
+          "没错，罗本就是其中的一员。在一场比赛中场休息的时候，罗本因不满上半场自己的表现，用水砸队友泄愤，结果引来了至少十名队友的群殴，这人缘是多不好。",
+          "所以三棍客的头把交椅就是罗本铁棍客。\n"
+        ]
+      },
+      {
+        "id": "leishu-9a26f6e971a6",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "转述伊基塔关于哥伦比亚若不夺冠便剪掉长发的条件承诺，并以“拭目以待”留下悬念；未判断夺冠结果。",
+        "steps": [
+          "先提出哥伦比亚夺冠与否这一条件。",
+          "将伊基塔剪发作为未夺冠时的后果。",
+          "以“拭目以待”收束，等待条件结果揭晓。"
+        ],
+        "bridge": "把个人外表变化与球队成绩绑定，形成可关注的后续悬念。",
+        "counter": "没有讨论哥伦比亚夺冠可能性或承诺是否会兑现。",
+        "ending": "用观望语气留待后续，不给出胜负预测。",
+        "risk": "承诺内容仅为原文转述，未核验；篇幅很短，论证仅止于条件陈述。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n伊基塔说哥伦比亚不夺冠他就剪掉一头长发，拭目以待！"
+        ]
+      },
+      {
+        "id": "leishu-0859f1c736d6",
+        "availability": "body",
+        "kind": "赛后复盘",
+        "direction": "none",
+        "claim": "以阿根廷获胜为由头，向梅西送上生日祝福；没有进一步论证比赛或预测方向。",
+        "steps": [
+          "先称阿根廷赢了。",
+          "随后转向梅西生日这一祝贺对象。",
+          "把赛果与生日祝福并置，直接收束。"
+        ],
+        "bridge": "胜利与生日同框，构成简短的庆祝语境，但未明说两者存在因果关系。",
+        "counter": "没有提供比赛过程、对手或不同意见。",
+        "ending": "以生日祝福结束。",
+        "risk": "只有一句正文，不能扩展为比赛复盘；赛果仅按原文记录，不作核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n阿根廷赢了，梅西生日快乐！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-5f7dd97628ea",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "表达希望博格巴快乐、去向不拘的支持态度；没有评价具体去向或预测。",
+        "steps": [
+          "以“只要你快乐”设定表达态度的条件。",
+          "将“去哪里都行”作为对去向的宽容回应。",
+          "用简短祝愿式口吻结束，没有展开论据。"
+        ],
+        "bridge": "把球员的个人快乐置于具体去向选择之上。",
+        "counter": "没有讨论转会选择、竞技影响或相反立场。",
+        "ending": "以无条件支持收束。",
+        "risk": "正文未交代去向背景，不能补出具体转会判断。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n只要你快乐，去哪里都行！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-d1aab3bd7551",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "按父亲节主题罗列多位球员与子女的组合，没有提出评价或比赛方向。",
+        "steps": [
+          "先以戈麦斯与女儿、克洛泽与儿子们开列人物组合。",
+          "随后列出鲁小胖与儿子、罗德里格斯与女儿、内马尔与儿子、欧文与女儿。",
+          "再补充希勒与女儿、伊本与孩子们，列表结束。"
+        ],
+        "bridge": "以球员与子女的并列关系承接父亲节主题，靠人物名单形成内容。",
+        "counter": "没有比较人物、解释亲子关系或处理不同观点。",
+        "ending": "在最后一组人物组合后停止，没有总结判断。",
+        "risk": "正文只给出姓名与关系，未提供事迹；不据此补充人物信息。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n· 戈麦斯和女儿。\n· 克洛泽和儿子们。",
+          "\n· 内马尔和儿子。\n· 欧文和女儿。",
+          "\n· 希勒和女儿。\n· 伊本和孩子们。"
+        ]
+      },
+      {
+        "id": "leishu-026ba7102ce3",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "称卡恩为传奇并祝其生日快乐；没有展开人物评价或方向判断。",
+        "steps": [
+          "先以“致传奇”表达敬意。",
+          "点名卡恩作为祝贺对象。",
+          "以生日祝福结束。"
+        ],
+        "bridge": "“传奇”是祝贺前的赞誉，但正文没有说明其依据。",
+        "counter": "没有列出成就或回应其他评价。",
+        "ending": "直接以生日快乐收束。",
+        "risk": "正文极短，不能补造人物论据；赞誉按原文表述，不作认证。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n致传奇！卡恩，生日快乐！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-32df70aca02c",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "报告内马尔禁赛及威廉将替代参赛，没有比赛结果或胜负方向。",
+        "steps": [
+          "先给出内马尔禁赛这一消息。",
+          "接着说明威廉将代替他参加美洲杯。",
+          "以人员变动为终点，没有继续推导影响或预测。"
+        ],
+        "bridge": "两项消息并列，未提供由缺阵到球队表现的推理桥梁。",
+        "counter": "没有讨论替补效果或其他因素。",
+        "ending": "停在替代参赛的资讯陈述。",
+        "risk": "事实仅是原文声称；篇幅短，不能补出战术影响。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n内马尔禁赛，将由威廉代替内马尔参加美洲杯。"
+        ]
+      },
+      {
+        "id": "leishu-6ba1fb0ba439",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "以“最努力的球星”评价C罗，并用生涯第53个帽子戏法作支撑。",
+        "steps": [
+          "先用“最努力”给出对C罗的正面评价。",
+          "随后列出生涯第53个帽子戏法这一成就。",
+          "以成就数字强化赞誉，但未展开努力与成就的具体因果。"
+        ],
+        "bridge": "把帽子戏法数量作为赞誉的支撑，但其与努力程度的关系未论证。",
+        "counter": "未处理其他解释或反向因素。",
+        "ending": "以成就数字收束对球员的褒扬。",
+        "risk": "“最努力”是评价；数字及其含义均仅按原文陈述，未核验。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n最努力的球星！职业生涯中第53个帽子戏法！"
+        ]
+      },
+      {
+        "id": "leishu-2b5914ec29aa",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "向马赛洛送上31岁生日祝福，没有进一步观点或论证方向。",
+        "steps": [
+          "点出马赛洛。",
+          "说明其31岁生日。",
+          "直接送上生日祝福，没有继续展开人物评价。"
+        ],
+        "bridge": "年龄与生日构成祝福的缘由，不形成进一步推论。",
+        "counter": "没有提出或处理反方因素。",
+        "ending": "以简短祝福结束。",
+        "risk": "文本极短，不应补造人物事迹或评价。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n马赛洛31岁生日快乐！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7c3631009f05",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以调侃式口吻评价博格巴“很骚”，没有展开具体观点。",
+        "steps": [
+          "先点出博格巴。",
+          "用“很骚”作口语化评价。",
+          "以笑声语气收尾，没有提供行为或表现作为依据。"
+        ],
+        "bridge": "没有论证桥梁，主要依靠口语评价和语气传达态度。",
+        "counter": "没有处理反方因素。",
+        "ending": "以“哈哈”结束。",
+        "risk": "评价所指未由正文解释，不替作者补充具体含义。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n博格巴很骚嘛，哈哈！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-0e164e69e136",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "implicit",
+        "claim": "认为梅西的盘带与射门难以应对，并以其百米速度回应“速度不够快”的质疑，解释其过人能力。",
+        "steps": [
+          "先声称梅西百米速度为“11抄3”，并评价盘带与射门无解。",
+          "提出一种可能质疑：梅西速度不够快。",
+          "反驳称其百米速度仍可以，并将此作为过人能力的解释。",
+          "末句语意不清，未进一步完成论证。"
+        ],
+        "bridge": "把百米速度足以支撑过人作为隐含前提，但没有展开速度如何转化为盘带优势。",
+        "counter": "提及并回应速度不足的质疑；未讨论其他影响过人的因素。",
+        "ending": "以含混残句结束，未形成清晰总结。",
+        "risk": "原文存在疑似识别错误及语意不通处；速度数据、能力判断和因果关系均未核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n梅西百米11抄3，梅西的盘带与射门已经无解了。",
+          "或许你会认为他的速度不够快，其实你错了，梅西的百米速度还是可以的，这就是他能亓里走单弱的原因。",
+          "也许永远都不会那句话。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-07ea0daa1f93",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "主张过人应有明确目的，并强调身体素质尤其速度与对抗能力的重要性，建议多跑多练。",
+        "steps": [
+          "先提出过人应有目的，列出传球、射门或吸引防守等选择。",
+          "转而指出身体素质也有作用。",
+          "将速度与对抗能力列为最重要因素。",
+          "以多跑多练作为训练建议收束。"
+        ],
+        "bridge": "从身体素质的重要性转到训练建议，隐含反复训练能提升所需能力。",
+        "counter": "未讨论技术、判断等因素与身体素质的权重关系。",
+        "ending": "用简短训练建议结束。",
+        "risk": "建议未说明训练方法或适用条件；重要性判断及效果未核验。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n过人要有目的性，是摆脱后传球、射门还是吸引防守？",
+          "注意身体素质其实也起很大的作用，速度与对抗能力是最重要的，多跑多练就行。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-20faec4612d2由冲突轶事转接铁棍笑点，再落到绰号；leishu-d1aab3bd7551以人物关系名单承接节日主题。",
+        "leishu-0e164e69e136以速度回应质疑，再将其连接到过人能力，但因果展开有限。",
+        "leishu-07ea0daa1f93由过人目的转向身体条件，再落到训练建议。",
+        "leishu-6ba1fb0ba439用帽子戏法数量支撑对努力程度的赞誉。"
+      ],
+      "variants": [
+        "leishu-9a26f6e971a6以条件承诺制造悬念但不预测结果；leishu-0859f1c736d6、leishu-5f7dd97628ea、leishu-026ba7102ce3均为简短祝贺或支持表达，没有展开方向论证。",
+        "leishu-32df70aca02c是人员变动资讯，没有比赛方向；leishu-2b5914ec29aa和leishu-7c3631009f05是短祝福或态度表达，均无完整论证链。",
+        "leishu-0e164e69e136包含质疑与回应；leishu-07ea0daa1f93是技能知识与建议，论证方向不同。"
+      ],
+      "nonReusable": [
+        "不能把leishu-9a26f6e971a6的条件承诺当作哥伦比亚夺冠预测；不能从leishu-d1aab3bd7551的姓名关系列表推导人物评价或父职表现。",
+        "leishu-6ba1fb0ba439不能把成就数字直接当作努力程度的充分证明，原文未展开因果。",
+        "leishu-0e164e69e136不能把百米速度直接等同于过人能力的原因，原文缺少中间机制。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-20faec4612d2": "gpt-6-luna",
+    "leishu-9a26f6e971a6": "gpt-6-luna",
+    "leishu-0859f1c736d6": "gpt-6-luna",
+    "leishu-5f7dd97628ea": "gpt-6-luna",
+    "leishu-d1aab3bd7551": "gpt-6-luna",
+    "leishu-026ba7102ce3": "gpt-6-luna",
+    "leishu-32df70aca02c": "gpt-6-luna",
+    "leishu-6ba1fb0ba439": "gpt-6-luna",
+    "leishu-2b5914ec29aa": "gpt-6-luna",
+    "leishu-7c3631009f05": "gpt-6-luna",
+    "leishu-0e164e69e136": "gpt-6-luna",
+    "leishu-07ea0daa1f93": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0cc42e228bed93d9016abc0f3c3d1c87d0a5f2c82c31bff220": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0cc42e228bed93d9016abc0f3c3d3c87d0982c66169d24c377": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1636,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1636,
+            "output_tokens": 0
+          },
+          "rs_0cc42e228bed93d9016abc0f3cfe3c87d08b8f52f72c1ef64e": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 371
+          },
+          "msg_0cc42e228bed93d9016abc0f43be6887d0acb1dfb2034403e8": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1440
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1440
+          }
+        }
+      },
+      "input_tokens": 1736,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1811,
+      "output_tokens_details": {
+        "reasoning_tokens": 371
+      },
+      "total_tokens": 3547
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0f7da7702d7d8d24016abc0f5f1fcc87d0a053ad305125ba54": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0f7da7702d7d8d24016abc0f5f1ff087d09533fb0fe65d3ff3": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1529,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1529,
+            "output_tokens": 0
+          },
+          "rs_0f7da7702d7d8d24016abc0f5fa2c087d080ac9dd43d431823": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 257
+          },
+          "msg_0f7da7702d7d8d24016abc0f645abc87d09459fe85c3ee1e85": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1396
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1396
+          }
+        }
+      },
+      "input_tokens": 1629,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1653,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 3282
+    }
+  ]
+}

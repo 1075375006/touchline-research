@@ -1,0 +1,25 @@
+{
+  "author": "马克放大镜",
+  "slug": "make",
+  "records": 6,
+  "characters": 8184,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 6,
+  "availability": {
+    "graphic": 1,
+    "body": 4,
+    "missing": 1
+  },
+  "directions": {
+    "none": 1,
+    "explicit": 3,
+    "unavailable": 1,
+    "implicit": 1
+  },
+  "kinds": {
+    "非足球": 1,
+    "赛前方向": 4,
+    "缺失": 1
+  },
+  "uniqueKnownVideoIds": 6
+}

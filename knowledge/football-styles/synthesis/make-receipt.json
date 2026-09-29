@@ -1,0 +1,49 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 8052,
+    "completion_tokens": 9908,
+    "total_tokens": 17960,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4296
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8052
+  },
+  "coverage": {
+    "records": 6,
+    "availability": {
+      "graphic": 1,
+      "body": 4,
+      "missing": 1
+    },
+    "directions": {
+      "none": 1,
+      "explicit": 3,
+      "unavailable": 1,
+      "implicit": 1
+    },
+    "kinds": {
+      "非足球": 1,
+      "赛前方向": 4,
+      "缺失": 1
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "505b511a7f279fd5e22fe0f69b6c48a3a2ef7001bd3ae3628d77b3f8a4a2cb38",
+        "cd2f1f2c46a346cdbac73a8a169ed4cd19cfabf6d20554641ddf48c3436c33be",
+        "b10d2f95748c535ff286f244bd62f2d452986751112f7cd47050a1d3a03669b7",
+        "507abfd3f2ae6723251e2666d262680727c544d02397d69dc442c2263584ffc7",
+        "9640ac9b6720d15a975654192526d0ef6efe4745668cef858d4768e90122f729",
+        "9b05c3b99485a67200d5e94322ab22753f1db48a7656c46dde7bb5e84acb99db"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T19:01:19.287Z"
+}

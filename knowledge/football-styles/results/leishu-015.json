@@ -1,0 +1,491 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 15,
+  "processedAt": "2026-09-29T19:19:05.071Z",
+  "sourceIds": [
+    "leishu-56d072b16644",
+    "leishu-be2d3ccf26ea",
+    "leishu-1fd4f6f74aab",
+    "leishu-238c9462659f",
+    "leishu-66cb361f0690",
+    "leishu-88cefcce4cd5",
+    "leishu-ec3f286e2640",
+    "leishu-748abc3bbeea",
+    "leishu-43e6c5138aa4",
+    "leishu-0211e2e19eaa",
+    "leishu-95a620436840",
+    "leishu-7724be2377b2"
+  ],
+  "sourceHashes": [
+    "f73b2d5986ce3195717b70b85b2e8cebba7251d4bf6b5cc870d1a44ab361aa1a",
+    "8286856bcaae70ddd0ceb12d7e75efca231e3714684da12222b39b62920baf8b",
+    "7cf17b28619c3434ffba2654f4346595c71dcb2ad8f8fef896d69afc22371d75",
+    "5919fd5e755242bde771ced161e1704ef6190b56c8fa3200c59a8494c5c5502f",
+    "32ed60afc3c783ecdb959eab1608609bb86dfee166af63f066c62d4ceb1c4674",
+    "2e11645b68ea8fdff8606d2356908a21d553a54db966a099a9e0e4ce14ffe594",
+    "e0019e3d2e743fd239c9f7e13905f5403b08c6ab79999d57be027dce68a01b9f",
+    "a8e12a2bccec506ee21bfa764e33f5302a004b55ff774271c45ea58a90b7b6c6",
+    "dff14a12e65774900c92ba989c79c3ac4b868bb77be1429d5384a3c0cbdf29fb",
+    "54537cac388bafd46d286314cdece534805f8bffc4ca3c3a80a6a59092abab6a",
+    "26f3259754f5b60434b49722a1a4688ee65e698ad61590588ea604cd20411751",
+    "2d97c49a55f39d3e45a49918884f15bcad56f3fc25170f7c200ff3fc6ec7b354"
+  ],
+  "fullInputChars": 1123,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-56d072b16644",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "以是否遭西班牙税务部门调查，反问球员是否配称球星，表达带挑衅意味的判断。",
+        "steps": [
+          "先把“在西班牙踢球”设为语境。",
+          "再将是否被税务部门查作为衡量条件。",
+          "用反问把未被查与球星资格挂钩。"
+        ],
+        "bridge": "隐含前提是遭税务调查能证明球星身份或地位；文中未解释两者关联。",
+        "counter": "没有讨论税务调查与球员水平、名气之间可能无关。",
+        "ending": "以“你也配是球星”的挑衅式反问收束。",
+        "risk": "只有一句口号式表达，未给事例或论据；不核验其事实含义。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 在#西班牙 踢球，不被税务部查，你也配是球星！"
+        ]
+      },
+      {
+        "id": "leishu-be2d3ccf26ea",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "提出迷你罗能否赶上C罗的问题，但正文没有给出判断或回答。",
+        "steps": [
+          "先用“虎父无犬子”引出父子比较。",
+          "再点明比较对象为迷你罗与C罗。",
+          "以疑问句结束，没有展开依据或结论。"
+        ],
+        "bridge": "父子关系被用作比较的引子，但没有说明它如何预测球员发展。",
+        "counter": "没有呈现支持或反对迷你罗赶上C罗的因素。",
+        "ending": "保留问题，未作预测。",
+        "risk": "正文极短，不能把标题问题补成作者立场或论证。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 虎父无犬子，迷你罗能赶上#c罗 吗？"
+        ]
+      },
+      {
+        "id": "leishu-1fd4f6f74aab",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "描写内马尔的宅男、游戏爱好一面，并列举其疫情期间游戏时长、晒战绩及队友参与；没有进一步评价。",
+        "steps": [
+          "先以“瘾少年”引出内马尔的游戏话题。",
+          "承认其花边新闻不断，再转向宅男一面。",
+          "称其两周玩了四十二小时，并提到社媒晒战绩。",
+          "由战绩图带出卡塞米罗等国家队队友参与。"
+        ],
+        "bridge": "游戏时长与晒图被用来呈现其私下爱好；材料未推导更广泛的人格结论。",
+        "counter": "“花边新闻不断”与宅男一面形成反差，但没有解释或权衡。",
+        "ending": "落在队友一同参与游戏这一细节，没有总结判断。",
+        "risk": "有关时长、截图及参与者均是原文声称，未核验；无明确方向。",
+        "anchorIndices": [
+          2,
+          3,
+          5
+        ],
+        "anchors": [
+          "内少虽然花边新闻不断，但骨子里也有宅男的一面。",
+          "疫情期间，内少在两个星期内足足玩了四十二小时。",
+          "从图中我们也能看到内马尔还带上了他的国家队队友卡塞米罗、库蒂尼奥、威廉和热苏斯。"
+        ]
+      },
+      {
+        "id": "leishu-238c9462659f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "列举多组教练与球员配对，并让读者猜最后一组是谁；正文是识别互动，不表达评价结论。",
+        "steps": [
+          "先用身份互换设定提出辨认挑战。",
+          "依次列出穆里尼奥与阿里等四组搭配。",
+          "提示最后一组看起来毫无违和感。",
+          "把最后一组身份留作竞猜问题。"
+        ],
+        "bridge": "熟悉的人物组合及“毫无违和感”的提示构成猜谜线索，但未说明具体缘由。",
+        "counter": "没有提供其他解释或对配对效果的比较。",
+        "ending": "以读者猜身份的问句收束。",
+        "risk": "文本没有说明视觉材料内容，不能补出最后一组身份或作者观点。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球：当教练与球员互换身份。 你还能认出他们是谁吗？",
+          "穆里尼奥与阿里，弗格森与C罗，瓜迪奥拉与梅西，齐达内与本泽马，亨利与温格。",
+          "最后这一对毫无违和感，你知道他们是谁吗？"
+        ]
+      },
+      {
+        "id": "leishu-66cb361f0690",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "只预告球星参与卷纸挑战，并称结尾有高能；没有呈现挑战过程或评价。",
+        "steps": [
+          "先设置球星参与卷纸挑战的主题。",
+          "再以“结尾有高能”制造观看期待。",
+          "点出梅西、拉莫斯标签，未展开事件细节。"
+        ],
+        "bridge": "悬念措辞促使读者期待结尾，但文本没有给出可供论证的内容。",
+        "counter": "没有反方因素或对挑战表现的比较。",
+        "ending": "以结尾预告及球员标签收束。",
+        "risk": "可能依赖未提供的影像内容；现有文字不足以推断谁做了什么。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 当球星遇到卷纸挑战，结尾有高能！",
+          " #梅西 #拉莫斯\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-88cefcce4cd5",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "以“越位有段位”为设想并标注武磊，但未解释越位规则、列举情形或作出场面判断。",
+        "steps": [
+          "先提出把越位按段位分类的设想。",
+          "再以武磊标签关联足球人物。",
+          "没有给出分类标准、实例或结论。"
+        ],
+        "bridge": "标题式设想暗示可能按越位情形分级，正文没有提供分级依据。",
+        "counter": "没有讨论越位判定的其他因素或例外。",
+        "ending": "停留在话题引入，没有收束观点。",
+        "risk": "不可把标题扩写成规则讲解；素材不足以判断其实际内容。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 如果越位有段位！ #武磊\n"
+        ]
+      },
+      {
+        "id": "leishu-ec3f286e2640",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以球员只上场5秒、比赛随即结束制造反差，没有比赛方向判断。",
+        "steps": [
+          "先以盼望上场、准备发挥作铺垫。",
+          "接着得知比赛已结束，期待转为错愕。",
+          "用“只上了5秒”和队友取笑收在尴尬笑点。"
+        ],
+        "bridge": "“刚上场”与“比赛结束”的时间反差构成笑点，不承担足球论证。",
+        "counter": "没有讨论其他解释或反方因素。",
+        "ending": "以可能被队友取笑收束。",
+        "risk": "这是短场景式文案，未交代比赛背景；不据此推断真实上场记录。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n史上\"最短\"的球员。 该我上场了，终于又可以大显身手了。",
+          "什么？比赛结束了？问号脸。我才刚上了5秒，这么短，又要被队友取笑了。"
+        ]
+      },
+      {
+        "id": "leishu-748abc3bbeea",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把教练的“暴走”形象比作黑帮大哥气势，属于夸张观感表达，没有方向判断。",
+        "steps": [
+          "先点出教练“暴走”的状态。",
+          "再将其气势类比为黑帮大哥。",
+          "以感叹语气强化形象，不展开论据。"
+        ],
+        "bridge": "从“暴走”直接联想到强势气场，依赖修辞类比。",
+        "counter": "未提供不同观感或反向解释。",
+        "ending": "以感叹句结束。",
+        "risk": "正文极短，未描述画面或行为细节；类比是修辞，不是事实认定。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 暴走的教练，果然有黑帮大哥的气势！"
+        ]
+      },
+      {
+        "id": "leishu-43e6c5138aa4",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "将内马尔与花式煎蛋并置，再询问读者是否想尝，属于趣味互动，没有方向判断。",
+        "steps": [
+          "先以“内少花式煎蛋”提出人物与动作组合。",
+          "用“说实话”转入对读者的直接发问。",
+          "以是否想尝一口作互动收尾。"
+        ],
+        "bridge": "标题式组合提供趣味入口，提问引导参与；没有展开因果论证。",
+        "counter": "未处理其他看法或反方因素。",
+        "ending": "以尝一口的邀请式问题收束。",
+        "risk": "正文没有说明煎蛋画面或过程，不能补充具体情节。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 内少花式煎蛋，说实话你想不想尝一口呢？",
+          " #内马尔\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-0211e2e19eaa",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "提出谁是心中足坛舞王的开放问题，并列出人选标签，没有给出评选结论。",
+        "steps": [
+          "先设置“足坛舞王”这一评价主题。",
+          "直接询问读者心中的人选。",
+          "标签列出C罗、内马尔、博格巴，但未说明比较标准。"
+        ],
+        "bridge": "问题与人物标签促成读者联想，不能推出作者偏好的对象。",
+        "counter": "没有呈现候选人差异、反方意见或评判依据。",
+        "ending": "以开放提问交由读者回答。",
+        "risk": "正文未作排名或选择；不能把标签当作作者结论。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 谁是你心中的足坛舞王呢？",
+          "#c罗 #内马尔 #博格巴\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-95a620436840",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借“人生处处有惊喜”和“运气来了挡都挡不住”赞叹鲁尼相关情境，但未提出比赛方向。",
+        "steps": [
+          "先用“人生处处有惊喜”定下意外惊喜的框架。",
+          "再以运气到来、无法阻挡作概括。",
+          "将这层评价关联到鲁尼，未交代具体事件。"
+        ],
+        "bridge": "把惊喜归因于运气，属于概括性评价；具体画面与推理依据缺席。",
+        "counter": "未讨论运气以外的原因或反方因素。",
+        "ending": "以鲁尼标签落点，没有另作总结。",
+        "risk": "正文未说明鲁尼经历了什么；不补造事件，也不认证评价。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 人生处处有惊喜，运气来了挡都挡不住#鲁尼\n"
+        ]
+      },
+      {
+        "id": "leishu-7724be2377b2",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以“全靠演技”调侃某种表现，再问谁该得奥斯卡，没有指明对象或作出判断。",
+        "steps": [
+          "先用“人生如戏”建立戏剧化框架。",
+          "接着以“全靠演技”作评价式调侃。",
+          "把评价转成谁配得奥斯卡的开放问题。"
+        ],
+        "bridge": "“演技”与奥斯卡的关联是修辞类比，正文没有提供具体表现作支撑。",
+        "counter": "未说明被调侃者，也未呈现其他解释或反方意见。",
+        "ending": "以评奖问题邀请读者回应。",
+        "risk": "文字没有指明对象或事件，不能推定是在指控某位球员假摔等具体行为。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 人生如戏，全靠演技！",
+          "奥斯卡小金人应该颁给谁呢？\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "有正文时常以人物标签或单个细节引入，再转为反问、提示或竞猜；如内马尔篇由游戏时长转到队友参与（leishu-1fd4f6f74aab）。",
+        "短文多以一个场景或形象切入，再用反差、类比或提问完成趣味表达，如leishu-ec3f286e2640、leishu-748abc3bbeea。"
+      ],
+      "variants": [
+        "多篇为设问、预告或谜题而非完整论证，终点保持开放（leishu-be2d3ccf26ea、leishu-238c9462659f、leishu-66cb361f0690、leishu-88cefcce4cd5）；税务篇则直接用反问表达判断（leishu-56d072b16644）。",
+        "没有实质比赛方向：有的以人物场景作笑谈，如leishu-ec3f286e2640；有的只提出读者互动问题，如leishu-0211e2e19eaa、leishu-7724be2377b2。"
+      ],
+      "nonReusable": [
+        "不能把“虎父无犬子”当作迷你罗能赶上C罗的论据，也不能把越位段位标题补成规则分类；原文均未展开（leishu-be2d3ccf26ea、leishu-88cefcce4cd5）。",
+        "不可把开放提问或人物标签改写成作者的选择与排名，如leishu-0211e2e19eaa；也不可为缺少情境的“演技”评价补定对象或行为，如leishu-7724be2377b2。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-56d072b16644": "gpt-6-luna",
+    "leishu-be2d3ccf26ea": "gpt-6-luna",
+    "leishu-1fd4f6f74aab": "gpt-6-luna",
+    "leishu-238c9462659f": "gpt-6-luna",
+    "leishu-66cb361f0690": "gpt-6-luna",
+    "leishu-88cefcce4cd5": "gpt-6-luna",
+    "leishu-ec3f286e2640": "gpt-6-luna",
+    "leishu-748abc3bbeea": "gpt-6-luna",
+    "leishu-43e6c5138aa4": "gpt-6-luna",
+    "leishu-0211e2e19eaa": "gpt-6-luna",
+    "leishu-95a620436840": "gpt-6-luna",
+    "leishu-7724be2377b2": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_02c6f315ab24690d016abc0ed322f487d0a254364d5ce19d3f": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_02c6f315ab24690d016abc0ed3231487d09c9ef5b46c5362f8": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1741,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1741,
+            "output_tokens": 0
+          },
+          "rs_02c6f315ab24690d016abc0ed3bf7887d094897ddfb3563bbb": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 309
+          },
+          "rs_02c6f315ab24690d016abc0eddfc6487d0ad1a26923a906f63": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 0,
+            "output_tokens": 95
+          },
+          "msg_02c6f315ab24690d016abc0ee112cc87d0a596dc4af53af0c8": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1458
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1458
+          }
+        }
+      },
+      "input_tokens": 1841,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1862,
+      "output_tokens_details": {
+        "reasoning_tokens": 404
+      },
+      "total_tokens": 3703
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_08392852425ff1f2016abc0f044bfc87d0b81a1bbb516a476f": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_08392852425ff1f2016abc0f044c1c87d0b42d4bd0ee646992": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1547,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1547,
+            "output_tokens": 0
+          },
+          "rs_08392852425ff1f2016abc0f04f21487d08414f39b0924211c": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 253
+          },
+          "msg_08392852425ff1f2016abc0f0b5dcc87d08fe43ea046038899": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1359
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1359
+          }
+        }
+      },
+      "input_tokens": 1647,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1612,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 3259
+    }
+  ]
+}

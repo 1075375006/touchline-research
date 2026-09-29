@@ -1,0 +1,31 @@
+{
+  "author": "博扬足球",
+  "slug": "boyang",
+  "records": 356,
+  "characters": 377257,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 356,
+  "availability": {
+    "body": 349,
+    "partial": 4,
+    "missing": 3
+  },
+  "directions": {
+    "explicit": 106,
+    "implicit": 171,
+    "none": 75,
+    "implied": 1,
+    "unavailable": 3
+  },
+  "kinds": {
+    "知识解释": 35,
+    "赛后复盘": 26,
+    "赛前方向": 131,
+    "资讯盘点": 112,
+    "人物叙事": 37,
+    "场面倾向": 4,
+    "非足球": 8,
+    "缺失": 3
+  },
+  "uniqueKnownVideoIds": 356
+}

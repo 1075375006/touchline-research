@@ -1,0 +1,45 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 8737,
+    "completion_tokens": 15339,
+    "total_tokens": 24076,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9751
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8737
+  },
+  "coverage": {
+    "records": 6,
+    "availability": {
+      "missing": 2,
+      "body": 4
+    },
+    "directions": {
+      "unavailable": 2,
+      "implicit": 4
+    },
+    "kinds": {
+      "缺失": 2,
+      "赛前方向": 4
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "7928a6c74875e76ee1a1e8a1c5738979c983a56ffa598f49d67456a514f3254f",
+        "98cf20233330a7e4a1cd5ccc3a711d0eabdefc08911fea20609e00a502f74830",
+        "349d31ce0a46963cb1ed5db00ffdac49409f7549d0e902f6c19a504c82890881",
+        "1f2da8c64842d89c2253f66e0cdcc939637d3f7435f15dd24ca115b90087e80e",
+        "73e164dc54dbea90f2be54b750aa111575a0ec24b2935c32d2752d83ce2ba07c",
+        "a4b428e3cb5efeaefcf9a211466661dd29925d168c37a22810a86bde3ad67ba1"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T18:54:43.619Z"
+}

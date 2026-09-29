@@ -1,0 +1,489 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 21,
+  "processedAt": "2026-09-29T19:20:25.336Z",
+  "sourceIds": [
+    "leishu-5216317a7074",
+    "leishu-ac3ba9d85c12",
+    "leishu-1ad11049a14e",
+    "leishu-0bbd14c4809b",
+    "leishu-aa30f357d9d0",
+    "leishu-7505bc9a19e4",
+    "leishu-c2f7b080beea",
+    "leishu-6291e41c3553",
+    "leishu-8b06c8d92187",
+    "leishu-77e2d247470b",
+    "leishu-e4bbbd6b77c0",
+    "leishu-591596a8dd9d"
+  ],
+  "sourceHashes": [
+    "7c99763f0b674794e285ef673e6abdc10b0cf32dbc4c2c1621a2322b416568ba",
+    "081eb12c5a896b5bb984d4de55861205b59bfb47fdfaf3b8a449d7dc50c3a947",
+    "a870ad0c98d3e46684a9d7c52027e94a308b6a53f5b63ec17fbdda2aa7d1bd0d",
+    "364faad7a329ea0e71ed3bf944d4d1aaf007c880a2022628a06252df84c5c70e",
+    "90ad8c3ff0ffcc29897719f73cd53f0f7b40927cf2343054d26ce9572c579e3e",
+    "9b953d37b8e280f08b00309aab381b2a4fe8049d48832238035a687c00301b28",
+    "15a9b8a7fcf92433ac92ac3939b73c20c1b4c028cc75ad8f987766deac6b0cde",
+    "066bd688e041bd166db0edd0150ed167697d78f75e9fdbfee8190fd0a494e1e0",
+    "9ad54f4c53b99cf25afdf4ba95cff6a3bf6c715d77697fa11d000bb6f57708d5",
+    "b1c1a9b615d89b6193b9e020297be8e4e9fe4c7d256a57a6e7be604e7ea58c58",
+    "b1acaa5cabbccf87fcc9a4104f1fac174f94a1c275e50c54d9564902b0e2a8cb",
+    "cb98680344ac35c64302085594d54ad48debe1e460e441ddf0437bc260812e3b"
+  ],
+  "fullInputChars": 1317,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-5216317a7074",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "将瓜迪奥拉与另一位成功教练写成场下惺惺相惜、场上激烈交锋的对照关系；未给出具体比赛判断。",
+        "steps": [
+          "先称瓜迪奥拉的处境为“噩梦”，设定戏剧化语气。",
+          "再称两位教练都成功，并写其场下互相欣赏。",
+          "以场上重拳出击形成反差，落在场内交锋的张力上。"
+        ],
+        "bridge": "用场下亲近与场上对抗的反差支撑“噩梦”式表达，但未说明具体缘由。",
+        "counter": "未交代对抗细节或其他解释，也未展开反方因素。",
+        "ending": "以场内外反差收束，没有胜负预测。",
+        "risk": "篇幅极短；“最成功”是作者评价，未提供依据。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n瓜迪奥拉的噩梦。 这个世界上最成功的两个足球教练，场下惺惺相惜，场上重拳出击。"
+        ]
+      },
+      {
+        "id": "leishu-ac3ba9d85c12",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借内马尔球技与发型都“花里胡哨”的并列作调侃，没有比赛方向。",
+        "steps": [
+          "先用“烫头小哥”给内马尔贴上轻松戏称。",
+          "把球技的花哨与发型的花哨并列。",
+          "以夸张语气收在发型也过于花哨的玩笑上。"
+        ],
+        "bridge": "把场上风格和外形选择归到同一种“花哨”印象，形成类比调侃。",
+        "counter": "没有解释球技评价或提供其他看法。",
+        "ending": "用夸张措辞完成对发型的调侃。",
+        "risk": "语句简短且带戏谑；没有论证比赛表现或胜负。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n烫头小哥内马尔。 内马尔球技，花里胡哨也就算了，连发型都花里胡哨，得一塌糊涂。"
+        ]
+      },
+      {
+        "id": "leishu-1ad11049a14e",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "重复拉莫斯“作为后卫，这是我该做的”这一自我定位，没有展开具体事迹或比赛判断。",
+        "steps": [
+          "先以“爱足球”作简短引入。",
+          "引出拉莫斯关于后卫职责的表述。",
+          "再次重复同一表述，未增加论据或转向新的结论。"
+        ],
+        "bridge": "将后卫身份与“该做的”相连，呈现职责自述；文本没有说明所指行为。",
+        "counter": "未提供背景、例证或其他立场。",
+        "ending": "重复引语式表述后结束。",
+        "risk": "材料极短，无法据此还原具体事件；不补充引语背后的情境。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n爱足球。 拉莫斯：我是一名后卫，这都是我该做的。",
+          " 爱足球，拉莫斯：我是一名后卫，这都是我该做的。"
+        ]
+      },
+      {
+        "id": "leishu-0bbd14c4809b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以C罗曾有抢队友进球的“黑历史”解释眼下被抢进球，并用“出来混迟早要还”作调侃；未作赛果判断。",
+        "steps": [
+          "先提出C罗也曾坑过队友的说法。",
+          "把当前进球被抢与其过去经历联系起来，称其“有原因”。",
+          "用“迟早要还”把旧事包装成报应式玩笑。",
+          "追加游戏式口吻劝其别生气，转成轻松收尾。"
+        ],
+        "bridge": "以过去类似行为作为眼下遭遇的戏谑性解释，因果更像报应梗而非论证。",
+        "counter": "未说明两次情境是否相同，也未处理其他解释。",
+        "ending": "用“不要生气啦”的劝慰口吻化解调侃。",
+        "risk": "“有原因”缺少具体过程支撑；文本含玩笑语气，不宜当作事实因果论证。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\nC罗也坑过队友。 话说C罗进球被抢是有原因的，因为总裁你也有过这种黑历史，出来混迟早要还的。",
+          "你3杀才送了俩人头，不要生气啦。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-aa30f357d9d0",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "把梅西在决赛点球大战罚失点球及其失落表现，叙述成职业生涯痛苦的一刻；不是比赛预测。",
+        "steps": [
+          "先交代决赛对阵宿敌智利，并以火药味铺陈比赛氛围。",
+          "转到点球大战，写梅西首轮主罚及射失。",
+          "描写其掀衣角、神情落寞，呈现失落。",
+          "以触手可及却再次失之交臂，将个人情绪落到未能如愿的遗憾。"
+        ],
+        "bridge": "由关键点球失手连接到人物的悲伤，再把比赛结果感受概括为再次错失机会。",
+        "counter": "未展开罚失之外的比赛过程，也未说明其他因素；重点在情绪描写。",
+        "ending": "以“触手可及却又再一次失之交臂”收束遗憾感。",
+        "risk": "“最痛苦”及情绪解释是作者的叙述与评价；相关赛事细节不作核验。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球：梅西生涯最痛苦一球。 2016年的美洲杯决赛，阿根廷再次遇到宿敌智利，整场比赛火药味十足。",
+          "最后点球大战，梅西首轮上场罚点球，还是熟悉的短距离助跑，但是点球射飞了。",
+          "罚失点球的梅西掀起衣角难掩悲伤，坐在休息席的他神情落寞，触手可及却又再一次失之交臂。"
+        ]
+      },
+      {
+        "id": "leishu-7505bc9a19e4",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以贝克汉姆的形象、球衣号码和弧线进球构成怀旧式赞美，没有比赛方向。",
+        "steps": [
+          "先点出“贝氏弧线”作为主题。",
+          "依次描写脸庞、笑容与阳光午后，营造青春画面。",
+          "将身穿7号的少年形象与优美弧线、瞩目进球相连。",
+          "以进球的醒目效果收住赞美。"
+        ],
+        "bridge": "从外形和场景营造怀旧氛围，再以标志性弧线进球作为画面高潮。",
+        "counter": "没有讨论其他表现、评价或反面因素。",
+        "ending": "落在举世瞩目的进球画面上。",
+        "risk": "纯画面化赞美，未提供具体比赛背景或论证过程。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n贝氏弧线。 英俊的脸庞，青春的笑容，阳光明媚的午后，那个身穿7号的翩翩少年，那道优美的弧线，那个举世瞩目的进球。"
+        ]
+      },
+      {
+        "id": "leishu-c2f7b080beea",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "除标题“c罗其实也还行”和话题标签外，没有可供拆解的正文，无法判断作者观点的依据或实质方向。",
+        "steps": [
+          "文本仅有标题及标签，未提供论据、解释或判断过程。"
+        ],
+        "bridge": "正文缺失，无法识别由材料通往结论的桥梁。",
+        "counter": "没有可见的反方因素或回应。",
+        "ending": "仅标题和标签收尾，不构成可分析的论证结尾。",
+        "risk": "不能把标题中的评价补写成正文论点；具体观点与论证均不可得。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## c罗其实也还行（视频ID：6756513518465469708）\n",
+          "\n#足球 #爱足球 #c罗 其实...也还行\n"
+        ]
+      },
+      {
+        "id": "leishu-6291e41c3553",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "讲述一场因群体斗殴而出现36张红牌的比赛，并以教练也被罚下的意外感作幽默收束；没有明确胜负或场面方向判断。",
+        "steps": [
+          "先以“一场比赛三十六张红牌”提出反常事件。",
+          "交代原文所称的年份、联赛及双方球员群体斗殴。",
+          "叙述主裁将场上球员全部罚下，再扩大到替补与教练。",
+          "用教练不在场也领红牌的说法突出事件荒诞感。"
+        ],
+        "bridge": "由红牌数量不断扩展到未在场的教练也被罚，支撑“处罚范围出人意料”的笑点。",
+        "counter": "未讨论判罚依据、事件责任或其他解释，重点是讲述奇闻而非辩论。",
+        "ending": "以教练的意外反应作包袱，结束在幽默效果上。",
+        "risk": "所述比赛细节仅为原文声称，未核验；末句是戏谑表达，不宜当作逐字事实。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n爱足球，一场比赛三十六张红牌。 二零一一年的阿根廷联赛，双方球员在赛场上发生群体斗殴事件。",
+          "主裁判鲁比诺于是将双方在场的全部球员罚下。",
+          "教练表示：万万没想到，自己不在场都能赢到红牌。"
+        ]
+      },
+      {
+        "id": "leishu-8b06c8d92187",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有“踢球要从娃娃抓起”的标题式话语和提问，没有正文事例或理由，无法还原论证方向。",
+        "steps": [
+          "现有文本为标题、话题标签及反问，没有展开材料或推理。"
+        ],
+        "bridge": "缺少正文，无法判断提问与任何具体结论之间的关系。",
+        "counter": "没有可辨认的反方因素或处理方式。",
+        "ending": "以反问形式出现，但无正文承接，不能据此补出作者论证。",
+        "risk": "标题可能表达倡议，但不得将其扩写为正文观点；内容不足以分析。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 踢球要从娃娃抓起，你这么大的时候在干嘛呢（视频ID：6754271721894792459）\n",
+          "\n#足球 #爱足球 踢球要从娃娃抓起，你这么大的时候在干嘛呢？"
+        ]
+      },
+      {
+        "id": "leishu-77e2d247470b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借卡卡在元老赛被女裁判出示黄牌、随后对方求合照的反转，呈现其魅力仍受欢迎；没有比赛结果或战术方向判断。",
+        "steps": [
+          "先用“因为长得帅吃黄牌”设置反常悬念。",
+          "交代元老赛中卡卡被女裁判出示黄牌并暂停比赛。",
+          "补出裁判拿手机求合照的原因，形成由处罚到追星的反转。",
+          "写其他球员握手表示理解，再以卡卡魅力不减及自嘲愿意合照收束。"
+        ],
+        "bridge": "将出示黄牌这一表面严肃动作重新解释为求合照的机会，以反转支撑魅力叙述。",
+        "counter": "没有质疑裁判行为或提出其他解释；周围球员的反应被用作认同氛围。",
+        "ending": "以作者自称也会求合照作亲近、赞赏式结尾。",
+        "risk": "事件及他人反应均为原文叙述，未经核验；“因为长得帅”是幽默概括，不是判罚理由的证据。",
+        "anchorIndices": [
+          1,
+          3,
+          5
+        ],
+        "anchors": [
+          "\nlove爱足球。 因为长得帅吃黄牌。",
+          "赛巴西传奇对阵以色列传奇，卡卡一脸蒙圈。",
+          "边上的球员们竟然过来握手表示理解。 这么多年，足球场上的白月光，无数人的足球初恋，依旧魅力不减。"
+        ]
+      },
+      {
+        "id": "leishu-e4bbbd6b77c0",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有梅西篮球打得好的标题式评价及标签，没有展示动作、比赛或解释，无法拆解观点如何形成。",
+        "steps": [
+          "文本止于标题和话题标签，未提供正文论据或推理。"
+        ],
+        "bridge": "没有可用材料连接评价与依据。",
+        "counter": "未出现反方观点或回应。",
+        "ending": "标题式赞叹即为全部可见内容，不构成论证收束。",
+        "risk": "不能把标题中的称赞当作已展示的事实或完整论点。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 没想到梅西的篮球也打的这么棒（视频ID：6752851005152578823）\n",
+          "\n#足球 #爱足球 没想到梅西的篮球也打的这么棒\n"
+        ]
+      },
+      {
+        "id": "leishu-591596a8dd9d",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "仅有“迷你罗：老爸的枪我来接”的标题和标签，没有正文事件或论据，无法判断具体方向。",
+        "steps": [
+          "可见文本只有标题及话题标签，没有展开内容。"
+        ],
+        "bridge": "正文缺失，无法识别标题比喻指向的具体材料或推论。",
+        "counter": "没有可分析的反方因素。",
+        "ending": "以标题式表达结束，没有正文收束过程。",
+        "risk": "不得将标题中的“接枪”扩展成对能力、职业前景或表现的判断。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 迷你罗：老爸的枪我来接#c罗（视频ID：6752057307816938756）\n",
+          "\n#足球 #爱足球 #c罗 迷你罗：老爸的枪我来接\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "用场内外反差塑造戏剧张力，见 leishu-5216317a7074。",
+        "由事件转向人物情绪并以遗憾收束，见 leishu-aa30f357d9d0。",
+        "leishu-6291e41c3553以红牌范围逐步扩大形成荒诞包袱；leishu-77e2d247470b以黄牌事件转成求合照反转，推动魅力叙事。"
+      ],
+      "variants": [
+        "多篇为人物调侃或怀旧叙事，均无明确比赛方向，如 leishu-ac3ba9d85c12、leishu-7505bc9a19e4。",
+        "leishu-1ad11049a14e仅重复职责表述，缺少事件背景；leishu-0bbd14c4809b以报应梗解释遭遇。",
+        "leishu-6291e41c3553、leishu-77e2d247470b为有正文的轶事叙述，均无比赛方向结论；其余四篇正文缺失，不能补出方向。"
+      ],
+      "nonReusable": [
+        "不能把 leishu-0bbd14c4809b的玩笑式“迟早要还”当作有证据的因果论证。",
+        "不能从 leishu-1ad11049a14e的重复表述补造拉莫斯所指的具体事迹。",
+        "不能把标题评价当作已论证结论：leishu-c2f7b080beea、leishu-8b06c8d92187、leishu-e4bbbd6b77c0、leishu-591596a8dd9d均无实质正文；也不能把leishu-77e2d247470b的幽默归因当作判罚证据。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-5216317a7074": "gpt-6-luna",
+    "leishu-ac3ba9d85c12": "gpt-6-luna",
+    "leishu-1ad11049a14e": "gpt-6-luna",
+    "leishu-0bbd14c4809b": "gpt-6-luna",
+    "leishu-aa30f357d9d0": "gpt-6-luna",
+    "leishu-7505bc9a19e4": "gpt-6-luna",
+    "leishu-c2f7b080beea": "gpt-6-luna",
+    "leishu-6291e41c3553": "gpt-6-luna",
+    "leishu-8b06c8d92187": "gpt-6-luna",
+    "leishu-77e2d247470b": "gpt-6-luna",
+    "leishu-e4bbbd6b77c0": "gpt-6-luna",
+    "leishu-591596a8dd9d": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_07df6ade5768fd8c016abc0f201d8c87d0b61f294de262bc22": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_07df6ade5768fd8c016abc0f201da487d0aad402233e80db91": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1759,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1759,
+            "output_tokens": 0
+          },
+          "rs_07df6ade5768fd8c016abc0f20db0087d08562963be9ddadc2": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 178
+          },
+          "msg_07df6ade5768fd8c016abc0f26125887d0909e1ab6f4782632": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1636
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1636
+          }
+        }
+      },
+      "input_tokens": 1859,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1814,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 3673
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_0df64b6e10cbe3bf016abc0f4f37dc87d0b6888d4e70086ba8": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0df64b6e10cbe3bf016abc0f4f37fc87d099ca22172c49fa69": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1770,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1770,
+            "output_tokens": 0
+          },
+          "rs_0df64b6e10cbe3bf016abc0f4fc3c087d0ba9d1e63d93b9f74": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 231
+          },
+          "msg_0df64b6e10cbe3bf016abc0f565fb887d096bd7b5f839bc977": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1477
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1477
+          }
+        }
+      },
+      "input_tokens": 1870,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1708,
+      "output_tokens_details": {
+        "reasoning_tokens": 231
+      },
+      "total_tokens": 3578
+    }
+  ]
+}

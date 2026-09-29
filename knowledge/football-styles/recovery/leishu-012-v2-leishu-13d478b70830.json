@@ -1,0 +1,220 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-13d478b70830",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "仅有标题及话题标签，没有可分析的正文论证。",
+        "steps": [],
+        "bridge": "无正文，无法判断。",
+        "counter": "无可见反方处理。",
+        "ending": "标题以反问式嘲讽收束，但不作为正文论证。",
+        "risk": "正文缺失；不能据标题补出论证方向。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#中非兄弟 #足球 这是干嘛？其实你也不行嘛！"
+        ]
+      },
+      {
+        "id": "leishu-bb1d6b543263",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以逼迫朋友在酷热中踢球、再不断设置喝水和上车情节制造反差，没有足球比赛判断。",
+        "steps": [
+          "朋友表示想踢球，回应者先指出重庆高温，朋友以自己来自非洲作答。",
+          "回应者答应带去踢球，双方到场后朋友先称场地合适，继而喊热。",
+          "朋友索要水，回应者拿保温杯并让其试喝，冰水环节延续捉弄。",
+          "朋友仍要喝水，回应者改给防晒服；最后以车内空调作凉快去处收尾。"
+        ],
+        "bridge": "反复把朋友的踢球愿望与高温下的不适并置，以兑现承诺后不断增加的狼狈形成笑料。",
+        "counter": "朋友的热爱与怕热并存，文本用反应呈现反差，没有另行化解。",
+        "ending": "从防晒服转至车内空调，落在“太难了”的抱怨。",
+        "risk": "属于情景喜剧对话，不是赛事论证；不据此推断真实比赛或人物状态。",
+        "anchorIndices": [
+          1,
+          8,
+          16
+        ],
+        "anchors": [
+          "\n怎么生无可恋的样子？丹丹你怎么了？我要踢足球。",
+          " 蕾蕾，我不要钱了，我要喝水。我就知道你提出有口，我给你带水了。",
+          "打开。你确定？打开。上车。太难了。\n\n"
+        ]
+      },
+      {
+        "id": "leishu-e5b870f431e0",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借“想当足球解说”的提议及模仿式、错乱的解说语句表现戏仿，没有形成比赛结论。",
+        "steps": [
+          "一方以热爱足球、中文不错为由询问能否做足球解说。",
+          "另一方否定其设想，并反说对方能做自己也能做，转入夸张表演。",
+          "随后模仿看梅西时情绪失控的解说，夹入含混、错乱的词句与球王赞语。",
+          "最后抛出“留给中国队的时间不多了”式解说套语，作为模仿收束。"
+        ],
+        "bridge": "以解说职业设问引出现场模仿，夸张和语句错乱承担笑点，而非用事实证明解说能力。",
+        "counter": "没有讨论真实解说的门槛或能力差异；否定与自我模仿都是戏剧互动。",
+        "ending": "用常见的比赛解说式感叹作包袱。",
+        "risk": "字幕存在明显含混或疑似识别错误；不据此还原具体比赛、原话或球员表现。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n蕾蕾，你说我这么热爱足球，中文还不错，我能不能去当一个足球人解说？",
+          "一个油锅店，两个，三个，没炸就来了。梅子大学黄大老大到对校门就救老公，就亲老公，他就是伟大的球王。",
+          "来到你了，留给中国队的时间不多了。\n\n"
+        ]
+      },
+      {
+        "id": "leishu-d3729f04659d",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文只有标签；标题提及巴萨晋级及嘲讽C罗的代价，但没有展开论证。",
+        "steps": [],
+        "bridge": "无可分析的正文桥梁。",
+        "counter": "无可见反方处理。",
+        "ending": "标题声称有因果意味，正文未呈现其依据。",
+        "risk": "正文缺失；不能把标题当作完整论证或补造因果过程。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#中非兄弟 #巴萨 #欧冠 晋级，嘲讽我#c罗 的代价！"
+        ]
+      },
+      {
+        "id": "leishu-1059dd5d99f9",
+        "availability": "body",
+        "kind": "赛前方向",
+        "direction": "explicit",
+        "claim": "以C罗、皇马遭淘汰的互相嘲讽为铺垫，末尾明确预言巴萨当晚也会完蛋。",
+        "steps": [
+          "一方抱怨对方看球没叫自己，随后表达希望对方支持的一方被打败。",
+          "对话接连提到进球，并以“C罗手机进了两个球”制造讥讽。",
+          "有人把皇马、尤文的失利与缺少C罗、齐达内相连，作为调侃式解释。",
+          "回应者以此回敬，断言巴萨当晚也会完蛋，形成针对巴萨的赛前方向。"
+        ],
+        "bridge": "以对方刚经历的淘汰和“缺少球星”的说法反击，把嘲讽转成巴萨将输的预言。",
+        "counter": "对方关于皇马和尤文的解释被拿来反讽；没有提供巴萨实力、对手或比赛条件等反向证据。",
+        "ending": "落在巴萨当晚也将完蛋的明确预测。",
+        "risk": "论据是玩笑式类比和球迷互怼，预测依据薄弱；标题及对白所述赛况均未核验。",
+        "anchorIndices": [
+          1,
+          4,
+          5
+        ],
+        "anchors": [
+          "\n这个看球爽不爽？这么豪华，你连去看球都没叫我，气死我了。",
+          "没有c罗的皇马，加c罗的油门都被倒带了。",
+          "等一等，那是因为皇马没有c罗，尤文没有齐达内，你们巴萨今天晚上一定也完蛋。"
+        ]
+      },
+      {
+        "id": "leishu-321493ebf92b",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "只有标题和话题标签，没有呈现“老外心中的世界第一”具体指谁或为何如此。",
+        "steps": [],
+        "bridge": "无正文，无法判定标题所指对象或推理。",
+        "counter": "无可见反方处理。",
+        "ending": "标题仅提出主题，未形成正文结论。",
+        "risk": "正文缺失；不依据标签中的梅西补出观点。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n#足球 #中非兄弟 #老外 心中的世界第一！"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "对话以愿望与现实反差逐步铺设笑点，如bb1d6b543263从想踢球转到怕热、找水和上车。",
+        "赛前方向可由互怼转为明确预测，如1059dd5d99f9借淘汰话题回敬并落到巴萨将输。"
+      ],
+      "variants": [
+        "e5b870f431e0是解说模仿戏仿，未指向胜负；bb1d6b543263是情境喜剧而非赛事分析。",
+        "13d478b70830、d3729f04659d、321493ebf92b均无实质正文，不能从标题标签补方向。"
+      ],
+      "nonReusable": [
+        "1059dd5d99f9把不同球队、不同球员的失利类推到巴萨，缺少可检验的比赛依据，不可当作稳健预测机制。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0b898fbac40f4ece016abc0ed54ed087d0abea4f15916f8722": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 98,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 98,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0b898fbac40f4ece016abc0ed54efc87d0bddbb0f00cdd4a83": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1694,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 1694,
+              "input_tokens": 2212,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 2212,
+          "output_tokens": 0
+        },
+        "rs_0b898fbac40f4ece016abc0ed5eca087d0a5f1cd0c999f7e19": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 259
+        },
+        "msg_0b898fbac40f4ece016abc0edeb6a887d086d0203e02184ec3": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1498
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1498
+        }
+      }
+    },
+    "input_tokens": 2312,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792
+    },
+    "output_tokens": 1757,
+    "output_tokens_details": {
+      "reasoning_tokens": 259
+    },
+    "total_tokens": 4069
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

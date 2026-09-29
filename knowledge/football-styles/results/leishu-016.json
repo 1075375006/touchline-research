@@ -1,0 +1,515 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 16,
+  "processedAt": "2026-09-29T19:19:31.742Z",
+  "sourceIds": [
+    "leishu-ea4bbf63b389",
+    "leishu-37059c572e54",
+    "leishu-d0ba4aa24ef3",
+    "leishu-bcf268eea4bc",
+    "leishu-ef761fe83d0d",
+    "leishu-7db0e99b7826",
+    "leishu-432390b574ad",
+    "leishu-adedc88b8024",
+    "leishu-b785f653ed54",
+    "leishu-ff64b3a774aa",
+    "leishu-6d49ce75303a",
+    "leishu-da719e4f3ccb"
+  ],
+  "sourceHashes": [
+    "6ba466430f64cc6e93252099a913ddb74d584df6ebde12924d6cf6022c1f9dbc",
+    "76967d4d7357a104f9b29eef0516d4cb9084ef5a52002959e9458c64745e1165",
+    "ae200eeb7c581792980eb0faba445c6161314255b639f7b339046136ff7f2d9c",
+    "f236a6fa92d9c9faafe31c2994d996a254b388b4588963bef15c211479ef9a78",
+    "381901c5b4ff118005c3936ab730268767d738c4714a9764efb8f9188920bace",
+    "204677848a3d9d6bf445f82d86417003c1d6cbb6ecdda7fa442562942f3d5e67",
+    "9d22be4a77f4bcc740d23928fe0c74098e1cd2316107886524ab249e06b99a5d",
+    "ffb289733e62e6a71bc07d0f347bb44d0240f9eec5b75b4e2c5ee109fe10e806",
+    "bc87e09a6020f6b1991bf3511f74cf68efb844b8f75fc396ae341b2c42f05a86",
+    "4e5d5df44a85ca2962cd34925eba58ca45b264432b56e2cedadc1b7aa02666ed",
+    "c5eede3ea5f1d92c95408fc943e061b3c649ea0c170c3b4671d027fb9ec957ff",
+    "cea2f70508c5f195f1886c2691586ec0bb82ccd58b8e569dba17985bcb187791"
+  ],
+  "fullInputChars": 1278,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-ea4bbf63b389",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "提出寻找梅西的“小迷弟”，但正文没有给出名单或答案。",
+        "steps": [
+          "先以菲利克斯是C罗迷弟作引子",
+          "转问梅西有哪些迷弟，未展开举例或作答"
+        ],
+        "bridge": "借已知球星关系引出对应问题；没有论据桥接到答案。",
+        "counter": "未涉及反例或不同意见。",
+        "ending": "以提问收尾，悬置答案。",
+        "risk": "标题和正文均未提供名单；不据此补充人物。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## C罗的小迷弟梅西的小迷帝都有谁（视频ID：6822509647077887235）\n",
+          "\n#足球#爱足球#菲利克斯是#c罗的小迷弟，你知道#梅西的小迷弟都有谁吗？"
+        ]
+      },
+      {
+        "id": "leishu-37059c572e54",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "implicit",
+        "claim": "以夸张情境表现小罗轻松应对勺子点球，形成“勺子点球不再可怕”的喜剧效果。",
+        "steps": [
+          "叙述者听说勺子点球厉害，先显出紧张",
+          "转而宣称要用勺子球击败门柱",
+          "连续描写跳跃应对，称其轻松",
+          "借小罗与普拉蒂尼的想象对话收成玩笑"
+        ],
+        "bridge": "把门柱拟人化为挑战对象，再用轻松跳跃的反应制造反转。",
+        "counter": "先交代害怕作为反面，随后以夸张自信消解；没有真实攻防论证。",
+        "ending": "以“门柱牛逼”的反讽式赞叹收尾。",
+        "risk": "戏仿与夸张明显，不能当作比赛事实或技术论证。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球。 听说勺子点球很牛逼，心里有点慌。",
+          "下一位球接好了，一定要用勺子打趴门柱。",
+          "我跳，我继续跳，简直小菜一碟。小罗绝对在跟普拉蒂尼说：你家门柱牛逼。"
+        ]
+      },
+      {
+        "id": "leishu-d0ba4aa24ef3",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "提出喜爱的球星变老后的样子这一话题，但没有展示变化或给出判断。",
+        "steps": [
+          "以球迷对球星的喜爱设定情感语境",
+          "点名梅西、C罗、内马尔",
+          "发问球星变老会是什么样，未继续说明"
+        ],
+        "bridge": "依靠球迷对球星的熟悉与情感，引出想象性问题；没有展开推理。",
+        "counter": "未呈现不同球星的差异或反向因素。",
+        "ending": "以开放式提问结束。",
+        "risk": "正文只有话题引入，不能据此补写球员老年形象。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 当你喜爱的球星变老了是什么样子（视频ID：6821437590118337804）\n",
+          "\n#足球#梅西#C罗#内马尔当你喜爱的球星变老了是什么样子？"
+        ]
+      },
+      {
+        "id": "leishu-bcf268eea4bc",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用父子对话呈现儿子想要罗纳尔多发型、父亲答应的简短情境，没有进一步观点。",
+        "steps": [
+          "儿子提出想要罗纳尔多的发型",
+          "父亲直接答应，并以C罗标签点明所指"
+        ],
+        "bridge": "球星发型作为父子对话中的模仿对象；对话不支撑更广泛判断。",
+        "counter": "未出现阻碍、异议或后续变化。",
+        "ending": "以父亲答应收束。",
+        "risk": "正文极短，不宜延伸为球迷文化或亲子关系结论。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#足球 #爱足球 儿子：爸爸我想要个罗纳尔多的发型！",
+          "爸爸：没问题！ #c罗\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-ef761fe83d0d",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "借标题发问“总裁”最爱谁，并通过迪巴拉账号标记暗示答案指向迪巴拉，但正文没有明说。",
+        "steps": [
+          "以C罗相关称呼提出最爱对象之问",
+          "正文仅标记迪巴拉账号，形成指向性暗示",
+          "未补充理由或关系证据"
+        ],
+        "bridge": "把账号标记当作答案线索；读者需自行把线索与提问对应。",
+        "counter": "没有处理其他可能对象，也没有说明标记是否等于答案。",
+        "ending": "以迪巴拉标记悬置作答。",
+        "risk": "方向仅为暗示，不能将账号标记认证为事实或关系证明。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 总裁最爱的到底是谁（视频ID：6819905764010806531）\n",
+          "\n#足球 #c罗 总裁最爱的到底是谁呢？",
+          " @迪巴拉PauloDybala\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7db0e99b7826",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "提出奥巴梅杨是否“坑”的问题，并标记堂主答疑；正文没有列出表现、例证或结论。",
+        "steps": [
+          "以疑问句设定对奥巴梅杨表现的评价话题",
+          "通过堂主答疑标记提示后续答疑来源",
+          "未提供具体事件或评价结果"
+        ],
+        "bridge": "将争议式提问导向答疑，但可见正文中没有论证连接。",
+        "counter": "没有呈现支持或反对“坑”这一评价的材料。",
+        "ending": "以账号标记结束，答案悬置。",
+        "risk": "标题的负面措辞不是正文证据，不能据此判断球员表现。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 你知道奥巴梅杨有多坑吗（视频ID：6817307082153397515）\n",
+          "\n#足球 #爱足球 你知道奥巴梅杨有多坑吗？",
+          " @堂主答疑\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-432390b574ad",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "只有跳水段位的恶搞式标题和标签，没有可识别的实质观点或论证方向。",
+        "steps": [
+          "标题以“正确打开方式”设定话题。",
+          "标签将内容关联跳水冠军赛、恶搞与内马尔，但未展开说明。"
+        ],
+        "bridge": "没有从话题标签通往具体判断的论证桥梁。",
+        "counter": "未提出反方因素，也没有可供回应的论点。",
+        "ending": "以标签和感叹号式表达收尾，未形成结论。",
+        "risk": "文本极短；不能据标签补造跳水内容或观点。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 跳水冠军赛的正确打开方式（视频ID：6816561048477289739）\n",
+          "\n#足球 #跳水冠军赛的正确打开方式 如果跳水有段位！",
+          "！ #恶搞 #内马尔\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-adedc88b8024",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "绿牌用于奖励球员的优秀行为。",
+        "steps": [
+          "先以裁判出示绿牌设问，引出其含义。",
+          "对照黄牌警告、红牌罚下，凸显绿牌尚未解释。",
+          "讲述中国小将扶起被撞倒的对手后获绿牌。",
+          "由该事例归纳绿牌是对优秀行为的奖励。"
+        ],
+        "bridge": "把扶起对手这一礼貌行为与绿牌相连，作为奖励含义的例证。",
+        "counter": "未讨论绿牌适用范围或其他解释，也未回应制度层面的疑问。",
+        "ending": "用概括性定义直接收束。",
+        "risk": "关于赛事年份、首张绿牌及其含义均为原文声称，未核验；单一例子支撑概括。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n爱足球。 足球比赛中还有绿牌，裁判对一名球员出示了绿牌，你知道是代表什么意思吗？",
+          "零七年少年锦标赛，中国小将在比赛中将对手撞倒后，很礼貌的把他扶了起来，为裁判出示了足坛史上的第一张绿牌。",
+          "原来绿牌是对球员的优秀行为进行奖励的。"
+        ]
+      },
+      {
+        "id": "leishu-b785f653ed54",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "裁判误把黄牌当红牌会令球员承受惊吓，文末以玩笑口吻追问责任。",
+        "steps": [
+          "先把裁判比作维持正义的法官，同时指出其也会犯迷糊。",
+          "叙述裁判误掏红牌，发现错误后以微笑解释为玩笑。",
+          "转向球员视角，强调这场误会带来的惊吓。",
+          "以心脏病和责任追问作夸张式收尾。"
+        ],
+        "bridge": "从裁判的失误及轻松反应，转到球员可能承受的紧张感。",
+        "counter": "承认裁判事后发现失误，却没有讨论其是否及时纠正或实际后果。",
+        "ending": "以反问和夸张风险制造幽默，未提出进一步主张。",
+        "risk": "球员反应及心脏病后果是修辞性表达，不能当作已发生事实。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n爱足球，裁判还能掏错牌。 裁判是足球场上维持正义的法官，但他们有时候也会犯迷糊。",
+          "裁判却把黄牌当成了红牌，意识到失误后的裁判露出了尴尬而不失礼貌的微笑，表示自己只是开个玩笑。",
+          "你只是笑一笑，球员玩的可是心跳。要是心脏病犯了，裁判你负责不？"
+        ]
+      },
+      {
+        "id": "leishu-ff64b3a774aa",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "鲁尼最后时刻不放弃、回追抢断并促成进球，构成作者被比赛打动的原因。",
+        "steps": [
+          "先交代比赛最后一分钟、场上空旷及奥兰多4号球员在场。",
+          "以球迷认为此球必失作铺垫，转而写鲁尼狂追约翰进并抢断。",
+          "鲁尼控制球权后长传，队友配合完成进球。",
+          "进球者庆祝时，写鲁尼因耗尽力气只能默默点赞，并落到作者落泪。"
+        ],
+        "bridge": "把逆境中的回追、抢断和进球结果连成坚持带来转机的叙事。",
+        "counter": "没有讨论防守失位、进攻过程的其他因素或比赛结果。",
+        "ending": "以作者第一次因比赛落泪收束，突出情绪感染。",
+        "risk": "人物动作、赛况和因果均为原文叙述，未核验；没有足够内容支持更广泛战术结论。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n第一次看足球哭了。 比赛最后一分钟，奥兰多4号球员，这时半场空无一人。",
+          "正当所有球迷都认为此球必失的时候，鲁尼没有放弃，他狂追上约翰进，抢断并控制了球权，一记长传，队友配合默契，球进了。",
+          "这也是我第一次因为一场比赛而哭。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-6d49ce75303a",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "只有“对面俩大哥，谁敢赢？”的挑衅式问句及小罗标签，没有明确判断或论证方向。",
+        "steps": [
+          "标签将内容关联足球与小罗。",
+          "问句以“对面俩大哥”制造对抗和畏惧感。",
+          "没有交代人物、比赛情境或胜负判断。"
+        ],
+        "bridge": "问句只有悬念和戏谑语气，没有支撑胜负方向的事实或推理。",
+        "counter": "未呈现反方因素或对问句的回答。",
+        "ending": "以小罗标签结束，观点悬置。",
+        "risk": "正文极短；不能仅凭标签推断具体比赛、人物或立场。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 对面俩大哥谁敢赢（视频ID：6811318206469328142）\n",
+          "\n#足球 #爱足球 对面俩大哥，谁敢赢？",
+          " #小罗\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-da719e4f3ccb",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "“脚比手好用”是关于内马尔的玩笑式短句，没有展开为可判断的实质观点。",
+        "steps": [
+          "标签先将内容关联足球、精彩片段与内马尔。",
+          "短句以脚和手作对比，构成玩笑式评价。",
+          "没有具体动作、情境或推理补充。"
+        ],
+        "bridge": "未说明比较依据，无法由修辞短句推出明确的足球判断。",
+        "counter": "未处理反例或其他解释。",
+        "ending": "重复感叹号式表达后结束，没有论证性结尾。",
+        "risk": "文本极短；不能补造其所指场景，也不应把俏皮话扩写成技术评价。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 内马尔脚比手好用（视频ID：6804750335681301768）\n",
+          "\n#足球 #精彩球不停 #内马尔 脚比手好用！",
+          "！\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "用已知关系引出未答问题：leishu-ea4bbf63b389",
+        "以紧张铺垫、夸张反转形成喜剧：leishu-37059c572e54",
+        "用账号标记暗示答案而不作证明：leishu-ef761fe83d0d",
+        "以具体行为引出概括解释：绿牌例证到奖励定义，例证leishu-adedc88b8024。",
+        "以连续事件推动情绪判断：回追、抢断、进球再落到作者落泪，例证leishu-ff64b3a774aa。"
+      ],
+      "variants": [
+        "多数文本为短问句或情境片段，实质方向缺席：leishu-d0ba4aa24ef3、leishu-bcf268eea4bc",
+        "有的仅提出评价问题，有的以账号标记作弱暗示：leishu-7db0e99b7826、leishu-ef761fe83d0d",
+        "裁判误牌文本以反问和夸张收束，不形成明确政策主张，例证leishu-b785f653ed54。",
+        "短标签或口号仅制造话题与悬念，论证方向不足，例证leishu-432390b574ad、leishu-6d49ce75303a、leishu-da719e4f3ccb。"
+      ],
+      "nonReusable": [
+        "不能把标题中的提问或负面评价当成已论证结论：leishu-7db0e99b7826",
+        "不能把账号标记直接当作事实证明：leishu-ef761fe83d0d",
+        "不能将单个绿牌事例直接当作制度适用范围的完整说明，例证leishu-adedc88b8024。",
+        "不能把情绪性叙述中的比赛因果或夸张后果当作已核验事实，例证leishu-ff64b3a774aa、leishu-b785f653ed54。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-ea4bbf63b389": "gpt-6-luna",
+    "leishu-37059c572e54": "gpt-6-luna",
+    "leishu-d0ba4aa24ef3": "gpt-6-luna",
+    "leishu-bcf268eea4bc": "gpt-6-luna",
+    "leishu-ef761fe83d0d": "gpt-6-luna",
+    "leishu-7db0e99b7826": "gpt-6-luna",
+    "leishu-432390b574ad": "gpt-6-luna",
+    "leishu-adedc88b8024": "gpt-6-luna",
+    "leishu-b785f653ed54": "gpt-6-luna",
+    "leishu-ff64b3a774aa": "gpt-6-luna",
+    "leishu-6d49ce75303a": "gpt-6-luna",
+    "leishu-da719e4f3ccb": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0cd15563db6b0238016abc0ed3525c87d087d6655efc874891": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0cd15563db6b0238016abc0ed3527c87d09eb88e0a17995d99": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1609,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1609,
+            "output_tokens": 0
+          },
+          "rs_0cd15563db6b0238016abc0ed3db4c87d0bd269296114aefdc": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 315
+          },
+          "msg_0cd15563db6b0238016abc0ede0ac487d095efc99a0c0bb437": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1365
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1365
+          }
+        }
+      },
+      "input_tokens": 1709,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1680,
+      "output_tokens_details": {
+        "reasoning_tokens": 315
+      },
+      "total_tokens": 3389
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_03125c1c2442369e016abc0f23637487d0bfb96cb98e0bdc3c": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_03125c1c2442369e016abc0f23638c87d0a765f09a67b88a3a": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1830,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1830,
+            "output_tokens": 0
+          },
+          "rs_03125c1c2442369e016abc0f23da2c87d0878d39a79721c3f6": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 184
+          },
+          "msg_03125c1c2442369e016abc0f27482c87d0a3587e6dd8f0bfb2": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1575
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1575
+          }
+        }
+      },
+      "input_tokens": 1930,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1759,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 3689
+    }
+  ]
+}

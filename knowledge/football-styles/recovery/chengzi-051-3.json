@@ -1,0 +1,138 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "chengzi-56e27763b907",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "汇总意甲赛程近半时的15项球队、球员数据与表现特征，没有形成单一预测或主张。",
+        "steps": [
+          "先以积分、失球和进球数据写国米强势，再补尤文紧追及其险胜、平局特点。",
+          "转看排名之外的球队：博洛尼亚以强队交锋、主客场表现支撑惊喜；乌迪内斯则由平局多转到进球难、保级压力。",
+          "用那不勒斯排名、防守与射门转化率呈现退步；继而罗列拦截、黄牌、犯规等数据。",
+          "最后以升班马主客场差异、萨索洛攻守反差、都灵低比分和苏莱个人数据收束，并留问题互动。"
+        ],
+        "bridge": "主要靠排名、进球失球及主客场等统计，把数据差异概括成强势、退步或风格；个别因果解释另行提出。",
+        "counter": "尤文的平局、那不勒斯进球转化偏低等作为表现反差呈现；没有系统检验替代解释，也没有对各项判断作辩论。",
+        "ending": "以苏莱表现及传闻作延伸，随后提出争顶球员竞猜，转入评论互动；不是比赛方向结论。",
+        "risk": "数据、传闻及“强势”“功利”等概括均为原文表达，未核验；部分因果判断由有限统计直接推出。",
+        "anchorIndices": [
+          1,
+          12,
+          33
+        ],
+        "anchors": [
+          "\n意甲赛程近半信息汇总。 本赛季的意甲也没有冬歇期了，目前赛程接近过半，我这条视频帮您整理了15个本赛季截止到今天的意甲小知识。",
+          " 这个赛季目前只输了两场比赛，面对尤文图斯、国米、那不勒斯、拉齐奥、罗马和亚特兰大都可以全身而退，球队的齐尔克泽和小弗格森等球员已经引起了很多豪门球队的关注。",
+          "提示一下，他的身高接近两米，那么就把您的答案写在评论区。"
+        ]
+      },
+      {
+        "id": "chengzi-6e329ebc82ef",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "按联赛汇总近半赛季的22条信息，终点是提供可供聊球的概览，不预测比赛，也无统一主张。",
+        "steps": [
+          "先用埃因霍温全胜与净胜球写荷甲强势；法甲则以尼斯低进球、高排名和少失球说明防守支撑。",
+          "接着列里昂连胜与球员进球、姆巴佩射手数据，再转西甲，以赫罗纳排名进球、阿尔梅里亚未胜和马竞主客场反差呈现差异。",
+          "德甲分支用勒沃库森不败、斯图加特与射手表现、霍芬海姆主客场分化等概括强弱与特点。",
+          "意甲、英超继续按排名、胜场、主客场及个人数据盘点，并以多库过人和阿尤造犯规等收尾。"
+        ],
+        "bridge": "逐条把积分、进球、失球、主客场和个人统计转成球队或球员表现标签；多数条目并不推导更大的结论。",
+        "counter": "有呈现反差，如进攻数据与排名不相称、主客场表现分化；但未逐项讨论其他原因或反方解释。",
+        "ending": "称汇总较全，邀请留言并承诺可能定制后续内容，以信息服务和互动收束。",
+        "risk": "各项数据及“运气”“保级没压力”等判断仅为原文声称，未核验；部分表现归因简略，且个别措辞带评价色彩。",
+        "anchorIndices": [
+          4,
+          17,
+          29
+        ],
+        "anchors": [
+          " · 第一，目前荷甲埃因霍温16场比赛全胜，疯狂打进56球，防守端只丢6球，赛程还没有过半就已经拿到了50个净胜球，领先第二名费耶诺德多达10分，这真是太恐怖了。",
+          " · 第十四、来看意甲，意甲的博洛尼亚以往是一支中游球队，今年17轮过后他们排在意甲第四，主场战绩更是可以达到意甲第二，今年的表现真是非常生猛。",
+          " 咱们就先聊这么多，应该还挺全的。还想知道什么可以在评论区里留言，我下回可能专门为您定制。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "以统计指标归纳球队表现特征，如国米失球与排名（chengzi-56e27763b907）、尼斯少失球与排名（chengzi-6e329ebc82ef）。",
+        "用主客场或攻守数据的反差制造信息点，如博洛尼亚（chengzi-56e27763b907）与霍芬海姆（chengzi-6e329ebc82ef）。"
+      ],
+      "variants": [
+        "两篇均为多条信息盘点、无统一方向；第一篇集中意甲，第二篇跨联赛并以留言互动结束（chengzi-56e27763b907；chengzi-6e329ebc82ef）。"
+      ],
+      "nonReusable": [
+        "不能把数据相关性当成已证实因果：如把后防变化直接连到失球、把球队风格连到犯规（chengzi-56e27763b907）；也不能把射门击中门框直接等同于运气不佳（chengzi-6e329ebc82ef）。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_00c8f2dafe7527a3016abc0d0cb96c87d0a8890e05951cfb6a": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_00c8f2dafe7527a3016abc0d0cb98487d082134638d9d7caee": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 4358,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 4358,
+          "output_tokens": 0
+        },
+        "rs_00c8f2dafe7527a3016abc0d0d870c87d0ac2b3d34a6297e9e": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 159
+        },
+        "msg_00c8f2dafe7527a3016abc0d106ec087d092dff218976e8fa2": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1020
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1020
+        }
+      }
+    },
+    "input_tokens": 4458,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1179,
+    "output_tokens_details": {
+      "reasoning_tokens": 159
+    },
+    "total_tokens": 5637
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

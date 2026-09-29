@@ -1,0 +1,493 @@
+{
+  "author": "雷叔聊球",
+  "slug": "leishu",
+  "part": 27,
+  "processedAt": "2026-09-29T19:20:53.924Z",
+  "sourceIds": [
+    "leishu-c66c9dd25e69",
+    "leishu-5b671fdca125",
+    "leishu-e16b294385d5",
+    "leishu-bfa371ce7273",
+    "leishu-30e1d57a9fe8",
+    "leishu-00e06ca88f0c",
+    "leishu-bc6de8b2d225",
+    "leishu-ce9bbcc09df1",
+    "leishu-7e0efac0a25b",
+    "leishu-ebe0df7a3ee9",
+    "leishu-b12bd219fe26",
+    "leishu-3b5927ccbd28"
+  ],
+  "sourceHashes": [
+    "ec3a46882f168bd8c73818c8c373d0187ac7afbfd6514949c229a83ed328165f",
+    "ef02dc81f30781dd3da8bb2da519d8b52aeefbd7f1cd22409476cd37da406a33",
+    "8684a7c04028bc3b3f6388feccfbe9d22cf0f30ac6e2336c2bbcff55a47645f5",
+    "cc7f783bacdb02deda5fc4a850133ba1a68e275d2056e696830dc5560fcef582",
+    "b614b6c6505d4cb2384e861bf252a16b40f4809e03e9cdc8d7f0c62071976956",
+    "c6bc68713a455909632488236b406bd8220ae9c62c85a1a5b87d098abb0410dc",
+    "fb4170a4e6ea777988b960ebc4ce54947341a1f617d2a80919fa4221c3ef9e4f",
+    "8f6cd3442dbe66d241bf4a2d22f0f8cea7ae5729d883bac013a20f0ece6d6783",
+    "68b6b95e6a14b608cdc888806e97ee395c809f439fe767d9851f8a5efdaf3ba7",
+    "4b0142c7c98b12ca2c5cbad3bcfeb4a632017802a6108e4fbe93d78892e0f832",
+    "c2ba4fcd5aa26db89128d22a4c485d4ff7f5e9fd8bb97862facf43a7d870f54e",
+    "639349e1cb3b9f9d27e668abb396becc274310b4566382ec48755cd57b7fd931"
+  ],
+  "fullInputChars": 946,
+  "extractionThinkingMode": "provider-default",
+  "method": "Configured model received every complete record as lossless numbered segments; original anchors resolved from selected segment indices; football claims not fact-checked",
+  "data": {
+    "records": [
+      {
+        "id": "leishu-c66c9dd25e69",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以梅西对巴萨的感恩与留队表态，塑造他珍视巴萨、愿长期留下的形象。",
+        "steps": [
+          "先称梅西懂得感恩。",
+          "接着把巴萨治好其侏儒症作为恩情背景。",
+          "引出梅西愿长期留队、称生命因巴萨改变的表态。",
+          "以“亏欠”与“改变生命”强化感恩和归属感。"
+        ],
+        "bridge": "治疗经历被设为重大恩情，梅西的引语则被用来印证感恩与留队意愿。",
+        "counter": "没有呈现留队意愿可能变化的条件，也未展开巴萨给予与梅西回报的其他面向。",
+        "ending": "以梅西自述收束，让人物形象落在对巴萨的感激与承诺上。",
+        "risk": "治疗经历及引语均为原文声称，未核验；从感恩表态延伸为稳定长期归属，含有推断。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 梅西一生所爱（视频ID：6687419343199800587）\n",
+          "\n梅西是一个懂得感恩的人。我们知道，当初是巴萨俱乐部治好了梅西的侏儒症。",
+          "他们要我留这里多久，我就会留多久。我亏欠巴塞罗那的比他们给我的机会更多，我的生命是他们改变的。"
+        ]
+      },
+      {
+        "id": "leishu-5b671fdca125",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "借内马尔的格言表达乐观与目标的重要性，没有具体比赛或人物评价方向。",
+        "steps": [
+          "先将话语归于内马尔。",
+          "以胜利者身上的伤痕呈现成功伴随代价。",
+          "再把乐观态度和明确目标说成难以阻挡的力量。"
+        ],
+        "bridge": "格言将伤痕与胜利相连，再以乐观和目标作为克服阻碍的解释。",
+        "counter": "没有讨论乐观或目标不足以克服阻碍的情形。",
+        "ending": "以普遍化的励志判断结束，没有回到内马尔的具体经历。",
+        "risk": "格言内容为原文转述，未核验；从格言归属无法推出具体事迹或比赛观点。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 内马尔男神（视频ID：6686820383129177351）\n",
+          "\n内马尔曾经说过：每个胜利者的身上都有伤痕，但在这个世界上几乎没有东西能够阻挡一个拥有乐观态度和明确目标的人。"
+        ]
+      },
+      {
+        "id": "leishu-e16b294385d5",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "只有重复呼喊“卡卡”，没有形成可辨认的评价或论证方向。",
+        "steps": [
+          "以卡卡姓名开篇。",
+          "重复呼喊以加强语气。",
+          "没有提供理由、事例或明确判断。"
+        ],
+        "bridge": "没有论证桥梁；重复只形成情绪强调。",
+        "counter": "没有提出或回应反方因素。",
+        "ending": "停在重复呼喊，没有进一步收束观点。",
+        "risk": "文本极短，不能据此补造对卡卡的评价；标题也不构成正文论据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 卡卡（视频ID：6686472283558595852）\n",
+          "\n卡卡！卡卡！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-bfa371ce7273",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "表达对C罗有所教益的感受，但没有说明教了什么或据此作何评价。",
+        "steps": [
+          "先点名C罗。",
+          "直接称其教会自己很多。",
+          "没有列出具体教益或展开判断。"
+        ],
+        "bridge": "只有个人受教的断言，没有从事例通向更具体结论的环节。",
+        "counter": "没有处理其他解释或反面因素。",
+        "ending": "以重复标题式感叹收尾。",
+        "risk": "“教会很多”缺少内容支撑，不能替作者补出具体品质或事迹。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## C罗你教会了我很多（视频ID：6686296653055462663）\n",
+          "\nC罗你教会了我很多！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-30e1d57a9fe8",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "把C罗塑造成兼具天才、富裕外形条件与花花公子标签的足坛代表，并以体魄、肌肉和不服输性格作解释。",
+        "steps": [
+          "先并列“天才、富帅、花花公子”三种标签。",
+          "提出足坛中谁将这些标志集于一身的设问。",
+          "以“非C罗莫属”给出明确答案。",
+          "补充强壮体魄、结实肌肉和不服输性格作为依据。"
+        ],
+        "bridge": "设问把多个标签合并成评判标准，再由身体条件和性格为C罗的代表性背书。",
+        "counter": "没有说明各标签的依据，也未比较其他候选者；“花花公子”仅被直接列出。",
+        "ending": "以身体与性格特征补强对C罗的概括。",
+        "risk": "“非莫属”是修辞性断言；所列特征及其能代表全部标签的关系均未展开论证。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## C罗不是一般的帅（视频ID：6686008070457396494）\n",
+          "\n天才、富帅、花花公子。在足坛中问到如今谁是世界上这些标志统一的人，恐怕非C罗莫属。",
+          "因为强壮的体魄、结实的肌肉和不服输的性格。"
+        ]
+      },
+      {
+        "id": "leishu-00e06ca88f0c",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "将马塞洛称作“最骚后卫”，但没有给出支撑这一评价的理由。",
+        "steps": [
+          "以“最骚后卫”提出评价。",
+          "紧接着说“没有理由”，拒绝或省略论证。",
+          "没有提供表现、比较对象或进一步结论。"
+        ],
+        "bridge": "没有可辨认的论证桥梁；评价依赖口号式强调。",
+        "counter": "未处理反方，也没有说明“没有理由”是幽默表达还是确实不作论证。",
+        "ending": "以“没有理由”作结，观点停留在断言。",
+        "risk": "评价标准与依据均缺失，不应补造其球场表现作为论据。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 马赛洛最骚后卫（视频ID：6685574002796203272）\n",
+          "\n最骚后卫没有理由！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-bc6de8b2d225",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以梅西克服成长困难和响应阿根廷召唤，塑造其深爱国家、愿意挺身而出的形象。",
+        "steps": [
+          "先称梅西在已萨帮助下度过生长停滞难关。",
+          "再将他对阿根廷的爱比作美国队长对国家的爱。",
+          "补入他曾对母队失望、仍响应召唤挺身而出的对照。",
+          "由此突出其爱国与担当。"
+        ],
+        "bridge": "把克服个人困难与失望后仍回应国家召唤，作为忠诚、担当的表现。",
+        "counter": "提及曾经失望，但未展开其原因或对照解释。",
+        "ending": "以美国队长作类比，收束为爱国者形象。",
+        "risk": "未提供成长停滞及相关经历的具体细节；类比承担主要评价作用。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n梅西靠着已萨的帮助度过了生长停滞的难关。",
+          "梅西对于阿根廷的爱也同美国队长对于国家的爱一样，尽管曾对母队失望，但阿根廷向他发出召唤后，梅西依然会担身而出。"
+        ]
+      },
+      {
+        "id": "leishu-ce9bbcc09df1",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文以称呼和提问引出卡卡是否厉害，没有给出回答或明确判断。",
+        "steps": [
+          "先用“上帝之子”称呼卡卡。",
+          "随后提出卡卡是否厉害的问题。",
+          "正文没有提供事例、评价依据或结论。"
+        ],
+        "bridge": "没有从称呼或提问推进到可辨认的判断。",
+        "counter": "未涉及反方因素；也未回答提出的问题。",
+        "ending": "以问句结束，论证方向未形成。",
+        "risk": "标题带有赞誉色彩，但正文仅有称呼和提问，不能据此补出结论。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n上帝之子卡卡！卡卡很厉害吗？\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7e0efac0a25b",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "直接断言孙兴慜是亚洲球王，正文没有展开论据。",
+        "steps": [
+          "开头点出孙兴慜这一人物。",
+          "紧接着将其称为“亚洲球王”。",
+          "没有列举表现、比较对象或推导过程。"
+        ],
+        "bridge": "从人物姓名直接跳到最高级评价，正文未交代评价标准。",
+        "counter": "未提及其他球员或可能的异议。",
+        "ending": "以称号式判断直接收束。",
+        "risk": "结论明确但依据缺失；不据称号补造比较论据。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n孙兴慜亚洲球王！\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-ebe0df7a3ee9",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "连续赞扬马赛洛无人能挡、堪称世界最佳。",
+        "steps": [
+          "先表示意外，转入对马赛洛的评价。",
+          "称其比谁都厉害，并称无人能挡。",
+          "再将评价推至“世界最佳”。",
+          "没有呈现支撑这些判断的表现或比较。"
+        ],
+        "bridge": "以递进式赞誉从个人能力推至世界范围的最佳判断。",
+        "counter": "没有处理竞争者、评价标准或其他限制。",
+        "ending": "用最高级称号作情绪化收束。",
+        "risk": "论断强度逐步上升，正文没有提供相应论据；保留其赞美修辞属性。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n没想到你比谁都厉害，谁都挡不住你，你是世界最佳。"
+        ]
+      },
+      {
+        "id": "leishu-b12bd219fe26",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "断言马赛洛越来越优秀，但没有说明变化依据。",
+        "steps": [
+          "点出马赛洛。",
+          "直接评价其表现越来越优秀。",
+          "未补充时间节点、事例或比较标准。"
+        ],
+        "bridge": "把“越来越”作为发展趋势判断，但没有展示趋势如何得出。",
+        "counter": "未谈及表现波动或其他解释。",
+        "ending": "以简短的持续进步判断结束。",
+        "risk": "正文只有结论，无法从中还原具体论证过程。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n马赛洛越来越优秀了。\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-3b5927ccbd28",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "explicit",
+        "claim": "给出一段过人练习提示，强调追球后休息、不要中途躺下，并多练和加快反应。",
+        "steps": [
+          "先描述一个未命名的过人动作及追球要求。",
+          "接着要求完成后休息，并提醒不要半路躺下。",
+          "最后归结为多练习、反应要快。"
+        ],
+        "bridge": "把动作执行、体能休息和反应速度连成练习建议，但具体动作衔接不清。",
+        "counter": "未讨论适用情境、动作风险或不同练习方式。",
+        "ending": "以重复强调反应快作教学收束。",
+        "risk": "动作名称不明，且“追球”与“休息”之间的顺序和含义有限；不补造技术细节。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n不知道叫啥过人，然后需要你追球，最后再休息，不要躺在半路上，这需要多练习，反应要快，反应要快好的。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-c66c9dd25e69以治疗恩情引出感恩自述，形成归属人物形象。",
+        "leishu-30e1d57a9fe8以标签设定评判框架，再给出C罗答案并补列特征。",
+        "短篇人物评价多由人物或处境直接跳到判断，论据很少，如孙兴慜篇、马赛洛篇。",
+        "人物叙事篇先给经历再接类比和评价，如梅西篇；类比承担主要的意义连接。"
+      ],
+      "variants": [
+        "leishu-5b671fdca125是无具体比赛方向的励志格言；leishu-e16b294385d5与leishu-bfa371ce7273只有呼喊或感叹，无法推出实质方向。",
+        "leishu-00e06ca88f0c明确作出评价却自称没有理由；leishu-c66c9dd25e69则以人物引语支撑感恩叙事。",
+        "卡卡篇虽有赞誉称呼，正文以疑问结束，判断方向未形成。",
+        "足球教学篇是动作提示与练习要求，不是人物评价或比赛预测。"
+      ],
+      "nonReusable": [
+        "leishu-30e1d57a9fe8不能把并列标签当作已证明的事实，也不能将体魄和性格自动视为全部标签的依据。",
+        "leishu-00e06ca88f0c不能替“最骚”补入场上表现；leishu-e16b294385d5与leishu-bfa371ce7273也不能从短句扩写出未说出的品质。",
+        "不能把“越来越优秀”扩写成持续进步的具体比赛表现，马赛洛篇没有提供这些依据。",
+        "不能因卡卡篇标题及称呼而替正文回答“是否厉害”。"
+      ]
+    }
+  },
+  "model": "gpt-6-luna",
+  "recordModels": {
+    "leishu-c66c9dd25e69": "gpt-6-luna",
+    "leishu-5b671fdca125": "gpt-6-luna",
+    "leishu-e16b294385d5": "gpt-6-luna",
+    "leishu-bfa371ce7273": "gpt-6-luna",
+    "leishu-30e1d57a9fe8": "gpt-6-luna",
+    "leishu-00e06ca88f0c": "gpt-6-luna",
+    "leishu-bc6de8b2d225": "gpt-6-luna",
+    "leishu-ce9bbcc09df1": "gpt-6-luna",
+    "leishu-7e0efac0a25b": "gpt-6-luna",
+    "leishu-ebe0df7a3ee9": "gpt-6-luna",
+    "leishu-b12bd219fe26": "gpt-6-luna",
+    "leishu-3b5927ccbd28": "gpt-6-luna"
+  },
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467",
+  "usage": [
+    {
+      "attribution": {
+        "items": {
+          "msg_0d92d3519d5e342c016abc0f3df23487d092b650cf84deb2ab": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_0d92d3519d5e342c016abc0f3df25887d09753c2d3f4890e24": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1551,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1551,
+            "output_tokens": 0
+          },
+          "rs_0d92d3519d5e342c016abc0f3e79d487d0a5e0b76dc5d0842f": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 165
+          },
+          "msg_0d92d3519d5e342c016abc0f418c3c87d089d1c1c2b8eb393e": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1547
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1547
+          }
+        }
+      },
+      "input_tokens": 1651,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1712,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 3363
+    },
+    {
+      "attribution": {
+        "items": {
+          "msg_03f8937e3ac02d13016abc0f5e8ef887d0ba9dcacfff538d05": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 98,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 98,
+            "output_tokens": 0
+          },
+          "msg_03f8937e3ac02d13016abc0f5e8f1c87d083bb5792b0820058": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 1506,
+                "output_tokens": 0
+              }
+            ],
+            "input_tokens": 1506,
+            "output_tokens": 0
+          },
+          "rs_03f8937e3ac02d13016abc0f5f3bd087d0a12491eff61f5814": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "input_tokens": 2,
+            "output_tokens": 174
+          },
+          "msg_03f8937e3ac02d13016abc0f6831a087d0af5d39f48abded43": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "content": [
+              {
+                "cache_write_tokens": 0,
+                "cached_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 1291
+              }
+            ],
+            "input_tokens": 0,
+            "output_tokens": 1291
+          }
+        }
+      },
+      "input_tokens": 1606,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1465,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 3071
+    }
+  ]
+}

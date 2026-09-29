@@ -1,0 +1,25 @@
+{
+  "author": "炮哥的体育世界",
+  "slug": "paoge",
+  "records": 22,
+  "characters": 59885,
+  "exactDuplicateRecords": 0,
+  "analyzedRecords": 22,
+  "availability": {
+    "body": 20,
+    "missing": 1,
+    "partial": 1
+  },
+  "directions": {
+    "explicit": 19,
+    "implicit": 1,
+    "unavailable": 1,
+    "none": 1
+  },
+  "kinds": {
+    "赛前方向": 20,
+    "缺失": 1,
+    "非足球": 1
+  },
+  "uniqueKnownVideoIds": 22
+}

@@ -1,0 +1,236 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-05602fdb8325",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以罗纳尔迪尼奥的拖鞋与微笑作印象式点题，没有展开观点或判断。",
+        "steps": [
+          "标题点出罗纳尔迪尼奥",
+          "正文用拖鞋、微笑形成简短画面",
+          "话题标签表明足球主题，未继续论证"
+        ],
+        "bridge": "没有从画面细节推到人物评价的桥梁。",
+        "counter": "未提出反方因素。",
+        "ending": "以感叹式短句和标签收束。",
+        "risk": "正文极短，不能据标题补写画面或人物特质。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 罗纳尔迪尼奥那双拖鞋那个微笑（视频ID：6802855650851425544）\n",
+          "\n#足球 #罗纳尔迪尼奥 #爱足球 那双拖鞋，那个微笑！"
+        ]
+      },
+      {
+        "id": "leishu-3586e3c77b6c",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "只点出C罗的招牌动作，没有说明动作内容或表达进一步判断。",
+        "steps": [
+          "标题将对象限定为C罗",
+          "正文重复“招牌动作”这一主题",
+          "标签确认足球语境，未给出论据或结论"
+        ],
+        "bridge": "没有呈现动作细节，也没有由动作导向评价的推理。",
+        "counter": "未处理反方因素。",
+        "ending": "以重复感叹和标签结束。",
+        "risk": "不能把标题当作动作说明；文本信息有限。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## C罗的招牌动作（视频ID：6799953990617468174）\n",
+          "\n#足球 #爱足球 C罗的招牌动作！！"
+        ]
+      },
+      {
+        "id": "leishu-f1becc023903",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "把球场突发情景改写成轰炸区、游戏失败的玩笑，没有形成实质足球判断。",
+        "steps": [
+          "先以降落伞落入球场制造意外",
+          "转而提醒带球者避开对方球迷区，并用“爆头”夸张化",
+          "再把对方禁区比作轰炸区",
+          "以“吃不了鸡”接入游戏梗收尾"
+        ],
+        "bridge": "靠球场场景与游戏、轰炸意象的类比制造笑点，不承担比赛分析。",
+        "counter": "未讨论事件原因或可能的其他解释。",
+        "ending": "以游戏梗将意外场面收成笑谈。",
+        "risk": "文本未说明具体比赛及事件背景；玩笑不应当作事实判断。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 球场上的意外（视频ID：6798074957122260237）\n",
+          "\n球场上的意外。 踢着踢着球怎么一个降落伞就落下来了？",
+          "对面的禁区是轰炸区，看来这次吃不了鸡了。"
+        ]
+      },
+      {
+        "id": "leishu-79a00d50dce1",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“战斗民族”作感叹式标签，没有说明所指事件或展开论证。",
+        "steps": [
+          "标题先给出“战斗民族”的概括",
+          "正文重复这一评价式短句",
+          "足球标签只标示主题，未补充具体材料"
+        ],
+        "bridge": "没有说明何种行为支撑该称呼。",
+        "counter": "未处理反方因素。",
+        "ending": "以感叹号收束。",
+        "risk": "文本缺少事件描述，不能从标题或标签补出情节。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 不愧是战斗民族（视频ID：6797658954538306823）\n",
+          "\n#足球 #爱足球 不愧是战斗民族！\n"
+        ]
+      },
+      {
+        "id": "leishu-471be49d7eba",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "只称其为“球场最强纸飞机”，没有交代对象、表现或判断依据。",
+        "steps": [
+          "标题提出纸飞机这一主题",
+          "正文重复“球场最强”的夸张称呼",
+          "足球标签标示语境，但没有后续说明"
+        ],
+        "bridge": "“最强”是无证据支撑的修辞，不构成可追踪的推论。",
+        "counter": "未提出比较对象或反方因素。",
+        "ending": "以感叹式短句结束。",
+        "risk": "不能据标题推断纸飞机的具体表现或场景。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 球场最强纸飞机（视频ID：6797312720682208519）\n",
+          "\n#足球 #爱足球 球场最强纸飞机！\n"
+        ]
+      },
+      {
+        "id": "leishu-c17ee921eaa9",
+        "availability": "body",
+        "kind": "场面倾向",
+        "direction": "none",
+        "claim": "围绕球员庆祝滑行作轻松描述与身体安全玩笑，没有评价比赛胜负或场面优劣。",
+        "steps": [
+          "先把庆祝称作球员释放自己的方式",
+          "以“最长”设问引出滑行场面",
+          "描述滑过半场、速度快、队友跟不上",
+          "转而劝其站起，并夸张担心腿被磨损"
+        ],
+        "bridge": "由庆祝这一常见表达方式转向滑行长度和速度的现场描写，再以身体受损玩笑收尾。",
+        "counter": "未讨论庆祝方式的其他意义或实际伤情。",
+        "ending": "用对球员的戏谑关心作结。",
+        "risk": "滑行距离、速度及伤害均为原文描述或夸张表达，未核验；无比赛结论。",
+        "anchorIndices": [
+          0,
+          1,
+          3
+        ],
+        "anchors": [
+          "## 最长的滑轨（视频ID：6795079531863592199）\n",
+          "\n最长的滑轨。 我们都知道球场和华贵庆祝是球员释放自己的方式，可你见过最长的华贵吗？",
+          "不过兄弟快站起来，不然我担心你腿都给磨没了，就剩下大胯了。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "短素材常以标题或重复口号直接定调，正文未提供支撑链条，如leishu-05602fdb8325、leishu-471be49d7eba。",
+        "场景类素材以具体意外或动作起笔，再借比喻、夸张形成笑点，如leishu-f1becc023903、leishu-c17ee921eaa9。"
+      ],
+      "variants": [
+        "人物主题仅作印象点题、没有人物评价展开：leishu-05602fdb8325、leishu-3586e3c77b6c。",
+        "球场趣味片段没有比赛方向；短口号文本也不足以推定方向：leishu-f1becc023903、leishu-79a00d50dce1、leishu-471be49d7eba、leishu-c17ee921eaa9。"
+      ],
+      "nonReusable": [
+        "不能把“最强”“战斗民族”或招牌动作等标题性表达当成已有论据：leishu-471be49d7eba、leishu-79a00d50dce1、leishu-3586e3c77b6c。",
+        "不能将游戏梗、夸张伤害或场景描述升级为已核实的比赛事实：leishu-f1becc023903、leishu-c17ee921eaa9。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0ab77867b113f4bb016abc0ed3fdd487d0b9f27e7b9212ae75": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0ab77867b113f4bb016abc0ed3fdf487d08c84b319dddc8258": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1583,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1583,
+          "output_tokens": 0
+        },
+        "rs_0ab77867b113f4bb016abc0ed497a087d08e9a729b3209d174": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 352
+        },
+        "msg_0ab77867b113f4bb016abc0edb03d487d0bb910646e7b09032": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1376
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1376
+        }
+      }
+    },
+    "input_tokens": 1683,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1728,
+    "output_tokens_details": {
+      "reasoning_tokens": 352
+    },
+    "total_tokens": 3411
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

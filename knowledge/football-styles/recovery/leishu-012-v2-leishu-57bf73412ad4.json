@@ -1,0 +1,230 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-57bf73412ad4",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文没有展开标题所问的内容；仅有标题和话题标签，无法确定作者的观点或论证终点。",
+        "steps": [],
+        "bridge": "没有可识别的材料与推论之间的连接。",
+        "counter": "没有呈现反方因素或回应。",
+        "ending": "文本以标签结束，没有论证性收束。",
+        "risk": "标题提出问题不等于正文作答；不据此补造方向。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 #老外 球迷如何了解中国文化？",
+          "#老外在中国 #c罗 #搞笑段子\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-9370e792a406",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以对话喜剧呈现丹丹自称将赴巴萨顶替梅西、索要高价，随后被揭穿是在吹嘘的反转。",
+        "steps": [
+          "先以熟人闲聊引出丹丹的身份与去向。",
+          "丹丹称巴萨要用自己换梅西，并说已备好衣服、将赴西班牙。",
+          "经纪人来电报出一个亿，丹丹借口车费不足五十便不去，继续抬高身价。",
+          "雷雷指出人还没出主城；丹丹转称要与尤文谈价，旁人以街溜子吹牛收尾。"
+        ],
+        "bridge": "夸张的转会自述与荒唐的报价借口形成落差，旁人揭穿把夸口转成笑料。",
+        "counter": "文本用“没发烧吧”、主城未出等话质疑丹丹，没有认真讨论转会说法的可能性。",
+        "ending": "转谈尤文后由旁人点破吹牛，并以梅西球衣作喜剧落点。",
+        "risk": "属于段子对话，不能当作真实转会资讯；结尾球衣与前述转会没有论证关系。",
+        "anchorIndices": [
+          1,
+          5,
+          9
+        ],
+        "anchors": [
+          "\n来根华子。 这不是丹丹、雷雷，干嘛去？",
+          "衣服都准备好了，明天坐飞机去西班牙了。",
+          "不说了，这老外街溜子也能吹。这是梅西球衣。"
+        ]
+      },
+      {
+        "id": "leishu-4b995a453e2b",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "implicit",
+        "claim": "把“华子”解释为烟，并将抽华子与有钱、大哥身份联系起来，再用角色互动把这种身份表演变成笑点。",
+        "steps": [
+          "提问者先询问网络流行词“华子”的含义。",
+          "回答称华子是烟，同时提醒踢足球的人不要抽，并说自己不抽。",
+          "追问抽华子的好处，回答以价格贵推出抽者像有钱大哥。",
+          "对方顺势称呼“大哥”，继而请求找钥匙、询问晚饭，形成夸张的身份待遇。"
+        ],
+        "bridge": "价格贵被用作身份信号，角色随即按“大哥”方式对待说话者，完成从物品到社会角色的跳转。",
+        "counter": "文本提到吸烟有害、踢足球者不宜抽，但没有进一步讨论这一提醒与身份炫耀的冲突。",
+        "ending": "以索要帮助和询问晚饭的连续称呼收束，突出“大哥”待遇的喜剧效果。",
+        "risk": "这是简短的口语解释与段子；由价格推到有钱身份是文本的概括，不构成充分论证。",
+        "anchorIndices": [
+          1,
+          2,
+          4
+        ],
+        "anchors": [
+          "\n雷雷，现在在抖音上华子很火，华子是什么意思？",
+          "华子就是烟，如果这种踢足球的千万不要吃，对身体不好，反正我不抽。",
+          "那你混的好，大哥。 大哥，看我钥匙在包里没？"
+        ]
+      },
+      {
+        "id": "leishu-f5b93179082b",
+        "availability": "missing",
+        "kind": "缺失",
+        "direction": "unavailable",
+        "claim": "正文只有如何辨别伪球迷的标题式提问和相关标签，没有提供辨别方法或结论。",
+        "steps": [],
+        "bridge": "没有实际论据可连接问题与判断。",
+        "counter": "没有呈现可能的反例或对判断标准的限制。",
+        "ending": "标签后即结束，未形成正文收束。",
+        "risk": "不能仅凭标题推断发型与球迷身份的关系；不补造作者方向。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 如何通过发型辨别伪球迷！",
+          "#C罗 #罗纳尔多 #罗纳尔多c罗 #遇见足球\n"
+        ]
+      },
+      {
+        "id": "leishu-69ce473d267f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "短句以“齐祖还会打台球？”引出对齐达内的调侃，并以称呼和“好好学”作结，没有展开关于其玄学或能力的判断。",
+        "steps": [
+          "先用标题提出齐祖“玄学”强弱的话题。",
+          "正文转为惊讶发问，称齐祖还会打台球。",
+          "继而用英文姓名和兄弟式称呼点名，并说“好好学”。"
+        ],
+        "bridge": "提问与命令营造熟人式调侃，但没有说明台球与标题所说玄学之间的关系。",
+        "counter": "没有比较、解释或回应其他看法。",
+        "ending": "以“好好学”的玩笑式命令收束。",
+        "risk": "正文极短，标题与正文主题衔接不足；不能据标题补出玄学论证。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n齐祖还会打台球？ Zinedine Zidane 兄dei，好好学。",
+          "\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-7e938f457384",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以梅西打篮球的设定和“用脚投篮”的违规笑料，夸张塑造其跨项运动能力，并以乔丹作戏谑类比。",
+        "steps": [
+          "先称梅西会打篮球，并概括其足球和篮球都踢得好。",
+          "随即指出他投篮竟用脚，借“作弊”把跨项表现转为违规笑点。",
+          "再假设篮球允许用脚，推出梅西会成为足球界的乔丹。"
+        ],
+        "bridge": "把足球运动员使用脚这一特征移入篮球，再以规则假设支撑乔丹式夸张类比。",
+        "counter": "“举报、作弊”构成玩笑式反向质疑，但没有认真检验篮球表现或类比依据。",
+        "ending": "用假设句落在“足球界的乔丹”这一夸张赞誉上。",
+        "risk": "明显是喜剧性设定和修辞类比，不应当作对梅西篮球能力的事实证明。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n梅西还会打篮球。 梅西不仅足球踢得好，篮球技术也是杠杠的。",
+          "用手投篮就算了，怎么还用上脚了？举报，这有人作弊。",
+          "如果打篮球能用脚，那梅西一定是足球界的乔丹。"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-9370e792a406以夸张自述、荒唐借口和旁人揭穿形成反转；leishu-4b995a453e2b从词义解释转到价格身份，再用互动演绎后果。",
+        "leishu-7e938f457384把跨项设定转成规则笑料，再以假设和类比收束。"
+      ],
+      "variants": [
+        "leishu-57bf73412ad4与leishu-f5b93179082b仅有标题式问题和标签，正文不足以确定方向；leishu-69ce473d267f虽有正文，但只有短促调侃，无明确主张。",
+        "leishu-9370e792a406、leishu-4b995a453e2b和leishu-7e938f457384以段子或角色表演为主，不是赛前判断或赛后复盘。"
+      ],
+      "nonReusable": [
+        "不能把leishu-9370e792a406的虚构转会对话当作真实资讯，也不能从leishu-69ce473d267f标题补写齐祖玄学论证。",
+        "leishu-4b995a453e2b以价格推断身份、leishu-7e938f457384以夸张假设类比，都是笑料机制，不可复用为严谨事实论证。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_07bd307ec32e2baa016abc0f065ad887d08f9aae8f569b5e4a": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_07bd307ec32e2baa016abc0f065af487d08c52e4e6de09c058": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1912,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1912,
+          "output_tokens": 0
+        },
+        "rs_07bd307ec32e2baa016abc0f06f79487d0ac4c756d3d70a2fa": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 396
+        },
+        "msg_07bd307ec32e2baa016abc0f1273dc87d0b7f9f3ca20443727": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1689
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1689
+        }
+      }
+    },
+    "input_tokens": 2012,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2085,
+    "output_tokens_details": {
+      "reasoning_tokens": 396
+    },
+    "total_tokens": 4097
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

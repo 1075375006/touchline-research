@@ -1,0 +1,231 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-04011b4d2402",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "反驳“梅西不努力、C罗没天赋”的说法，认为两人的天赋与努力都突出，二者共同造就伟大。",
+        "steps": [
+          "先把两种说法并列为球迷误区。",
+          "以C罗的体质、速度和弹跳说明其身体天赋。",
+          "以梅西的生长经历及额外体能训练说明其付出。",
+          "再概括两人天赋和努力都超过多数球员，归为伟大原因。"
+        ],
+        "bridge": "个别身体条件和训练经历被用来说明两人兼具天赋与努力；两项都突出便解释其成就。",
+        "counter": "回应了两种标签，但未讨论训练投入如何比较，也未提供支撑比例判断的依据。",
+        "ending": "用天赋与努力并重作总结，将其归结为伟大的原因。",
+        "risk": "文中比例和经历均为原文声称；从少量特征推到总体努力程度，论证未展开。",
+        "anchorIndices": [
+          1,
+          3,
+          5
+        ],
+        "anchors": [
+          "\n梅西、c罗，足球界的两大误区。\n梅西不努力，c罗没天赋，是球迷才有的观点。",
+          "梅西小时候因生长激素不足，还需要比别人加强体能训练，加强肌肉强度。",
+          "他们的天赋超过了百分之九十九的球员，他们的努力程度更是超过了百分之九十九的球员，这就是他们伟大的原因。"
+        ]
+      },
+      {
+        "id": "leishu-07c3bde4c5ef",
+        "availability": "body",
+        "kind": "知识解释",
+        "direction": "none",
+        "claim": "彩虹过人难度较高，维尼修斯即使被称作“小内马尔”并学习前辈，也不因此等同于内马尔的水平。",
+        "steps": [
+          "先指出彩虹过人花哨且考验技术。",
+          "以此动作已被内马尔练得娴熟作参照。",
+          "再提维尼修斯因身体特征相似而获“小内马尔”称号。",
+          "由称号引出学习前辈动作，最后强调称号不等于达到大神水平。"
+        ],
+        "bridge": "外号和模仿只能说明关联或学习意愿，不能直接证明技术水平相同。",
+        "counter": "没有举维尼修斯动作表现作比较；以对内马尔的拟人化告诫代替具体论证。",
+        "ending": "以与“大神”仍有距离收束，提醒勿把称号当作能力证明。",
+        "risk": "关于技术难度、外号缘由及水平差距均为原文表达，未给出比较标准。",
+        "anchorIndices": [
+          1,
+          3,
+          5
+        ],
+        "anchors": [
+          "\n到内马尔就能玩彩虹过人了吗？彩虹过人是足球中比较有难度的花哨球，这个对于球员自身技术有着很大的考验。",
+          "皇马的维尼修斯因为和内马尔四肢同样的位置，被誉为小内马尔。",
+          "但是内马尔要告诉你，不是叫你下一个内马尔就真的能玩彩虹过人，你离大神的距离还远着呢。"
+        ]
+      },
+      {
+        "id": "leishu-ec9341ad47cc",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "用两人的相似经历、长期相伴及相隔相同天数的父子出生时间，营造梅西与C罗有缘分的叙事。",
+        "steps": [
+          "先列两人家庭成长、场上位置和荣誉等相似点。",
+          "补充他们常被比较并称为绝代双骄。",
+          "据这些共同点转向“冥冥中有缘分”的感叹。",
+          "再以年龄相差天数及相伴年数、儿子出生日期呼应缘分。"
+        ],
+        "bridge": "把相似经历和相同的时间间隔当作巧合线索，串成缘分主题，而非证明因果。",
+        "counter": "未提出反向解释或检验；“缘分”本身以感叹、修辞呈现。",
+        "ending": "落在两人儿子出生日期也相隔相同天数，强化巧合感。",
+        "risk": "日期、经历等均为原文声称；开头“二十年后将继续”未在正文进一步解释。",
+        "anchorIndices": [
+          1,
+          3,
+          4
+        ],
+        "anchors": [
+          "\n二十年后将继续。梅西和c罗他们身上有太多共同点了，相似的家庭成长经历，在球场上踢差不多位置，获得的荣誉也不相上下，经常被拿来相互比较，被称为绝代双骄。",
+          "\nc罗比梅西大八百七十天，他们相伴走了十五年。",
+          "c罗的儿子迷你罗也比梅西的儿子嗲哥早八百七十天来到这个世上。"
+        ]
+      },
+      {
+        "id": "leishu-6eacb5bad1fe",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以“反向C罗”和“快乐不分时间场合”作简短调侃，没有展开具体比赛判断或人物论证。",
+        "steps": [
+          "先以“反向C罗”给斯特林贴上对照式称呼。",
+          "再把“快乐”说成不受时间、场合限制。"
+        ],
+        "bridge": "依赖“反向C罗”与快乐足球的语境联想，正文未说明称呼的具体依据。",
+        "counter": "没有处理反例，也未解释所谓反向之处。",
+        "ending": "以一句概括式玩笑结束。",
+        "risk": "篇幅极短，无法据此补出人物表现或评价方向。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n被称为反向C罗，快乐是不分时间，不分场合的！"
+        ]
+      },
+      {
+        "id": "leishu-659b9bb19889",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只有对某种未明说内容的认同式感叹，无法确定其具体观点或论证方向。",
+        "steps": [
+          "先表示重新思考。",
+          "继而认为“这样说”似乎没有错，但没有交代所指内容或理由。"
+        ],
+        "bridge": "依赖缺失的语境，正文自身没有可还原的论证桥梁。",
+        "counter": "没有反方或支持材料。",
+        "ending": "以疑问表情和保留语气收束。",
+        "risk": "标题及正文均未给出“这样说”的具体对象，不据此补造观点。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n仔细想想，好像这样说也没有错！🤔\n"
+        ]
+      },
+      {
+        "id": "leishu-8b1161b2d634",
+        "availability": "body",
+        "kind": "资讯盘点",
+        "direction": "none",
+        "claim": "正文向读者征询快乐足球的代表人物，没有给出名单、判断或论证。",
+        "steps": [
+          "先以提问邀请读者列举代表人物。",
+          "正文未继续提供示例或筛选标准。"
+        ],
+        "bridge": "无；这是征询式开场，不构成对特定人物的判断。",
+        "counter": "未提出反方或限定条件。",
+        "ending": "以开放提问结束，等待读者回应。",
+        "risk": "不能将标题扩写为具体人物盘点；原文没有答案。",
+        "anchorIndices": [
+          1
+        ],
+        "anchors": [
+          "\n你知道哪些快乐足球的代表人物呢？\n\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "以特征和经历并置推向综合评价，例：leishu-04011b4d2402。",
+        "以相似线索和重复数字营造巧合叙事，例：leishu-ec9341ad47cc。"
+      ],
+      "variants": [
+        "动作难度解释转为称号与能力区分，例：leishu-07c3bde4c5ef。",
+        "短句调侃、语境缺失感叹及开放提问均无明确论证终点，例：leishu-6eacb5bad1fe、leishu-659b9bb19889、leishu-8b1161b2d634。"
+      ],
+      "nonReusable": [
+        "不能把“反向C罗”当作已论证的人物评价，例：leishu-6eacb5bad1fe。",
+        "不能替未说明的“这样说”补出对象或论据，例：leishu-659b9bb19889。",
+        "不能把提问当成已完成的代表人物盘点，例：leishu-8b1161b2d634。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0f065b56a41fab00016abc0f5be1e887d091ebef6e5baebfd5": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0f065b56a41fab00016abc0f5be20887d08c79274e2005af01": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1899,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1899,
+          "output_tokens": 0
+        },
+        "rs_0f065b56a41fab00016abc0f5c85b487d093f609b14f302e22": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 195
+        },
+        "msg_0f065b56a41fab00016abc0f61214887d0a782e43c7824ed61": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1570
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1570
+        }
+      }
+    },
+    "input_tokens": 1999,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1765,
+    "output_tokens_details": {
+      "reasoning_tokens": 195
+    },
+    "total_tokens": 3764
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

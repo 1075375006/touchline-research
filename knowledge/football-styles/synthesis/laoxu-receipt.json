@@ -1,0 +1,54 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 18044,
+    "completion_tokens": 11728,
+    "total_tokens": 29772,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5763
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 18044
+  },
+  "coverage": {
+    "records": 12,
+    "availability": {
+      "body": 12
+    },
+    "directions": {
+      "explicit": 11,
+      "implicit": 1
+    },
+    "kinds": {
+      "赛前方向": 12
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "a7691bac916635435943b78a3fa973e1f2287a2f90e6bbef26c6d4c9874b6bdb",
+        "29624c0b6839ad8a85065272d3a6ecdee825a3040a64e123aef1c7211d1a6e74",
+        "6ff4a78bd8acc5df381cbea66d423c2f0b9d254d533bb6c5aa3f19db86f9e88c",
+        "e036f515074789cf8d9f862ae51ebc926d4482336f8b3891841cac267aeb3fa2",
+        "4297f52be56c655d2b472b9e0bd835e43531956ce7cf42f558d3fe67ba7460c4",
+        "4de89bf6f4f3a3d0934a9cff9256b8c51c77ac6632d43be982394c310704faa3"
+      ]
+    },
+    {
+      "part": 2,
+      "sourceHashes": [
+        "8ed2e45c264030e5957ebc67885960edb1a3bd80dd7f855eee32eb847c4b6f7d",
+        "76fd505482ea83b20f69bf04c7426afad33123943e6857541e70cc5acddb03ec",
+        "7590fb8b6bc23c5cde06f294854aaa063d53ffde8d82272deeaae880f4d94391",
+        "01b19d478ad3297e87110c16dea79000698b82aad3638e65d21589343698a0f1",
+        "92737adc0235406d7066cf2dee228bb3a631a5619ba9dfa3746298c26ca2392e",
+        "a4d7e0f05e7bd5dc94f333cd24c5aaec10d28b38541335a7db860bc3c6eb8c2a"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T19:01:27.860Z"
+}

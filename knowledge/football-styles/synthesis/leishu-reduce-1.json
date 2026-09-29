@@ -1,0 +1,160 @@
+{
+  "data": {
+    "mechanisms": [
+      {
+        "name": "人员与状态推赛果",
+        "chain": "停赛、伤病、配合、近期表现或阵容差异→评估双方条件→给出倾向或不败判断。",
+        "when": "赛前文案确有可比较的人员、状态信息时；不同场次可各自形成独立证据链。",
+        "counterHandling": "这些因素只能支持倾向，不能证明赛果；保留冷门可能，不将动机或单项数据等同胜负。",
+        "ids": [
+          "leishu-3aeabbf291f4",
+          "leishu-10faa2a50364",
+          "leishu-b4a7c956da9d",
+          "leishu-7f213ca7c632"
+        ]
+      },
+      {
+        "name": "战术与比赛条件推演",
+        "chain": "交代比赛条件→分析攻防对位或阵容→推测比赛节奏、开放程度或一方机会。",
+        "when": "有具体对位、打法或阵容信息可供推演时。",
+        "counterHandling": "结论是可能性而非必然；区分冷门剧情与整体实力判断。",
+        "ids": [
+          "leishu-b0987df6f4ea",
+          "leishu-fa80cb6a31f9",
+          "leishu-54a09c5a54c5"
+        ]
+      },
+      {
+        "name": "规则或条目组织信息",
+        "chain": "先以规则设分类门槛，再列符合对象；也可串联纪录条目，但未必推出胜负。",
+        "when": "文案重在解释资格、分类或整理数据，不强求赛果方向。",
+        "counterHandling": "列举本身不构成因果论证；纪录清单或排名残篇应保留为无方向信息。",
+        "ids": [
+          "leishu-48735759c2fb",
+          "leishu-b9010d71c281",
+          "leishu-e0a53e73a94d"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "戏剧化、互动与观赏评价",
+        "chain": "可用赛果与红牌并置制造巧合感，或用提问、段子、集锦印象营造互动和观感；不必然形成预测论证。",
+        "ids": [
+          "leishu-7b3bb8dcc4ac",
+          "leishu-51e161770f73",
+          "leishu-7a87b4231090"
+        ]
+      },
+      {
+        "name": "短句断言或主题收束",
+        "chain": "直接提出比较、评价或主题，省略证据展开；方向有时明确，有时只是宣传或无方向。",
+        "ids": [
+          "leishu-9bc395ea9018",
+          "leishu-a85dbb1704bf",
+          "leishu-6c311ec56176"
+        ]
+      },
+      {
+        "name": "教学、人物与缺项文本",
+        "chain": "教学预告、人物叙事或残缺正文可能只有情境、标题或悬念，不能补写成比赛论证。",
+        "ids": [
+          "leishu-42f7dd99a616",
+          "leishu-5a5474440b5c",
+          "leishu-4d4205c432f7"
+        ]
+      }
+    ],
+    "faults": [
+      {
+        "problem": "因果跳步：巧合、玄学、动机、出场纪录或单项数据不足以证明剧本或赛果。",
+        "ids": [
+          "leishu-7b3bb8dcc4ac",
+          "leishu-73e584afd161",
+          "leishu-54a09c5a54c5",
+          "leishu-7f213ca7c632"
+        ]
+      },
+      {
+        "problem": "前后倾向冲突，或把未经说明口径的数据比较写成事实。",
+        "ids": [
+          "leishu-10faa2a50364",
+          "leishu-9bc395ea9018"
+        ]
+      },
+      {
+        "problem": "标题、正文与结论覆盖不一致；缺文或未分析内容不能擅自补方向。",
+        "ids": [
+          "leishu-2e3fba7b2e21",
+          "leishu-4d4205c432f7"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0e5798c5e0fd38e2016abc0ffd828887d0b34f986054deb551": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 51,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 51,
+          "output_tokens": 0
+        },
+        "msg_0e5798c5e0fd38e2016abc0ffd82c487d0b179641e4c5f5bd1": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1647,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1647,
+          "output_tokens": 0
+        },
+        "rs_0e5798c5e0fd38e2016abc0ffe567487d0bf00c92d22ed62ec": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 173
+        },
+        "msg_0e5798c5e0fd38e2016abc100337e087d0b5f1d72590921ab0": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 854
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 854
+        }
+      }
+    },
+    "input_tokens": 1700,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1027,
+    "output_tokens_details": {
+      "reasoning_tokens": 173
+    },
+    "total_tokens": 2727
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

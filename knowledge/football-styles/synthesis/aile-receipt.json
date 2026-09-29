@@ -1,0 +1,46 @@
+{
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 9655,
+    "completion_tokens": 14696,
+    "total_tokens": 24351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7985
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 9655
+  },
+  "coverage": {
+    "records": 7,
+    "availability": {
+      "body": 6,
+      "partial": 1
+    },
+    "directions": {
+      "explicit": 6,
+      "none": 1
+    },
+    "kinds": {
+      "赛前方向": 6,
+      "知识解释": 1
+    }
+  },
+  "inputReceipts": [
+    {
+      "part": 1,
+      "sourceHashes": [
+        "d7168c095e79365af38e93f3501512ded56b0cea9ccddd31c37e597f83b4b5f4",
+        "63fe36cd55f29c558bc3bedf6bee3bc51a1e6a1a8c144a3c41c701d9d6c72620",
+        "76c34164ba58b98236a8378dc5f7fa842d93098949f016fa43204e1ce71a56d5",
+        "c836a1dc35c5c33912ec5e79f4b65d14fcd9138a7e10339be5742da64d522dd6",
+        "da90efa528356dfe272a1670907eb8df3a0d9943f52e9321998717cbbadedcdd",
+        "f2210fbcf4bf2c18b07d8a37ae830682f11c68cb96b95d122fe85853322197a7",
+        "4a5cc9d1e30fd4f8bc3e5200e30342f0fa1605141b44962b858deb40457f668b"
+      ]
+    }
+  ],
+  "processedAt": "2026-09-29T18:54:39.318Z"
+}

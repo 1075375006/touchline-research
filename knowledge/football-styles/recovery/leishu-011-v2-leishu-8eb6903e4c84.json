@@ -1,0 +1,227 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-8eb6903e4c84",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "借拜仁大胜巴萨的标题式话题转入球迷住酒店难选、饮料提问，没有比赛方向判断。",
+        "steps": [
+          "以拜仁大胜巴萨作吸引注意的足球背景。",
+          "转到球迷住酒店选择的玩笑。",
+          "再问观众平时喝什么饮料，落点是互动而非赛事分析。"
+        ],
+        "bridge": "足球赛果只充当引子，酒店与饮料话题之间没有论证关系。",
+        "counter": "未讨论比赛或其他因素。",
+        "ending": "以饮料提问开放互动。",
+        "risk": "仅有短文案，无独立口播；标题提及比分不构成赛果分析。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 #拜仁8-2狂虐巴萨 #巴萨 球迷以后住酒店，难选了哦！",
+          "#足球 #球迷 你们都喝什么饮料呢？\n"
+        ]
+      },
+      {
+        "id": "leishu-c54123d50036",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "声明故事与足球无关，随后以口渴和拖鞋收尾，没有足球论点。",
+        "steps": [
+          "先将故事与足球、C罗、梅西切开。",
+          "补充“只是渴了”，把情境落在口渴。",
+          "再提拖鞋不错，以物件评价结束。"
+        ],
+        "bridge": "由明确排除足球转向日常状态与物件。",
+        "counter": "没有提出反方或足球相关判断。",
+        "ending": "用拖鞋评价收束。",
+        "risk": "文案极短，未交代故事本身；不补造情节。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 这个故事，和#足球 #c罗 #梅西 无关！",
+          "只是渴了！拖鞋不错！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-66d2c61cd545",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以今天不踢球为反差引子，称赞“老外真猛”，再用看懂梗的挑战召唤球迷。",
+        "steps": [
+          "宣布今天不踢足球，建立反差。",
+          "转称“老外真猛”，但未说明所指行为。",
+          "询问有多少人看懂，并把看懂与真球迷、梗联系起来。"
+        ],
+        "bridge": "把未说明的画面或梗当作受众理解门槛。",
+        "counter": "未解释“猛”的依据，也未展开反向看法。",
+        "ending": "以识梗挑战和球迷身份认同收束。",
+        "risk": "短文案缺少梗的上下文，无法还原具体所指。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 今天不踢#足球 了，#老外真猛！",
+          "看懂的有10个吗，真#球迷！#梗\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-d8988cea9244",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "以踢球邀约和拿出诚意构成玩笑，补充欧冠淘汰仍很帅，没有比赛判断。",
+        "steps": [
+          "提出想踢足球就拿出诚意的条件式邀约。",
+          "另提欧冠淘汰，转向对人物外观的评价。",
+          "以淘汰后仍帅形成轻松收尾。"
+        ],
+        "bridge": "竞技淘汰与外貌称赞并置，形成反差而非因果论证。",
+        "counter": "未谈淘汰原因、表现或其他评价。",
+        "ending": "用“依然很帅”转为人物调侃。",
+        "risk": "没有交代被评价对象及画面语境；不推定具体人物。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 想和我踢#足球 ，请拿出一些诚意！",
+          "#欧冠 淘汰，依然很帅！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-a4f82c3c77db",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "用“踢足球吗”引出“不踢球的那种”双关，再称脚法不错，重点是玩笑式反差。",
+        "steps": [
+          "提出是否踢足球的问题。",
+          "以“不踢球的那种”反转问题的常规理解。",
+          "评价脚法不错，作为画面或动作的轻松赞语收束。"
+        ],
+        "bridge": "双关制造足球与非踢球情境的错位，脚法评价强化玩笑。",
+        "counter": "未交代动作细节，也没有赛事判断。",
+        "ending": "以简短称赞结束。",
+        "risk": "文案未说明双关具体所指，不能补出场景。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 踢#足球 吗？不踢球的那种！",
+          "脚法不错哦！\n\n（说明：该早期短视频页面仅提供上述文案行，无独立口播正文，已原样保留。"
+        ]
+      },
+      {
+        "id": "leishu-957bcc3ce59b",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "先说踢球会渴并问是否喝水，随后转到梅西与C罗的体力玩笑，没有明确赛事方向。",
+        "steps": [
+          "由踢足球引出会渴的日常判断。",
+          "问观众是否想喝水，延续饮水话题。",
+          "转而猜测现实中的梅西应扛不动C罗，以球星作玩笑落点。"
+        ],
+        "bridge": "从运动口渴转到球星体格想象，靠足球人物关联而非论据衔接。",
+        "counter": "没有提供两人身体状况或比较依据。",
+        "ending": "以梅西、C罗的假设性玩笑结束。",
+        "risk": "“应该”是推测语气，不能当作事实；文本未展开论证。",
+        "anchorIndices": [
+          1,
+          2
+        ],
+        "anchors": [
+          "\n#中非兄弟 踢#足球 肯定会渴的，你想喝水吗？",
+          "现实中#梅西 应该扛不动#c罗 吧\n\n"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "多以足球标签或球星作引子，迅速转入生活玩笑、互动或反差收尾，如leishu-8eb6903e4c84、leishu-957bcc3ce59b。"
+      ],
+      "variants": [
+        "本批均无比赛胜负或场面方向；leishu-c54123d50036明确排除足球，leishu-66d2c61cd545以识梗挑战为主。"
+      ],
+      "nonReusable": [
+        "不能把标题比分或球星姓名当成比赛论证，也不能替短文案补全未说明的画面与梗，如leishu-8eb6903e4c84、leishu-a4f82c3c77db。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0ee1bfe166e846fe016abc0f1e7aa887d0b177296b6b975dc3": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0ee1bfe166e846fe016abc0f1e7ad087d0ab799dce7092f549": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1869,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1869,
+          "output_tokens": 0
+        },
+        "rs_0ee1bfe166e846fe016abc0f1f030087d085a868186e8f30a4": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 230
+        },
+        "msg_0ee1bfe166e846fe016abc0f233e3087d09f9897776d02ce2a": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1322
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1322
+        }
+      }
+    },
+    "input_tokens": 1969,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1552,
+    "output_tokens_details": {
+      "reasoning_tokens": 230
+    },
+    "total_tokens": 3521
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

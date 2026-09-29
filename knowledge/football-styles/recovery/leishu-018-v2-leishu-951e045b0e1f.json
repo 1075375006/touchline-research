@@ -1,0 +1,241 @@
+{
+  "data": {
+    "records": [
+      {
+        "id": "leishu-951e045b0e1f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "祝贺C罗35岁生日，并表达期待其实现“大满贯”；没有展开具体比赛或胜负判断。",
+        "steps": [
+          "以生日为由向C罗致意。",
+          "将祝福延伸为对“大满贯”的期待。"
+        ],
+        "bridge": "由生日祝贺转向职业成就愿望，未提供支撑该愿望的论据。",
+        "counter": "没有讨论实现目标的条件或阻碍。",
+        "ending": "以祝愿和期待收束。",
+        "risk": "正文极短；“大满贯”所指及实现路径未说明，不补造方向。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## c罗35岁生日快乐 期待总裁的大满贯（视频ID：6789890293517847808）\n",
+          "\n#c罗生日快乐 #c罗35岁生日快乐 期待总裁的大满贯！",
+          "#c罗\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-5ee04bb4a1c9",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "正文仅以“内马尔与科比”并置两人，没有说明二者关系或提出明确观点。",
+        "steps": [
+          "用标题点出内马尔与科比。",
+          "正文标签提及足球及两人。",
+          "未给出比较、故事或结论。"
+        ],
+        "bridge": "没有可辨认的论证桥梁；仅凭并列人名不能推定作者意图。",
+        "counter": "未呈现反方因素或解释。",
+        "ending": "以人名并列结束，未形成明确收束观点。",
+        "risk": "内容极少，不能从标题或标签补出人物关系、评价及方向。",
+        "anchorIndices": [
+          0,
+          1
+        ],
+        "anchors": [
+          "## 内马尔与科比（视频ID：6789182072549297423）\n",
+          "\n#足球 #爱足球 内马尔与科比\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-076e89588fbf",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "explicit",
+        "claim": "借罗马官方请留言称“我也能进”的球迷现场证明，劝人不要在网络上吹牛。",
+        "steps": [
+          "提出“你上你也行”的挑衅式话头。",
+          "交代有粉丝在罗马官方账号下声称自己也能进球。",
+          "称罗马官方请该球迷到现场进球，把留言变成实测。",
+          "将现场验证描述为“公开处刑”，进而劝人别网上吹牛。"
+        ],
+        "bridge": "把网络自信与现场验证相对照，并将未能证明自身说法预设为尴尬结果。",
+        "counter": "没有说明现场条件、球迷表现或此事是否有其他解释。",
+        "ending": "用“万一人家当真了”作玩笑式警告。",
+        "risk": "文中事件细节仅为作者叙述；从单个故事推广到网络吹牛者，属于修辞性概括。",
+        "anchorIndices": [
+          1,
+          2,
+          3
+        ],
+        "anchors": [
+          "\n你上你也行，我看你行不行？ 在罗马的官方账号下面有粉丝留言说：这球我也能进。",
+          "结果罗马官方真的把这名球员请到了球队，让他现场进球证明自己，这简直就是公开处刑了。",
+          "所以不要再在网络上吹牛了，万一人家当真了怎么办？"
+        ]
+      },
+      {
+        "id": "leishu-c4f98266e969",
+        "availability": "body",
+        "kind": "非足球",
+        "direction": "none",
+        "claim": "正文只有“如此足球怎能不爱”的感叹和足球标签，没有给出具体足球内容或论点。",
+        "steps": [
+          "用反问式短句表达对足球的喜爱。",
+          "标签再次标示足球主题。",
+          "没有事件、理由或进一步结论。"
+        ],
+        "bridge": "未展示由具体内容通向喜爱态度的推理，只表达态度本身。",
+        "counter": "未提出或处理不同看法。",
+        "ending": "以感叹式口号收束。",
+        "risk": "内容稀少；不能由标题推断视频画面或具体论据。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 如此足球怎能不爱（视频ID：6786583263185079552）\n",
+          "\n#足球 #爱足球 如此足球怎能不爱\n",
+          "\n---"
+        ]
+      },
+      {
+        "id": "leishu-55a95372dabd",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "none",
+        "claim": "以“敢拒绝巴萨的男人”设问并追问“酸不酸”，但未交代人物、拒绝缘由或作者结论。",
+        "steps": [
+          "先用标题塑造一名拒绝巴萨的男性形象。",
+          "正文重复这一设定，并以“酸不酸”引出态度问题。",
+          "标签未补充事实或论证。"
+        ],
+        "bridge": "借拒绝知名俱乐部这一设定制造反差，暗示其选择值得羡慕或引发酸意，但未明说立场。",
+        "counter": "没有说明拒绝是否真实、原因为何，也未讨论其他解释。",
+        "ending": "以反问留白，没有明确作答。",
+        "risk": "人物及事件均未展开；不能把暗示当成明确评价或事实认证。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 敢拒绝巴萨的男人，你说酸不酸（视频ID：6785463093045628175）\n",
+          "\n#爱足球 #足球 敢拒绝#巴萨 的男人，你说酸不酸？",
+          "#在抖音拜大年\n\n---"
+        ]
+      },
+      {
+        "id": "leishu-a9287d789e6f",
+        "availability": "body",
+        "kind": "人物叙事",
+        "direction": "implicit",
+        "claim": "以C罗从小到大的照片串起其成长，并称岁月留下痕迹、他也在足球事业中留下深刻记忆，表达对其经历的珍视。",
+        "steps": [
+          "以照片记录引出C罗从小到大的时间跨度。",
+          "将外貌变化概括为时光留下痕迹。",
+          "转而强调他在足球领域留下深刻记忆。"
+        ],
+        "bridge": "把成长影像与足球生涯并置，使外貌变化成为回望职业经历的引子。",
+        "counter": "没有提供具体成就或反向评价。",
+        "ending": "以对其足球印记的概括收束。",
+        "risk": "正文有措辞不清之处，且未列举支撑“深刻记忆”的具体事例。",
+        "anchorIndices": [
+          0,
+          1,
+          2
+        ],
+        "anchors": [
+          "## 年龄越大越是帅呀#c罗（视频ID：6784708455925042447）\n",
+          "\n珍贵！C罗从小到大照片记录。 这一路走来，时光在他脸上刻下痕迹，他也在是球更上留下了深刻的记忆。",
+          "\n\n---"
+        ]
+      }
+    ],
+    "observations": {
+      "mechanisms": [
+        "leishu-076e89588fbf：官方邀请把网上自称转成现场验证，再推出勿吹牛的劝告。",
+        "leishu-a9287d789e6f：照片时间线连接成长变化与足球生涯印记。"
+      ],
+      "variants": [
+        "leishu-951e045b0e1f、leishu-5ee04bb4a1c9、leishu-c4f98266e969：短句或标签表达态度，未形成完整论证。",
+        "leishu-55a95372dabd：靠反问暗示评价但不明示结论；leishu-076e89588fbf则有明确劝告。"
+      ],
+      "nonReusable": [
+        "leishu-5ee04bb4a1c9：不能仅凭并列内马尔与科比推断两人关系或比较观点。",
+        "leishu-55a95372dabd：不能把“酸不酸”的设问直接改写成作者已明确赞赏或嫉妒。",
+        "leishu-a9287d789e6f：不能用未列举的生涯成就替代原文概括性评价。"
+      ]
+    }
+  },
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0d4199a3d33a64da016abc0f0f4ba887d08eee540e3a02d6a9": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 98,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 98,
+          "output_tokens": 0
+        },
+        "msg_0d4199a3d33a64da016abc0f0f4bc887d08f19754ecd7a3008": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1587,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 1587,
+          "output_tokens": 0
+        },
+        "rs_0d4199a3d33a64da016abc0f0fd35087d084fbbce032c699e5": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 213
+        },
+        "msg_0d4199a3d33a64da016abc0f15e0d487d081bdac1542d186fb": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 1467
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 1467
+        }
+      }
+    },
+    "input_tokens": 1687,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1680,
+    "output_tokens_details": {
+      "reasoning_tokens": 213
+    },
+    "total_tokens": 3367
+  },
+  "model": "gpt-6-luna",
+  "providerId": "509dd5a8-986e-4137-9e12-c8fcc385a467"
+}

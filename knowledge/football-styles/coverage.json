@@ -1,0 +1,319 @@
+{
+  "asOf": "2026-09-30",
+  "sourceFiles": 121,
+  "records": 1997,
+  "analyzedRecords": 1997,
+  "complete": true,
+  "characters": 2198591,
+  "authors": [
+    {
+      "author": "老许的足球世界",
+      "slug": "laoxu",
+      "records": 12,
+      "characters": 29270,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 12,
+      "availability": {
+        "body": 12
+      },
+      "directions": {
+        "explicit": 11,
+        "implicit": 1
+      },
+      "kinds": {
+        "赛前方向": 12
+      },
+      "uniqueKnownVideoIds": 12
+    },
+    {
+      "author": "驰一指南",
+      "slug": "chiyi",
+      "records": 6,
+      "characters": 13721,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 6,
+      "availability": {
+        "missing": 2,
+        "body": 4
+      },
+      "directions": {
+        "unavailable": 2,
+        "implicit": 4
+      },
+      "kinds": {
+        "缺失": 2,
+        "赛前方向": 4
+      },
+      "uniqueKnownVideoIds": 6
+    },
+    {
+      "author": "马克放大镜",
+      "slug": "make",
+      "records": 6,
+      "characters": 8184,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 6,
+      "availability": {
+        "graphic": 1,
+        "body": 4,
+        "missing": 1
+      },
+      "directions": {
+        "none": 1,
+        "explicit": 3,
+        "unavailable": 1,
+        "implicit": 1
+      },
+      "kinds": {
+        "非足球": 1,
+        "赛前方向": 4,
+        "缺失": 1
+      },
+      "uniqueKnownVideoIds": 6
+    },
+    {
+      "author": "天才足球",
+      "slug": "tiancai",
+      "records": 60,
+      "characters": 65768,
+      "exactDuplicateRecords": 2,
+      "analyzedRecords": 60,
+      "availability": {
+        "body": 58,
+        "missing": 2
+      },
+      "directions": {
+        "explicit": 30,
+        "none": 18,
+        "implicit": 10,
+        "unavailable": 2
+      },
+      "kinds": {
+        "赛后复盘": 9,
+        "人物叙事": 8,
+        "非足球": 2,
+        "资讯盘点": 2,
+        "赛前方向": 37,
+        "缺失": 2
+      },
+      "uniqueKnownVideoIds": 10
+    },
+    {
+      "author": "目标爱足球",
+      "slug": "mubiao",
+      "records": 271,
+      "characters": 420488,
+      "exactDuplicateRecords": 6,
+      "analyzedRecords": 271,
+      "availability": {
+        "missing": 102,
+        "partial": 14,
+        "body": 153,
+        "graphic": 2
+      },
+      "directions": {
+        "unavailable": 102,
+        "none": 20,
+        "explicit": 88,
+        "implicit": 61
+      },
+      "kinds": {
+        "缺失": 97,
+        "资讯盘点": 48,
+        "赛后复盘": 10,
+        "赛前方向": 96,
+        "非足球": 10,
+        "场面倾向": 1,
+        "人物叙事": 4,
+        "知识解释": 5
+      },
+      "uniqueKnownVideoIds": 120
+    },
+    {
+      "author": "炮哥的体育世界",
+      "slug": "paoge",
+      "records": 22,
+      "characters": 59885,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 22,
+      "availability": {
+        "body": 20,
+        "missing": 1,
+        "partial": 1
+      },
+      "directions": {
+        "explicit": 19,
+        "implicit": 1,
+        "unavailable": 1,
+        "none": 1
+      },
+      "kinds": {
+        "赛前方向": 20,
+        "缺失": 1,
+        "非足球": 1
+      },
+      "uniqueKnownVideoIds": 22
+    },
+    {
+      "author": "说球的范佩东",
+      "slug": "fanpeidong",
+      "records": 25,
+      "characters": 57206,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 25,
+      "availability": {
+        "missing": 1,
+        "body": 23,
+        "partial": 1
+      },
+      "directions": {
+        "unavailable": 1,
+        "implicit": 7,
+        "explicit": 17
+      },
+      "kinds": {
+        "缺失": 1,
+        "赛前方向": 23,
+        "赛后复盘": 1
+      },
+      "uniqueKnownVideoIds": 25
+    },
+    {
+      "author": "博扬足球",
+      "slug": "boyang",
+      "records": 356,
+      "characters": 377257,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 356,
+      "availability": {
+        "body": 349,
+        "partial": 4,
+        "missing": 3
+      },
+      "directions": {
+        "explicit": 106,
+        "implicit": 171,
+        "none": 75,
+        "implied": 1,
+        "unavailable": 3
+      },
+      "kinds": {
+        "知识解释": 35,
+        "赛后复盘": 26,
+        "赛前方向": 131,
+        "资讯盘点": 112,
+        "人物叙事": 37,
+        "场面倾向": 4,
+        "非足球": 8,
+        "缺失": 3
+      },
+      "uniqueKnownVideoIds": 356
+    },
+    {
+      "author": "橙子北看台",
+      "slug": "chengzi",
+      "records": 878,
+      "characters": 1044267,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 878,
+      "availability": {
+        "body": 845,
+        "missing": 25,
+        "partial": 8
+      },
+      "directions": {
+        "explicit": 359,
+        "none": 110,
+        "implicit": 383,
+        "unavailable": 26
+      },
+      "kinds": {
+        "资讯盘点": 115,
+        "赛后复盘": 40,
+        "赛前方向": 579,
+        "缺失": 26,
+        "人物叙事": 25,
+        "知识解释": 67,
+        "场面倾向": 12,
+        "非足球": 14
+      },
+      "uniqueKnownVideoIds": 878
+    },
+    {
+      "author": "艾乐的战术板",
+      "slug": "aile",
+      "records": 7,
+      "characters": 9237,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 7,
+      "availability": {
+        "body": 6,
+        "partial": 1
+      },
+      "directions": {
+        "explicit": 6,
+        "none": 1
+      },
+      "kinds": {
+        "赛前方向": 6,
+        "知识解释": 1
+      },
+      "uniqueKnownVideoIds": 7
+    },
+    {
+      "author": "雷叔聊球",
+      "slug": "leishu",
+      "records": 354,
+      "characters": 113308,
+      "exactDuplicateRecords": 0,
+      "analyzedRecords": 354,
+      "availability": {
+        "body": 326,
+        "missing": 27,
+        "partial": 1
+      },
+      "directions": {
+        "none": 191,
+        "implicit": 61,
+        "explicit": 75,
+        "unavailable": 27
+      },
+      "kinds": {
+        "知识解释": 26,
+        "赛前方向": 54,
+        "赛后复盘": 9,
+        "人物叙事": 148,
+        "缺失": 27,
+        "场面倾向": 20,
+        "资讯盘点": 32,
+        "非足球": 38
+      },
+      "uniqueKnownVideoIds": 354
+    }
+  ],
+  "availability": {
+    "body": 1800,
+    "missing": 164,
+    "graphic": 3,
+    "partial": 30
+  },
+  "directions": {
+    "explicit": 714,
+    "implicit": 700,
+    "unavailable": 165,
+    "none": 417,
+    "implied": 1
+  },
+  "method": "All source records analyzed in full; configured-model analysis with three directly read editorial completions and three risk-field corrections; ID/hash/quote checks and representative editorial review; no football fact verification",
+  "inputSourceFilesUnchanged": true,
+  "extractionReceipts": 190,
+  "tokenUsage": {
+    "successfulReceiptsOnly": true,
+    "input": 2100674,
+    "output": 809439
+  },
+  "styleProfilesComplete": true,
+  "styleProfiles": 11,
+  "knowledgeItems": 66,
+  "installationVerified": true
+}
